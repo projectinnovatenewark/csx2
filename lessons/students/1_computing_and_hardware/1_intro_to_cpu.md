@@ -1,9 +1,9 @@
 # Intro to Computers
 
-* Some Content Here*
+*Some Content Here*
 
 ## What is a Computer?
-* Some More undecided content 
+*Some more undecided content*
 
 ## What are the main parts of a computer?
 
