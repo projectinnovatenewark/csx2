@@ -52,4 +52,21 @@
     <img src="./Raspberry_Pi_setup_images/9_place_pi.jpg" width="250" height="auto" />
     </div>
 
-6. Place the plastic guard (#2followed by the final
+6. Place the plastic guard (#2) followed by the final guard (#3) on top of the Pi. Then screw each washer back on so that there is not room for the Pi to move, but there is not pressure on the Pi.
+    
+    <div>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/10_pi_guard_2.jpg" width="250" height="auto" />
+    </span>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/11_pi_guard_3.jpg" width="250" height="auto" />
+    </span>
+    </div>
+
+7. Below are the USB-C cable and the micro-HDMI cables.
+    a. The USB-C provides power to the Pi.
+    b. The micro-HDMI cable is used to display the GUI of the Pi.
+
+    <div>
+    <img src="./Raspberry_Pi_setup_images/9_place_pi.jpg" width="250" height="auto" />
+    </div>
