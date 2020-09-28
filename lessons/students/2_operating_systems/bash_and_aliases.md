@@ -24,3 +24,12 @@ For example using functions, what if we wanted to combine all three commands tha
 `echo "alias gultimate=lazygit" >> /Users/[YOUR_USERNAME]/.bash_profile`
 
 Then all we'd have to run to execute all three commands is gultimate "commit message here"!! This combines all three of your git commands into one, and makes you look like a pretty bad@$$ coder :smile: (
+
+For Raspberry Pi users, use the following commands to account for the correct routes.
+
+`echo "alias ga='git add .'" >> /home/pi/.bashrc`
+`echo "alias gc='git commit -m'" >> /home/pi/.bashrc`
+`echo "alias gp='git push'" >> /home/pi/.bashrc`
+
+`echo "function lazygit() { git add .; git commit -m \"\$1\"; git push;}" >> /home/pi/.bashrc`
+`echo "alias gultimate=lazygit" >> /home/pi/.bashrc`
