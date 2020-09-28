@@ -6,12 +6,12 @@ For example on PATH, when you run a python file in the terminal by running pytho
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 For example regarding aliases, are you like one of our many students that has had an awful a fun time remembering our git commands? Well, fear no more! You can save custom commands using bash_profile aliases. Below is a command you can enter in your terminal to directly create aliases in your bash_profile using a Linux command, "echo", assuming that your bash_profile is store on your user.
 
-`echo 'alias gush='git push'' >> /Users/[YOUR_USERNAME]/.bash_profile`
+`echo "alias gush='git push'" >> /Users/[YOUR_USERNAME]/.bash_profile`
 What if we wanted to set aliases for all three commands to be executed separately?
 
-`echo 'alias ga='git add .'' >> /Users/[YOUR_USERNAME]/.bash_profile`
-`echo 'alias gc='git commit -m'' >> /Users/[YOUR_USERNAME]/.bash_profile`
-`echo 'alias gp='git push'' >> /Users/[YOUR_USERNAME]/.bash_profile`
+`echo "alias ga='git add .'" >> /Users/[YOUR_USERNAME]/.bash_profile`
+`echo "alias gc='git commit -m'" >> /Users/[YOUR_USERNAME]/.bash_profile`
+`echo "alias gp='git push'" >> /Users/[YOUR_USERNAME]/.bash_profile`
 
 Then to add, commit, and push we would simply enter these three commands in our terminal when we are within the repository's working directory! (Note- to commit, you'd still have to enter the commit message after gc which we demo here).
 `ga` is the equivalent of "git add ."
