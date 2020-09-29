@@ -63,10 +63,50 @@
     </span>
     </div>
 
-7. Below are the USB-C cable and the micro-HDMI cables.
+7. Below are the USB-C cable and the micro-HDMI cables as well as their corresponding Pi ports.
     a. The USB-C provides power to the Pi.
     b. The micro-HDMI cable is used to display the GUI of the Pi.
 
     <div>
-    <img src="./Raspberry_Pi_setup_images/9_place_pi.jpg" width="250" height="auto" />
+    <span>
+    <img src="./Raspberry_Pi_setup_images/12_usbC_and_hdmi.jpg" width="250" height="auto" />
+    </span>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/13_port_view_of_pi.jpg" width="250" height="auto" />
+    </span>
     </div>
+
+8. Plug in the USB-C into the display and then into the Pi as shown below:
+
+    <div>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/14_plug_in_usbC_in_disp.jpg" width="250" height="auto" />
+    </span>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/15_plug_in_usbC_in_pi.jpg" width="250" height="auto" />
+    </span>
+    </div>
+
+9. Repeat step 9 for the micro-HDMI cable as shown below:
+
+    <div>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/16_plug_hdmi_display.jpg" width="250" height="auto" />
+    </span>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/16_plug_hdmi_display.jpg" width="250" height="auto" />
+    </span>
+    </div>
+
+10. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started.
+
+    <div>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/18_power.jpg" width="250" height="auto" />
+    </span>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/20_plug_in_powery.jpg" width="250" height="auto" />
+    </span>
+    </div>
+
+## Now your hardware is all set up. Move on to the next portion ti set up Raspbian.
