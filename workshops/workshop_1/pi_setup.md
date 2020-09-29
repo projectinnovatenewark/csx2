@@ -4,8 +4,8 @@
 
     a. As you can see, your Pi comes with 3 heat sinks designed to keep **[INSERT 3 COMPONENTS HEAT SINKS ARE USED ON]** cool. The below picture labels where each heat sink belongs on the Pi.
         
-    <div>
-    <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="400" height="auto" display="block" margin="auto" />
+    <div style="display:block; margin:auto">
+    <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="400" height="auto"  />
     </div>
 
     b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. 
