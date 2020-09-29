@@ -5,7 +5,7 @@
     a. As you can see, your Pi comes with 3 heat sinks designed to keep **[INSERT 3 COMPONENTS HEAT SINKS ARE USED ON]** cool. The below picture labels where each heat sink belongs on the Pi.
         
     <div>
-    <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="250" height="auto" />
+    <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="400" height="auto" align-content="center" />
     </div>
 
     b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. 
@@ -27,7 +27,15 @@
 > Heat sinks keep the Pi cool to prevent it from overheating.
 
 2. Insert the microSD card into the port on the bottom of the Pi.
-    **[INSERT IMAGES]**
+    <!-- Images are JPEG  -->
+    <div>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/22_micro_sd.jpeg" width="250" height="auto" />
+    </span>
+    <span>
+    <img src="./Raspberry_Pi_setup_images/21_insert_sd.jpeg" width="250" height="auto" />
+    </span>
+    </div>
 
 3. Remove the washers from the back of the display monitor. Make sure to keep these in a safe spot as they will be needed later.
     
@@ -95,7 +103,7 @@
     <img src="./Raspberry_Pi_setup_images/16_plug_hdmi_display.jpg" width="250" height="auto" />
     </span>
     <span>
-    <img src="./Raspberry_Pi_setup_images/16_plug_hdmi_display.jpg" width="250" height="auto" />
+    <img src="./Raspberry_Pi_setup_images/17_plug_hdmi_pi.jpg" width="250" height="auto" />
     </span>
     </div>
 
@@ -110,4 +118,4 @@
     </span>
     </div>
 
-## Now your hardware is all set up. Move on to the next portion ti set up Raspbian.
+## Now your hardware is all set up. Move on to the next portion to set up Raspbian.
