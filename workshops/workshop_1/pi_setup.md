@@ -1,6 +1,7 @@
 # Setting up your Raspberry Pi
 
 1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi.)
+
     a. As you can see, your Pi comes with 3 heat sinks designed to keep **[INSERT 3 COMPONENTS HEAT SINKS ARE USED ON]** cool. The below picture labels where each heat sink belongs on the Pi.
         
     <div>
