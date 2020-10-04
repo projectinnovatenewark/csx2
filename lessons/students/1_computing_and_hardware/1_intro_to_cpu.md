@@ -1,11 +1,35 @@
 # Intro to Computers
 
-*Some Content Here*
+## The Purpose of this Section
+The purpose of this section is to introduce you to the following concepts:
+
+- What is hardware?
+- What is a computer?
+- What are the components of a computer?
+- What is a Raspberry Pi?
 
 ## What is a Computer?
-*Some more undecided content*
+
+A computer is an electronic device that manipulates information or data. The computer sees data as 1s and 0s, but it knows how to combine them to create much more complex things like photos, movies, websites, games, and much more.
+
+Computers can be defined as any device that can:
+
+1. Accept an input
+2. Perform calculations based on that input
+3. Provide an appropriate output
+
+A computer system consists of two major elements, hardware and software. In this lesson, you are going to learn about hardware.
+
+## What is Hardware?
+
+**Hardware** refers to the physical elements that make up a computer. These are the <ins>components that you can physically touch.</ins>
+
+Computers are composed of several hardware components. Some might be more familiar than others. In this lesson, you will learn to recognize some of the different components of a computer and begin to understand what they do.
+
 
 ## What are the main parts of a computer?
+
+
 
 ### CPU
 **Key Terms**
