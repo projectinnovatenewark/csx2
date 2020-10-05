@@ -34,15 +34,14 @@ Computers are composed of several hardware components. Some might be more famili
 ### 1. Processer
 
 #### Key Terms
-- Central Processing Unit (CPU)
-- Arithmetic Logic Unit (ALU)
-- Control Unit (CU)
+- **Central Processing Unit (CPU)**
+- **Arithmetic Logic Unit (ALU)**
+- **Control Unit (CU)**
 
 Processors are the components in computers that process and execute inputs received from hardware and software. This term can also be referenced as the Central Processing Unit. 
 
 The CPU is thought of as the brain of the computer. 
 
-<!-- ![Image of CPU Component](./images/cpu_brain.jpg) -->
 <div class="mdImage">
     <img src="./images/cpu_brain.jpg" width="400" height="auto" />
 </div>
@@ -62,13 +61,34 @@ Isn’t that process strangely familiar? First there is an input received, then 
 
 However, the question still remains: What component is performing that input and receiving that output? In the next section you will learn about memory.
 
-![Image of CPU Component](./images/CPU-image.jpg)
+<div class="mdImage">
+    <img src="./images/CPU-image.jpg" width="400" height="auto" />
+</div>
 
-### RAM
-**Key Terms**
-- Random Access Memory (RAM): <!-- Insert Definition 
-Here -->
-- Volatile Memory: <!-- Insert Definition Here -->
+### 1. Memory
+
+#### Key Terms
+- **Random Access Memory (RAM)**
+- **Volatile Memory**
+
+In computing, memory refers to the device that is used to store information for immediate use. Memory is the component within your computer that allows you to access data that is stored for a short term. 
+
+While memory can refer to any medium of data storage, it usually refers to RAM, or **random access memory**. RAM is responsible for storing and accessing information it needs in the moment and in the near future. 
+
+Some examples of operations that use RAM are:
+    <div>
+        - Running your Operating System
+        - Using applications
+    </div>
+    <span>
+        <div>
+        - Browsing the web
+        - Editing documents or spreadsheets 
+        </div>
+    </span>
+
+
+
 
 ![Image of RAM Component](./images/RAM-image.jpg)
 
