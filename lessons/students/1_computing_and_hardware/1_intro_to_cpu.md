@@ -1,8 +1,8 @@
 <link href="./style.css" rel="stylesheet" type="text/css" media="all"></link>
 
-<div class="header"><h1>Hardware and Computing</h1></div>
+<div align=center><h1>Hardware and Computing</h1></div>
 
-<div class="header"><h2>The Purpose of this Section</h2></div>
+<div align=center><h2>The Purpose of this Section</h2></div>
 The purpose of this section is to introduce you to the following concepts:
 
 - What is hardware?
@@ -10,7 +10,7 @@ The purpose of this section is to introduce you to the following concepts:
 - What are the components of a computer?
 - What is a Raspberry Pi?
 
-<div class="header"><h2>What is a Computer?</h2></div>
+<div align=center><h2>What is a Computer?</h2></div>
 
 A computer is an electronic device that manipulates information or data. The computer sees data as 1s and 0s, but it knows how to combine them to create much more complex things like photos, movies, websites, games, and much more.
 
@@ -22,15 +22,15 @@ Computers can be defined as any device that can:
 
 A computer system consists of two major elements, hardware and software. In this lesson, you are going to learn about hardware.
 
-<div class="header"><h2>What is Hardware?</h2></div>
+<div align=center><h2>What is Hardware?</h2></div>
 
 **Hardware** refers to the physical elements that make up a computer. These are the <ins>components that you can physically touch.</ins>
 
 Computers are composed of several hardware components. Some might be more familiar than others. In this lesson, you will learn to recognize some of the different components of a computer and begin to understand what they do.
 
-<div class="header"><h2>Core Components of a Computer</h2></div>
+<div align=center><h2>Core Components of a Computer</h2></div>
 
-<div class="header"><h3>1. Processer</h3></div>
+<div align=center><h3>1. Processer</h3></div>
 
 #### Key Terms
 - **Central Processing Unit (CPU)**
@@ -64,7 +64,7 @@ However, the question still remains: What component is performing that input and
     <img src="./images/CPU-image.jpg" width="400" height="auto" />
 </div>
 
-<div class="header"><h3>2. Memory</h3></div>
+<div align=center><h3>2. Memory</h3></div>
 
 #### Key Terms
 - **Random Access Memory (RAM)**
@@ -97,7 +97,7 @@ So essentially the more RAM you have, the more stuff you can have on you without
     <img src="./images/RAM-image.jpg" width="400" height="auto" />
 </span>
 
-<div class="header"><h3>3. Storage</h3></div>
+<div align=center><h3>3. Storage</h3></div>
 
 **Key Terms**
 - Hard Drive
@@ -158,7 +158,7 @@ Mini SD Card
 </span>
 
 
-<div class="header"><h3>4. Motherboard</h3></div>
+<div align=center><h3>4. Motherboard</h3></div>
 
 **Key Terms**
 - Motherboard
@@ -171,7 +171,7 @@ You can think of this piece of hardware as the ‘mother’ of all components, t
     <img src="./images/motherboard-image.jpg" width="400" height="auto" />
 </span>
 
-<div class="header"><h3>5. Input/Output Devices and Ports</h3></div>
+<div align=center><h3>5. Input/Output Devices and Ports</h3></div>
 
 **Key Terms**
 - Peripheral Device
@@ -193,7 +193,7 @@ When referring to computer hardware, a **port** is a physical interface found on
     <img src="./images/io_devices.png" width="400" height="auto" />
 </span>
 
-<div class="header"><h2>What is a Raspberry Pi</h2></div>
+<div align=center><h2>What is a Raspberry Pi</h2></div>
 
 A Raspberry Pi is a single board computer about the size of a gift card. Although it is much smaller than your average computer at home, it has similar capabilities to its larger counterparts.
 
@@ -209,4 +209,47 @@ Better yet, Raspberry Pi’s can be used for programming and creating devices su
 
 The Raspberry Pi is capable of all of these because it contains each major component mentioned earlier in the lesson just as most computers do. Just as a desktop computer would include, A Raspberry Pi is equipped with:
 
+<div align=center><h4>Central Processing Unit</h4></div>
 
+<span class="mdImage">
+    <img src="./images/CPU.png" width="400" height="auto" />
+</span>
+
+<div align=center><h4>Random Access Memory</h4></div>
+
+<span class="mdImage">
+    <img src="./images/CPU.png" width="400" height="auto" />
+</span>
+
+<div align=center><h4>Storage</h4></div>
+
+- Your Pi will have a 16 GB microSD card.
+
+<span class="mdImage">
+    <img src="./images/pi_back.png" width="400" height="auto" />
+</span>
+
+<div align=center><h4>Motherboard</h4></div>
+
+- Since the Pi is a single board computer, it is the motherboard.
+
+<span class="mdImage">
+    <img src="./images/Motherboard.png" width="400" height="auto" />
+</span>
+
+<div align=center><h4>Input/Output Ports</h4></div>
+
+- Your Pi will have 2 HDMI ports, 4 USB ports, and an ethernet port.
+- Secondly, the Pi also has 40 GPIO (general-purpose input/output) pins used to connect things like LED lights, buzzers, and buttons. (This will be gone over in detail later).
+
+<span class="mdImage">
+    <img src="./images/rasp_pi_ports.jpg" width="400" height="auto" />
+</span>
+
+- **USB ports** — these are used to connect a mouse and keyboard. You can also connect other components, such as a USB drive.
+- **SD card slot** — you can slot the SD card in here. This is where the operating system software and your files are stored.
+- **Ethernet port** — this is used to connect Raspberry Pi to a network with a cable. Raspberry Pi can also connect to a network via wireless LAN.
+- **Audio jack** — you can connect headphones or speakers here.
+- **HDMI port** — this is where you connect the monitor (or projector) that you are using to display the output from the Raspberry Pi. If your monitor has speakers, you can also use them to hear sound.
+- **Micro USB power connector** — this is where you connect a power supply. You should always do this last, after you have connected all your other components.
+- **GPIO ports** — these allow you to connect electronic components such as LEDs and buttons to Raspberry Pi.
