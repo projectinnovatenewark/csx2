@@ -87,7 +87,7 @@ Still trying to understand RAM? Let's think of our CPU as an engineer. The engin
 
 What does he do? Luckily, he has a toolbelt called ‘RAM’ that is not as fast as whatever it is in hand but is still easily accessible.
 <span class="mdImage">
-    <img src="./images/RAM-image.jpg" width="400" height="auto" />
+    <img src="./images/toolbelt.jpg" width="400" height="auto" />
 </span>
 
 
