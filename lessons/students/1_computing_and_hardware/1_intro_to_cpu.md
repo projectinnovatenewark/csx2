@@ -31,7 +31,7 @@ Computers are composed of several hardware components. Some might be more famili
 
 ## Core Components of a Computer
 
-### 1. Processer
+<div align=center>### 1. Processer<div>
 
 #### Key Terms
 - **Central Processing Unit (CPU)**
