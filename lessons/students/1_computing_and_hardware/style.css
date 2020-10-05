@@ -6,3 +6,7 @@
     margin-right: auto;
 
 } */
+
+.side-by-side {
+    list-style-position: inside;
+}

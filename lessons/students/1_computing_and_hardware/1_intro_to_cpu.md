@@ -76,14 +76,14 @@ While memory can refer to any medium of data storage, it usually refers to RAM, 
 
 Some examples of operations that use RAM are:    
 <div align=left>
-<ul list-style-position=inside>
+<ul class="side-by-side">
 <li>Running your Operating System</li>
 <li>Using applications</li>
 </ul>
 </div>
 <span>
 <div align=right>
-<ul list-style-position=inside>
+<ul class="side-by-side">
 <li>Browsing the web</li>
 <li>Editing documents or spreadsheets </li>
 </ul>
