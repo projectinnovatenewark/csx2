@@ -75,20 +75,21 @@ In computing, memory refers to the device that is used to store information for 
 
 While memory can refer to any medium of data storage, it usually refers to RAM, or **random access memory**. RAM is responsible for storing and accessing information it needs in the moment and in the near future. 
 
-Some examples of operations that use RAM are:
-    <div>
-        - Running your Operating System
-        - Using applications
-    </div>
-        <div>
-        - Browsing the web
-        - Editing documents or spreadsheets 
-        </div>
+Some examples of operations that use RAM are:    
+- Running your Operating System
+- Using applications
+- Browsing the web
+- Editing documents or spreadsheets 
 
+RAM is an example of **volatile memory**. Volatile memory is a temporary form of memory that is <ins>lost when you turn off your computer.</ins>
 
+Still trying to understand RAM? Let's think of our CPU as an engineer. The engineer can only have one tool in his hand at a time, but he needs to be able to grab another tool when he needs it. 
 
+What does he do? Luckily, he has a toolbelt called ‘RAM’ that is not as fast as whatever it is in hand but is still easily accessible.
+<span class="mdImage">
+    <img src="./images/RAM-image.jpg" width="400" height="auto" />
+</span>
 
-![Image of RAM Component](./images/RAM-image.jpg)
 
 ### Internal Storage
 **Key Terms**
