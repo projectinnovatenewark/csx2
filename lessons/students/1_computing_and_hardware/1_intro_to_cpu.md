@@ -256,31 +256,38 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 <div align=center><h2>Review Questions</h2></div>
 
 1. **Which of the following is not considered a basic function of a computer?**
-    a. Provides an output to a user. (A)
-    b. It has a keyboard. (T)
-    c. It accepts input from a user. (Y)
-    d. It performs calculations based on an input. (I)
-
+    <ol type=a>
+    <li>Provides an output to a user. (A)</li>
+    <li>It has a keyboard. (T)</li>
+    <li>It accepts input from a user. (Y)</li>
+    <li>It performs calculations based on an input. (I)</li>
+    </ol>
 2. **What is considered to be the brain of a computer?**
-    a. Random Access Memory (M)
-    b. Solid State Drive (N)
-    c. Central Processing Unit (O)
-    d. Wireless Keyboard (B)
-
-3. **Random Access Memory (RAM) is considered non-volatile, meaning it is capable of holding saved data when the computer is switched off.  True or False?**
-    a. True (O)
-    b. False (W)
-   
+    <ol type=a>
+    <li>Random Access Memory (M)</li>
+    <li>Solid State Drive (N)</li>
+    <li>Central Processing Unit (O)</li>
+    <li>Wireless Keyboard (B)</li>
+    </ol>
+3. **Random Access Memory (RAM) is considered non-volatile, meaning it is capable of holding saved data when the computer is 
+switched off.  True or False?**
+    <ol type=a>
+    <li>True (O)</li>
+    <li>False (W)</li>
+   </ol>
 4. **Since both SSDs and SD cards use solid-state storage, this means that they have no:**
-    a. Moving Parts (E)
-    b. Power (I)
-    c. Passwords (K)
-    d. Flash Capabilities (L)
-
+    <ol type=a>
+    <li>Moving Parts (E)</li>
+    <li>Power (I)</li>
+    <li>Passwords (K)</li>
+    <li>Flash Capabilities (L)</li>
+    </ol>
 5. **What is something you could do using a Raspberry Pi?**
-    a. Browse the internet. (A)
-    b. Store photos. (I)
-    c. Create and edit documents. (K)
-    d. All of the above. (L)
-
+    <ol type=a>
+    <li>Browse the internet. (A)</li>
+    <li>Store photos. (I)</li>
+    <li>Create and edit documents. (K)</li>
+    <li>All of the above. (L)</li>
+    </ol>
+    
 **What gets wetter as it dries? A _ _ _ _ _**
