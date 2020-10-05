@@ -1,6 +1,6 @@
 <link href="style.css" rel="stylesheet"></link>
 
-# Intro to Computers
+<div align=center><h1>Intro to Computers</h1></div>
 
 ## The Purpose of this Section
 The purpose of this section is to introduce you to the following concepts:
@@ -31,7 +31,7 @@ Computers are composed of several hardware components. Some might be more famili
 
 ## Core Components of a Computer
 
-<div align=center>### 1. Processer<div>
+### 1. Processer
 
 #### Key Terms
 - **Central Processing Unit (CPU)**
