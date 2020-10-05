@@ -251,3 +251,11 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 - **HDMI port** — this is where you connect the monitor (or projector) that you are using to display the output from the Raspberry Pi. If your monitor has speakers, you can also use them to hear sound.
 - **Micro USB power connector** — this is where you connect a power supply. You should always do this last, after you have connected all your other components.
 - **GPIO ports** — these allow you to connect electronic components such as LEDs and buttons to Raspberry Pi.
+
+<div align=center><h2>Review Questions</h2></div>
+
+1. **Which of the following is not considered a basic function of a computer?**
+    [] a. Provides an output to a user. (A)
+    [] b. It has a keyboard. (T)
+    [] c. It accepts input from a user. (Y)
+    [] d. It performs calculations based on an input. (I)
