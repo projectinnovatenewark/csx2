@@ -80,12 +80,10 @@ Some examples of operations that use RAM are:
         - Running your Operating System
         - Using applications
     </div>
-    <span>
         <div>
         - Browsing the web
         - Editing documents or spreadsheets 
         </div>
-    </span>
 
 
 
