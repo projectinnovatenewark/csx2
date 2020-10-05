@@ -1,8 +1,8 @@
 <link href="./style.css" rel="stylesheet" type="text/css" media="all"></link>
 
-<div align=center><h1>Hardware and Computing</h1></div>
+<div class="header"><h1>Hardware and Computing</h1></div>
 
-<div align=center><h2>The Purpose of this Section</h2></div>
+<div class="header"><h2>The Purpose of this Section</h2></div>
 The purpose of this section is to introduce you to the following concepts:
 
 - What is hardware?
@@ -10,7 +10,7 @@ The purpose of this section is to introduce you to the following concepts:
 - What are the components of a computer?
 - What is a Raspberry Pi?
 
-<div align=center><h2>What is a Computer?</h2></div>
+<div class="header"><h2>What is a Computer?</h2></div>
 
 A computer is an electronic device that manipulates information or data. The computer sees data as 1s and 0s, but it knows how to combine them to create much more complex things like photos, movies, websites, games, and much more.
 
@@ -22,15 +22,15 @@ Computers can be defined as any device that can:
 
 A computer system consists of two major elements, hardware and software. In this lesson, you are going to learn about hardware.
 
-<div align=center><h2>What is Hardware?</h2></div>
+<div class="header"><h2>What is Hardware?</h2></div>
 
 **Hardware** refers to the physical elements that make up a computer. These are the <ins>components that you can physically touch.</ins>
 
 Computers are composed of several hardware components. Some might be more familiar than others. In this lesson, you will learn to recognize some of the different components of a computer and begin to understand what they do.
 
-<div align=center><h2>Core Components of a Computer</h2></div>
+<div class="header"><h2>Core Components of a Computer</h2></div>
 
-<div align=center><h3>1. Processer</h3></div>
+<div class="header"><h3>1. Processer</h3></div>
 
 #### Key Terms
 - **Central Processing Unit (CPU)**
@@ -64,7 +64,7 @@ However, the question still remains: What component is performing that input and
     <img src="./images/CPU-image.jpg" width="400" height="auto" />
 </div>
 
-<div align=center><h3>2. Memory</h3></div>
+<div class="header"><h3>2. Memory</h3></div>
 
 #### Key Terms
 - **Random Access Memory (RAM)**
@@ -76,14 +76,10 @@ While memory can refer to any medium of data storage, it usually refers to RAM, 
 
 Some examples of operations that use RAM are:
 
-<ul class="side-by-side">
-<li>Running your Operating System</li>
-<li>Using applications</li>
-</ul>
-<ul class="side-by-side">
-<li>Browsing the web</li>
-<li>Editing documents or spreadsheets </li>
-</ul>
+- Running your Operating System
+- Using applications
+- Browsing the web
+- Editing documents or spreadsheets 
 
 RAM is an example of **volatile memory**. Volatile memory is a temporary form of memory that is <ins>lost when you turn off your computer.</ins>
 
@@ -101,7 +97,7 @@ So essentially the more RAM you have, the more stuff you can have on you without
     <img src="./images/RAM-image.jpg" width="400" height="auto" />
 </span>
 
-<div align=center><h3>3. Storage</h3></div>
+<div class="header"><h3>3. Storage</h3></div>
 
 **Key Terms**
 - Hard Drive
@@ -145,19 +141,72 @@ A **solid-state drive** is a solid-state storage device that uses integrated cir
 **Cons:**
 - More Costly
 
+**Some Other Examples of Solid State Storage:**
+Security Digital (SD) Card
+<span class="mdImage">
+    <img src="./images/SD_Card.png" width="400" height="auto" />
+</span>
 
-![Image of SSD vs HDD Components](./images/ssd-vs-hdd-image.jpg)
+Micro SD Card
+<span class="mdImage">
+    <img src="./images/mini_SD_Card.png" width="400" height="auto" />
+</span>
 
-### Motherboard
+Mini SD Card
+<span class="mdImage">
+    <img src="./images/micro_SD_Card.png" width="400" height="auto" />
+</span>
+
+
+<div class="header"><h3>4. Motherboard</h3></div>
+
 **Key Terms**
+- Motherboard
 
-![Image of Motherboard Component](./images/motherboard-image.jpg)
+The **motherboard** is the main circuit board inside a computer that connects the different parts of a computer together.
 
-### Input Devices
+You can think of this piece of hardware as the ‘mother’ of all components, that's where it gets its name. 
+
+<span class="mdImage">
+    <img src="./images/motherboard-image.jpg" width="400" height="auto" />
+</span>
+
+<div class="header"><h3>5. Input/Output Devices and Ports</h3></div>
+
 **Key Terms**
+- Peripheral Device
+- Input Device
+- Outout Device
+- Port
 
-<!-- Insert Image Here -->
+In computing, a **peripheral device** is a device that provides either an input or output function for a computer. These are sometimes referred to as input/output (I/O) devices.
 
-### Output Devices
-**Key Terms**
-<!-- Insert Image Here -->
+- **Input devices** include devices like a mouse, keyboard and even webcams. These peripheral devices provide an *input* **to** the computer.
+
+- **Output devices** include monitors, printers, and speakers. These peripheral devices provide an *output* **from** the computer.
+
+- Some devices that provide both an *input* and an *output*. A great example of a peripheral that accomplishes this function is an external flash drive and other storage devices. They can be used to read data (input) or write data (output).
+
+When referring to computer hardware, a **port** is a physical interface found on the front or back of a computer that allows computers to access external devices.
+
+<span class="mdImage">
+    <img src="./images/io_devices.png" width="400" height="auto" />
+</span>
+
+<div class="header"><h2>What is a Raspberry Pi</h2></div>
+
+A Raspberry Pi is a single board computer about the size of a gift card. Although it is much smaller than your average computer at home, it has similar capabilities to its larger counterparts.
+
+Some of the basic computing tasks that you can do on a Raspberry Pi are:
+
+- Surf the web
+- Participate in video conference calls
+- Play games
+- Watch videos
+- Store files
+
+Better yet, Raspberry Pi’s can be used for programming and creating devices such as echo-location devices, weather stations, and more.
+
+The Raspberry Pi is capable of all of these because it contains each major component mentioned earlier in the lesson just as most computers do. Just as a desktop computer would include, A Raspberry Pi is equipped with:
+
+
