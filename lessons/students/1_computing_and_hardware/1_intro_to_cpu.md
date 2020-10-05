@@ -41,7 +41,7 @@ Processors are the components in computers that process and execute inputs recei
 
 The CPU is thought of as the brain of the computer. 
 
-<div class="mdImage">
+<div class="mdImage" align=center>
     <img src="./images/cpu_brain.jpg" width="400" height="auto" />
 </div>
 
@@ -60,7 +60,7 @@ Isn’t that process strangely familiar? First there is an input received, then 
 
 However, the question still remains: What component is performing that input and receiving that output? In the next section you will learn about memory.
 
-<div class="mdImage">
+<div class="mdImage" align=center>
     <img src="./images/CPU-image.jpg" width="400" height="auto" />
 </div>
 
@@ -93,17 +93,17 @@ When the engineer needs a tool that is not in hand nor their toolbelt, they have
 So essentially the more RAM you have, the more stuff you can have on you without having to go to your storage drive when you need it. For this reason, the amount of memory you have installed on a computer plays a key role in how your system performs.
 
 </div>
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/RAM-image.jpg" width="400" height="auto" />
 </span>
 
 <div align=center><h3>3. Storage</h3></div>
 
 **Key Terms**
-- Hard Drive
-- Non-Volatile Memory
-- Hard Disk Drive (HDD)
-- Solid State Drive (SSD)
+- **Hard Drive**
+- **Non-Volatile Memory**
+- **Hard Disk Drive (HDD)**
+- **Solid State Drive (SSD)**
 
 Storage is the component of your computer that allows you to store and access data on a long-term basis.
 
@@ -114,7 +114,7 @@ The following examples outline some of the more popular forms of computer storag
 ##### Hard Disc Drive (HDD)
 A **hard disk drive** is an electro-mechanical data storage device that uses magnetic storage to store and retrieve digital data using one or more rigid rapidly rotating platters coated with magnetic material.
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/hdd.jpg" width="400" height="auto" />
 </span>
 
@@ -130,7 +130,7 @@ A **hard disk drive** is an electro-mechanical data storage device that uses mag
 
 A **solid-state drive** is a solid-state storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/ssd.jpg" width="400" height="auto" />
 </span>
 
@@ -143,41 +143,41 @@ A **solid-state drive** is a solid-state storage device that uses integrated cir
 
 **Some Other Examples of Solid State Storage:**
 Security Digital (SD) Card
-<span class="mdImage">
+<div class="mdImage" align=center>
     <img src="./images/SD_Card.png" width="400" height="auto" />
-</span>
+</div>
 
 Micro SD Card
-<span class="mdImage">
+<div class="mdImage" align=center>
     <img src="./images/mini_SD_Card.png" width="400" height="auto" />
-</span>
+</div>
 
 Mini SD Card
-<span class="mdImage">
+<div class="mdImage" align=center>
     <img src="./images/micro_SD_Card.png" width="400" height="auto" />
-</span>
+</div>
 
 
 <div align=center><h3>4. Motherboard</h3></div>
 
 **Key Terms**
-- Motherboard
+- **Motherboard**
 
 The **motherboard** is the main circuit board inside a computer that connects the different parts of a computer together.
 
 You can think of this piece of hardware as the ‘mother’ of all components, that's where it gets its name. 
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/motherboard-image.jpg" width="400" height="auto" />
 </span>
 
 <div align=center><h3>5. Input/Output Devices and Ports</h3></div>
 
 **Key Terms**
-- Peripheral Device
-- Input Device
-- Outout Device
-- Port
+- **Peripheral Device**
+- **Input Device**
+- **Outout Device**
+- **Port**
 
 In computing, a **peripheral device** is a device that provides either an input or output function for a computer. These are sometimes referred to as input/output (I/O) devices.
 
@@ -189,7 +189,7 @@ In computing, a **peripheral device** is a device that provides either an input 
 
 When referring to computer hardware, a **port** is a physical interface found on the front or back of a computer that allows computers to access external devices.
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/io_devices.png" width="400" height="auto" />
 </span>
 
@@ -211,13 +211,13 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 
 <div align=center><h4>Central Processing Unit</h4></div>
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/CPU.png" width="400" height="auto" />
 </span>
 
 <div align=center><h4>Random Access Memory</h4></div>
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/CPU.png" width="400" height="auto" />
 </span>
 
@@ -225,7 +225,7 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 
 - Your Pi will have a 16 GB microSD card.
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/pi_back.png" width="400" height="auto" />
 </span>
 
@@ -233,7 +233,7 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 
 - Since the Pi is a single board computer, it is the motherboard.
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/Motherboard.png" width="400" height="auto" />
 </span>
 
@@ -242,7 +242,7 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 - Your Pi will have 2 HDMI ports, 4 USB ports, and an ethernet port.
 - Secondly, the Pi also has 40 GPIO (general-purpose input/output) pins used to connect things like LED lights, buzzers, and buttons. (This will be gone over in detail later).
 
-<span class="mdImage">
+<span class="mdImage" align=center>
     <img src="./images/rasp_pi_ports.jpg" width="400" height="auto" />
 </span>
 
