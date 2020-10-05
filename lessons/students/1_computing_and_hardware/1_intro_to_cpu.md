@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 # Intro to Computers
 
 ## The Purpose of this Section
@@ -40,7 +42,10 @@ Processors are the components in computers that process and execute inputs recei
 
 The CPU is thought of as the brain of the computer. 
 
-![Image of CPU Component](./images/cpu_brain.jpg)
+<!-- ![Image of CPU Component](./images/cpu_brain.jpg) -->
+<div class="mdImage">
+    <img src="./images/cpu_brain.jpg" width="400" height="auto" />
+</div>
 
 We all know how the human brain works: it receives information, processes it, and responds to it by doing something. The CPU works in the same way. All of the inputs from the other parts of the computer are sent to the CPU, where it processes the information it receives and it sends the output as a response.
 
