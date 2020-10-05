@@ -1,4 +1,4 @@
-<link href="style.css" rel="stylesheet" type="text/css" media="all"></link>
+<link href="./style.css" rel="stylesheet" type="text/css" media="all"></link>
 
 <div align=center><h1>Hardware and Computing</h1></div>
 
