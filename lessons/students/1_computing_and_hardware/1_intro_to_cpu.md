@@ -256,7 +256,7 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 <div align=center><h2>Review Questions</h2></div>
 
 1. **Which of the following is not considered a basic function of a computer?**
-   - [] a. Provides an output to a user. (A)
-   - [x] b. It has a keyboard. (T)
-   - [] c. It accepts input from a user. (Y)
-   - [] d. It performs calculations based on an input. (I)
+   - [ ] a. Provides an output to a user. (A)
+   - [ ] b. It has a keyboard. (T)
+   - [ ] c. It accepts input from a user. (Y)
+   - [ ] d. It performs calculations based on an input. (I)
