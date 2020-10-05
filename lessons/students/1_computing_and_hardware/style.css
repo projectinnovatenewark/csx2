@@ -8,5 +8,7 @@
 } */
 
 ul {
+    padding: 5px;
+    background-color: #eee;
     display: inline-block;
 }
