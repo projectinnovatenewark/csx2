@@ -256,7 +256,31 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 <div align=center><h2>Review Questions</h2></div>
 
 1. **Which of the following is not considered a basic function of a computer?**
-   - [ ] a. Provides an output to a user. (A)
-   - [ ] b. It has a keyboard. (T)
-   - [ ] c. It accepts input from a user. (Y)
-   - [ ] d. It performs calculations based on an input. (I)
+    a. Provides an output to a user. (A)
+    b. It has a keyboard. (T)
+    c. It accepts input from a user. (Y)
+    d. It performs calculations based on an input. (I)
+
+2. **What is considered to be the brain of a computer?**
+    a. Random Access Memory (M)
+    b. Solid State Drive (N)
+    c. Central Processing Unit (O)
+    d. Wireless Keyboard (B)
+
+3. **Random Access Memory (RAM) is considered non-volatile, meaning it is capable of holding saved data when the computer is switched off.  True or False?**
+    a. True (O)
+    b. False (W)
+   
+4. **Since both SSDs and SD cards use solid-state storage, this means that they have no:**
+    a. Moving Parts (E)
+    b. Power (I)
+    c. Passwords (K)
+    d. Flash Capabilities (L)
+
+5. **What is something you could do using a Raspberry Pi?**
+    a. Browse the internet. (A)
+    b. Store photos. (I)
+    c. Create and edit documents. (K)
+    d. All of the above. (L)
+
+**What gets wetter as it dries? A _ _ _ _ _**
