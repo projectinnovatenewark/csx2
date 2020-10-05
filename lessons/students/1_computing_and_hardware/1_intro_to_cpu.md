@@ -256,14 +256,14 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 <div align=center><h2>Review Questions</h2></div>
 
 1. **Which of the following is not considered a basic function of a computer?**
-    <ol type=a>
+    <ol type=i>
     <li>Provides an output to a user. (A)</li>
     <li>It has a keyboard. (T)</li>
     <li>It accepts input from a user. (Y)</li>
     <li>It performs calculations based on an input. (I)</li>
     </ol>
 2. **What is considered to be the brain of a computer?**
-    <ol type=a>
+    <ol type=i>
     <li>Random Access Memory (M)</li>
     <li>Solid State Drive (N)</li>
     <li>Central Processing Unit (O)</li>
@@ -271,23 +271,23 @@ The Raspberry Pi is capable of all of these because it contains each major compo
     </ol>
 3. **Random Access Memory (RAM) is considered non-volatile, meaning it is capable of holding saved data when the computer is 
 switched off.  True or False?**
-    <ol type=a>
+    <ol type=i>
     <li>True (O)</li>
     <li>False (W)</li>
    </ol>
 4. **Since both SSDs and SD cards use solid-state storage, this means that they have no:**
-    <ol type=a>
+    <ol type=i>
     <li>Moving Parts (E)</li>
     <li>Power (I)</li>
     <li>Passwords (K)</li>
     <li>Flash Capabilities (L)</li>
     </ol>
 5. **What is something you could do using a Raspberry Pi?**
-    <ol type=a>
+    <ol type=i>
     <li>Browse the internet. (A)</li>
     <li>Store photos. (I)</li>
     <li>Create and edit documents. (K)</li>
     <li>All of the above. (L)</li>
     </ol>
-    
+
 **What gets wetter as it dries? A _ _ _ _ _**
