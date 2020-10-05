@@ -75,12 +75,12 @@ In computing, memory refers to the device that is used to store information for 
 While memory can refer to any medium of data storage, it usually refers to RAM, or **random access memory**. RAM is responsible for storing and accessing information it needs in the moment and in the near future. 
 
 Some examples of operations that use RAM are:
-<div display=inline-block>
-<ul>
+<div >
+<ul display=inline-block>
 <li>Running your Operating System</li>
 <li>Using applications</li>
 </ul>
-<ul>
+<ul display=inline-block>
 <li>Browsing the web</li>
 <li>Editing documents or spreadsheets </li>
 </ul>
