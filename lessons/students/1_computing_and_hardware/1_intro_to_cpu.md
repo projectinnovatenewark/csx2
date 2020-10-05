@@ -83,9 +83,11 @@ Some examples of operations that use RAM are:
 
 RAM is an example of **volatile memory**. Volatile memory is a temporary form of memory that is <ins>lost when you turn off your computer.</ins>
 
+<div>
 Still trying to understand RAM? Let's think of our CPU as an engineer. The engineer can only have one tool in his hand at a time, but he needs to be able to grab another tool when he needs it. 
 
 What does he do? Luckily, he has a toolbelt called ‘RAM’ that is not as fast as whatever it is in hand but is still easily accessible.
+</div>
 <span class="mdImage">
     <img src="./images/toolbelt.jpg" width="400" height="auto" />
 </span>
