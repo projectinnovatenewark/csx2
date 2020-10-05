@@ -7,6 +7,6 @@
 
 } */
 
-.side-by-side {
-    list-style-position: inside;
+ul {
+    display: inline-block;
 }
