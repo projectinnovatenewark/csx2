@@ -27,15 +27,14 @@ A computer system consists of two major elements, hardware and software. In this
 Computers are composed of several hardware components. Some might be more familiar than others. In this lesson, you will learn to recognize some of the different components of a computer and begin to understand what they do.
 
 
-## What are the main parts of a computer?
+## Core Components of a Computer
 
+### 1. Processer
 
-
-### CPU
-**Key Terms**
-- Central Processing Unit (CPU): <!-- Insert Definition Here -->
-- Arithmetic Logic Unit (ALU): <!-- Insert Definition Here -->
-- Control Unit (CU): <!-- Insert Definition Here -->
+#### Key Terms
+- Central Processing Unit (CPU)
+- Arithmetic Logic Unit (ALU)
+- Control Unit (CU)
 
 Processors are the components that process and execute inputs received from hardware and software. This is also known as the Central Processing Unit (CPU). The CPU is thought of as the brain of the computer. It processes information and instructions from software running and other hardware components. CPU’s can be found on the motherboard, and relies on other pieces of hardware such as chipsets to control the dataflow to and from other parts of the computer. Chipsets are groups of microchips located on the motherboard. There are two components that make up the CPU: the control unit and the arithmetic logic unit (ALU). 
 
