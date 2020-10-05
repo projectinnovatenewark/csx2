@@ -7,7 +7,7 @@
 
 } */
 
-.side-by-side li {
+ol, ul {
     padding: 5px;
     background-color: #eee;
     display: inline-block;
