@@ -83,9 +83,12 @@ While memory can refer to any medium of data storage, it usually refers to RAM, 
 
 Some examples of operations that use RAM are:
 
-<ul class="ramList">
+<ul style="list-style-type: none; display: inline-block;">
 <li>Running your Operating System</li>
 <li>Using applications</li>
+</ul>
+
+<ul style="list-style-type: none; display: inline-block;">
 <li>Browsing the web</li>
 <li>Editing documents or spreadsheets </li>
 </ul>
