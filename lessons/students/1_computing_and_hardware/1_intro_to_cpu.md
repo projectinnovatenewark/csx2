@@ -98,10 +98,8 @@ So essentially the more RAM you have, the more stuff you can have on you without
 <div align=center><h3>3. Storage</h3></div>
 
 **Key Terms**
-- **Hard Drive**
-- **Non-Volatile Memory**
-- **Hard Disk Drive (HDD)**
-- **Solid State Drive (SSD)**
+- **Hard Drive**                                    - **Hard Disk Drive (HDD)**
+- **Non-Volatile Memory**                           - **Solid State Drive (SSD)**
 
 Storage is the component of your computer that allows you to store and access data on a long-term basis.
 
