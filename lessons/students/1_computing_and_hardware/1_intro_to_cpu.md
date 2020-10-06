@@ -12,7 +12,7 @@ The purpose of this section is to introduce you to the following concepts:
 
 <div align=center><h2>What is a Computer?</h2></div>
 
-A computer is an electronic device that manipulates information or data. The computer sees data as 1s and 0s, but it knows how to combine them to create much more complex things like photos, movies, websites, games, and much more.
+A computer is an electronic device that manipulates information or data. The computer sees data as 1's and 0's (also called "binary"), but it knows how to combine them to create much more complex things like photos, movies, websites, games, and much more.
 
 Computers can be defined as any device that can:
 
