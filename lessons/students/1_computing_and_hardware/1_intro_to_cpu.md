@@ -1,4 +1,11 @@
-<link href="./style.css" rel="stylesheet" type="text/css" media="all"></link>
+<!-- <link href="./style.css" rel="stylesheet" type="text/css" media="all"></link> -->
+<style>
+
+.ramList {
+    float: right;
+}
+
+</style>
 
 <div align=center><h1>Hardware and Computing</h1></div>
 
@@ -77,10 +84,10 @@ While memory can refer to any medium of data storage, it usually refers to RAM, 
 Some examples of operations that use RAM are:
 
 <ul class="ramList">
-<li display="inline">Running your Operating System</li>
-<li display="inline">Using applications</li>
-<li display="inline">Browsing the web</li>
-<li display="inline">Editing documents or spreadsheets </li>
+<li>Running your Operating System</li>
+<li>Using applications</li>
+<li>Browsing the web</li>
+<li>Editing documents or spreadsheets </li>
 </ul>
 
 RAM is an example of **volatile memory**. Volatile memory is a temporary form of memory that is <ins>lost when you turn off your computer.</ins>
