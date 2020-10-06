@@ -83,15 +83,22 @@ While memory can refer to any medium of data storage, it usually refers to RAM, 
 
 Some examples of operations that use RAM are:
 
-<ul style="list-style-type: none; display: inline-block;">
-<li>Running your Operating System</li>
-<li>Using applications</li>
-</ul>
-
-<ul style="list-style-type: none; display: inline-block;">
-<li>Browsing the web</li>
-<li>Editing documents or spreadsheets </li>
-</ul>
+<div class="container" style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <div style="width: 50%; display: table-cell;">
+            <ul>
+            <li>Running your Operating System</li>
+            <li>Using applications</li>
+            </ul>
+        </div>
+        <div>
+            <ul style="display: table-cell;">
+                <li>Browsing the web</li>
+                <li>Editing documents or spreadsheets </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 RAM is an example of **volatile memory**. Volatile memory is a temporary form of memory that is <ins>lost when you turn off your computer.</ins>
 
