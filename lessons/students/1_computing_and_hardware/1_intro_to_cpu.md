@@ -175,7 +175,7 @@ You can think of this piece of hardware as the ‘mother’ of all components, t
 **Key Terms**
 - **Peripheral Device**
 - **Input Device**
-- **Outout Device**
+- **Output Device**
 - **Port**
 
 In computing, a **peripheral device** is a device that provides either an input or output function for a computer. These are sometimes referred to as input/output (I/O) devices.
