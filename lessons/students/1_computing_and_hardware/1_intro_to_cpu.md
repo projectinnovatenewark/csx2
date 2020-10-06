@@ -49,7 +49,7 @@ We all know how the human brain works: it receives information, processes it, an
 
 There are two components that make up the CPU, the **control unit** and the **arithmetic logic unit (ALU)**. 
 
-The control unit is a digital circuit that directs operations within a computer's processor. The ALU is a <ins>digital circuit</ins> inside the processor that <ins>handles arithmetic and logical operations.</ins>
+The control unit is a digital circuit that <ins>directs operations within a computer's processor</ins>. The ALU is the digital circuit inside the processor that <ins>handles arithmetic and logical operations</ins>.
 
 The following list describes how the control unit and the ALU work together to perform basic CPU functions:
 1. First the control unit receives instructions from another part of the computer and decodes the instructions into commands. 
@@ -124,7 +124,7 @@ A **hard disk drive** is an electro-mechanical data storage device that uses mag
 - Slower Performance Speeds
 
 ##### Solid State Drive (SSD)
-**Solid-state storage** is a type of non-volatile computer storage that stores and retrieves digital information using only electronic circuits, <ins>without any involvement of moving mechanical parts.<ins>
+**Solid-state storage** is a type of non-volatile computer storage that stores and retrieves digital information using only electronic circuits, <ins>without any involvement of moving mechanical parts<ins>.
 
 A **solid-state drive** is a solid-state storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory
 
