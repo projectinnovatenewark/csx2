@@ -1,8 +1,9 @@
 <!-- <link href="./style.css" rel="stylesheet" type="text/css" media="all"></link> -->
 <style>
 
-.ramList {
-    float: right;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 </style>
@@ -83,20 +84,18 @@ While memory can refer to any medium of data storage, it usually refers to RAM, 
 
 Some examples of operations that use RAM are:
 
-<div class="container" style="width: 100%; display: table;">
-    <div style="display: table-row">
-        <div style="width: 50%; display: table-cell;">
-            <ul>
-            <li>Running your Operating System</li>
-            <li>Using applications</li>
-            </ul>
-        </div>
-        <div>
-            <ul style="display: table-cell;">
-                <li>Browsing the web</li>
-                <li>Editing documents or spreadsheets </li>
-            </ul>
-        </div>
+<div class="container grid">
+    <div>
+        <ul>
+        <li>Running your Operating System</li>
+        <li>Using applications</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>Browsing the web</li>
+            <li>Editing documents or spreadsheets </li>
+        </ul>
     </div>
 </div>
 
