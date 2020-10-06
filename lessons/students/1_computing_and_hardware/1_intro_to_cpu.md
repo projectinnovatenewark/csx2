@@ -1,13 +1,3 @@
-<!-- <link href="./style.css" rel="stylesheet" type="text/css" media="all"></link> -->
-<style>
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-</style>
-
 <div align=center><h1>Hardware and Computing</h1></div>
 
 <div align=center><h2>The Purpose of this Section</h2></div>
@@ -83,21 +73,11 @@ In computing, memory refers to the device that is used to store information for 
 While memory can refer to any medium of data storage, it usually refers to RAM, or **random access memory**. RAM is responsible for storing and accessing information it needs in the moment and in the near future. 
 
 Some examples of operations that use RAM are:
-
-<div class="container grid">
-    <div>
-        <ul>
-        <li>Running your Operating System</li>
-        <li>Using applications</li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <li>Browsing the web</li>
-            <li>Editing documents or spreadsheets </li>
-        </ul>
-    </div>
-</div>
+  
+- Running your Operating System
+- Using applications    
+- Browsing the web
+- Editing documents or spreadsheets 
 
 RAM is an example of **volatile memory**. Volatile memory is a temporary form of memory that is <ins>lost when you turn off your computer.</ins>
 
