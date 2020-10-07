@@ -215,7 +215,7 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 <div align=center><h4>Random Access Memory</h4></div>
 
 <div class=mdImage align=center>
-    <img src="./images/CPU.png" width="400" height="auto" />
+    <img src="./images/RAM.png" width="400" height="auto" />
 </div>
 
 <div align=center><h4>Storage</h4></div>
