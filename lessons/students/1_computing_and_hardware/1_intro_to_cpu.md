@@ -259,37 +259,37 @@ The Raspberry Pi is capable of all of these because it contains each major compo
 
 1. **Which of the following is not considered a basic function of a computer?**
     
-    <div><b>a.</b> Provides an output to a user. (A)</div>
-    <div><b>b.</b> It has a keyboard. (T)</div>
-    <div><b>c.</b> It accepts input from a user. (Y)</div>
-    <div><b>d.</b> It performs calculations based on an input. (I)</div>
+    <div>a. Provides an output to a user. (A)</div>
+    <div>b. It has a keyboard. (T)</div>
+    <div>c. It accepts input from a user. (Y)</div>
+    <div>d. It performs calculations based on an input. (I)</div>
     
 2. **What is considered to be the brain of a computer?**
     
-    <div><b>a.</b> Random Access Memory (M)</div>
-    <div><b>b.</b> Solid State Drive (N)</div>
-    <div><b>c.</b> Central Processing Unit (O)</div>
-    <div><b>d.</b> Wireless Keyboard (B)</div>
+    <div>a. Random Access Memory (M)</div>
+    <div>b. Solid State Drive (N)</div>
+    <div>c. Central Processing Unit (O)</div>
+    <div>d. Wireless Keyboard (B)</div>
     
 3. **Random Access Memory (RAM) is considered non-volatile, meaning it is capable of holding saved data when the computer is 
 switched off.  True or False?**
     
-    <div><b>a.</b> True (O)</div>
-    <div><b>b.</b> False (W)</div>
+    <div>a. True (O)</div>
+    <div>b. False (W)</div>
    
 4. **Since both SSDs and SD cards use solid-state storage, this means that they have no:**
     
-    <div><b>a.</b> Moving Parts (E)</div>
-    <div><b>b.</b> Power (I)</div>
-    <div><b>c.</b> Passwords (K)</div>
-    <div><b>d.</b> Flash Capabilities (L)</div>
+    <div>a. Moving Parts (E)</div>
+    <div>b. Power (I)</div>
+    <div>c. Passwords (K)</div>
+    <div>d. Flash Capabilities (L)</div>
     
 5. **What is something you could do using a Raspberry Pi?**
     
-    <div><b>a.</b> Browse the internet. (A)</div>
-    <div><b>b.</b> Store photos. (I)</div>
-    <div><b>c.</b> Create and edit documents. (K)</div>
-    <div><b>d.</b> All of the above. (L)</div>
+    <div>a. Browse the internet. (A)</div>
+    <div>b. Store photos. (I)</div>
+    <div>c. Create and edit documents. (K)</div>
+    <div>d. All of the above. (L)</div>
     
 
 **What gets wetter as it dries? A _ _ _ _ _**
