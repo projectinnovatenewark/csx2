@@ -217,10 +217,9 @@ The Linux **kernel** is the core of the operating system and the layer nearest t
 
 <div class=mdImage align=center>
     <img src="./images/linux_tree.png" width="400" height="auto" />
-    
 </div>
 <div align=center><i>(Photo source: IBM)</i></div>
-
+<br>
 
 While the kernel is the most important part of a Linux operating system, it would not be complete without the many open source packages that compliment it. Many of these packages are a part of the **GNU Project** which is an open software initiative started by the Free Software Foundation in 1984. While the formal name for Linux operating systems is often referred to as Linux/GNU, you can casually refer to it as Linux. Additionally, as you can see in the above chart, GNU utilities live in the user-space and include software like compilers (ex. GCC which interprets the programming language “C”) and command line tools (ex. Bash). These tools, other GNU tools, and non-GNU tools (ex. the Python programming language) combine to form the basis of the operating system that you will be using throughout the CSX Program.
 
@@ -236,8 +235,12 @@ Earlier in the lesson, we discussed some of the most common operating systems in
 - **Microsoft Windows**- Windows makes use of many GNU tools that operate in the user-space, thus the command line and some of it’s tools will resemble your experience this year with our Linux/GNU command line.
 - **Apple macOS**- Mac OS is based off of Unix, which predates Linux. Linux was influenced by Unix.
 
-<!-- insert image -->
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/linux_logo.jpg" width="400" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./images/linux_desktop.png" width="400" height="auto" />
+</div>
 
 <div align=center><h4>Raspberry Pi OS based in Debian GNU/Linux</h4></div>
 
@@ -251,8 +254,12 @@ Earlier in the lesson, we discussed some of the most common operating systems in
 - Packages are generally created by qualified developers that are committed to upholding Debian’s standards and practices. 
 - Debian is generally faster than most other operating systems thanks to its base in Linux.
 
-<!-- insert image -->
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/debian_logo.png" width="400" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./images/debian_desktop.png" width="400" height="auto" />
+</div>
 
 A little fun fact about Debian’s naming scheme for their releases: Debian releases are named after Toy Story characters! This originated when Bruce Perens served as the Debian Project Leader while also working for Pixar.Being that Debian is rooted in Linux, it shares similar pros and cons that you learned in the previous section.
 
@@ -273,8 +280,12 @@ Raspbian comes packed with all of the major tools that come with your average Wi
 
 Lastly as another fun fact; Raspbian’s version releases are named alongside Debian, so they are also Toy Story character names.
 
-<!-- insert image -->
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/raspbian_logo.png" width="400" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./images/raspbian_desktop.png" width="400" height="auto" />
+</div>
 
 <div align=center><h4>Programming Languages</h4></div>
 
@@ -288,7 +299,48 @@ Lastly as another fun fact; Raspbian’s version releases are named alongside De
 
 A **programming language** is a formal language that contains a set of instructions to produce certain outputs. The rules that define the written part of a programming language are called **syntax**. The two primary types of programming languages are compiled programming languages and interpreted programming languages. **Compiled programming languages** (ex. C) are languages that can be directly translated by the computer via a **compiler** (ex. GCC), which takes a program written in some compiled programming language and converts it to binary code that is executable by the machine. Remember- computers speak in 1’s and 0’s! Here is an overly complicated chart that describes that process, but can be useful for those students who like to understand computing in its most basic form.
 
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/compiler_tree.png" width="400" height="auto" />
+</div>
 
 **Interpreted programming languages** (ex. Python) are languages that execute a program’s instructions directly via an **interpreter** (ex. CPython), which does NOT require translating the code into a lower level machine language (i.e. assembly code, binary, etc.).
 
+<div align=center><h2>Section 2 Review Questions</h2></div>
+
+**Which of the following is not considered a basic function of an operating system:**
+**a.** It supports application software (F)
+**b.** It establishes a user interfaces (E)
+**c.** It acts as the brain of the computer (C)
+**d.** It manages computer resources (J)
+
+**Which desktop operating system is the most used worldwide?**
+**a.** Linux (Q)
+**b.** Windows (L)
+**c.** Raspberry Pi OS (N)
+**d.** macOS (H)
+
+**What of the following is common amongst all Linux operating systems?**
+**a.** NGU Tools (B)
+**b.** The Linux kernel (O)
+**c.** They are Debian-based (S)
+**d.** None of the above (A)
+
+**Which of the following Linux components is the term that describes a background process?**
+**a.** Daemon (C)
+**b.** Bootloader (Z)
+**c.** Graphical Server (B)
+**d.** Kernel (R)
+
+**The following are all correct about Raspbian except:**
+**a.** There is a robust community of developers that have either experienced a given problem or are willing to help (B)
+**b.** Its pre-installed packages give users a better chance at overcoming the learning curve of using a Linux distro. (L)
+**c.** Raspbian is based in Debian (R)
+**d.** All of the above (K)
+
+**Which of the following software is needed to run a Python file on your computer?**
+**a.** Compiler (A)
+**b.** The GNU package “GCC” (D)
+**c.** The Linux kernel (Y)
+**d.** Interpreter (S)
+
+**What have hands but no arms and faces but no eyes? _ _ _ _ _ _**
