@@ -260,7 +260,7 @@ Earlier in the lesson, we discussed some of the most common operating systems in
 - Debian is generally faster than most other operating systems thanks to its base in Linux.
 
 <div class=mdImage align=center>
-    <img src="./images/debian_logo.png" width="400" height="400" />
+    <img src="./images/debian_logo.png" width="auto" height="200" />
 </div>
 <div class=mdImage align=center>
     <img src="./images/debian_desktop.png" width="400" height="auto" />
