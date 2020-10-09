@@ -7,7 +7,7 @@ The purpose of this section is to introduce you to the following concepts:
 - What are the core functions of an operating system?
 - What are some examples of operating systems?
 
-<div align=center><h2>What is Software</h2></div>
+<div align=center><h2>Software</h2></div>
 
 In the last lesson, we learned that computer systems consist of two major elements: hardware and software. In this lesson, you are going to learn about software.
 
@@ -97,7 +97,7 @@ The user interface is an important part of an operating system because it allows
 
 **Application software** is a type of computer program that performs a specific function.
 
-Applications are designed to assist **end-users** with a particular process, which may be related to productivity, creativity, and/or communication. The term **end-users** describes the person who actually uses a particular product. 
+Applications are designed to assist **end-users** with a particular process, which may be related to productivity, creativity, and/or communication. The term **end-user** describes the person who uses a particular product. 
 Application software programs are created to facilitate a variety of functions, including but not limited to: 
 
 - Managing information
@@ -227,7 +227,7 @@ Now, let’s explore some pieces of the Linux operating system. The **bootloader
 
 Background services such as printing, system volume, database servers on your computer, and even starting web servers are all examples of daemons. **Daemons** are simply background services that are started upon boot or after you login, depending on the service. These daemons, in general, are controlled by the **init system** which manages the user-space and daemons once it is handed the boot process from the bootloader.
 
-Now to focus on the user-space, which is the area that users interact with the Linux/GNU operating system, there is the **graphical server**, a desktop environment, and applications. The graphical server is the system that displays graphics on your monitor/screen. The **desktop environment** is the part of the user-space that you will directly interact with, which in our case is “LXDE” that stands for Lightweight x11 Desktop Environment (fun fact- it is written in the programming language C!). The **applications**, commonly referred to as “apps”, are the programs you likely frequent the most and include software such as Zoom, VS Code, Snapchat, etc.
+Now to focus on the user-space, which is the area that users interact with the Linux/GNU operating system, there is the **graphical server**, a desktop environment, and applications. The graphical server is the system that displays graphics on your monitor/screen. The **desktop environment** is the part of the user-space that you will directly interact with, which in our case is “LXDE” that stands for Lightweight x11 Desktop Environment (fun fact- it is written in the programming language C!). The **applications**, commonly referred to as “apps”, are the programs you likely frequent the most and include previously mentioned applications such as the Microsoft Office Suite.
 
 Earlier in the lesson, we discussed some of the most common operating systems in the world. Now that we’ve explored Linux/GNU at length, let’s learn about how Linux/GNU influenced or is a part of these systems:
 
@@ -302,13 +302,13 @@ Lastly as another fun fact; Raspbian’s version releases are named alongside De
 - **Interpreted Programming Languages**
 - **Interpreters**
 
-A **programming language** is a formal language that contains a set of instructions to produce certain outputs. The rules that define the written part of a programming language are called **syntax**. The two primary types of programming languages are compiled programming languages and interpreted programming languages. **Compiled programming languages** (ex. C) are languages that can be directly translated by the computer via a **compiler** (ex. GCC), which takes a program written in some compiled programming language and converts it to binary code that is executable by the machine. Remember- computers speak in 1’s and 0’s! Here is an overly complicated chart that describes that process, but can be useful for those students who like to understand computing in its most basic form.
+A **programming language** is a formal language that contains a set of instructions to produce certain outputs. The rules that define the written part of a programming language are called **syntax**. The two primary types of programming languages are compiled programming languages and interpreted programming languages. **Compiled programming languages** (ex. C) are languages that can be directly translated by the computer via a **compiler** (ex. GCC), which takes a program written in some compiled programming language and converts it to binary code that is executable by the machine. Remember- computers speak in 1’s and 0’s! While compilers can translate to machine level code as we just stated, it's important to understand that the formal definition of a compiler simply states that it can translate code from language "x" to language "y", and that it does not necessarily have to translate to a "lower level" of code. Here is an overly complicated chart that describes that process, but can be useful for those students who like to understand computing in its most basic form.
 
 <div class=mdImage align=center>
     <img src="./images/compiler_tree.png" width="500" height="auto" />
 </div>
 
-**Interpreted programming languages** (ex. Python) are languages that execute a program’s instructions directly via an **interpreter** (ex. CPython), which does NOT require translating the code into a lower level machine language (i.e. assembly code, binary, etc.).
+**Interpreted programming languages** (ex. Python) are languages that execute a program’s instructions directly via an **interpreter** (ex. CPython), which converts the source code of the Python program into byte code and executes it. While technically interpreted programming languages must compile the Python code into byte code, we still informally refer to this family of programming languages as "interpreted", as it is the interpreter doing the heavy lifting and compiling of the code.
 
 <div align=center><h2>Section 2 Review Questions</h2></div>
 
