@@ -67,7 +67,7 @@ In this lesson we will review two main types of user interfaces:
 - Graphical User Interface (GUI)
 - Command Line Interface (CLI)
 
-The **graphical user interface (GUI)** is a system that displays interactive visual components for a computer’s software. (4) With a graphical user interface, the functions are carried out by <ins>clicking or moving buttons, icons and menus by means of a pointing device.</ins>
+The **Graphical User Interface (GUI)** is a system that displays interactive visual components for a computer’s software. (4) With a graphical user interface, the functions are carried out by <ins>clicking or moving buttons, icons and menus by means of a pointing device.</ins>
 
 Most GUIs have the following basic components:
 - a start menu with program groups
@@ -87,7 +87,7 @@ It is important to note that the CLI <ins>does not natively include the ability 
     <img src="./images/cli.jpg" width="400" height="auto" />
 </div>
 
-The user interface is an important part of an operating system because it allows a user to enter and receive information. Without a user interface, end-users can control things like a software application or hardware device.
+The user interface is an important part of an operating system because it allows a user to enter and receive information. Without a user interface, end-users can't control things like a software application or hardware device.
 
 <div align=center><h3>3. Supporting Application Software</h3></div>
 
