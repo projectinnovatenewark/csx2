@@ -24,6 +24,11 @@ Now that you understand how a computer works at a basic level, we will explore h
 
 An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
 
+<<<<<<< HEAD
+=======
+<div align=center><h2>Core Functions of an Operating System</h2></div>
+
+>>>>>>> 7976f0a1bfe2519a0481499fd079147bec7c2597
 An operating system has three main functions:
 
 1. Managing computer resources
@@ -196,6 +201,7 @@ The name of the Windows OS comes from the fact that programs are run in “windo
 
 **Linux** is an operating system that was first released in 1991 by Linus Torvalds. Whether you want to learn IT or software development, Linux is a mainstay in the developer community as an operating system. The major difference between it and the Windows/Mac operating systems is that Linux is **open-sourced**. This means that Linux is completely free to download and use across as many computers that you own. What makes Linux open-sourced is the ability for any user to change its source code (which can be thought of as the exact rules for which an OS runs). There are pros and cons to having an open source operating system, which we will list here.
 
+<<<<<<< HEAD
 **Pros**
 - Great for users that want to make changes to how their operating system works
 - Open source is more developer-friendly
@@ -285,3 +291,8 @@ A **programming language** is a formal language that contains a set of instructi
 
 **Interpreted programming languages** (ex. Python) are languages that execute a program’s instructions directly via an **interpreter** (ex. CPython), which does NOT require translating the code into a lower level machine language (i.e. assembly code, binary, etc.).
 
+=======
+<img align=center src="./images/pro_con_linux.png" width="800px" height="auto" />
+
+Linux comes in many forms (seriously- there’s over 500!), called “**distributions**” or “distros” for short. What makes them all Linux operating systems is that they are based on the Linux kernel. Distros of Linux derive from either Debian or RPM, which are the two package managers for Linux distros. ***A typical Linux distribution consists of a*** <ins>***Linux kernel***</ins> ***and*** <ins>***GNU packages***</ins>.
+>>>>>>> 7976f0a1bfe2519a0481499fd079147bec7c2597
