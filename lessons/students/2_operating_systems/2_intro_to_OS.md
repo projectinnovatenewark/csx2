@@ -116,3 +116,19 @@ The name of the Windows OS comes from the fact that programs are run in “windo
 
 **Linux** is an operating system that was first released in 1991 by Linus Torvalds. Whether you want to learn IT or software development, Linux is a mainstay in the developer community as an operating system. The major difference between it and the Windows/Mac operating systems is that Linux is **open-sourced**. This means that Linux is completely free to download and use across as many computers that you own. What makes Linux open-sourced is the ability for any user to change its source code (which can be thought of as the exact rules for which an OS runs). There are pros and cons to having an open source operating system, which we will list here.
 
+**Pros**
+- Great for users that want to make changes to how their operating system works
+- Open source is more developer-friendly
+- Free to install on your computer(s)
+- More secure as developers across the world have access to source code
+- Any developer can offer code updates to be implemented to Linux
+- Typically faster than Windows OS
+- Works on computers with low system specifications
+
+**Cons**
+- Learning curve as Linux differs from other OS’s
+- Certain applications do not work on Linux that might be specific to Mac or Windows
+- Not many people use Linux for their computer’s operating system, as it’s most significant use today is for developers
+- Not as user-friendly as Mac or Windows
+
+Linux comes in many forms (seriously- there’s over 500!), called “**distributions**” or “distros” for short. What makes them all Linux operating systems is that they are based on the Linux kernel. Distros of Linux derive from either Debian or RPM, which are the two package managers for Linux distros. ***A typical Linux distribution consists of a*** <ins>***Linux kernel***</ins> ***and*** <ins>***GNU packages***</ins>.
