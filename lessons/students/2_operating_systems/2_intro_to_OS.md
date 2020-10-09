@@ -138,7 +138,7 @@ Various operating systems are found on computing devices. These are a few differ
 - Mobile Devices
 
 <div class=mdImage align=center>
-    <img src="./images/mobile_devices.jpg" width="400" height="auto" />
+    <img src="./images/mobile_device.jpg" width="400" height="auto" />
 </div>
 
 - Tablets
@@ -216,7 +216,7 @@ Linux comes in many forms (seriously- there’s over 500!), called “**distribu
 The Linux **kernel** is the core of the operating system and the layer nearest to the hardware. The kernel manages computer resources, thus providing one of the basic operating system functions that we described earlier in the lesson. These resources include the computer’s processor (CPU), memory (ex. RAM), storage (ex. Solid State Drives), and peripheral devices (ex. keyboards).
 
 <div class=mdImage align=center>
-    <img src="./images/linux_tree.jpg" width="400" height="auto" />
+    <img src="./images/linux_tree.png" width="400" height="auto" />
     (Photo Source: IBM)
 </div>
 
