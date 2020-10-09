@@ -286,7 +286,7 @@ Raspbian comes packed with all of the major tools that come with your average Wi
 Lastly as another fun fact; Raspbian’s version releases are named alongside Debian, so they are also Toy Story character names.
 
 <div class=mdImage align=center>
-    <img src="./images/raspbian_logo.png" width="auto" height="200" />
+    <img src="./images/raspbian_logo.png" width="auto" height="150" />
 </div>
 <div class=mdImage align=center>
     <img src="./images/raspbian_desktop.png" width="400" height="auto" />
