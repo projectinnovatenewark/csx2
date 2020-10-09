@@ -236,7 +236,9 @@ Earlier in the lesson, we discussed some of the most common operating systems in
 - **Apple macOS**- Mac OS is based off of Unix, which predates Linux. Linux was influenced by Unix.
 
 <div class=mdImage align=center>
-    <img src="./images/linux_logo.jpg" width="400" height="auto" href="https://www.youtube.com/watch?v=o8NPllzkFhE"/>
+    <a href="https://www.youtube.com/watch?v=o8NPllzkFhE">
+    <img src="./images/linux_logo.jpg" width="400" height="auto" />
+    </a>
 </div>
 <div class=mdImage align=center>
     <img src="./images/linux_desktop.jpg" width="400" height="auto" />
