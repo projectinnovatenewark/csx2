@@ -234,6 +234,9 @@ Earlier in the lesson, we discussed some of the most common operating systems in
 - **Android** - The Android OS uses a modified version of the Linux kernel.
 - **Microsoft Windows**- Windows makes use of many GNU tools that operate in the user-space, thus the command line and some of it’s tools will resemble your experience this year with our Linux/GNU command line.
 - **Apple macOS**- Mac OS is based off of Unix, which predates Linux. Linux was influenced by Unix.
+<br>
+
+<div align=center>Click on Tux to learn more about Linus Torvalds</div>
 
 <div class=mdImage align=center>
     <a href="https://www.youtube.com/watch?v=o8NPllzkFhE">
