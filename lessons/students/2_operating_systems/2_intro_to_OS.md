@@ -32,4 +32,87 @@ An operating system has three main functions:
 2. Establishing user interfaces
 3. Supporting applications software
 
-<div align=center><h3>Core Funcitons of an Operating System</h3></div>
+<div align=center><h3>1. Managing Computer Resources</h3></div>
+
+**Key Terms**
+- **Processor Management**
+- **Memory Management**
+- **Device Management**
+- **Storage Management**
+
+**Processor management** involves putting the tasks into order and pairing them into manageable size before they go to the CPU.
+**Memory management** coordinates data to and from RAM (random-access memory) and determines the necessity for virtual memory.
+**Device management** provides interface between connected devices.
+**Storage management** directs permanent data storage.
+
+<div align=center><h3>2. Establishing User Interfaces</h3></div>
+
+**Key Terms**
+- **Graphical User Interface**
+- **Command Line Interface**
+
+<div align=center><h3>3. Supporting Application Software</h3></div>
+
+**Key Terms**
+- **Applications**
+
+<div align=center><h4>Examples of Operating Systems</h4></div>
+
+<!-- image -->
+
+Various operating systems are found on computing devices. These are a few different types of computers that run unique operating systems:
+
+- Desktops/Laptops
+
+<!-- insert image -->
+
+- Mobile Devices
+
+<!-- insert image -->
+
+- Tablets
+
+<!-- insert image -->
+
+- Consoles
+
+<!-- insert image -->
+
+In the next part of the lesson we will be reviewing a few examples of desktop operating systems.
+
+<div align=center><h4>Microsoft Windows</h4></div>
+
+**Key Terms**
+- **Microsoft Windows**
+
+**Microsoft Windows** is a group of OSs manufactured by Microsoft. Microsoft Windows is the most widely used desktop operating system. This is because Windows comes preloaded on most new PCs, so it is found on most home computers.
+
+There have been many different versions of Windows, but the most recent ones are:
+- Windows 10 (released in 2015)
+- Windows 8 (2012)
+- Windows 7 (2009)
+- Windows Vista (2007)
+
+The name of the Windows OS comes from the fact that programs are run in “windows”: each program has its own window, and you can have several programs open at the same time. 
+
+
+<!-- insert image -->
+
+<!-- insert image -->
+
+<div align=center><h4>Linux</h4></div>
+
+**Key Terms**
+- **Linux**
+- **Open-Source Software**
+- **Kernel**
+- **Distributions & GNU**
+- **Bootloader**
+- **Init System**
+- **Daemons**
+- **Graphical Server**
+- **Desktop Environment**
+- **Applications**
+
+**Linux** is an operating system that was first released in 1991 by Linus Torvalds. Whether you want to learn IT or software development, Linux is a mainstay in the developer community as an operating system. The major difference between it and the Windows/Mac operating systems is that Linux is **open-sourced**. This means that Linux is completely free to download and use across as many computers that you own. What makes Linux open-sourced is the ability for any user to change its source code (which can be thought of as the exact rules for which an OS runs). There are pros and cons to having an open source operating system, which we will list here.
+
