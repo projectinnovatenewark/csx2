@@ -121,7 +121,7 @@ With this in mind, It is important to recognize that there is a relationship bet
 
 The relationship is that **system software is used to support application software.**
 
-<div align=center><h4>Examples of Operating Systems</h4></div>
+<div align=center><h3>Examples of Operating Systems</h3></div>
 
 <div class=mdImage align=center>
     <img src="./images/linuxwindows.jpg" width="400" height="auto" />
@@ -155,7 +155,7 @@ Various operating systems are found on computing devices. These are a few differ
 
 In the next part of the lesson we will be reviewing a few examples of desktop operating systems.
 
-<div align=center><h4>Microsoft Windows</h4></div>
+<div align=center><h3>Microsoft Windows</h3></div>
 
 **Key Terms**
 - **Microsoft Windows**
@@ -180,7 +180,7 @@ The name of the Windows OS comes from the fact that programs are run in “windo
     <img src="./images/windows_desktop.jpg" width="400" height="auto" />
 </div>
 
-<div align=center><h4>Linux</h4></div>
+<div align=center><h3>Linux</h3></div>
 
 **Key Terms**
 - **Linux**
@@ -242,7 +242,7 @@ Earlier in the lesson, we discussed some of the most common operating systems in
     <img src="./images/linux_desktop.png" width="400" height="auto" />
 </div>
 
-<div align=center><h4>Raspberry Pi OS based in Debian GNU/Linux</h4></div>
+<div align=center><h3>Raspberry Pi OS based in Debian GNU/Linux</h3></div>
 
 **Key Terms**
 - **Debian**
@@ -287,7 +287,7 @@ Lastly as another fun fact; Raspbian’s version releases are named alongside De
     <img src="./images/raspbian_desktop.png" width="400" height="auto" />
 </div>
 
-<div align=center><h4>Programming Languages</h4></div>
+<div align=center><h3>Programming Languages</h3></div>
 
 **Key Terms**
 - **Programming Language**
