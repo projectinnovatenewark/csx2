@@ -263,7 +263,7 @@ Earlier in the lesson, we discussed some of the most common operating systems in
     <img src="./images/debian_logo.png" width="auto" height="200" />
 </div>
 <div class=mdImage align=center>
-    <img src="./images/debian_desktop.png" width="400" height="auto" />
+    <img src="./images/debian_desktop.jpg" width="400" height="auto" />
 </div>
 
 A little fun fact about Debian’s naming scheme for their releases: Debian releases are named after Toy Story characters! This originated when Bruce Perens served as the Debian Project Leader while also working for Pixar.Being that Debian is rooted in Linux, it shares similar pros and cons that you learned in the previous section.
