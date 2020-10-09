@@ -286,7 +286,7 @@ Raspbian comes packed with all of the major tools that come with your average Wi
 Lastly as another fun fact; Raspbian’s version releases are named alongside Debian, so they are also Toy Story character names.
 
 <div class=mdImage align=center>
-    <img src="./images/raspbian_logo.png" width="400" height="auto" />
+    <img src="./images/raspbian_logo.png" width="auto" height="200" />
 </div>
 <div class=mdImage align=center>
     <img src="./images/raspbian_desktop.png" width="400" height="auto" />
@@ -305,7 +305,7 @@ Lastly as another fun fact; Raspbian’s version releases are named alongside De
 A **programming language** is a formal language that contains a set of instructions to produce certain outputs. The rules that define the written part of a programming language are called **syntax**. The two primary types of programming languages are compiled programming languages and interpreted programming languages. **Compiled programming languages** (ex. C) are languages that can be directly translated by the computer via a **compiler** (ex. GCC), which takes a program written in some compiled programming language and converts it to binary code that is executable by the machine. Remember- computers speak in 1’s and 0’s! Here is an overly complicated chart that describes that process, but can be useful for those students who like to understand computing in its most basic form.
 
 <div class=mdImage align=center>
-    <img src="./images/compiler_tree.png" width="400" height="auto" />
+    <img src="./images/compiler_tree.png" width="500" height="auto" />
 </div>
 
 **Interpreted programming languages** (ex. Python) are languages that execute a program’s instructions directly via an **interpreter** (ex. CPython), which does NOT require translating the code into a lower level machine language (i.e. assembly code, binary, etc.).
