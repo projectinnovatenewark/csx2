@@ -24,13 +24,13 @@ Now that you understand how a computer works at a basic level, we will explore h
 
 An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
 
-<div align=center><h2>Core Funcitons of an Operating System</h2></div>
-
 An operating system has three main functions:
 
 1. Managing computer resources
 2. Establishing user interfaces
 3. Supporting applications software
+
+In the next few sections, we will review these three functions in greater detail.
 
 <div align=center><h3>1. Managing Computer Resources</h3></div>
 
@@ -40,43 +40,118 @@ An operating system has three main functions:
 - **Device Management**
 - **Storage Management**
 
-**Processor management** involves putting the tasks into order and pairing them into manageable size before they go to the CPU.
-**Memory management** coordinates data to and from RAM (random-access memory) and determines the necessity for virtual memory.
-**Device management** provides interface between connected devices.
-**Storage management** directs permanent data storage.
+One of the main functions of an operating system is to manage the hardware and software resources of a computer system system. Some of these resources are familiar computing terms that we covered in the last section, such as the:
+- Processor
+- Memory
+- Storage
+- I/O Devices
+
+Each of these computer resources are related to a different management function performed by the Operating System.
+- **Processor management** involves putting the tasks into order and pairing them into manageable size before they go to the CPU.
+- **Memory management** coordinates data to and from RAM (random-access memory) and determines the necessity for virtual memory.
+- **Device management** provides interface between connected devices.
+- **Storage management** directs permanent data storage.
 
 <div align=center><h3>2. Establishing User Interfaces</h3></div>
 
 **Key Terms**
+- **User Interface**
 - **Graphical User Interface**
 - **Command Line Interface**
+- **Text-Based User Interface**
+
+A **user interface** (UI) refers to the part of an operating system, program, or device that allows a user to enter and receive information. 
+
+In this lesson we will review two main types of user interfaces:
+
+- Graphical User Interface (GUI)
+- Command Line Interface (CLI)
+
+The **graphical user interface (GUI)** is a system that displays interactive visual components for a computer’s software. (4) With a graphical user interface, the functions are carried out by <ins>clicking or moving buttons, icons and menus by means of a pointing device.</ins>
+
+Most GUIs have the following basic components:
+- a start menu with program groups
+- a taskbar showing running programs
+- a desktop
+- various icons and shortcuts.
+
+<div class=mdImage align=center>
+    <img src="./images/windows_gui.png" width="400" height="auto" />
+</div>
+
+The **Command Line Interface (CLI)** is a command line program that accepts text input to execute operating system functions. The command line comes in handy for programmers when they need to complete tasks not available to features found on a GUI.
+
+It is important to note that the CLI <ins>does not natively include the ability to carry out functions by means of a pointing device.</ins> This is because the CLI is a **text-based user interface**, meaning it uses text to process commands to a computer program instead of a graphic interface.
+
+<div class=mdImage align=center>
+    <img src="./images/cli.jpg" width="400" height="auto" />
+</div>
+
+The user interface is an important part of an operating system because it allows a user to enter and receive information. Without a user interface, end-users can control things like a software application or hardware device.
 
 <div align=center><h3>3. Supporting Application Software</h3></div>
 
 **Key Terms**
 - **Applications**
+- **End Users**
+
+**Application software** is a type of computer program that performs a specific function.
+
+Applications are designed to assist **end-users** with a particular process, which may be related to productivity, creativity, and/or communication. The term **end-users** describes the person who actually uses a particular product. 
+Application software programs are created to facilitate a variety of functions, including but not limited to: 
+
+- Managing information
+- Manipulating data
+- Constructing visuals
+- Coordinating resources
+- Calculating figures
+
+Examples of application software include items like:
+- Microsoft suite of products (Office, Excel, Word, PowerPoint, Outlook, etc.)
+- Internet browsers like Firefox, Safari, and Chrome
+- Pandora (for music appreciation)
+- Skype (for real-time online communication)
+- Slack (for team collaboration)
+
+Application software depends upon the <ins>operating system</ins> to act as the interface between the end-user and the computer hardware. 
+
+With this in mind, It is important to recognize that there is a relationship between the two types of software:
+- System Software (operating systems)
+- Application Software (user-downloaded programs)
+
+The relationship is that **system software is used to support application software.**
 
 <div align=center><h4>Examples of Operating Systems</h4></div>
 
-<!-- image -->
+<div class=mdImage align=center>
+    <img src="./images/linuxwindows.jpg" width="400" height="auto" />
+</div>
 
-Various operating systems are found on computing devices. These are a few different types of computers that run unique operating systems:
+Various operating systems are found on computing devices. These are a few different types of computers that run <ins>unique operating systems</ins>:
 
 - Desktops/Laptops
 
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/desktop_laptop.png" width="400" height="auto" />
+</div>
 
 - Mobile Devices
 
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/mobile_devices.jpg" width="400" height="auto" />
+</div>
 
 - Tablets
 
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/tablets.jpg" width="400" height="auto" />
+</div>
 
 - Consoles
 
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/consoles.jpeg" width="400" height="auto" />
+</div>
 
 In the next part of the lesson we will be reviewing a few examples of desktop operating systems.
 
@@ -85,7 +160,8 @@ In the next part of the lesson we will be reviewing a few examples of desktop op
 **Key Terms**
 - **Microsoft Windows**
 
-**Microsoft Windows** is a group of OSs manufactured by Microsoft. Microsoft Windows is the most widely used desktop operating system. This is because Windows comes preloaded on most new PCs, so it is found on most home computers.
+**Microsoft Windows** is a computer operating system that was developed by Microsoft Corporation in 1985 to run personal computers (PCs). Microsoft Windows is the most widely used desktop operating system. This is because Windows comes preloaded on most new PCs, so it is found on most home computers.
+
 
 There have been many different versions of Windows, but the most recent ones are:
 - Windows 10 (released in 2015)
@@ -96,9 +172,13 @@ There have been many different versions of Windows, but the most recent ones are
 The name of the Windows OS comes from the fact that programs are run in “windows”: each program has its own window, and you can have several programs open at the same time. 
 
 
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/windows_logo.png" width="400" height="auto" />
+</div>
 
-<!-- insert image -->
+<div class=mdImage align=center>
+    <img src="./images/windows_desktop.jpg" width="400" height="auto" />
+</div>
 
 <div align=center><h4>Linux</h4></div>
 
