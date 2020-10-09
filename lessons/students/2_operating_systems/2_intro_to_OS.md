@@ -219,7 +219,7 @@ The Linux **kernel** is the core of the operating system and the layer nearest t
     <img src="./images/linux_tree.png" width="400" height="auto" />
     
 </div>
-<div align=center>*(Photo source: IBM)*</div>
+<div align=center><i>(Photo source: IBM)</i></div>
 
 
 While the kernel is the most important part of a Linux operating system, it would not be complete without the many open source packages that compliment it. Many of these packages are a part of the **GNU Project** which is an open software initiative started by the Free Software Foundation in 1984. While the formal name for Linux operating systems is often referred to as Linux/GNU, you can casually refer to it as Linux. Additionally, as you can see in the above chart, GNU utilities live in the user-space and include software like compilers (ex. GCC which interprets the programming language “C”) and command line tools (ex. Bash). These tools, other GNU tools, and non-GNU tools (ex. the Python programming language) combine to form the basis of the operating system that you will be using throughout the CSX Program.
