@@ -24,7 +24,7 @@ Now that you understand how a computer works at a basic level, we will explore h
 
 An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
 
-<div align=center><h2>Core Funcitons of an Operating System</h2></div>
+<div align=center><h2>Core Functions of an Operating System</h2></div>
 
 An operating system has three main functions:
 
