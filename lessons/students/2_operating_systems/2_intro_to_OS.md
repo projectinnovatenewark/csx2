@@ -7,7 +7,7 @@ The purpose of this section is to introduce you to the following concepts:
 - What are the core functions of an operating system?
 - What are some examples of operating systems?
 
-<div align=center><h2>Software</h2></div>
+<div align=center><h3>Software</h3></div>
 
 In the last lesson, we learned that computer systems consist of two major elements: hardware and software. In this lesson, you are going to learn about software.
 
@@ -18,7 +18,7 @@ Software is often divided into two categories:
 - System Software: operating systems and any program that supports application software.
 - Application Software: user-downloaded programs that fulfill a want or need
 
-<div align=center><h2>What is an Operating System?</h2></div>
+<div align=center><h3>What is an Operating System?</h3></div>
 
 Now that you understand how a computer works at a basic level, we will explore how an operating system makes hardware available to applications on the computer.
 
@@ -32,7 +32,7 @@ An operating system has three main functions:
 
 In the next few sections, we will review these three functions in greater detail.
 
-<div align=center><h3>1. Managing Computer Resources</h3></div>
+<div align=center><h4>1. Managing Computer Resources</h4></div>
 
 **Key Terms**
 - **Processor Management**
@@ -52,7 +52,7 @@ Each of these computer resources are related to a different management function 
 - **Device management** provides interface between connected devices.
 - **Storage management** directs permanent data storage.
 
-<div align=center><h3>2. Establishing User Interfaces</h3></div>
+<div align=center><h4>2. Establishing User Interfaces</h4></div>
 
 **Key Terms**
 - **User Interface**
@@ -89,7 +89,7 @@ It is important to note that the CLI <ins>does not natively include the ability 
 
 The user interface is an important part of an operating system because it allows a user to enter and receive information. Without a user interface, end-users can't control things like a software application or hardware device.
 
-<div align=center><h3>3. Supporting Application Software</h3></div>
+<div align=center><h4>3. Supporting Application Software</h4></div>
 
 **Key Terms**
 - **Applications**
@@ -121,7 +121,7 @@ With this in mind, It is important to recognize that there is a relationship bet
 
 The relationship is that **system software is used to support application software.**
 
-<div align=center><h3>Examples of Operating Systems</h3></div>
+<div align=center><h4>Examples of Operating Systems</h4></div>
 
 <div class=mdImage align=center>
     <img src="./images/linuxwindows.jpg" width="400" height="auto" />
@@ -155,7 +155,7 @@ Various operating systems are found on computing devices. These are a few differ
 
 In the next part of the lesson we will be reviewing a few examples of desktop operating systems.
 
-<div align=center><h3>Microsoft Windows</h3></div>
+<div align=center><h4>Microsoft Windows</h4></div>
 
 **Key Terms**
 - **Microsoft Windows**
@@ -202,7 +202,6 @@ The name of the Windows OS comes from the fact that programs are run in “windo
 - Free to install on your computer(s)
 - More secure as developers across the world have access to source code
 - Any developer can offer code updates to be implemented to Linux
-- Typically faster than Windows OS
 - Works on computers with low system specifications
 
 **Cons**
@@ -266,7 +265,7 @@ Earlier in the lesson, we discussed some of the most common operating systems in
     <img src="./images/debian_desktop.jpg" width="400" height="auto" />
 </div>
 
-A little fun fact about Debian’s naming scheme for their releases: Debian releases are named after Toy Story characters! This originated when Bruce Perens served as the Debian Project Leader while also working for Pixar.Being that Debian is rooted in Linux, it shares similar pros and cons that you learned in the previous section.
+A little fun fact about Debian’s naming scheme for their releases: Debian releases are named after Toy Story characters! This originated when Bruce Perens served as the Debian Project Leader while also working for Pixar.
 
 **Raspbian** is a Debian based operating system optimized for the Raspberry Pi. As updates are released for Debian, usually an update for Raspbian is updated, with the same release names. You will come to find out that the Raspberry Pi does not need to run as a desktop environment, but Raspbian gives this opportunity.
 
@@ -282,8 +281,6 @@ Raspbian comes packed with all of the major tools that come with your average Wi
 - View images and videos.
 - Code editing for programming.
 - General web surfing.
-
-Lastly as another fun fact; Raspbian’s version releases are named alongside Debian, so they are also Toy Story character names.
 
 <div class=mdImage align=center>
     <img src="./images/raspbian_logo.png" width="auto" height="150" />
