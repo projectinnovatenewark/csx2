@@ -20,7 +20,7 @@ A **number system** is a system of naming or representing numbers. The following
   2. **Binary number system**: consists of two digits (0 and 1). The figures described under this system are known as binary numbers, which are a combination of 0 and 1.  - For example, 110101 is a binary number.
   
 <div class=mdImage align=center>
-    <img src="./images/binary.gif" width="200" height="auto" />
+    <img src="./images/binary.gif" width="300" height="auto" />
 </div>
   
  <div align=center><h3>How is Binary Related to Computers?</h3></div>
@@ -29,7 +29,7 @@ A **number system** is a system of naming or representing numbers. The following
 The circuits in a computer's processor are made up of billions of transistors. A **transistor** is a tiny switch that is activated by the electronic signals it receives. The digits 1 and 0 used in binary reflect the on and off states of a transistor.
 
 <div class=mdImage align=center>
-    <img src="./images/on_off.png" width="500" height="auto" />
+    <img src="./images/on_off.png" width="400" height="auto" />
 </div>
 
 Computer programs are sets of instructions. Each instruction is translated into machine code - simple binary codes that activate the CPU. Programmers write computer code and this is converted by a translator into binary instructions that the processor can execute.
