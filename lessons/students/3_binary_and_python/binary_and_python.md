@@ -41,14 +41,14 @@ Each column on the following table represents the number two raised to an expone
 |exponent|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |---|---|---|---|---|---|---|---|---| 
 |Value|128|64|32|16|8|4|2|1| 
-|ON/OFF|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|
+|OFF/ON|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|
 
 For example: The following chart illustrates the binary number 01101000.
 
 |exponent|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |---|---|---|---|---|---|---|---|---| 
 |Value|128|64*|32*|16|8*|4|2|1| 
-|ON/OFF|0|1|1|0|1|0|0|0|
+|OFF/ON|0|1|1|0|1|0|0|0|
 <div align=center><b>Note</b>: Values with * are turned on</div>
 <br>
 
@@ -60,7 +60,7 @@ To get the total of this example, read the chart from <ins><b>right to left</b><
 |exponent|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |---|---|---|---|---|---|---|---|---| 
 |Value|128*|64*|32*|16*|8*|4*|2*|1*| 
-|ON/OFF|1|1|1|1|1|1|1|1|
+|OFF/ON|1|1|1|1|1|1|1|1|
 
 Understanding these number systems and converting from one system to another should give you a better understanding of how a computer works. When a computer wants to display a number, it will convert from the binary representation of that number to decimal by default. In the next section, you will learn more about the different forms of binary and how it relates to programming.
 
