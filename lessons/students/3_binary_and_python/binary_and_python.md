@@ -162,11 +162,11 @@ While there is so much more that happens under the hood of Python to make it wor
 <div><b>d.</b> It is directly compiled into machine code instead of using an interpreter. (A)</div>
 <br>
 
-15. **Which of the following is true about Python in relation to computing?**
-<div><b>a.</b> It is a type of snake. (B)</div>
-<div><b>b.</b> It is the smallest unit of data in computing. (P)</div>
-<div><b>c.</b> It is an interpreted, object-oriented, high-level programming language. (O)</div>
-<div><b>d.</b> It is directly compiled into machine code instead of using an interpreter. (A)</div>
+15. **The following are all elements of object-oriented programming except:**
+<div><b>a.</b> Encapsulation (J)</div>
+<div><b>b.</b> Inheritance (S)</div>
+<div><b>c.</b> Polygon (O)</div>
+<div><b>d.</b> Data Abstraction (F)</div>
 <br>
 
 **You can hear me, but can’t see me, and I won’t answer unless spoken to. What am I?? An _ _ _ _**
