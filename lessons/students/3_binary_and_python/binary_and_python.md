@@ -20,7 +20,7 @@ A **number system** is a system of naming or representing numbers. The following
   2. **Binary number system**: consists of two digits (0 and 1). The figures described under this system are known as binary numbers, which are a combination of 0 and 1.  - For example, 110101 is a binary number.
   
 <div class=mdImage align=center>
-    <img src="./images/binary.gif" width="500" height="auto" />
+    <img src="./images/binary.gif" width="200" height="auto" />
 </div>
   
  <div align=center><h3>How is Binary Related to Computers?</h3></div>
