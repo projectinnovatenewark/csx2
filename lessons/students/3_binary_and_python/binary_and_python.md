@@ -19,14 +19,18 @@ A **number system** is a system of naming or representing numbers. The following
   1. **Decimal number system**: the <ins>most commonly used number system</ins>, which consists of ten digits (0, 1, 2, 3, 4, 5, 6, 7, 8, and 9). We use the combination of these 10 digits to form all other numbers. 
   2. **Binary number system**: consists of two digits (0 and 1). The figures described under this system are known as binary numbers, which are a combination of 0 and 1.  - For example, 110101 is a binary number.
   
-  # Insert Picture
+<div class=mdImage align=center>
+    <img src="./images/binary.gif" width="500" height="auto" />
+</div>
   
  <div align=center><h3>How is Binary Related to Computers?</h3></div>
  
 <ins>All computer data is represented using binary</ins>. A binary digit, or **bit**, is the smallest unit of data in computing. It is represented by a 0 or a 1. Binary numbers are made up of binary digits (bits).
 The circuits in a computer's processor are made up of billions of transistors. A **transistor** is a tiny switch that is activated by the electronic signals it receives. The digits 1 and 0 used in binary reflect the on and off states of a transistor.
 
-# insert image
+<div class=mdImage align=center>
+    <img src="./images/on_off.png" width="500" height="auto" />
+</div>
 
 Computer programs are sets of instructions. Each instruction is translated into machine code - simple binary codes that activate the CPU. Programmers write computer code and this is converted by a translator into binary instructions that the processor can execute.
 
@@ -67,16 +71,16 @@ Understanding these number systems and converting from one system to another sho
 - **Machine Code**
 - **Bytecode**
 - **Object-Orientated Programming**
-- **Object**
-- **Attributes**
-- **Methods**
-- **Class**
 - **Inheritance**
 - **Polymorphism**
 - **Encapsulation**
 - **Data Abstraction**
 
 <div align=center><h3>What is Python?</h3></div>
+
+<div class=mdImage align=center>
+    <img src="./images/python_logo.png" width="500" height="auto" />
+</div>
 
 In the last section, we reviewed that a programming language is a formal language that contains a set of instructions to produce certain outputs. In this course, the programming language that we will be focusing on is Python.
 **Python** is “an interpreted, object-oriented, high-level programming language. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.” according to it’s documentation.
@@ -112,27 +116,22 @@ With this understanding of what “interpreted” means when it comes to Python,
 <div align=center><h3>What is Object-Orientated Programming?</h3></div>
 
 **Object-Orientated Programming (OOP)** is the computer programming model that focuses on data or “objects” that can be manipulated rather than how to manipulate them. This is a common approach for large and complex programs. There are 7 elements that designate a programming language as object-orientated.
-
-1. **Object**:
-  An object is an entity that has attributes and methods in terms of programming. **Attributes** are data that represents the state of an object. **Methods** are     procedures associated with an object that can perform operations on the object. In Python, everything is an object whether it be simple strings or integers.
   
-2. **Class**:
-  A class is like an object constructor, or a “blueprint” for creating objects. Classes are a collection of objects that share similar attributes and methods. An     example of this would be a class of “Student” that has the attributes: Graduation Year, GPA, and Favorite Subject. Then a method of this class would be to           calculate how many days until the student graduates.
-
-3. **Method**:
-  As mentioned before, methods perform objects on objects. They can be thought of as functions that are specifically associated with a given object.
-  
-4. **Inheritance**:
+1. **Inheritance**:
   Inheritance specifies that a child object will acquire all of a parent objects given attributes and methods. You can think of a parent object like “Mammal” that would have child objects of “Human”, “Marsupial”, and “Canine”. Although Mammals can be defined by air breathing creatures, humans, marsupials and canines are all mammals, but will have their own set of attributes and methods associated.
   
-5. **Polymorphism**:
+2. **Polymorphism**:
   Polymorphism is to have many forms. In programming, this means that a singular function can be used on different types of objects. An example of this would be the len() function in Python. You can use this to find the length of the word “programming” (answer would be 10) or a list of words such as: computer, python, notebook.
   
-6. **Encapsulation**:
+3. **Encapsulation**:
   Encapsulation is how Python and other OOP languages restrict access to methods and variables. When methods are performed on an object, you wrap the object and any other necessary code together into a single unit so that the method only performs operations on the code you designate.  
 
-7. **Data Abstraction**:
+4. **Data Abstraction**:
   Abstraction is often used as a synonym to encapsulation in the programming world because abstraction relies on encapsulation. Abstraction is how an oop language ignores any unnecessary details in a program. This is possible since encapsulation combines the related parts it needs to perform a method.
+
+<div class=mdImage align=center>
+    <img src="./images/pillars_of_oop.jpeg" width="500" height="auto" />
+</div>
   
 <div align=center><h3>Python Overview Takeaways</h3></div>
 
