@@ -62,7 +62,7 @@ To get the total of this example, read the chart from <ins><b>right to left</b><
 |Value|128|64|32|16|8|4|2|1| 
 |OFF/ON|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|
 
-Understanding these number systems and converting from one system to another should give you a better understanding of how a computer works. When a computer wants to display a number, it will convert from the binary representation of that number to decimal by default. In the next section, you will learn more about the different forms of binary and how it relates to programming. Click here for a video to <a href="https://www.youtube.com/watch?v=Xpk67YzOn5w">reinforce</a> what we just learned about binary.
+Understanding these number systems and converting from one system to another should give you a better understanding of how a computer works. When a computer wants to display a number, it will convert from the binary representation of that number to decimal by default. In the next section, you will learn more about the different forms of binary and how it relates to programming. Click <a href="https://www.youtube.com/watch?v=Xpk67YzOn5w">here</a> for a video to reinforce what we just learned about binary.
 
 <div align=center><ins><h2>Part 2: Python</h2></ins></div>
 
