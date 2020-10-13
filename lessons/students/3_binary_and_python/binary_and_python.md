@@ -85,5 +85,27 @@ Now, let’s take this information and move on to the question of “Is Python a
 
 If you are currently thinking that interpreted and compiled programming languages are completely different, then the above seems like a direct contradiction. Why would Python code be compiled if it’s an interpreted language? Well, that is simply how interpreted programming languages are run! CPython, which is a common Python interpreter, would then take that bytecode (which was compiled from the Python code), read those instructions, and execute them.
 
-Let’s demonstrate this by showing the bytecode that is generated from a Python program. We can use a nifty built-in tool from Python called “<span href="https://docs.python.org/3/library/dis.html">dis</span>",
+Let’s demonstrate this by showing the bytecode that is generated from a Python program. We can use a nifty built-in tool from Python called “<a href="https://docs.python.org/3/library/dis.html">dis</a>", which is a package that will “disassemble” the Python code and show us some neatly organized bytecode. Head over to https://repl.it/@enaard/Python-3, wait till the page loads, and enter the following line of Python code:
 
+`print("Hello World! My name is [insert your name here]!")`
+
+Run the code to view the output. There is your first line of Python code in this class! A very simple print statement that outputs your name. Now that you’ve previewed what Python syntax looks like, let’s introduce the “dis” package. We will define a function called “hello” that, when executed, would simply output a print statement just like we did above. However, instead of “calling”, or executing, that function we will use “dis” to display what the function looks like in bytecode.
+
+```
+import dis
+def hello():
+   print("Hello World! My name is [insert your name here]!")
+dis.dis(hello)
+```
+
+With this understanding of what “interpreted” means when it comes to Python, let’s dive into the “object-oriented” side of things.
+
+<div align=center><h3>What is Object-Orientated Programming?</h3></div>
+
+**Object-Orientated Programming (OOP)** is the computer programming model that focuses on data or “objects” that can be manipulated rather than how to manipulate them. This is a common approach for large and complex programs. There are 7 elements that designate a programming language as object-orientated.
+
+<div>1. Object:</div>
+  An object is an entity that has attributes and methods in terms of programming. **Attributes** are data that represents the state of an object. **Methods** are     procedures associated with an object that can perform operations on the object. In Python, everything is an object whether it be simple strings or integers.
+  
+<div>2. Class:</div>
+  A class is like an object constructor, or a “blueprint” for creating objects. Classes are a collection of objects that share similar attributes and methods. An     example of this would be a class of “Student” that has the attributes: Graduation Year, GPA, and Favorite Subject. Then a method of this class would be to           calculate how many days until the student graduates.
