@@ -79,7 +79,7 @@ Understanding these number systems and converting from one system to another sho
 <div align=center><h3>What is Python?</h3></div>
 
 <div class=mdImage align=center>
-    <img src="./images/python_logo.png" width="500" height="auto" />
+    <img src="./images/python_logo.png" width="300" height="auto" />
 </div>
 
 In the last section, we reviewed that a programming language is a formal language that contains a set of instructions to produce certain outputs. In this course, the programming language that we will be focusing on is Python.
