@@ -64,8 +64,14 @@ To get the total of this example, read the chart from <ins><b>right to left</b><
 - **Machine Code**
 - **Bytecode**
 - **Object-Orientated Programming**
+- **Object**
 - **Attributes**
 - **Methods**
+- **Class**
+- **Inheritance**
+- **Polymorphism**
+- **Encapsulation**
+- **Data Abstraction**
 
 <div align=center><h3>What is Python?</h3></div>
 
@@ -104,8 +110,41 @@ With this understanding of what “interpreted” means when it comes to Python,
 
 **Object-Orientated Programming (OOP)** is the computer programming model that focuses on data or “objects” that can be manipulated rather than how to manipulate them. This is a common approach for large and complex programs. There are 7 elements that designate a programming language as object-orientated.
 
-<div>1. Object:</div>
+1. **Object**:
   An object is an entity that has attributes and methods in terms of programming. **Attributes** are data that represents the state of an object. **Methods** are     procedures associated with an object that can perform operations on the object. In Python, everything is an object whether it be simple strings or integers.
   
-<div>2. Class:</div>
+2. **Class**:
   A class is like an object constructor, or a “blueprint” for creating objects. Classes are a collection of objects that share similar attributes and methods. An     example of this would be a class of “Student” that has the attributes: Graduation Year, GPA, and Favorite Subject. Then a method of this class would be to           calculate how many days until the student graduates.
+
+3. **Method**:
+  As mentioned before, methods perform objects on objects. They can be thought of as functions that are specifically associated with a given object.
+  
+4. **Inheritance**:
+  Inheritance specifies that a child object will acquire all of a parent objects given attributes and methods. You can think of a parent object like “Mammal” that would have child objects of “Human”, “Marsupial”, and “Canine”. Although Mammals can be defined by air breathing creatures, humans, marsupials and canines are all mammals, but will have their own set of attributes and methods associated.
+  
+5. **Polymorphism**:
+  Polymorphism is to have many forms. In programming, this means that a singular function can be used on different types of objects. An example of this would be the len() function in Python. You can use this to find the length of the word “programming” (answer would be 10) or a list of words such as: computer, python, notebook.
+  
+6. **Encapsulation**:
+  Encapsulation is how Python and other OOP languages restrict access to methods and variables. When methods are performed on an object, you wrap the object and any other necessary code together into a single unit so that the method only performs operations on the code you designate.  
+
+7. **Data Abstraction**:
+  Abstraction is often used as a synonym to encapsulation in the programming world because abstraction relies on encapsulation. Abstraction is how an oop language ignores any unnecessary details in a program. This is possible since encapsulation combines the related parts it needs to perform a method.
+  
+<div align=center><h3>Python Overview Takeaways</h3></div>
+
+1. You’ve learned about the two different types of binary: machine code and bytecode. 
+2. You’ve learned that while Python is informally referred to as an interpreted programming language, it still requires compiling to be read by the interpreter.
+3. You’ve seen your first bit of Python code and the bytecode that Python code is compiled to.
+
+While there is so much more that happens under the hood of Python to make it work, there simply isn’t enough time in this program to review it all. We hope that this top-level overview serves you well in understanding what Python is all about!
+
+<div align=center><h2>Section 4 Review Questions</h2></div>
+
+12. **Which number system consists of 10 digits and is the most commonly used number system?**
+<div><b>a.</b> Binary (G)</div>
+<div><b>b.</b> Decimal (E)</div>
+<div><b>c.</b> Hexadecimal (M)</div>
+<div><b>d.</b> Octal (N)</div>
+<br>
+  
