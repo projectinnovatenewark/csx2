@@ -49,7 +49,7 @@ For example: The following chart illustrates the binary number 01101000.
 |---|---|---|---|---|---|---|---|---| 
 |Value|128|64*|32*|16|8*|4|2|1| 
 |OFF/ON|0|1|1|0|1|0|0|0|
-<b>Note</b>: Values with * are turned on
+<div><b>Note</b>: Values with * signifies a transister being turned on</div>
 <br>
 
 To get the total of this example, read the chart from <ins><b>right to left</b></ins> and add each column's value to the previous column: 
