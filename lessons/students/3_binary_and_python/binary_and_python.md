@@ -56,11 +56,11 @@ To get the total of this example, read the chart from <ins><b>right to left</b><
 (8+32+64) = 104. This means that the value 01101000 in binary form is equal to 104 in decimal form.
   - As you can see, we do not count the bits with a 0 because they're "turned off."
   
-**Group Exercise**: Can anyone tell me what the decimal value equivalent is for the binary number “11111111”? Feel free to use a calculator!
+**Group Exercise**: Imagine you are doing some work with a machine that can only process 8 bits at a time.  What would this look like in binary? What would be its maximum decimal value that it could process? Use the chart to visualize this concept. Feel free to use a calculator!
 |exponent|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |---|---|---|---|---|---|---|---|---| 
 |Value|128*|64*|32*|16*|8*|4*|2*|1*| 
-|OFF/ON|1|1|1|1|1|1|1|1|
+|OFF/ON|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|
 
 Understanding these number systems and converting from one system to another should give you a better understanding of how a computer works. When a computer wants to display a number, it will convert from the binary representation of that number to decimal by default. In the next section, you will learn more about the different forms of binary and how it relates to programming.
 
