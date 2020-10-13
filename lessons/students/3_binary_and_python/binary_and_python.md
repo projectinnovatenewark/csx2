@@ -57,6 +57,8 @@ To get the total of this example, read the chart from <ins><b>right to left</b><
 |Value|128*|64*|32*|16*|8*|4*|2*|1*| 
 |ON/OFF|1|1|1|1|1|1|1|1|
 
+Understanding these number systems and converting from one system to another should give you a better understanding of how a computer works. When a computer wants to display a number, it will convert from the binary representation of that number to decimal by default. In the next section, you will learn more about the different forms of binary and how it relates to programming.
+
 <div align=center><ins><h2>Part 2: Python</h2></ins></div>
 
 **Key Terms**
@@ -147,4 +149,24 @@ While there is so much more that happens under the hood of Python to make it wor
 <div><b>c.</b> Hexadecimal (M)</div>
 <div><b>d.</b> Octal (N)</div>
 <br>
-  
+
+13. **All computer data is represented using binary. True or False?**
+<div><b>a.</b> True (C) </div>
+<div><b>b.</b> False (D)</div>
+<br>
+
+14. **Which of the following is true about Python in relation to computing?**
+<div><b>a.</b> It is a type of snake. (B)</div>
+<div><b>b.</b> It is the smallest unit of data in computing. (P)</div>
+<div><b>c.</b> It is an interpreted, object-oriented, high-level programming language. (H)</div>
+<div><b>d.</b> It is directly compiled into machine code instead of using an interpreter. (A)</div>
+<br>
+
+15. **Which of the following is true about Python in relation to computing?**
+<div><b>a.</b> It is a type of snake. (B)</div>
+<div><b>b.</b> It is the smallest unit of data in computing. (P)</div>
+<div><b>c.</b> It is an interpreted, object-oriented, high-level programming language. (O)</div>
+<div><b>d.</b> It is directly compiled into machine code instead of using an interpreter. (A)</div>
+<br>
+
+**You can hear me, but can’t see me, and I won’t answer unless spoken to. What am I?? An _ _ _ _**
