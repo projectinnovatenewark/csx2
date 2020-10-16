@@ -105,7 +105,16 @@ Check to make sure it is deleted using `ls`. You shouldn’t get an output since
  Having an issue? That’s because “rm” alone cannot delete directories. To delete directories, we have to pass a flag to the “‘rm” command. Enter the following into your terminal:
 `rm -r home`
 
-Voila! The home folder is now deleted. Let's review the commands we've learned so far:
+Voila! The home folder is now deleted. If you check you contents of your working directory, you'll see only the programming folder is left. See the below for a step-by-step image:
+
+<div class=mdImage align=center>
+    <kbd>
+        <img src="./images/emulator4.png" width="auto" height="300" />
+    </kbd>
+</div>
+<br>
+
+Let's review the commands we've learned so far:
 - We used `mkdir` and `touch` to **create** folders and files
 - We **checked** what our working directory was by using `pwd`
 - We **changed** our working directory with `cd`
