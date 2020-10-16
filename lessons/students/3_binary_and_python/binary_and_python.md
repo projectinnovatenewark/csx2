@@ -20,7 +20,7 @@ A **number system** is a system of naming or representing numbers. The following
   2. **Binary number system**: consists of two digits (0 and 1). The figures described under this system are known as binary numbers, which are a combination of 0 and 1.  - For example, 110101 is a binary number.
   
 <div class=mdImage align=center>
-    <img src="./images/binary.gif" width="500" height="auto" />
+    <img src="./images/binary.gif" width="300" height="auto" />
 </div>
   
  <div align=center><h3>How is Binary Related to Computers?</h3></div>
@@ -29,7 +29,7 @@ A **number system** is a system of naming or representing numbers. The following
 The circuits in a computer's processor are made up of billions of transistors. A **transistor** is a tiny switch that is activated by the electronic signals it receives. The digits 1 and 0 used in binary reflect the on and off states of a transistor.
 
 <div class=mdImage align=center>
-    <img src="./images/on_off.png" width="500" height="auto" />
+    <img src="./images/on_off.png" width="400" height="auto" />
 </div>
 
 Computer programs are sets of instructions. Each instruction is translated into machine code - simple binary codes that activate the CPU. Programmers write computer code and this is converted by a translator into binary instructions that the processor can execute.
@@ -41,28 +41,28 @@ Each column on the following table represents the number two raised to an expone
 |exponent|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |---|---|---|---|---|---|---|---|---| 
 |Value|128|64|32|16|8|4|2|1| 
-|ON/OFF|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|
+|OFF/ON|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|
 
 For example: The following chart illustrates the binary number 01101000.
 
 |exponent|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |---|---|---|---|---|---|---|---|---| 
 |Value|128|64*|32*|16|8*|4|2|1| 
-|ON/OFF|0|1|1|0|1|0|0|0|
-<div align=center><b>Note</b>: Values with * are turned on</div>
+|OFF/ON|0|1|1|0|1|0|0|0|
+<div><b>Note</b>: Values with * signifies a transister being turned on</div>
 <br>
 
 To get the total of this example, read the chart from <ins><b>right to left</b></ins> and add each column's value to the previous column: 
 (8+32+64) = 104. This means that the value 01101000 in binary form is equal to 104 in decimal form.
   - As you can see, we do not count the bits with a 0 because they're "turned off."
   
-**Group Exercise**: Can anyone tell me what the decimal value equivalent is for the binary number “11111111”? Feel free to use a calculator!
+**Group Exercise**: Imagine you are doing some work with a machine that can only process 8 bits at a time.  What would this look like in binary? What would be its maximum decimal value that it could process? Use the chart to visualize this concept. Feel free to use a calculator!
 |exponent|2<sup>7</sup>|2<sup>6</sup>|2<sup>5</sup>|2<sup>4</sup>|2<sup>3</sup>|2<sup>2</sup>|2<sup>1</sup>|2<sup>0</sup>|
 |---|---|---|---|---|---|---|---|---| 
-|Value|128*|64*|32*|16*|8*|4*|2*|1*| 
-|ON/OFF|1|1|1|1|1|1|1|1|
+|Value|128|64|32|16|8|4|2|1| 
+|OFF/ON|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|0 or 1|
 
-Understanding these number systems and converting from one system to another should give you a better understanding of how a computer works. When a computer wants to display a number, it will convert from the binary representation of that number to decimal by default. In the next section, you will learn more about the different forms of binary and how it relates to programming.
+Understanding these number systems and converting from one system to another should give you a better understanding of how a computer works. When a computer wants to display a number, it will convert from the binary representation of that number to decimal by default. In the next section, you will learn more about the different forms of binary and how it relates to programming. Click <a href="https://www.youtube.com/watch?v=Xpk67YzOn5w">here</a> for a video to reinforce what we just learned about binary.
 
 <div align=center><ins><h2>Part 2: Python</h2></ins></div>
 
@@ -79,7 +79,7 @@ Understanding these number systems and converting from one system to another sho
 <div align=center><h3>What is Python?</h3></div>
 
 <div class=mdImage align=center>
-    <img src="./images/python_logo.png" width="500" height="auto" />
+    <img src="./images/python_logo.png" width="300" height="auto" />
 </div>
 
 In the last section, we reviewed that a programming language is a formal language that contains a set of instructions to produce certain outputs. In this course, the programming language that we will be focusing on is Python.
@@ -115,7 +115,7 @@ With this understanding of what “interpreted” means when it comes to Python,
 
 <div align=center><h3>What is Object-Orientated Programming?</h3></div>
 
-**Object-Orientated Programming (OOP)** is the computer programming model that focuses on data or “objects” that can be manipulated rather than how to manipulate them. This is a common approach for large and complex programs. There are 7 elements that designate a programming language as object-orientated.
+**Object-Orientated Programming (OOP)** is the computer programming model that focuses on data or “objects” that can be manipulated rather than how to manipulate them. This is a common approach for large and complex programs. There are 4 elements that designate a programming language as object-orientated.
   
 1. **Inheritance**:
   Inheritance specifies that a child object will acquire all of a parent objects given attributes and methods. You can think of a parent object like “Mammal” that would have child objects of “Human”, “Marsupial”, and “Canine”. Although Mammals can be defined by air breathing creatures, humans, marsupials and canines are all mammals, but will have their own set of attributes and methods associated.
@@ -162,11 +162,11 @@ While there is so much more that happens under the hood of Python to make it wor
 <div><b>d.</b> It is directly compiled into machine code instead of using an interpreter. (A)</div>
 <br>
 
-15. **Which of the following is true about Python in relation to computing?**
-<div><b>a.</b> It is a type of snake. (B)</div>
-<div><b>b.</b> It is the smallest unit of data in computing. (P)</div>
-<div><b>c.</b> It is an interpreted, object-oriented, high-level programming language. (O)</div>
-<div><b>d.</b> It is directly compiled into machine code instead of using an interpreter. (A)</div>
+15. **The following are all elements of object-oriented programming except:**
+<div><b>a.</b> Encapsulation (J)</div>
+<div><b>b.</b> Inheritance (S)</div>
+<div><b>c.</b> Polygon (O)</div>
+<div><b>d.</b> Data Abstraction (F)</div>
 <br>
 
 **You can hear me, but can’t see me, and I won’t answer unless spoken to. What am I?? An _ _ _ _**
