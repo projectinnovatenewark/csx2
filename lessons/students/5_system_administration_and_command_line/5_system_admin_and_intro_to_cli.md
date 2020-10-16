@@ -48,8 +48,8 @@ When working in the terminal, you are working directly with the folder structure
 
 Before we jump into some commands, head to this link to use a <a href="https://cocalc.com/projects/01601465-ca02-4a35-9de2-5db90359c6af/files/Welcome%20to%20CoCalc.term?session=default">terminal emulator</a>. This will give you a real feel into what interacting with a command line interface is like. Although there is no access to your personal computer’s file structure this is meant to give you (the student) some comfortability with the commands as they will become important for Workshop II and lessons to come. You should see this window:
 
-<div class=mdImage align=center border='5px solid #555'>
-    <img src="./images/emulator1.png" width="400" height="auto" />
+<div class=mdImage align=center >
+    <kbd><img src="./images/emulator1.png" width="400" height="auto" /></kbd>
 </div>
 
 If you do not see this window, click into the “Welcome to CoCalc.term” project to get there.
