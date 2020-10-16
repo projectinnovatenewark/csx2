@@ -24,8 +24,8 @@ How can you access the bash shell? Well you need to open your **terminal**, if y
 
 
 <div class=mdImage align=center>
-    <img src="./images/finding_terminal.png" width="400" height="300" />
-    <img src="./images/finding_command_prompt.jpeg" width="400" height="300" />
+    <img src="./images/finding_terminal.png" width="auto" height="300" />
+    <img src="./images/finding_command_prompt.jpeg" width="auto" height="300" />
 </div>
 
 Fun Fact: The terminal actually started as a piece of electronic hardware that was used for taking inputs and giving outputs of data and then programmers turned to electronic typewriters, sometimes referred to as a teletypewriter, before the first video display was used in the 70’s. 
