@@ -49,8 +49,11 @@ When working in the terminal, you are working directly with the folder structure
 Before we jump into some commands, head to this link to use a <a href="https://cocalc.com/projects/01601465-ca02-4a35-9de2-5db90359c6af/files/Welcome%20to%20CoCalc.term?session=default">terminal emulator</a>. This will give you a real feel into what interacting with a command line interface is like. Although there is no access to your personal computer’s file structure this is meant to give you (the student) some comfortability with the commands as they will become important for Workshop II and lessons to come. You should see this window:
 
 <div class=mdImage align=center >
-    <kbd><img src="./images/emulator1.png" width="400" height="auto" /></kbd>
+    <kbd>
+        <img src="./images/emulator1.png" width="400" height="auto" />
+    </kbd>
 </div>
+<br>
 
 If you do not see this window, click into the “Welcome to CoCalc.term” project to get there.
 
@@ -66,8 +69,11 @@ There are a vast number of commands that can be executed in the terminal, but he
 Let’s practice in our terminal emulator. Since our emulator doesn’t have access to our computers actual folder structure, we are going to give it one. In the emulator type in: `mkdir home` where the empty box is. This is where your command line is. Hit enter and then type in `ls` to check if we successfully created the folder “home”.
 
 <div class=mdImage align=center>
-    <img src="./images/emulator2.png" width="400" height="auto" />
+    <kbd>
+        <img src="./images/emulator2.png" width="400" height="auto" />
+    </kbd>
 </div>
+<br>
 
 Great! As you can see we created the “home” folder and it is accompanied by the default “Welcome to CoCalc.term” file. Let’s go ahead and create a second folder in our current working directory named “programming” and “cd” into it. This would look like the following:
 `mkdir programming`
@@ -78,8 +84,11 @@ Followed by:
 Now your working directory will be the “programming” folder. Your terminal should resemble the following:
 
 <div class=mdImage align=center>
-    <img src="./images/emulator3.png" width="400" height="auto" />
+    <kbd>
+        <img src="./images/emulator3.png" width="400" height="auto" />
+    </kbd>
 </div>
+<br>
 
 We can check to make sure we are in our working directory by executing `pwd` in our terminal. This will give us the output “/home/user/programming”
 
