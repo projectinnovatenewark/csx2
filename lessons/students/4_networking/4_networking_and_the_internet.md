@@ -54,7 +54,7 @@ As you can see in the image below, switches are connected using wires called **e
 **Example #1**: Computer A needs to share a file with Computer B. All of these devices are located in the same room.
 
 <div class=mdImage align=center>
-    <img src="./images/switch2.png" width="300" height="auto" />
+    <img src="./images/switch2.png" width="400" height="auto" />
 </div>
 
 In this example, both computers are connected to a switch. For this reason they are able to communicate, or “talk”. This communication allows for the sharing data, including the file Computer A needs to send to Computer B.
@@ -64,13 +64,13 @@ In this example, both computers are connected to a switch. For this reason they 
 An **Access Point** is a networking device that creates a wireless local area network (WLAN). This allows computing devices to connect to a switch wirelessly. 
 
 <div class=mdImage align=center>
-    <img src="./images/access_point.png" width="300" height="auto" />
+    <img src="./images/access_point.png" width="150" height="auto" />
 </div>
 
 **Example #2**: Computer A needs to share a file with Computer B. All of these devices are located in the same room, but Computer B is utilizing a wireless connection.
 
 <div class=mdImage align=center>
-    <img src="./images/access_point2.png" width="300" height="auto" />
+    <img src="./images/access_point2.png" width="400" height="auto" />
 </div>
 
 In example #2, Computer B is connecting to the Switch wirelessly using an access point. Nonetheless, Computer A is able to exchange files with Computer B by utilizing the switch.
@@ -80,13 +80,13 @@ In example #2, Computer B is connecting to the Switch wirelessly using an access
 A **router** is a device that forwards data across networks. A router’s job is to connect different networks together.
 
 <div class=mdImage align=center>
-    <img src="./images/router.png" width="300" height="auto" />
+    <img src="./images/router.png" width="500" height="auto" />
 </div>
 
 As you can see in the image above, using a router allows a computer on Network 1 to send data to a computer on Network 2. In this example, one router is connecting two individual LANs so they can communicate with each other. In the next section we will see how multiple routers can communicate with each other over the internet.
 
 <div class=mdImage align=center>
-    <img src="./images/router2.jpg" width="300" height="auto" />
+    <img src="./images/router2.jpg" width="400" height="auto" />
 </div>
 
 <div align=center><h2>How Does the Internet Work?</h2></div>
@@ -96,7 +96,7 @@ As you can see in the image above, using a router allows a computer on Network 1
 In order for Computer A to share a file with a computer that is in a different building, it is going to have to use the internet. To keep things simple, the internet is a global network of computers. Generally known as the wide area network (WAN), the internet connects computers from around the world!
 
 <div class=mdImage align=center>
-    <img src="./images/internet.jpg" width="300" height="auto" />
+    <img src="./images/internet.jpg" width="400" height="auto" />
 </div>
 
 Even though the internet seems so vast and complicated, it operates very similarly to the smaller networks that we reviewed during this lesson. In reality, the internet actually just connects many local networks together via a ton of routers. This action of connecting these routers is performed by internet service providers.
@@ -112,7 +112,7 @@ End-users are able to connect to internet services using a modem. A **modem** is
 The following diagram depicts how Computer A can share a file with Computer B over the internet:
 
 <div class=mdImage align=center>
-    <img src="./images/internet2.png" width="300" height="auto" />
+    <img src="./images/internet2.png" width="500" height="auto" />
 </div>
 
 <div align=center><h2>How Does the Internet Work?</h2></div>
