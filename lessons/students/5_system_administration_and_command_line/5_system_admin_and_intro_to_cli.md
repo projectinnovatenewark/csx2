@@ -70,7 +70,7 @@ Let’s practice in our terminal emulator. Since our emulator doesn’t have acc
 
 <div class=mdImage align=center>
     <kbd>
-        <img src="./images/emulator2.png" width="auto" height="400" />
+        <img src="./images/emulator2.png" width="auto" height="300" />
     </kbd>
 </div>
 <br>
@@ -85,7 +85,7 @@ Now your working directory will be the “programming” folder. Your terminal s
 
 <div class=mdImage align=center>
     <kbd>
-        <img src="./images/emulator3.png" width="auto" height="400" />
+        <img src="./images/emulator3.png" width="auto" height="300" />
     </kbd>
 </div>
 <br>
