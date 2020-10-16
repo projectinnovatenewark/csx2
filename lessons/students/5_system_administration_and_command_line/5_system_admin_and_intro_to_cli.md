@@ -95,6 +95,8 @@ We can check to make sure we are in our working directory by executing `pwd` in 
 In this folder, use “touch” to create a file named “my_first_file.txt”. This command will look like:
 `touch my_first_file.txt`
 
+Use `ls` again to make sure that the file was created.
+
 Now that we have created the file, lets delete it from the programming folder. Use the following in your terminal to do so:
 `rm my_first_file.txt`
 
