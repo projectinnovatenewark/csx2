@@ -29,7 +29,7 @@ In this lesson we will review examples that depict both local and wide area netw
 - **Internet Service Provider**
 
 
-<div><ins><i><h5>Network Interface Cards</h5></i></ins></div>
+<div><ins><i><h4>Network Interface Cards</h5></i></ins></div>
 
 Desktops, laptops, printers, and mobile devices are all examples of network devices. This is because they all utilize a **network interface card (NIC)**, which is a <ins>computer hardware component</ins> that allows a computing device to connect to a network. **NICs** allow for both wired and wireless communications between devices and networks.
 
@@ -37,7 +37,7 @@ Desktops, laptops, printers, and mobile devices are all examples of network devi
     <img src="./images/NIC.jpg" width="500" height="auto" />
 </div>
 
-<div><ins><i><h5>Switches</h5></i></ins></div>
+<div><ins><i><h4>Switches</h4></i></ins></div>
 
 A **switch** is a piece of hardware that connects multiple devices in one physical location, creating a local area network (LAN). In other words, switches allow locally connected devices to share information and talk to each other.
 
@@ -59,7 +59,7 @@ As you can see in the image below, switches are connected using wires called **e
 
 In this example, both computers are connected to a switch. For this reason they are able to communicate, or “talk”. This communication allows for the sharing data, including the file Computer A needs to send to Computer B.
 
-<div><ins><i><h5>Access Points</h5></i></ins></div>
+<div><ins><i><h4>Access Points</h4></i></ins></div>
 
 An **Access Point** is a networking device that creates a wireless local area network (WLAN). This allows computing devices to connect to a switch wirelessly. 
 
@@ -75,7 +75,7 @@ An **Access Point** is a networking device that creates a wireless local area ne
 
 In example #2, Computer B is connecting to the Switch wirelessly using an access point. Nonetheless, Computer A is able to exchange files with Computer B by utilizing the switch.
 
-<div><ins><i><h5>Routers</h5></i></ins></div>
+<div><ins><i><h4>Routers</h4></i></ins></div>
 
 A **router** is a device that forwards data across networks. A router’s job is to connect different networks together.
 
@@ -115,7 +115,7 @@ The following diagram depicts how Computer A can share a file with Computer B ov
     <img src="./images/internet2.png" width="500" height="auto" />
 </div>
 
-<div align=center><h2>How Does the Internet Work?</h2></div>
+<div align=center><h2>Section 4 Review Questions</h2></div>
 
 16. **Which of the following are considered the two basic types of Networks? (Choose two options)**
     <div><b>a.</b> WAN (S)</div>
@@ -125,10 +125,10 @@ The following diagram depicts how Computer A can share a file with Computer B ov
     <br>
 
 17. **A switch is a piece of hardware that:**
-    <div><b>a.</b> connects multiple devices in one physical location. (V)</div>
-    <div><b>b.</b> forwards data across networks. (T)</div>
-    <div><b>c.</b> connects multiple devices all over the world. (J)</div>
-    <div><b>d.</b> connects other devices to the Internet. (G)</div>
+    <div><b>a.</b> Connects multiple devices in one physical location. (V)</div>
+    <div><b>b.</b> Forwards data across networks. (T)</div>
+    <div><b>c.</b> Connects multiple devices all over the world. (J)</div>
+    <div><b>d.</b> Connects other devices to the Internet. (G)</div>
     <br>
 
 18. **A _______ is a networking device that creates a wireless local area network (WLAN).**
