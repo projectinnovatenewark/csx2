@@ -42,13 +42,13 @@ Desktops, laptops, printers, and mobile devices are all examples of network devi
 A **switch** is a piece of hardware that connects multiple devices in one physical location, creating a local area network (LAN). In other words, switches allow locally connected devices to share information and talk to each other.
 
 <div class=mdImage align=center>
-    <img src="./images/switch.png" width="500" height="auto" />
+    <img src="./images/switch.png" width="600" height="auto" />
 </div>
 
 As you can see in the image below, switches are connected using wires called **ethernet cables**:
 
 <div class=mdImage align=center>
-    <img src="./images/ethernet_cables.jpg" width="500" height="auto" />
+    <img src="./images/ethernet_cables.jpg" width="450" height="auto" />
 </div>
 
 **Example #1**: Computer A needs to share a file with Computer B. All of these devices are located in the same room.
