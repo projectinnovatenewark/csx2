@@ -50,7 +50,7 @@ Before we jump into some commands, head to this link to use a <a href="https://c
 
 <div class=mdImage align=center >
     <kbd>
-        <img src="./images/emulator1.png" width="400" height="auto" />
+        <img src="./images/emulator1.png" width="auto" height="400" />
     </kbd>
 </div>
 <br>
