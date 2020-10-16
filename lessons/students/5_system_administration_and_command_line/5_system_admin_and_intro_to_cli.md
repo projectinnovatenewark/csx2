@@ -109,7 +109,7 @@ Voila! The home folder is now deleted. If you check you contents of your working
 
 <div class=mdImage align=center>
     <kbd>
-        <img src="./images/emulator4.png" width="300" height="auto" />
+        <img src="./images/emulator4.png" width="400" height="auto" />
     </kbd>
 </div>
 <br>
