@@ -22,12 +22,12 @@ You’ll find that most Linux systems use a **bash** shell to receive its comman
 
 How can you access the bash shell? Well you need to open your **terminal**, if you are using Linux or Mac OS, or the Command Prompt if you are on Windows.The Terminal and Command Prompt are programs that allow you to work and interact with your computer's shell. In this program, you can navigate through your computer’s directories and files.
 
-<div>
+<div >
 <div class=mdImage align=center>
-    <img src="./images/finding_terminal.png" width="500" height="auto" />
+    <img src="./images/finding_terminal.png" width="400" height="300" />
 </div>
 <span class=mdImage align=center>
-    <img src="./images/finding_command_prompt.jpeg" width="500" height="auto" />
+    <img src="./images/finding_command_prompt.jpeg" width="400" height="300" />
 </span>
 </div>
 
