@@ -24,10 +24,10 @@ How can you access the bash shell? Well you need to open your **terminal**, if y
 
 <div >
 <div class=mdImage align=center>
-    <img src="./images/finding_terminal.png" width="400" height="300" />
+    <img src="./images/finding_terminal.png" width="300" height="300" />
 </div>
 <span class=mdImage align=center>
-    <img src="./images/finding_command_prompt.jpeg" width="400" height="300" />
+    <img src="./images/finding_command_prompt.jpeg" width="300" height="300" />
 </span>
 </div>
 
