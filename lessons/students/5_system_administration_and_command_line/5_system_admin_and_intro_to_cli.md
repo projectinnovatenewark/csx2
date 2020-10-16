@@ -46,7 +46,7 @@ The CLI is popular among more experienced users because it provides a heavy focu
 
 When working in the terminal, you are working directly with the folder structure of your computer navigating through its directories. A **directory** can be thought of as a folder in your computers File Manager or Finder (depending on Windows or Mac). While navigating through folders and files, you can create and delete directories and even create, read, edit ,or delete files. There is a large list of Linux commands that help you to accomplish these tasks and many more.
 
-Before we jump into some commands, head to this link to use a <a href="https://cocalc.com/projects/01601465-ca02-4a35-9de2-5db90359c6af/files/Welcome%20to%20CoCalc.term?session=default">terminal emulator</a>. This will give you a real feel into what interacting with a command line interface is like. Although there is no access to your personal computer’s file structure this is meant to give you (the student) some comfortability with the commands as they will become important for Workshop II and lessons to come. You should see this window:
+Before we jump into some commands, head to this link to use a <a href="https://cocalc.com/doc/terminal.html">terminal emulator</a>. This will give you a real feel into what interacting with a command line interface is like. Although there is no access to your personal computer’s file structure this is meant to give you (the student) some comfortability with the commands as they will become important for Workshop II and lessons to come. After clicking the link, click on "Run Terminal Now". You should see this window:
 
 <div class=mdImage align=center >
     <kbd>
