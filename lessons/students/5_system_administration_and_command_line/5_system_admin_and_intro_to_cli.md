@@ -125,33 +125,33 @@ Let's review the commands we've learned so far:
 
 <div align=center><h2>Section 5 Review Questions</h2></div>
 
-20. **The following are all incorrect except:**
+1. **The following are all incorrect except:**
     <div><b>a.</b> Bash is short for “Basic Alternative Shell” (L)</div>
     <div><b>b.</b> A directory can be thought of as a folder (W)</div>
     <div><b>c.</b> Linux does not come with a terminal (Z)</div>
     <div><b>d.</b> Using the terminal, you cannot edit files (A)</div>
     <br>
 
-21. **Which of these are advantages to using the CLI?**
+2. **Which of these are advantages to using the CLI?**
     <div><b>a.</b> Since there isn’t much visual representation that a CLI needs, it generally responds and completes tasks faster than a GUI. (F)</div>
     <div><b>b.</b> The CLI allows for easy installation of packages for your code. (O)</div>
     <div><b>c.</b> The CLI allows for users to gain more flexibility than using a GUI. This is because while using a CLI, users have the option to be a bit more granular in what they want accomplished. (I)</div>
     <div><b>d.</b> All of the Above (R)</div>
     <br>
 
-22. **`pwd` is how you check your working directory in the terminal. True or False?**
+3. **`pwd` is how you check your working directory in the terminal. True or False?**
     <div><b>a.</b> True (O)</div>
     <div><b>b.</b> False (A)</div>
     <br>
 
-23. **What command allows you to create new files?**
+4. **What command allows you to create new files?**
     <div><b>a.</b> ls (T)</div>
     <div><b>b.</b> pwd (P)</div>
     <div><b>c.</b> touch (N)</div>
     <div><b>d.</b> rm (E)</div>
     <br>
 
-24. **What command allows you to remove files?**
+5. **What command allows you to remove files?**
     <div><b>a.</b> ls (N)</div>
     <div><b>b.</b> pwd (L)</div>
     <div><b>c.</b> touch (S)</div>
