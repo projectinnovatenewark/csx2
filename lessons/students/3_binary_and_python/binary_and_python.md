@@ -1,4 +1,4 @@
-<div align=center><h1>Software and Operating Systems</h1></div>
+<div align=center><h1>Programming Languages</h1></div>
 
 The purpose of this section is to introduce you to the following concepts: 
 - Understanding number systems - specifically binary.
@@ -143,26 +143,26 @@ While there is so much more that happens under the hood of Python to make it wor
 
 <div align=center><h2>Section 4 Review Questions</h2></div>
 
-12. **Which number system consists of 10 digits and is the most commonly used number system?**
+1. **Which number system consists of 10 digits and is the most commonly used number system?**
 <div><b>a.</b> Binary (G)</div>
 <div><b>b.</b> Decimal (E)</div>
 <div><b>c.</b> Hexadecimal (M)</div>
 <div><b>d.</b> Octal (N)</div>
 <br>
 
-13. **All computer data is represented using binary. True or False?**
+2. **All computer data is represented using binary. True or False?**
 <div><b>a.</b> True (C) </div>
 <div><b>b.</b> False (D)</div>
 <br>
 
-14. **Which of the following is true about Python in relation to computing?**
+3. **Which of the following is true about Python in relation to computing?**
 <div><b>a.</b> It is a type of snake. (B)</div>
 <div><b>b.</b> It is the smallest unit of data in computing. (P)</div>
 <div><b>c.</b> It is an interpreted, object-oriented, high-level programming language. (H)</div>
 <div><b>d.</b> It is directly compiled into machine code instead of using an interpreter. (A)</div>
 <br>
 
-15. **The following are all elements of object-oriented programming except:**
+4. **The following are all elements of object-oriented programming except:**
 <div><b>a.</b> Encapsulation (J)</div>
 <div><b>b.</b> Inheritance (S)</div>
 <div><b>c.</b> Polygon (O)</div>
