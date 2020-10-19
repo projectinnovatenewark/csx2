@@ -117,28 +117,28 @@ The following diagram depicts how Computer A can share a file with Computer B ov
 
 <div align=center><h2>Section 4 Review Questions</h2></div>
 
-16. **Which of the following are considered the two basic types of Networks? (Choose two options)**
+1. **Which of the following are considered the two basic types of Networks? (Choose two options)**
     <div><b>a.</b> WAN (S)</div>
     <div><b>b.</b> PAN (K)</div>
     <div><b>c.</b> NAN (C)</div>
     <div><b>d.</b> LAN (E)</div>
     <br>
 
-17. **A switch is a piece of hardware that:**
+2. **A switch is a piece of hardware that:**
     <div><b>a.</b> Connects multiple devices in one physical location. (V)</div>
     <div><b>b.</b> Forwards data across networks. (T)</div>
     <div><b>c.</b> Connects multiple devices all over the world. (J)</div>
     <div><b>d.</b> Connects other devices to the Internet. (G)</div>
     <br>
 
-18. **A _______ is a networking device that creates a wireless local area network (WLAN).**
+3. **A _______ is a networking device that creates a wireless local area network (WLAN).**
     <div><b>a.</b> Router (D)</div>
     <div><b>b.</b> Switch (F)</div>
     <div><b>c.</b> Access point (E)</div>
     <div><b>d.</b> Modem (G)</div>
     <br>
 
-19. **What type of organization provides services for accessing, using, or participating in the Internet?**
+4. **What type of organization provides services for accessing, using, or participating in the Internet?**
     <div><b>a.</b> Internet Provider (O)</div>
     <div><b>b.</b> Online Service Provider (S)</div>
     <div><b>c.</b> Internet Connection Provider (L)</div>
