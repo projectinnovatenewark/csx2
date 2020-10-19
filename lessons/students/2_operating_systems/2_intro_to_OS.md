@@ -309,35 +309,35 @@ A **programming language** is a formal language that contains a set of instructi
 
 <div align=center><h2>Section 2 Review Questions</h2></div>
 
-**Which of the following is not considered a basic function of an operating system:**
+1. **Which of the following is not considered a basic function of an operating system:**
 <div><b>a.</b> It supports application software (F)</div>
 <div><b>b.</b> It establishes a user interfaces (E)</div>
 <div><b>c.</b> It acts as the brain of the computer (C)</div>
 <div><b>d.</b> It manages computer resources (J)</div>
 <br>
 
-**Which desktop operating system is the most used worldwide?**
+2. **Which desktop operating system is the most used worldwide?**
 <div><b>a.</b> Linux (Q)</div>
 <div><b>b.</b> Windows (L)</div>
 <div><b>c.</b> Raspberry Pi OS (N)</div>
 <div><b>d.</b> macOS (H)</div>
 <br>
 
-**What of the following is common amongst all Linux operating systems?**
+3. **What of the following is common amongst all Linux operating systems?**
 <div><b>a.</b> NGU Tools (B)</div>
 <div><b>b.</b> The Linux kernel (O)</div>
 <div><b>c.</b> They are Debian-based (S)</div>
 <div><b>d.</b> None of the above (A)</div>
 <br>
 
-**Which of the following Linux components is the term that describes a background process?**
+4. **Which of the following Linux components is the term that describes a background process?**
 <div><b>a.</b> Daemon (C)</div>
 <div><b>b.</b> Bootloader (Z)</div>
 <div><b>c.</b> Graphical Server (B)</div>
 <div><b>d.</b> Kernel (R)</div>
 <br>
 
-**The following are all correct about Raspbian except:**
+5. **The following are all correct about Raspbian except:**
 <div><b>a.</b> There is a robust community of developers that have either experienced a given problem or are willing to help (B)</div>
 <div><b>b.</b> Its pre-installed packages give users a better chance at overcoming the learning curve of using a Linux distro. </div>(L)
 <div><b>c.</b> Raspbian is based in Debian (R)</div>
