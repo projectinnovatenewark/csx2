@@ -132,15 +132,15 @@ Press "Y" to save the changes you made and then press the "Enter" key. Let’s t
 </div>
 <br>
 
-Now that we have "cat" and nano, let’s take a look at a more advanced command such as **sed**. This command works like a find and replace inside a file that you specify. The commands structure would look like the following:
-`sed ‘s/word_to_replace/new_word/#_of_times_to_replace’ file_name`
+Now that we have "cat" and nano, let’s take a look at an example of a more advanced tool called **sed**. "sed", or "stream editor", can perform many tasks. For example, it can execute a find and replace inside a file that you specify. The commands structure would look like the following:
+`sed "s/word_to_replace/new_word/#_of_times_to_replace" file_name`
 
-Create a text file in your programming folder named “cat_hat.txt” using the command `touch cat_hat.txt`. Then use cat to edit the file and paste in the text from <a href="https://docs.google.com/document/d/1TlJmCw_FUclphlJ1VVqAFKsNduzV4bVXwzfsDbccnws/edit">here</a>. This is the famous Cat in the Hat story from Dr. Seuss. We are going to replace “cat” in the story with “bat” using the **sed** command.
+Create a text file in your programming folder named "cat_hat.txt" using the command `touch cat_hat.txt`. Then use "cat" to edit the file and paste in the text from <a href="https://docs.google.com/document/d/1TlJmCw_FUclphlJ1VVqAFKsNduzV4bVXwzfsDbccnws/edit">here</a>. This is the famous Cat In The Hat story from Dr. Seuss. We are going to replace "cat" in the story with "bat" using the **sed** command.
 
 In your terminal now, enter the following command:
-`sed 's/cat/bat/g' cat_hat.txt`
+`sed "s/cat/bat/g" cat_hat.txt`
     1. cat is the word to be replaced
     2. bat is the word replacing cat
-    3. “g” is used to signify to the terminal to replace every instance where cat is used.
-        - If you wanted every other “cat” to be replaced by “bat”, then you would put “2” instead of “g”. 
-You’ll see the terminal gives you an output after executing the above command. Here you’ll see that the word “bat” has replaced “cat” in every instance.
+    3. "g" is used to signify to the terminal to replace every instance where cat is used.
+        - If you wanted every other "cat" to be replaced by "bat", then you would put "2" instead of "g". 
+You’ll see the terminal gives you an output after executing the above command. Here you’ll see that the word "bat" has replaced "cat" in every instance.
