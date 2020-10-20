@@ -16,7 +16,7 @@ The purpose of this section is to introduce you to the following concepts:
 
 <div align=center><h2>New Commands</h2></div>
 
-Click <a href="https://cocalc.com/doc/terminal.html">here</a> to revisit the terminal emulator from the last lesson. In the previous lesson, we learned how to create empty files using touch. We will now explore a command that can create a text file and write contents to it. “echo” uses the following structure:
+Click <a href="https://cocalc.com/doc/terminal.html">here</a> to revisit the terminal emulator from the last lesson. In the previous lesson, we learned how to create empty files using touch. We will now explore a command that can create a text file and write contents to it. "echo" uses the following structure:
 `echo "Whatever text you want in quotes" > newFile.txt`
 
 Let’s create a text file called *newFile.txt* with the contents reading "Echo is a great tool to create and write to text files."
@@ -24,8 +24,8 @@ Let’s create a text file called *newFile.txt* with the contents reading "Echo 
 This command should look like the following:
 `echo "Echo is a great tool to create and write to text files." > newFile.txt`
 
-Notice the structure of using only one “>” in the command. This is for when you are writing to empty files (or want to overwrite an entire file.) If you want to add to a text file, we can use two arrows like “>>”. Use the following to add “Adding to the text file.” to the end of newFile.txt.
-`echo “Adding to the text file.” >> newFile.txt`
+Notice the structure of using only one ">" in the command. This is for when you are writing to empty files (or want to overwrite an entire file.) If you want to add to a text file, we can use two arrows like ">>" which is also known as "piping" an output. Use the following to add "Adding to the text file." to the end of newFile.txt.
+`echo "Adding to the text file." >> newFile.txt`
 
 Want to check if this was a success? Well there is a command for reading files! We can use `cat fileName` to read the contents of the files without actually opening it. In your terminal, enter the following:
 `cat newFile.txt`.
@@ -50,7 +50,7 @@ In your terminal execute the following command:
 Then, write the following into the terminal and press enter:
 `print("Hello World!")`
 
-Lastly type in `EOF` and hit enter. Here “EOF” is used to indicate to the terminal that we are finished editing the file.
+Lastly type in `EOF` and hit enter. Here "EOF" is used to indicate to the terminal that we are finished editing the file.
 
 Notice the structure of our command:
 1. The terminal recognizes "cat" and looks for what comes next
