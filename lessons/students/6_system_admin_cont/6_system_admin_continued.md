@@ -54,7 +54,7 @@ Lastly type in `EOF` and hit enter. Here “EOF” is used to indicate to the te
 
 Notice the structure of our command:
 1. The terminal recognizes "cat" and looks for what comes next
-2. <<EOF>> tells the command line to add the input after the command to the end of the file
+2. <<EOF>> tells the terminal to add the input after the command to the end of the file
 3. You specify which file you want to add to
 4. Add whatever contents you’d like to the file (you can add multiple lines too!)
 5. Use `EOF` to close the file editor
@@ -62,7 +62,7 @@ Notice the structure of our command:
 Now, use the "cat" command to read the file’s contents using:
 `cat hello_world.py`
 
-Let’s test out our Python file by using `python3 hello_world.py`. "python3" is how you run Python files from your terminal to see their output. We are expecting our program to have an output of "Hello World!". Your terminal should look like the following after running the Python file.
+Let’s test out our Python file by using `python3 hello_world.py`. "python3" is a command you use to run Python files from your terminal, and whatever you "print" in the Python file will be output to the terminal. We are expecting our program to have an output of "Hello World!". Your terminal should look like the following after running the Python file.
 
 <div class=mdImage align=center >
     <kbd>
@@ -71,7 +71,7 @@ Let’s test out our Python file by using `python3 hello_world.py`. "python3" is
 </div>
 <br>
 
-Lastly, you can use the "cat" command to add to the end of files. Let’s add another print statement to hello_world.py that when executed outputs "Goodbye World!"
+Lastly, you can use the "cat" command to add to the end of files. Let’s add another print statement to "hello_world.py" that when executed outputs "Goodbye World!"
 
 To do so, we will execute the following in the terminal:
 `cat <<EOF>> hello_world.py`
@@ -90,7 +90,7 @@ Then run the Python file using `python3 hello_world.py`. You should see the foll
 
 <div align=center><h2>…More Commands!</h2></div>
 
-We have been working in the terminal from the outside of files while using "cat". Though it would be useful to be able to edit files in the terminal inside a file. Well… there is a command for that. The “nano” command allows you to open files and directly edit them.
+We have been working in the terminal outside of files using "cat", rather than by reading/writing a file's contents from within the file itself. Well…there is a command for that! "nano" is a command line text-editor that allows you to open files and edit them directly in the terminal.
 
 In your terminal, enter the following:
 `nano hello_world.py`
@@ -103,16 +103,17 @@ You’ll see the following screen:
     </kbd>
 </div>
 <br>
-Here you can edit files with little restriction!
 
-> Do keep in mind though you still need to navigate solely with your keyboard as the mouse will not do much for you here.
+Here you can edit files freely.
 
-Let’s add another print statement after our original “Hello World!” that will read “It’s great to see you.” To do so, use your keyboard to navigate to the end of the first print statement and hit enter. Then you will have a new line between the two print statements.
+> Keep in mind this is the command line, not a GUI! You will not be able to navigate the file with your mouse, and must use your arrow keys.
+
+Let’s add another print statement after our original "Hello World!" that will read "It’s great to see you." To do so, use your keyboard to navigate to the end of the first print statement and hit enter. Then you will have a new line between the two print statements.
 
 On that line enter the following:
-`print(“It’s great to see you.”)`
+`print("It’s great to see you.")`
 
-Now to close the file press the “control” key and “X” key at the same time. You’ll see the following screen:
+Now to close the file press the "control" key and "x" key together. You’ll see the following screen:
 
 <div class=mdImage align=center >
     <kbd>
@@ -121,8 +122,8 @@ Now to close the file press the “control” key and “X” key at the same ti
 </div>
 <br>
 
-Press “Y” to save the changes you made and then press the “enter” key. Let’s test our file to see if it worked. In the terminal now, enter:
-`python3 hello_world.py`. If everything was done successfully, you should see the following:
+Press "Y" to save the changes you made and then press the "Enter" key. Let’s test our file. In the terminal, enter:
+`python3 hello_world.py`. If the task was done successfully, you should see the following:
 
 <div class=mdImage align=center >
     <kbd>
@@ -131,7 +132,7 @@ Press “Y” to save the changes you made and then press the “enter” key. L
 </div>
 <br>
 
-Now that we have “cat” and nano, let’s take a look at a more advanced command such as **sed**. This command works like a find and replace inside a file that you specify. The commands structure would look like the following:
+Now that we have "cat" and nano, let’s take a look at a more advanced command such as **sed**. This command works like a find and replace inside a file that you specify. The commands structure would look like the following:
 `sed ‘s/word_to_replace/new_word/#_of_times_to_replace’ file_name`
 
 Create a text file in your programming folder named “cat_hat.txt” using the command `touch cat_hat.txt`. Then use cat to edit the file and paste in the text from <a href="https://docs.google.com/document/d/1TlJmCw_FUclphlJ1VVqAFKsNduzV4bVXwzfsDbccnws/edit">here</a>. This is the famous Cat in the Hat story from Dr. Seuss. We are going to replace “cat” in the story with “bat” using the **sed** command.
