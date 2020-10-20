@@ -88,7 +88,7 @@ Then run the Python file using `python3 hello_world.py`. You should see the foll
 </div>
 <br>
 
-###Exercise
+### Exercise
 
 1. Break into groups of two.
 
@@ -155,7 +155,7 @@ In your terminal now, enter the following command:
         - If you wanted every other "cat" to be replaced by "bat", then you would put "2" instead of "g". 
 You’ll see the terminal gives you an output after executing the above command. Here you’ll see that the word "bat" has replaced "cat" in every instance.
 
-###Exercise
+### Exercise
 
 1. Replace every instance of the word "bat" with "rat". View the output and observe if it behaved the way you wanted it to.
 
