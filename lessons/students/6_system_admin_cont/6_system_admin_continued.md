@@ -1,28 +1,28 @@
 <div align=center><h1>Section 6: Using the Command Line</h1></div>
 
 The purpose of this section is to introduce you to the following concepts: 
-- Reviewing the commands you already know.
-- Learning new commands and how they work.
+- Reviewing command line commands from last lesson.
+- Learn new commands and how to work with files.
 
-<div align=center><h2>Review the Commands We Know</h2></div>
+<div align=center><h2>Review</h2></div>
 
-- The command to check what working directory you are in is `pwd`
-- You can use `ls` to list the contents of your current working directory
-- To change your working directory, use `cd folderName` or to move up one level in the structure, use `cd ..`
+- Check your working directory with `pwd`
+- Check the contents of your directory with `ls`
+- Change your working directory to one within your current working directory with `cd folderName`
+- To move up a level in your working directory, use `cd ..`
 - Create directories with `mkdir folderName`
-- Create blank files with `touch fileName.fileType`
-- Delete files with `rm fileName` and delete folders using the “-r” flag such as
-`rm -r folderName`
+- Create blank files with `touch fileName.fileExtension` (i.e. `touch hello_world.py`)
+- Delete files with `rm fileName` and delete folders using the "-r" flag such as `rm -r folderName`
 
 <div align=center><h2>New Commands</h2></div>
 
-Click <a href="https://cocalc.com/doc/terminal.html">here</a> to go back into the terminal emulator from the last lesson as we will be using it again to learn some new commands. In the previous lesson, we learned how to create empty files using touch. There is a way to create and write to text files with contents in the same command though using “echo”. “echo” uses the following structure:
-`echo “Whatever text you want in quotes” > newFile.txt`
+Click <a href="https://cocalc.com/doc/terminal.html">here</a> to revisit the terminal emulator from the last lesson. In the previous lesson, we learned how to create empty files using touch. We will now explore a command that can create a text file and write contents to it. “echo” uses the following structure:
+`echo "Whatever text you want in quotes" > newFile.txt`
 
-Let’s create a text file called *newFile.txt* with the contents reading “Echo is a great tool to create and write to text files.”
+Let’s create a text file called *newFile.txt* with the contents reading "Echo is a great tool to create and write to text files."
 
 This command should look like the following:
-`echo “Echo is a great tool to create and write to text files.” > newFile.txt`
+`echo "Echo is a great tool to create and write to text files." > newFile.txt`
 
 Notice the structure of using only one “>” in the command. This is for when you are writing to empty files (or want to overwrite an entire file.) If you want to add to a text file, we can use two arrows like “>>”. Use the following to add “Adding to the text file.” to the end of newFile.txt.
 `echo “Adding to the text file.” >> newFile.txt`
@@ -39,7 +39,7 @@ You should see the following output in your terminal:
 </div>
 <br>
 
-“cat” is short for”concatenate” and is a powerful command that can be utilized in many ways. Similar to what we just used “cat” for, we can display the contents of files with their line numbers showing. Our first line in newFile.txt should be **“Echo is a great tool to create and write to text files.”** and the second line will be **“Adding to the text file.”** This is done by using the “-n” flag as such:
+“cat” is short for ”concatenate” and is a powerful command that can be utilized in many ways. Similar to what we just used “cat” for, we can display the contents of files with their line numbers showing. Our first line in newFile.txt should be **“Echo is a great tool to create and write to text files.”** and the second line will be **“Adding to the text file.”** This is done by using the “-n” flag as such:
 `cat -n newFile.txt`
 
 “cat” is also great for creating files to write to other than text files. Here we will use the “cat” command to create a file named *hello_world.py* and in that we will create a python program to display the phrase “Hello World!” This is a common programming practice when learning about programming.
