@@ -157,4 +157,6 @@ You’ll see the terminal gives you an output after executing the above command.
 
 ###Exercise
 
+1. Replace every instance of the word "bat" with "rat". View the output and observe if it behaved the way you wanted it to.
 
+2. Replace every instance of the word "hat" with "mat". View the output and observe if it behaved the way you wanted it to. Discuss this output with the class.
