@@ -88,6 +88,16 @@ Then run the Python file using `python3 hello_world.py`. You should see the foll
 </div>
 <br>
 
+###Exercise
+
+1. Break into groups of two.
+
+2. Create a new file called "partner.py". Ask your partner a question such as "What is your favorite food?", or "Where are you from?". You and your partner must ask each other different questions.
+
+3. Have your file output your partner's response to your question. Run that file.
+
+4. Add in another line of code to output your own response to the question that you asked your partner. Run the file once more.
+
 <div align=center><h2>…More Commands!</h2></div>
 
 We have been working in the terminal outside of files using "cat", rather than by reading/writing a file's contents from within the file itself. Well…there is a command for that! "nano" is a command line text-editor that allows you to open files and edit them directly in the terminal.
@@ -144,3 +154,7 @@ In your terminal now, enter the following command:
     3. "g" is used to signify to the terminal to replace every instance where cat is used.
         - If you wanted every other "cat" to be replaced by "bat", then you would put "2" instead of "g". 
 You’ll see the terminal gives you an output after executing the above command. Here you’ll see that the word "bat" has replaced "cat" in every instance.
+
+###Exercise
+
+
