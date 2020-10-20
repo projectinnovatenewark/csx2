@@ -24,7 +24,7 @@ Let’s create a text file called *newFile.txt* with the contents reading "Echo 
 This command should look like the following:
 `echo "Echo is a great tool to create and write to text files." > newFile.txt`
 
-Notice the structure of using only one ">" in the command. This is for when you are writing to empty files (or want to overwrite an entire file.) If you want to add to a text file, we can use two arrows like ">>" which is also known as "piping" an output. Use the following to add "Adding to the text file." to the end of newFile.txt.
+Notice the structure of using only ">" in the command. This is for when you are writing to empty files (or want to overwrite an entire file.) If you want to add to a text file, we can use two arrows ">>" which is also known as "piping" an output to a file. Use the following to add "Adding to the text file." to the end of newFile.txt.
 `echo "Adding to the text file." >> newFile.txt`
 
 Want to check if this was a success? Well there is a command for reading files! We can use `cat fileName` to read the contents of the files without actually opening it. In your terminal, enter the following:
