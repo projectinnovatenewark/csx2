@@ -39,30 +39,30 @@ You should see the following output in your terminal:
 </div>
 <br>
 
-“cat” is short for ”concatenate” and is a powerful command that can be utilized in many ways. Similar to what we just used “cat” for, we can display the contents of files with their line numbers showing. Our first line in newFile.txt should be **“Echo is a great tool to create and write to text files.”** and the second line will be **“Adding to the text file.”** This is done by using the “-n” flag as such:
+"cat" is short for "concatenate" and is a powerful command that can be utilized in many ways. Similar to how we just used "cat", we can display the contents of files with their line numbers showing. Our first line in newFile.txt should be **"Echo is a great tool to create and write to text files."** and the second line will be **"Adding to the text file."** This is done by using the "-n" flag as such:
 `cat -n newFile.txt`
 
-“cat” is also great for creating files to write to other than text files. Here we will use the “cat” command to create a file named *hello_world.py* and in that we will create a python program to display the phrase “Hello World!” This is a common programming practice when learning about programming.
+"cat" is also used to create and write to non-text files. Here we will use the "cat" command to create a file named *hello_world.py*, where we will create a Python program to output the phrase "Hello World!".
 
 In your terminal execute the following command:
 `cat <<EOF>> hello_world.py`
 
-Followed by entering the following into the terminal and hitting enter:
-`print(“Hello World!”)`
+Then, write the following into the terminal and press enter:
+`print("Hello World!")`
 
 Lastly type in `EOF` and hit enter. Here “EOF” is used to indicate to the terminal that we are finished editing the file.
 
 Notice the structure of our command:
-1. The terminal recognizes “cat” and looks for what comes next
-2. <<EOF>> signifies for the input following the command to be added to the end of the file. 
+1. The terminal recognizes "cat" and looks for what comes next
+2. <<EOF>> tells the command line to add the input after the command to the end of the file
 3. You specify which file you want to add to
 4. Add whatever contents you’d like to the file (you can add multiple lines too!)
 5. Use `EOF` to close the file editor
 
-Now use the “cat” command to read the file’s contents using:
+Now, use the "cat" command to read the file’s contents using:
 `cat hello_world.py`
 
-Let’s test out our python file by using `python3 hello_world.py`. “python3” is how you can run python files from your terminal to see their output. We are expecting our program to have an output of “Hello World!”. Your terminal should look like the following after running the python file.
+Let’s test out our Python file by using `python3 hello_world.py`. "python3" is how you run Python files from your terminal to see their output. We are expecting our program to have an output of "Hello World!". Your terminal should look like the following after running the Python file.
 
 <div class=mdImage align=center >
     <kbd>
@@ -71,15 +71,15 @@ Let’s test out our python file by using `python3 hello_world.py`. “python3�
 </div>
 <br>
 
-Lastly, you can use the “cat” command from earlier to add to the end of files. Let’s add another print statement to hello_world.py that when executed outputs “Goodbye World!”
+Lastly, you can use the "cat" command to add to the end of files. Let’s add another print statement to hello_world.py that when executed outputs "Goodbye World!"
 
 To do so, we will execute the following in the terminal:
 `cat <<EOF>> hello_world.py`
-`print(“Goodbye World!”)`
+`print("Goodbye World!")`
 
-Use the “cat” command to read hello_world.py and make sure the command executed correctly: `cat hello_world.py`
+Use the "cat" command to read `hello_world.py` and make sure the command is executed correctly: `cat hello_world.py`
 
-Then run the python file using `python3 hello_world.py`. You should see the following output:
+Then run the Python file using `python3 hello_world.py`. You should see the following output:
 
 <div class=mdImage align=center >
     <kbd>
@@ -90,7 +90,7 @@ Then run the python file using `python3 hello_world.py`. You should see the foll
 
 <div align=center><h2>…More Commands!</h2></div>
 
-We have been working in the terminal from the outside of files while using “cat”. Though it would be useful to be able to edit files in the terminal inside a file. Well… there is a command for that. The “nano” command allows you to open files and directly edit them.
+We have been working in the terminal from the outside of files while using "cat". Though it would be useful to be able to edit files in the terminal inside a file. Well… there is a command for that. The “nano” command allows you to open files and directly edit them.
 
 In your terminal, enter the following:
 `nano hello_world.py`
