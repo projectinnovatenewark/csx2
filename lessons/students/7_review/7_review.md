@@ -174,10 +174,10 @@ Key:
 - Internet Service Provider
 - Router
 
-A: ______ (hint: This device allows locally connected computers to share information and “talk” to each other.
-B: ______ (hint: This is a device that forwards data across networks.
-C: ______ (hint: This is a small network device that connects other devices to the Internet
-D: ______ (hint: This is an organization that provides services for accessing the Internet.)
+<div><b>A.</b> ______ (hint: This device allows locally connected computers to share information and “talk” to each other.</div>
+B.</b> ______ (hint: This is a device that forwards data across networks.</div>
+C.</b> ______ (hint: This is a small network device that connects other devices to the Internet</div>
+D.</b> ______ (hint: This is an organization that provides services for accessing the Internet.)</div>
 
 <h4><ins>Section 5 & 6</ins></h4>
 
