@@ -152,12 +152,12 @@ Key:
 Questions:
 
 <ins>Binary to Decimal</ins>
-1. 11100011 = _____
-2. 10101010 = _____
+1. 11100011 = ________
+2. 10101010 = ________
 
 <ins>Decimal to Binary</ins> (<b>Note</b>: Teacher should demo 50 being converted to binary)
-1. 11100011 = _____
-2. 10101010 = _____
+1. 10   = ________
+2. 128  = ________
 
 <h4><ins>Section 4</ins></h4>
 
