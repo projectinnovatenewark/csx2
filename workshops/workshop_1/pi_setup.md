@@ -1,6 +1,4 @@
-<link href="style.css" rel="stylesheet"></link>
-
-# Setting up your Raspberry Pi
+<div align=center><h1>Setting up your Raspberry Pi</h1></div>
 
 1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi.)
 
@@ -88,4 +86,4 @@
     <img src="./Raspberry_Pi_setup_images/20_plug_in_power.jpg" width="400" height="auto" />
     </div>
 
-## Now your hardware is all set up. Move on to the next portion to set up Raspbian.
+<div align=center><h3>Now your hardware is all set up. Move on to the next portion to set up Raspbian.</h3></div>
