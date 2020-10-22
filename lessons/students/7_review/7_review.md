@@ -4,6 +4,7 @@
 
 <div>What is a computer?</div>
 <div>What is hardware?</div>
+
 Components of a computer:
 - Processor
 - Memory
@@ -15,6 +16,7 @@ Components of a computer:
 
 <div>What is software?</div>
 <div>What is an operating system?</div>
+
 Examples of Operating systems:
 - Windows 
 - Linux 
@@ -24,6 +26,7 @@ Examples of Operating systems:
 <h3>Section 3: Number Systems and Programming Languages</h3>
 
 <div>What is a number system?</div>
+
 Examples of number systems:
 - Decimal 
 - Binary
@@ -33,6 +36,7 @@ Examples of number systems:
 <h3>Section 4: Networking and The Internet</h3>
 
 <div>What is a network?</div>
+
 Networking terms:
 - Switch
 - Access Point
