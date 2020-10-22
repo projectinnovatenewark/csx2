@@ -154,6 +154,7 @@ Questions:
 <ins>Binary to Decimal</ins>
 1. 11100011 = ________
 2. 10101010 = ________
+<br>
 
 <ins>Decimal to Binary</ins> (<b>Note</b>: Teacher should demo 50 being converted to binary)
 1. 10   = ________
