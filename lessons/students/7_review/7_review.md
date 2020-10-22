@@ -193,12 +193,12 @@ Key:
 <div><b>F.</b> This command creates files in you current working directory</div>
 <br>
 
-1. Pwd      _____
-2. Ls       _____
-3. Cd       _____
-4. Mkdi     _____
-5. Touch    _____
-6. R        _____
+1. pwd      _____
+2. ls       _____
+3. cd       _____
+4. mkdir    _____
+5. touch    _____
+6. rm       _____
 
 <div align=center><h2>Section 1-6 Review Questions</h2></div>
 
