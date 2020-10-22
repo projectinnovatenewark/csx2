@@ -123,7 +123,7 @@ Key:
 
 
 <div><b>A.</b> Part of the computer that the user interacts with and where user processes run: ______<div>
-<ul font-size=0>
+<ul>
 <li>The two primary interfaces that an end-user would use to interact with their computer are _____ and _____</li>
 <div><b>B.</b> Part of the computer where the kernel is run and provides its services: ______</div>
 <div><b>C.</b> Physical components of a computer: ______</div>
@@ -131,7 +131,7 @@ Key:
 <li>In the case of our computers, they are formally referred to as ___/_____ (to include the open source software tools that compliment the operating system)
 </li>
 <li>In the case of our computers, they are informally referred to as simply the operating system named _____</li>
-<ul>
+</ul>
 
 <h4><ins>Section 3</ins></h4>
 
