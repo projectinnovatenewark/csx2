@@ -151,7 +151,7 @@ All set! If you go to the Raspberry Pi icon in the top left portion of your scre
 17. Now let’s install Git in your vs code window. Open VS Code using the Raspberry Pi icon in the top left corner:
 
 <div class=mdImage align=center>
-<img src="./Raspberry_Pi_setup_images/29_installing_git.png" width="400" height="auto" />
+<img src="./Raspberry_Pi_setup_images/29_installing_git.png" width="450" height="auto" />
 </div>
 
 18. You will see your VS Code window pop up. To open a terminal in your VS Code window, press “ Ctrl + shift + ~”. This will look like the following:
