@@ -157,7 +157,7 @@ All set! If you go to the Raspberry Pi icon in the top left portion of your scre
 18. You will see your VS Code window pop up. To open a terminal in your VS Code window, press “ Ctrl + shift + ~”. This will look like the following:
 
 <div class=mdImage align=center>
-<img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="400" height="auto" />
+<img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="500" height="auto" />
 </div>
 
 19. In your terminal, use the following commands to enter your github credentials:
