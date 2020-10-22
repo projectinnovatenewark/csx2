@@ -165,7 +165,7 @@ Questions:
 **Exercise**: Identifying Network Diagram
 
 <div class=mdImage align=center>
-    <img src="./images/section_4_review.png" width="auto" height="300" />
+    <img src="./images/section_4_review.png" width="auto" height="350" />
 </div>
 
 Key:
