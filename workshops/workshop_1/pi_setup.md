@@ -130,13 +130,40 @@ Now the OS should be installing onto your Raspberry Pi. This should take a few m
 <img src="./Raspberry_Pi_setup_images/27_rasp_term_icon.png" width="400" height="auto" />
 </div>
 
-You will see the following screen open:
-
-<div class=mdImage align=center>
-<img src="./Raspberry_Pi_setup_images/28_rasp_term.png" width="400" height="auto" />
-</div>
+You will see the Raspberry Pi's terminal open. This should look similar to the emulator used in class.
 
 15. In the terminal, execute the following command:
 
-`https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -.`
+`wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -.`
+> `wget` is a Linux command used to download content from a web server
+> `sudo` (short for "superuser do") is used when admin privelages are required.
+> `apt` is for installing, updating, and removing debian packages
+> `apt-key` is used to help manage and authenticate packages
 
+16. When the previous command is finished; paste the following command and you will see a similar output:
+
+`curl -L https://raw.githubusercontent.com/headmelted/codebuilds/master/docs/installers/apt.sh | sudo bash`
+> `curl` is used to transfer data to or from a server.
+> `sudo bash` enters the command at the root directory
+
+All set! If you go to the Raspberry Pi icon in the top left portion of your screen, click accessories and then you will see our code editor.
+
+17. Now let’s install Git in your vs code window. Open VS Code using the Raspberry Pi icon in the top left corner:
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/29_installing_git.png" width="400" height="auto" />
+</div>
+
+18. You will see your VS Code window pop up. To open a terminal in your VS Code window, press “ Ctrl + shift + ~”. This will look like the following:
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="400" height="auto" />
+</div>
+
+19. In your terminal, use the following commands to enter your github credentials:
+`git config --global user.name “[YOUR USERNAME}”`
+
+then:
+`git config --global user.email “[YOUR EMAIL}”`
+
+Now you're all set to clone CSX's repositories to use for the rest of the semester. Happy Coding!
