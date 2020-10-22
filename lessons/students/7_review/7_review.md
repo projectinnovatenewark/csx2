@@ -134,7 +134,7 @@ Key:
 
 <div><b>D.</b>Part of the computer’s software that encompasses both the user-space and kernel-space: ______</div>
 <ul>
-<li>    In the case of our computers, they are formally referred to as ___/_____ (to include the open source software tools that compliment the operating system)
+<li>    In the case of our computers, they are formally referred to as ______/______ (to include the open source software tools that compliment the operating system)
 </li>
 <li>
     In the case of our computers, they are informally referred to as simply the operating system named _____
