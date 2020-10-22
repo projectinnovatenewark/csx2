@@ -85,7 +85,7 @@
 
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/18_power.jpg" width="400" height="auto" />
-    <img src="./Raspberry_Pi_setup_images/20_plug_in_powery.jpg" width="400" height="auto" />
+    <img src="./Raspberry_Pi_setup_images/20_plug_in_power.jpg" width="400" height="auto" />
     </div>
 
 ## Now your hardware is all set up. Move on to the next portion to set up Raspbian.
