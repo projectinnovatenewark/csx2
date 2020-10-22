@@ -88,7 +88,7 @@ The above materials all relate in some way to our upcoming workshop. Here is a s
 
 <h4><ins>Section 1</ins></h4>
 
-Exercise: Identify the following hardware components based on their definition.
+**Exercise**: Identify the following hardware components based on their definition.
 Key:
 - Processor
 - Memory
