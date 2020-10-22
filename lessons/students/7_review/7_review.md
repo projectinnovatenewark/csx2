@@ -109,7 +109,7 @@ Questions:
 **Exercise**: Fill in the blank.
 
 <div class=mdImage align=center>
-    <img src="./images/section_2_review.gif" width="auto" height="300" />
+    <img src="./images/section_2_review.gif" width="auto" height="350" />
 </div>
 
 Key:
