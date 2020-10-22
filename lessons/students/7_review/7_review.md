@@ -98,11 +98,11 @@ Key:
 
 Questions: 
 
-<div><b>A.</b> Main circuit board inside a computer that connects the different parts of a computer together: ______</div>
-<div><b>B.</b> The brain of the computer: ______</div>
-<div><b>C.</b> A peripheral device is a device that provides either an input or output function for a computer: ______</div>
-<div><b>D.</b> Component of your computer that allows you to store and access data on a long-term basis: ______</div>
-<div><b>E.</b> The device that is used to store information for immediate use: ______</div>
+<div><b>A)</b> Main circuit board inside a computer that connects the different parts of a computer together: ______</div>
+<div><b>B)</b> The brain of the computer: ______</div>
+<div><b>C)</b> A peripheral device is a device that provides either an input or output function for a computer: ______</div>
+<div><b>D)</b> Component of your computer that allows you to store and access data on a long-term basis: ______</div>
+<div><b>E)</b> The device that is used to store information for immediate use: ______</div>
 
 <h4><ins>Section 2</ins></h4>
 
