@@ -122,8 +122,8 @@ Key:
 - GUI
 
 
-<div><b>A.</b>Part of the computer that the user interacts with and where user processes run: ______</div>
-<ul><li>The two primary interfaces that an end-user would use to interact with their computer are _____ and _____</li></ul>
+<div><b>A.</b> Part of the computer that the user interacts with and where user processes run: ______</div>
+<div><b>    1)</b> The two primary interfaces that an end-user would use to interact with their computer are _____ and _____
 
 <div><b>B.</b>Part of the computer where the kernel is run and provides its services: ______</div>
 
