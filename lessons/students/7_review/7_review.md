@@ -2,8 +2,8 @@
 
 <h3>Section 1: Hardware and Computing</h3>
 
-What is a computer?
-What is hardware?
+<div>What is a computer?</div>
+<div>What is hardware?</div>
 Components of a computer:
 - Processor
 - Memory
@@ -13,26 +13,26 @@ Components of a computer:
 
 <h3>Section 2: Software and Operating Systems</h3>
 
-What is software?
-What is an operating system?
+<div>What is software?</div>
+<div>What is an operating system?</div>
 Examples of Operating systems:
 - Windows 
 - Linux 
 - Raspbian
-Programming Languages 
+<div>Programming Languages </div>
 
 <h3>Section 3: Number Systems and Programming Languages</h3>
 
-What is a number system?
+<div>What is a number system?</div>
 Examples of number systems:
 - Decimal 
 - Binary
-What is Python?
-What is object oriented programing
+<div>What is Python?</div>
+<div>What is object oriented programing</div>
 
 <h3>Section 4: Networking and The Internet</h3>
 
-What is a network?
+<div>What is a network?</div>
 Networking terms:
 - Switch
 - Access Point
@@ -42,9 +42,9 @@ How does the internet work?
 
 <h3>Section 5 & 6: System Admin and CLI</h3>
 
-Command Line Interface
-Why Use the CLI?
-Linux Commands
+<div>Command Line Interface</div>
+<div>Why Use the CLI?</div>
+<div>Linux Commands</div>
 
 <h3>Section 1-6 Summary</h3>
 
