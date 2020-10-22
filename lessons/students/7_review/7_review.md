@@ -139,6 +139,7 @@ Key:
 <li>
     In the case of our computers, they are informally referred to as simply the operating system named _____
 </li>
+</ul>
 
 <h4><ins>Section 3</ins></h4>
 
