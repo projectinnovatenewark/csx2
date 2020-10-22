@@ -122,13 +122,13 @@ Key:
 - GUI
 
 
-<div><b>A.</b> Part of the computer that the user interacts with and where user processes run: ______</div>
+<b>A.</b> Part of the computer that the user interacts with and where user processes run: ______
 <ul>
 <li>The two primary interfaces that an end-user would use to interact with their computer are _____ and _____</li>
 </ul>
-<div><b>B.</b> Part of the computer where the kernel is run and provides its services: ______</div>
-<div><b>C.</b> Physical components of a computer: ______</div>
-<div><b>D.</b> Part of the computer’s software that encompasses both the user-space and kernel-space: ______</div>
+<b>B.</b> Part of the computer where the kernel is run and provides its services: ______
+<b>C.</b> Physical components of a computer: ______
+<b>D.</b> Part of the computer’s software that encompasses both the user-space and kernel-space: ______
 <ul>
 <li>In the case of our computers, they are formally referred to as ___/_____ (to include the open source software tools that compliment the operating system)
 </li>
