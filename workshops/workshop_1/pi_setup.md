@@ -136,14 +136,18 @@ You will see the Raspberry Pi's terminal open. This should look similar to the e
 
 `wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -.`
 > `wget` is a Linux command used to download content from a web server
+>
 > `sudo` (short for "superuser do") is used when admin privelages are required.
+>
 > `apt` is for installing, updating, and removing debian packages
+>
 > `apt-key` is used to help manage and authenticate packages
 
 16. When the previous command is finished; paste the following command and you will see a similar output:
 
 `curl -L https://raw.githubusercontent.com/headmelted/codebuilds/master/docs/installers/apt.sh | sudo bash`
 > `curl` is used to transfer data to or from a server.
+>
 > `sudo bash` enters the command at the root directory
 
 All set! If you go to the Raspberry Pi icon in the top left portion of your screen, click accessories and then you will see our code editor.
