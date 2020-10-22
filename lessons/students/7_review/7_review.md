@@ -190,6 +190,7 @@ Key:
 <div><b>D.</b> This command displays the contents of your working directory usually consisting of folders and files</div>
 <div><b>E.</b> Short for “path working directory”.</div>
 <div><b>F.</b> This command creates files in you current working directory</div>
+<br>
 
 1. Pwd      _____
 2. Ls       _____
