@@ -6,11 +6,13 @@
 <div>What is hardware?</div>
 
 Components of a computer:
-- Processor
-- Memory
-- Storage 
-- Motherboard
-- I/O Devices
+<ul>
+<li>Processor</li>
+<li>Memory</li>
+<li>Storage </li>
+<li>Motherboard</li>
+<li>I/O Devices</li>
+</ul>
 
 <h3>Section 2: Software and Operating Systems</h3>
 
@@ -18,31 +20,37 @@ Components of a computer:
 <div>What is an operating system?</div>
 
 Examples of Operating systems:
-- Windows 
-- Linux 
-- Raspbian
+<ul>
+<li>Windows </li>
+<li>Linux </li>
+<li>Raspbian</li>
+</ul>
 <div>Programming Languages </div>
+
 
 <h3>Section 3: Number Systems and Programming Languages</h3>
 
 <div>What is a number system?</div>
 
 Examples of number systems:
-- Decimal 
-- Binary
+<ul>
+<li>Decimal </li>
+<li>Binary</li>
+</ul>
 <div>What is Python?</div>
 <div>What is object oriented programing</div>
 
 <h3>Section 4: Networking and The Internet</h3>
 
 <div>What is a network?</div>
-
 Networking terms:
-- Switch
-- Access Point
-- Router
-- Modem
-How does the internet work?
+<ul>
+<li>Switch</li>
+<li>Access Point</li>
+<li>Router</li>
+<li>Modem</li>
+</ul>
+<div>How does the internet work?</div>
 
 <h3>Section 5 & 6: System Admin and CLI</h3>
 
