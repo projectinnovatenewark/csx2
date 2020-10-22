@@ -133,7 +133,7 @@ Now the OS should be installing onto your Raspberry Pi. This should take a few m
 You will see the following screen open:
 
 <div class=mdImage align=center>
-<img src="./Raspberry_Pi_setup_images/27_rasp_term.png" width="400" height="auto" />
+<img src="./Raspberry_Pi_setup_images/28_rasp_term.png" width="400" height="auto" />
 </div>
 
 15. In the terminal, execute the following command:
