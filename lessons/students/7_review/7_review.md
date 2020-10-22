@@ -25,7 +25,7 @@ Examples of Operating systems:
 <li>Linux </li>
 <li>Raspbian</li>
 </ul>
-<div>Programming Languages </div>
+Programming Languages
 
 
 <h3>Section 3: Number Systems and Programming Languages</h3>
@@ -37,7 +37,7 @@ Examples of number systems:
 <li>Decimal </li>
 <li>Binary</li>
 </ul>
-<div>What is Python?</div>
+What is Python?
 <div>What is object oriented programing</div>
 
 <h3>Section 4: Networking and The Internet</h3>
@@ -50,7 +50,7 @@ Networking terms:
 <li>Router</li>
 <li>Modem</li>
 </ul>
-<div>How does the internet work?</div>
+How does the internet work?
 
 <h3>Section 5 & 6: System Admin and CLI</h3>
 
