@@ -98,11 +98,11 @@ Key:
 
 Questions: 
 
-<div><b>A)</b> Main circuit board inside a computer that connects the different parts of a computer together: ______</div>
-<div><b>B)</b> The brain of the computer: ______</div>
-<div><b>C)</b> A peripheral device is a device that provides either an input or output function for a computer: ______</div>
-<div><b>D)</b> Component of your computer that allows you to store and access data on a long-term basis: ______</div>
-<div><b>E)</b> The device that is used to store information for immediate use: ______</div>
+<div><b>A.</b> Main circuit board inside a computer that connects the different parts of a computer together: ______</div>
+<div><b>B.</b> The brain of the computer: ______</div>
+<div><b>C.</b> A peripheral device is a device that provides either an input or output function for a computer: ______</div>
+<div><b>D.</b> Component of your computer that allows you to store and access data on a long-term basis: ______</div>
+<div><b>E.</b> The device that is used to store information for immediate use: ______</div>
 
 <h4><ins>Section 2</ins></h4>
 
@@ -121,20 +121,22 @@ Key:
 - User Space
 - GUI
 
-**A**
-Part of the computer that the user interacts with and where user processes run: ______
-- The two primary interfaces that an end-user would use to interact with their computer are _____ and _____
 
-**B**
-Part of the computer where the kernel is run and provides its services: ______
+<div><b>A.</b>Part of the computer that the user interacts with and where user processes run: ______<div>
+<ul><li>The two primary interfaces that an end-user would use to interact with their computer are _____ and _____</li></ul>
 
-**C**
-Physical components of a computer: ______
+<div><b>B.</b>Part of the computer where the kernel is run and provides its services: ______</div>
 
-**D**
-Part of the computer’s software that encompasses both the user-space and kernel-space: ______
-- In the case of our computers, they are formally referred to as ___/_____ (to include the open source software tools that compliment the operating system)
-- In the case of our computers, they are informally referred to as simply the operating system named _____
+
+<div><b>C.</b>Physical components of a computer: ______</div>
+
+
+<div><b>D.</b>Part of the computer’s software that encompasses both the user-space and kernel-space: ______</div>
+<ul>
+<li>In the case of our computers, they are formally referred to as ___/_____ (to include the open source software tools that compliment the operating system)
+</li>
+<li>In the case of our computers, they are informally referred to as simply the operating system named _____</li>
+<ul>
 
 <h4><ins>Section 3</ins></h4>
 
