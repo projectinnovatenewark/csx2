@@ -71,7 +71,7 @@
     </kbd>
     </div>
 
-6. Place the plastic guard (#2) followed by the final guard (#3) on top of the Pi. Then screw each washer back on so that there is not room for the Pi to move, but there is not pressure on the Pi.
+6. Place the plastic guard (#2) followed by the final guard (#3) on top of the Pi. Then screw each washer back on so that the Pi is secure without too much pressure being on the Pi.
     
     <div class=mdImage align=center>
     <kbd>
