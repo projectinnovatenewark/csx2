@@ -161,9 +161,9 @@ All set! If you go to the Raspberry Pi icon in the top left portion of your scre
 </div>
 
 19. In your terminal, use the following commands to enter your github credentials:
-`git config --global user.name “[YOUR USERNAME}”`
+`git config --global user.name “[YOUR GITHUB USERNAME}”`
 
 then:
-`git config --global user.email “[YOUR EMAIL}”`
+`git config --global user.email “[YOUR GITHUB ASSOCIATED EMAIL}”`
 
 Now you're all set to clone CSX's repositories to use for the rest of the semester. Happy Coding!
