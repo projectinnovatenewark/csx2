@@ -74,15 +74,15 @@ Python is a(n) **interpreted** programming language meaning it is compiled by a(
 
 The above materials all relate in some way to our upcoming workshop. Here is a summary of each section and how it pertains to our computer setup that we will be building during the workshop period.
 
-1. A student will understand the hardware elements such as the RAM, CPU, ports, and peripherals before putting your Pi together. Teachers will use terminology from our first lesson when putting the computer together to explain what each component of the computer does. Other components like the GPIO pins will be utilized when students are building their final project.
+1. A student will understand the hardware elements such as the **RAM**, **CPU**, **ports**, and **peripherals** before putting your Pi together. Teachers will use terminology from our first lesson when putting the computer together to explain what each component of the computer does. Other components like the GPIO pins will be utilized when students are building their final project.
 
-2. Software for the student’s computer will be built on top of an operating system, which in this case will be the Linux, Debian-based OS called Raspbian. Students will understand the difference between a CLI and GUI before using various tools that can accomplish the same task (such as using an inline text editor using the CLI vs. a code editor program using the GUI).
+2. Software for the student’s computer will be built on top of an **operating system**, which in this case will be the Linux, Debian-based OS called Raspbian. Students will understand the difference between a **CLI** and **GUI** before using various tools that can accomplish the same task (such as using an inline text editor using the CLI vs. a code editor program using the GUI).
 
-3. Students will have a general understanding of how networks and the internet work. To finish the project, a student will have to run a server on their network which then makes a request to another server on the internet.
+3. Students will have a general understanding of how **networks** and the **internet** work. To finish the project, a student will have to run a server on their network which then makes a request to another server on the internet.
 
-4. Students will have a strong understanding of the command line and bash. The command line program that is native to the Raspberry Pi computer is called the “terminal”. Students will use the command line to navigate their computer’s directories, utilize CLI tools such as “git” to assist in the development process, and create bash aliases to make shortcuts for commands.
+4. Students will have a strong understanding of the **command line** and **bash**. The command line program that is native to the Raspberry Pi computer is called the “terminal”. Students will use the command line to navigate their computer’s directories, utilize **CLI** tools such as “git” to assist in the development process, and create **bash** aliases to make shortcuts for commands.
 
-5. Students will learn the object-oriented programming language Python. Python is considered an interpreted programming language, and the computer a student uses will already have an interpreter installed to ensure that Python runs smoothly on the machine.
+5. Students will learn the object-oriented programming language **Python**. Python is considered an interpreted programming language, and the computer a student uses will already have an interpreter installed to ensure that Python runs smoothly on the machine.
 
 <div align=center><h2>Section 1-6 Review Exercises</h2></div>
 
