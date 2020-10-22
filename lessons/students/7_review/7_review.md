@@ -173,6 +173,7 @@ Key:
 - Switch
 - Internet Service Provider
 - Router
+<br>
 
 <div><b>A.</b> ______ (hint: This device allows locally connected computers to share information and “talk” to each other.</div>
 <div><b>B.</b> ______ (hint: This is a device that forwards data across networks.</div>
