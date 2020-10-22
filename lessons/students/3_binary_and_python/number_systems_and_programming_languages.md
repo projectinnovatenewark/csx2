@@ -1,4 +1,4 @@
-<div align=center><h1>Programming Languages</h1></div>
+<div align=center><h1>Number Systems and Programming Languages</h1></div>
 
 The purpose of this section is to introduce you to the following concepts: 
 - Understanding number systems - specifically binary.
