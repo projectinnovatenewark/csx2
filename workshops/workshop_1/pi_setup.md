@@ -1,5 +1,9 @@
 <div align=center><h1>Setting up your Raspberry Pi</h1></div>
 
+In this workshop, you (the student) will assemble the Raspberry Pi single-board computer and install the nexessary software for the rest of the semester.
+
+<div align=center><h2>Setting up your Raspberry Pi</h2></div>
+
 1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi.)
 
     a. As you can see, your Pi comes with 3 heat sinks designed to keep **[INSERT 3 COMPONENTS HEAT SINKS ARE USED ON]** cool. The below picture labels where each heat sink belongs on the Pi.
@@ -79,11 +83,60 @@
     <img src="./Raspberry_Pi_setup_images/17_plug_hdmi_pi.jpg" width="400" height="auto" />
     </div>
 
-10. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started.
+10. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
 
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/18_power.jpg" width="400" height="auto" />
     <img src="./Raspberry_Pi_setup_images/20_plug_in_power.jpg" width="400" height="auto" />
     </div>
 
-<div align=center><h3>Now your hardware is all set up. Move on to the next portion to set up Raspbian.</h3></div>
+<div align=center><h2>Installing the Necessary Softwares</h2></div>
+
+Pwer on your Raspberry Pi by holding the power button on the back of your monitor for about 5 seconds. 
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/26_power_on.jpg" width="400" height="auto" />
+</div>
+
+<div align=center><h3>Installing Debian/Raspberry Pi OS</h3></div>
+
+Now that everything is connected and the Pi is powered on, you should see something similar to the following screen:
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/23_installing_rasp_os.jpg" width="400" height="auto" />
+</div>
+
+11. Setup up your wifi network by selecting the “Wifi networks (w)” button ciricled in the picture belowand follow the steps to connect to your local network.
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/24_wifi_setup.jpeg" width="400" height="auto" />
+</div>
+
+12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS FUll (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again.
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/25_rasp_os.jpeg" width="400" height="auto" />
+</div>
+
+Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
+
+13. There should be a prompt to update abd restart the Raspberry Pi. It is recommended to do so.
+
+<div align=center><h3>Installing VS Code and Git</h3></div>
+
+14. We will be using an open source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/27_rasp_term_icon.png" width="400" height="auto" />
+</div>
+
+You will see the following screen open:
+
+<div class=mdImage align=center>
+<img src="./Raspberry_Pi_setup_images/27_rasp_term.png" width="400" height="auto" />
+</div>
+
+15. In the terminal, execute the following command:
+
+`https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -.`
+
