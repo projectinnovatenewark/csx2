@@ -68,7 +68,7 @@ A network is a group of computing devices that communicate with one another to s
 
 The terminal/command prompt are programs that allow a user to interact with their computer's **shell**, a type of **command line interface**. In most cases, **bash** is the default shell a computer uses. The command line provides a strong alternative to using the graphical user interface. Programmers often use the command line as it can be faster than using the GUI for directory management and installing packages as well as other advantages. Additionally, there are many commands at the helm of the user giving them more flexibility in how tasks are executed. The commands learned in previous sections are the base of what a programmer can potentially need.
 
-Python is a(n) **interpreted** programming language meaning it is compiled by a(n) **interpreter**. That compiled code, in the case of Python, is broken down into a type of binary called **bytecode**. The other type of binary is called **machine** code, which consists of 0’s and 1’s.
+Python is a(n) **interpreted** programming language meaning it is compiled by a(n) **interpreter**. That compiled code, in the case of Python, is broken down into a type of binary called **bytecode**. The other type of binary is called **machine code**, which consists of 0’s and 1’s.
 
 <h3>Section 1-6 Takeaways</h3>
 
