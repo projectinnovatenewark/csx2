@@ -63,8 +63,8 @@
     b. The micro-HDMI cable is used to display the GUI of the Pi.
 
     <div class=mdImage align=center>
-    <img src="./Raspberry_Pi_setup_images/12_usbC_and_hdmi.jpg" width="auto" height="300" />
-    <img src="./Raspberry_Pi_setup_images/13_port_view_of_pi.jpg" width="auto" height="300" />
+    <img src="./Raspberry_Pi_setup_images/12_usbC_and_hdmi.jpg" width="auto" height="250" />
+    <img src="./Raspberry_Pi_setup_images/13_port_view_of_pi.jpg" width="auto" height="250" />
     </div>
 
 8. Plug in the USB-C into the display and then into the Pi as shown below:
