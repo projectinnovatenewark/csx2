@@ -145,7 +145,7 @@ Now that everything is connected and the Pi is powered on, you should see someth
 
 12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS FUll (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
 
-13. There should be a prompt to update abd restart the Raspberry Pi. It is recommended to do so.
+13. There should be a prompt to update and restart the Raspberry Pi. It is recommended to do so.
 
 <div align=center><h3>Installing VS Code and Git</h3></div>
 
