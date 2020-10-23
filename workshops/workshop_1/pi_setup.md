@@ -33,7 +33,7 @@ In your package, you will find:
 
 <div align=center><h2>Setting up your Raspberry Pi</h2></div>
 
-After unboxing, use the following step-by-step guide to building your Raspberry Pi
+After unboxing, use the following step-by-step guide to build your Raspberry Pi
 
 1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi.)
 
