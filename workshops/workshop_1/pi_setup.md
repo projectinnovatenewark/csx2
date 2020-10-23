@@ -119,7 +119,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     <img src="./Raspberry_Pi_setup_images/20_plug_in_power.jpg" width="400" height="auto" />
     </div>
 
-<div align=center><h2>Installing the Necessary Softwares</h2></div>
+<div align=center><h2>Installing Raspbian/Rasperry Pi OS & VS Code/h2></div>
 
 Pwer on your Raspberry Pi by holding the power button on the back of your monitor for about 5 seconds. 
 
