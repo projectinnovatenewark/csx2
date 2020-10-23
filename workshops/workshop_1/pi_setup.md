@@ -16,7 +16,7 @@ In your package, you will find:
 - 10.1 inch LCD Monitor containing
     - LCD Monitor
     - Mounting Guards
-    - USB-C OUtput Power Cable
+    - USB-C Output Power Cable
     - Micro HDMI to HDMI
     - Power Supply Chord
     - Three (3) Heat Sinks
