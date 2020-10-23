@@ -141,13 +141,7 @@ Now that everything is connected and the Pi is powered on, you should see someth
 <img src="./Raspberry_Pi_setup_images/24_wifi_setup.jpeg" width="400" height="auto" />
 </div>
 
-12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS FUll (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again.
-
-<div class=mdImage align=center>
-<img src="./Raspberry_Pi_setup_images/25_rasp_os.jpeg" width="400" height="auto" />
-</div>
-
-Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
+12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS FUll (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
 
 13. There should be a prompt to update abd restart the Raspberry Pi. It is recommended to do so.
 
@@ -163,7 +157,7 @@ You will see the Raspberry Pi's terminal open. This should look similar to the e
 
 15. In the terminal, execute the following command:
 
-`wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -.`
+`wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -`
 > `wget` is a Linux command used to download content from a web server
 >
 > `sudo` (short for "superuser do") is used when admin privelages are required.
