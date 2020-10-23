@@ -4,7 +4,31 @@ In this workshop, you (the student) will assemble the Raspberry Pi single-board 
 
 In your package, you should find:
 - a Raspberry Pi Desktop Kit containing:
-    - 
+    - A 8GB Raspberry Pi 4 MOdel B
+    - 16 GB MicroSD Card w/ NOOBS
+    - Raspberry Pi Keyboard
+    - Raspberry Pi Mouse
+    - USB-C Power Supply
+    - Official Beginner's Guide
+    - Micro HDMI to HDMI Cable
+
+- 10.1 inch LCD Monitor containing
+    - LCD Monitor
+    - Mounting Guards
+    - USB-C OUtput Power Cable
+    - Micro HDMI to HDMI
+    - Power Supply Chord
+    - Three (3) Heat Sinks
+
+- Envelope containing:
+    - One (1) Breadboard
+    - Fifteen (15) Male-Male Jumper Wires
+    - Fifteen (15) Female-Male Jumper Wires
+    - Fifteen (15) Female-Female Jumper Wires
+    - One (1) Buzzer
+    - One (1) Motion Sensor
+    - Five (5) LED Lights (Assorted colors)
+    - Tactile Buttons
 
 <div align=center><h2>Setting up your Raspberry Pi</h2></div>
 
