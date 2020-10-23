@@ -207,64 +207,64 @@ Key:
 <div align=center><h2>Section 1-6 Review Questions</h2></div>
 
 1. **Which of the following is not considered a basic function of a computer:**
-    <div><b>a.</b> Provides an output to a user.</div>
-    <div><b>b.</b> It has a keyboard.</div>
-    <div><b>c.</b> It accepts input from a user.</div>
-    <div><b>d.</b> It performs calculations based on an input.</div>
+    <div><b>a.</b> Provides an output to a user. (A)</div>
+    <div><b>b.</b> It has a Graphical User Interface. (T)</div>
+    <div><b>c.</b> It accepts input from a user. (R)</div>
+    <div><b>d.</b> It performs calculations based on an input. (C)</div>
     <br>
 
 2. **Which of the following facts apply to all Linux operating systems?**
-    <div><b>a.</b> They have native NGU Tools</div>
-    <div><b>b.</b> The utilize the Linux kernel</div>
-    <div><b>c.</b> They are Debian-based</div>
-    <div><b>d.</b> None of the above</div>
+    <div><b>a.</b> They have native NGU Tools (L)</div>
+    <div><b>b.</b> The utilize the Linux kernel (H)</div>
+    <div><b>c.</b> They are Debian-based (T)</div>
+    <div><b>d.</b> None of the above (E)</div>
     <br>
 
 3. **Which of the following software is needed to run a Python file on your computer?**
-    <div><b>a.</b> A compiler</div>
-    <div><b>b.</b> Bash</div>
-    <div><b>c.</b> The Linux kernel</div>
-    <div><b>d.</b> An interpreter</div>
+    <div><b>a.</b> A compiler (A)</div>
+    <div><b>b.</b> Bash (I)</div>
+    <div><b>c.</b> The Linux kernel (O)</div>
+    <div><b>d.</b> An interpreter (E)</div>
     <br>
 
 4. **All computer data is represented using _____?**
-    <div><b>a.</b> The trinary number system</div>
-    <div><b>b.</b> The decimal number system</div>
-    <div><b>c.</b> The english language</div>
-    <div><b>d.</b> The binary number system</div>
+    <div><b>a.</b> The trinary number system (H)</div>
+    <div><b>b.</b> The decimal number system (M)</div>
+    <div><b>c.</b> The english language (P)</div>
+    <div><b>d.</b> The binary number system (L)</div>
     <br>
 
 5. **Which of the following is a common program that you write when you are first learning a programming language?**
-    <div><b>a.</b> Programize</div>
-    <div><b>b.</b> Hello World</div>
-    <div><b>c.</b> Good Morning</div>
-    <div><b>d.</b> Welcome Program</div>
+    <div><b>a.</b> Programize (A)</div>
+    <div><b>b.</b> Hello World (E)</div>
+    <div><b>c.</b> Good Morning (P)</div>
+    <div><b>d.</b> Welcome Program (Q)</div>
     <br>
 
 6. **Which of the following are considered the two basic types of Networks? (Choose 2)**
-    <div><b>a.</b> WAN</div>
-    <div><b>b.</b> PAN</div>
-    <div><b>c.</b> NAN</div>
-    <div><b>d.</b> LAN</div>
+    <div><b>a.</b> WAN (T)</div>
+    <div><b>b.</b> PAN (M)</div>
+    <div><b>c.</b> NAN (H)</div>
+    <div><b>d.</b> LAN (T)</div>
     <br>
 
 7. **The internet is considered the most prominent example of the LAN network type?**
-    <div><b>a.</b> True</div>
-    <div><b>b.</b> False</div>
+    <div><b>a.</b> True (M)</div>
+    <div><b>b.</b> False (E)</div>
     <br>
 
 8. **The CLI is an example of a:**
-    <div><b>a.</b> Programming Language</div>
-    <div><b>b.</b> User Interface</div>
-    <div><b>c.</b> Number System</div>
-    <div><b>d.</b> Operating System</div>
+    <div><b>a.</b> Programming Language (H)</div>
+    <div><b>b.</b> User Interface (R)</div>
+    <div><b>c.</b> Number System (S)</div>
+    <div><b>d.</b> Operating System (W)</div>
     <br>
 
 9. **The “cat” command allows the user to do all of the following EXCEPT:**
-    <div><b>a.</b> Create files in the current directory</div>
-    <div><b>b.</b> Delete files</div>
-    <div><b>c.</b> Read the contents of files</div>
-    <div><b>d.</b> Add to the end of files</div>
+    <div><b>a.</b> Create files in the current directory (A)</div>
+    <div><b>b.</b> Delete files (M)</div>
+    <div><b>c.</b> Read the contents of files (L)</div>
+    <div><b>d.</b> Add to the end of files (E)</div>
     <br>
 
 **What comes once in a minute, twice in a moment, but never in a thousand years?  _ _ _    _ _ _ _ _ _   “_”**
