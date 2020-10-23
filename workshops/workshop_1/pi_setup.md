@@ -5,7 +5,7 @@ In this workshop, you (the student) will assemble the Raspberry Pi single-board 
 In your package, you will find:
 
 - Raspberry Pi Desktop Kit containing:
-    - A 8GB Raspberry Pi 4 MOdel B
+    - A 8GB Raspberry Pi 4 Model B
     - 16 GB MicroSD Card w/ NOOBS
     - Raspberry Pi Keyboard
     - Raspberry Pi Mouse
