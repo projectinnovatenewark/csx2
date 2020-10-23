@@ -29,7 +29,7 @@ In your package, you will find:
     - One (1) Buzzer
     - One (1) Motion Sensor
     - Five (5) LED Lights (Assorted colors)
-    - Tactile Buttons
+    - Three (3) Tactile Buttons
 
 <div align=center><h2>Setting up your Raspberry Pi</h2></div>
 
