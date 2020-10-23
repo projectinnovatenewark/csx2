@@ -127,7 +127,7 @@ Now to close the file press the "control" key and "x" key together. You’ll see
 
 <div class=mdImage align=center >
     <kbd>
-        <img src="./images/emulator5.png" width="auto" height="400" />
+        <img src="./images/emulator5.png" width="auto" height="300" />
     </kbd>
 </div>
 <br>
@@ -137,7 +137,7 @@ Press "Y" to save the changes you made and then press the "Enter" key. Let’s t
 
 <div class=mdImage align=center >
     <kbd>
-        <img src="./images/emulator6.png" width="auto" height="400" />
+        <img src="./images/emulator6.png" width="auto" height="300" />
     </kbd>
 </div>
 <br>
