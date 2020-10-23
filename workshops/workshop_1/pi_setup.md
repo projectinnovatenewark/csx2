@@ -2,8 +2,9 @@
 
 In this workshop, you (the student) will assemble the Raspberry Pi single-board computer and install the necessary software for the rest of the semester.
 
-In your package, you should find:
-- a Raspberry Pi Desktop Kit containing:
+In your package, you will find:
+
+- Raspberry Pi Desktop Kit containing:
     - A 8GB Raspberry Pi 4 MOdel B
     - 16 GB MicroSD Card w/ NOOBS
     - Raspberry Pi Keyboard
