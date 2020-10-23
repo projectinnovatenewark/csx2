@@ -137,7 +137,7 @@ Press "Y" to save the changes you made and then press the "Enter" key. Let’s t
 
 <div class=mdImage align=center >
     <kbd>
-        <img src="./images/emulator6.png" width="auto" height="300" />
+        <img src="./images/emulator6.png" width="auto" height="250" />
     </kbd>
 </div>
 <br>
