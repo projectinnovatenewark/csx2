@@ -193,6 +193,8 @@ All set! If you go to the Raspberry Pi icon in the top left portion of your scre
 <img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="500" height="auto" />
 </div>
 
+This step requires that you have a Github account. If you have not created one yet, do so <a href="https://github.com/">here</a>. If you already have a Github account feel free to continue.
+
 19. In your terminal, use the following commands to enter your github credentials:
 `git config --global user.name “[YOUR GITHUB USERNAME}”`
 
