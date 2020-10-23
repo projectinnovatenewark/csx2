@@ -123,7 +123,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
 
 <div align=center><h2>Installing Raspbian/Rasperry Pi OS & VS Code</h2></div>
 
-Pwer on your Raspberry Pi by holding the power button on the back of your monitor for about 5 seconds. 
+Power on your Raspberry Pi by holding the power button on the back of your monitor for about 5 seconds. 
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/26_power_on.jpg" width="400" height="auto" />
