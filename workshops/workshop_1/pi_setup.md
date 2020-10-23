@@ -26,10 +26,12 @@ In your package, you will find:
     - Fifteen (15) Male-Male Jumper Wires
     - Fifteen (15) Female-Male Jumper Wires
     - Fifteen (15) Female-Female Jumper Wires
-    - One (1) Buzzer
     - One (1) Motion Sensor
-    - Five (5) LED Lights (Assorted colors)
-    - Three (3) Tactile Buttons
+    - A Second Envelope Containing:
+        - Five (5) LED Lights (Assorted colors)
+        - Three (3) Tactile Buttons
+        - One (1) Buzzer
+        - Three (3) Ohm Resistors
 
 <div align=center><h2>Setting up your Raspberry Pi</h2></div>
 
