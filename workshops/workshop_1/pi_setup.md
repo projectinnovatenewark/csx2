@@ -6,7 +6,8 @@ In this workshop, you (the student) will assemble the Raspberry Pi single-board 
 
 1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi.)
 
-    a. As you can see, your Pi comes with 3 heat sinks designed to keep **[INSERT 3 COMPONENTS HEAT SINKS ARE USED ON]** cool. The below picture labels where each heat sink belongs on the Pi.
+    a. As you can see, your Pi comes with 3 heat sinks designed to keep the CPU, RAM, and the USB Controller cool. The below picture labels where each heat sink belongs on the Pi.
+    > The USB Controller splits the USB ports to share the same bandwidth and power
         
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="400" height="auto" />
@@ -27,7 +28,6 @@ In this workshop, you (the student) will assemble the Raspberry Pi single-board 
 > Heat sinks keep the Pi cool to prevent it from overheating.
 
 2. Insert the microSD card into the port on the bottom of the Pi.
-    <!-- Images are JPEG  -->
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/22_micro_sd.jpeg" width="400" height="auto" />
     <img src="./Raspberry_Pi_setup_images/21_insert_sd.jpeg" width="400" height="auto" />
