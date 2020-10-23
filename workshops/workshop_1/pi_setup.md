@@ -1,6 +1,6 @@
 <div align=center><h1>Setting up your Raspberry Pi</h1></div>
 
-In this workshop, you (the student) will assemble the Raspberry Pi single-board computer and install the nexessary software for the rest of the semester.
+In this workshop, you (the student) will assemble the Raspberry Pi single-board computer and install the necessary software for the rest of the semester.
 
 <div align=center><h2>Setting up your Raspberry Pi</h2></div>
 
