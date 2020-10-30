@@ -124,11 +124,11 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     <img src="./Raspberry_Pi_setup_images/31_keyboard_usb.jpg" width="400" height="auto" />
     </div>
 
-11. Now that our keyboard is connected, we'll connect our mouse. The desktop kit is convenient in that we can connect our mouse directly to the keyboard. This way we don't have to worry about the wire being too short. Go ahead and connect the mouse to the USB port closest to the edge of the keyboard as shown below:
+11. Now that our keyboard is connected, we can connect our mouse. The desktop kit is convenient in that we can connect our mouse directly to the keyboard. This way we don't have to worry about the wire being too short. Go ahead and connect the mouse to the USB port closest to the edge of the keyboard as shown below:
 
     <div class=mdImage align=center>    
     <img src="./Raspberry_Pi_setup_images/34_mouse_&_keyboard.jpg" width="400" height="auto" />
-    </div> 
+    </div>
 
 
 12. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
