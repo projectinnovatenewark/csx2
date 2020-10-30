@@ -2,7 +2,7 @@
 
 In this workshop, the student will assemble the Raspberry Pi single-board computer and install the necessary software for the rest of the semester.
 
-<div><h3>Notes: </h3></div>
+<div><h3>Note: </h3></div>
 <div><ins>Please be careful when unboxing. These boxes will be needed to pack up the Raspberry Pi and its components at the end of the year.</ins></div>
 <br>
 
