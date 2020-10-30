@@ -128,7 +128,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
 
     <div class=mdImage align=center>    
     <img src="./Raspberry_Pi_setup_images/34_mouse_&_keyboard.jpg" width="400" height="auto" />
-    </div>
+    </div> 
 
 
 12. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
