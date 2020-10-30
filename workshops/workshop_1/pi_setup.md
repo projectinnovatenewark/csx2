@@ -2,8 +2,10 @@
 
 In this workshop, the student will assemble the Raspberry Pi single-board computer and install the necessary software for the rest of the semester.
 
-<div><h3>Note: </h3><ins>Please be careful when unboxing. These boxes will be needed to pack up the Raspberry Pi and its components at the end of the year.</ins></div>
+<div><h3>Notes: </h3></div>
+<div><ins>Please be careful when unboxing. These boxes will be needed to pack up the Raspberry Pi and its components at the end of the year.</ins></div>
 <br>
+
 In your package, you will find:
 
 - Raspberry Pi Desktop Kit containing:
@@ -48,7 +50,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="400" height="auto" />
     </div>
 
-    b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. Careful handling the guards as they are very fragile!
+    b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. <ins>Careful handling the guards as they are very fragile!</ins>
 
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/7_pi_guards.jpg" width="400" height="auto" />
