@@ -2,8 +2,6 @@
 
 In this workshop, the student will assemble the Raspberry Pi single-board computer and install the necessary software for the rest of the semester.
 
-<div><h3>Note: </h3><ins>Please be careful when unboxing. These boxes will be needed to pack up the Raspberry Pi and its components at the end of the yeaer.</ins></div>
-
 In your package, you will find:
 
 - Raspberry Pi Desktop Kit containing:
@@ -115,19 +113,6 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     <img src="./Raspberry_Pi_setup_images/16_plug_hdmi_display.jpg" width="400" height="auto" />
     <img src="./Raspberry_Pi_setup_images/17_plug_hdmi_pi.jpg" width="400" height="auto" />
     </div>
-
-10. Now we are going to connect the keyboard to the Pi. We want to usitilize the USB 3.0 port as shown below:
-
-    <div class=mdImage align=center>    
-    <img src="./Raspberry_Pi_setup_images/31_keyboard_usb.jpg" width="400" height="auto" />
-    </div>
-
-11. Now that our keyboard is connected, we'll connect our mouse. The desktop kit is convenient in that we can connect our mouse directly to the keyboard. This way we don't have to worry about the wire being too short. Go ahead and connect the mouse to the USB port closest to the edge of the keyboard as shown below:
-
-    <div class=mdImage align=center>    
-    <img src="./Raspberry_Pi_setup_images/34_mouse_&_keyboard.jpg" width="400" height="auto" />
-    </div>
-
 
 10. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
 
