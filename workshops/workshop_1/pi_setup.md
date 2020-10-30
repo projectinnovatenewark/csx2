@@ -42,7 +42,7 @@ In your package, you will find:
 After unboxing, use the following step-by-step guide to build your Raspberry Pi
 
 1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi).
-    > <b><ins>CAUTION:</ins></b> Make sure you are positive when placing the heat sinks because the adhesive is very strong. Give a double check before dropping them in  place.
+    - <b><ins>CAUTION:</ins></b> Make sure you are positive when placing the heat sinks because the adhesive is very strong. Give a double check before dropping them in  place.
 
     a. As you can see, your Pi comes with 3 heat sinks designed to keep the CPU, RAM, and the USB Controller cool. The picture below labels where each heat sink belongs on the Pi.
     > The USB Controller splits the USB ports to share the same bandwidth and power
