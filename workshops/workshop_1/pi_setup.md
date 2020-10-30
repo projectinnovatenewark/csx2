@@ -50,7 +50,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="400" height="auto" />
     </div>
 
-    b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. <ins>Careful handling the guards as they are very fragile!</ins>
+    b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. <b><ins>Careful handling the guards as they are very fragile!</ins></b>
 
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/7_pi_guards.jpg" width="400" height="auto" />
