@@ -118,7 +118,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     <img src="./Raspberry_Pi_setup_images/17_plug_hdmi_pi.jpg" width="400" height="auto" />
     </div>
 
-10. Now we are going to connect the keyboard to the Pi. We want to usitilize the USB 3.0 port as shown below:
+10. Now we are going to connect the keyboard to the Pi. We want to utilize the USB 3.0 port as shown below:
 
     <div class=mdImage align=center>    
     <img src="./Raspberry_Pi_setup_images/31_keyboard_usb.jpg" width="400" height="auto" />
@@ -131,7 +131,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     </div>
 
 
-10. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
+12. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
 
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/18_power.jpg" width="400" height="auto" />
