@@ -155,19 +155,19 @@ Now that everything is connected and the Pi is powered on, you should see someth
 <img src="./Raspberry_Pi_setup_images/23_installing_rasp_os.jpg" width="400" height="auto" />
 </div>
 
-11. Setup up your wifi network by selecting the “Wifi networks (w)” button ciricled in the picture belowand follow the steps to connect to your local network.
+11. Setup up your wifi network by selecting the “Wifi networks (w)” button circled in the picture below and follow the steps to connect to your local network.
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/24_wifi_setup.jpeg" width="400" height="auto" />
 </div>
 
-12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS FUll (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
+12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS Full (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
 
 13. There should be a prompt to update and restart the Raspberry Pi. It is recommended to do so.
 
 <div align=center><h3>Installing VS Code and Git</h3></div>
 
-14. We will be using an open source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
+14. We will be using an open-source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/27_rasp_term_icon.png" width="400" height="auto" />
@@ -195,7 +195,7 @@ You will see the Raspberry Pi's terminal open. This should look similar to the e
 
 All set! If you go to the Raspberry Pi icon in the top left portion of your screen, click accessories and then you will see our code editor.
 
-17. Now let’s install Git in your vs code window. Open VS Code using the Raspberry Pi icon in the top left corner:
+17. Now let’s install Git in the VS Code window. Open VS Code using the Raspberry Pi icon in the top left corner:
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/29_installing_git.png" width="450" height="auto" />
@@ -207,13 +207,13 @@ All set! If you go to the Raspberry Pi icon in the top left portion of your scre
 <img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="500" height="auto" />
 </div>
 
-This step requires that you have a Github account. If you have not created one yet, do so <a href="https://github.com/">here</a>. If you already have a Github account feel free to continue.
+This step requires a Github account. If you have not created one yet, do so <a href="https://github.com/">here</a>. If you already have a Github account feel free to continue.
 
 19. In your terminal, use the following commands to enter your github credentials:
-`git config --global user.name “[YOUR GITHUB USERNAME]”`
-> Whenever you see words in all caps inside brackets like the above, this means to replace it with what the command is asking for.
+`git config --global user.name "[YOUR GITHUB USERNAME]"`
+> Whenever you see words in all caps inside brackets like the above, it means to replace it with what the command is asking for. That also means that the brackets should be removed.
 
 then:
 `git config --global user.email “[YOUR GITHUB ASSOCIATED EMAIL]”`
 
-Now you're all set to clone CSX's repositories to use for the rest of the semester. Happy Coding!
+Now you're all set to utilize VS Code, Git, and Github for the rest of the semester. Happy Coding!
