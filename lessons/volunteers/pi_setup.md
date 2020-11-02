@@ -2,10 +2,6 @@
 
 In this workshop, the student will assemble the Raspberry Pi single-board computer and install the necessary software for the rest of the semester.
 
-<div><h3>Note: </h3></div>
-<div><ins>Please be careful when unboxing. These boxes will be needed to pack up the Raspberry Pi and its components at the end of the year.</ins></div>
-<br>
-
 In your package, you will find:
 
 - Raspberry Pi Desktop Kit containing:
@@ -41,17 +37,16 @@ In your package, you will find:
 
 After unboxing, use the following step-by-step guide to build your Raspberry Pi
 
-1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi).
-    - <b><ins>CAUTION:</ins></b> Make sure you are positive when placing the heat sinks because the adhesive is very strong. Give a double check before dropping them in  place.
+1. First we are going to add the heat sinks to the Raspberry Pi (going forward it will be referred to as the Pi). <h3>CAUTION:</h3> When placing them, make sure you are positive when placing the heat sinks because the adhesive is very strong.
 
-    a. As you can see, your Pi comes with 3 heat sinks designed to keep the CPU, RAM, and the USB Controller from overheating. The picture below labels where each heat sink belongs on the Pi.
+    a. As you can see, your Pi comes with 3 heat sinks designed to keep the CPU, RAM, and the USB Controller cool. The picture below labels where each heat sink belongs on the Pi.
     > The USB Controller splits the USB ports to share the same bandwidth and power
         
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/2_pi_with_sinks.jpg" width="400" height="auto" />
     </div>
 
-    b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. <b><ins>Careful handling the guards as they are very fragile!</ins></b>
+    b. Place Pi guard #3 as pictured below on the pi to help place the heat sinks on the Pi. Careful handling the guards as they are very fragile!
 
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/7_pi_guards.jpg" width="400" height="auto" />
@@ -119,20 +114,7 @@ After unboxing, use the following step-by-step guide to build your Raspberry Pi
     <img src="./Raspberry_Pi_setup_images/17_plug_hdmi_pi.jpg" width="400" height="auto" />
     </div>
 
-10. Now we are going to connect the keyboard to the Pi. We want to utilize the USB 3.0 port as shown below:
-
-    <div class=mdImage align=center>    
-    <img src="./Raspberry_Pi_setup_images/31_keyboard_usb.jpg" width="400" height="auto" />
-    </div>
-
-11. Now that our keyboard is connected, we can connect our mouse. The desktop kit is convenient in that we can connect our mouse directly to the keyboard. This way we don't have to worry about the wire being too short. Go ahead and connect the mouse to the USB port closest to the edge of the keyboard as shown below:
-
-    <div class=mdImage align=center>    
-    <img src="./Raspberry_Pi_setup_images/34_mouse_&_keyboard.jpg" width="400" height="auto" />
-    </div>
-
-
-12. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
+10. Below is the power supply chord for the display which in turn also provides power for the Pi. Plug in to the display and a wall outlet to get started for the next section.
 
     <div class=mdImage align=center>
     <img src="./Raspberry_Pi_setup_images/18_power.jpg" width="400" height="auto" />
@@ -155,19 +137,19 @@ Now that everything is connected and the Pi is powered on, you should see someth
 <img src="./Raspberry_Pi_setup_images/23_installing_rasp_os.jpg" width="400" height="auto" />
 </div>
 
-11. Setup up your wifi network by selecting the “Wifi networks (w)” button circled in the picture below and follow the steps to connect to your local network.
+11. Setup up your wifi network by selecting the “Wifi networks (w)” button ciricled in the picture belowand follow the steps to connect to your local network.
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/24_wifi_setup.jpeg" width="400" height="auto" />
 </div>
 
-12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS Full (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
+12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS FUll (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
 
 13. There should be a prompt to update and restart the Raspberry Pi. It is recommended to do so.
 
 <div align=center><h3>Installing VS Code and Git</h3></div>
 
-14. We will be using an open-source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
+14. We will be using an open source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/27_rasp_term_icon.png" width="400" height="auto" />
@@ -195,7 +177,7 @@ You will see the Raspberry Pi's terminal open. This should look similar to the e
 
 All set! If you go to the Raspberry Pi icon in the top left portion of your screen, click accessories and then you will see our code editor.
 
-17. Now let’s install Git in the VS Code window. Open VS Code using the Raspberry Pi icon in the top left corner:
+17. Now let’s install Git in your vs code window. Open VS Code using the Raspberry Pi icon in the top left corner:
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/29_installing_git.png" width="450" height="auto" />
@@ -207,13 +189,13 @@ All set! If you go to the Raspberry Pi icon in the top left portion of your scre
 <img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="500" height="auto" />
 </div>
 
-This step requires a Github account. If you have not created one yet, do so <a href="https://github.com/">here</a>. If you already have a Github account feel free to continue.
+This step requires that you have a Github account. If you have not created one yet, do so <a href="https://github.com/">here</a>. If you already have a Github account feel free to continue.
 
 19. In your terminal, use the following commands to enter your github credentials:
-`git config --global user.name "[YOUR GITHUB USERNAME]"`
-> Whenever you see words in all caps inside brackets like the above, it means to replace it with what the command is asking for. That also means that the brackets should be removed.
+`git config --global user.name “[YOUR GITHUB USERNAME]”`
+> Whenever you see words in all caps inside brackets like the above, this means to replace it with what the command is asking for.
 
 then:
 `git config --global user.email “[YOUR GITHUB ASSOCIATED EMAIL]”`
 
-Now you're all set to utilize VS Code, Git, and Github for the rest of the semester. Happy Coding!
+Now you're all set to clone CSX's repositories to use for the rest of the semester. Happy Coding!
