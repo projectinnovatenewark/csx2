@@ -38,7 +38,7 @@ Examples of number systems:
 <li>Binary</li>
 </ul>
 What is Python?
-<div>What is object oriented programing</div>
+<div>What is object oriented programing?</div>
 
 <h3>Section 4: Networking and The Internet</h3>
 
@@ -60,13 +60,13 @@ How does the internet work?
 
 <h3>Section 1-6 Summary</h3>
 
-A computer can be described as a machine that accepts **inputs**, performs some **functionality**, and produces an **output**. The main processor in a computer, which is often referred to as the brain, is called the **CPU**. In addition, memory is necessary for modern computers to operate. Memory has two forms: the first form is **volatile** meaning it is not stored on the computer once it is turned off and **non-volatile** meaning it persists even when the computer shuts off. The primary component of short-term memory for your computer is the **RAM**. The **motherboard** is the main circuit that brings all of the main computer components together. A **peripheral** is an external device that provides input or output to the computer. One example of a device that provides both an input *and* an output is a **touch screen**. The Raspberry Pi, which is an example of a **single-board** computer has GPIO pins, which allow for “General Purpose Inputs and Outputs”.
+A computer can be described as a machine that accepts **inputs**, performs some **functionality**, and produces an **output**. The main processor in a computer, which is often referred to as the brain, is called the **CPU**. In addition, memory is necessary for modern computers to operate. Memory has two forms: the first form is **volatile** meaning it is not stored on the computer once it is turned off and **non-volatile** meaning it persists even when the computer powers off. The primary component of short-term (volatile) memory for your computer is the **RAM**. The **motherboard** is the circuit board that brings the primary computer components together. A **peripheral** is an external device that provides input or output to the computer. One example of a device that provides both an input *and* an output is a **touch screen**. The Raspberry Pi, which is an example of a **single-board** computer has GPIO pins, which allow for "General Purpose Inputs and Outputs".
 
-An **operating system** is the software that manages all of the hardware resources associated with your desktop or laptop. The two types of interfaces are **CLI** and **GUI** which stand for **Command Line Interface** and **Graphical User Interface**, respectively. The primary OS we will be using in this course is **Linux**. A Linux OS has two primary spaces- the **kernel** space where operations happen which are abstracted from the user, and the **user** space where users interact with the system.
+An **operating system** is the software that manages all of the hardware resources associated with your desktop or laptop. The two types of interfaces are **CLI** and **GUI** which stand for **Command Line Interface** and **Graphical User Interface**, respectively. The operating system (OS) we will be using in this course is **Linux**. A Linux OS has two primary spaces- the **kernel-space** where processes happen that are removed (or in programming words "abstracted") from the user, and the **user-space** where a user interacts with the system.
 
-A network is a group of computing devices that communicate with one another to share information. Computers create **Local Area Networks (LANs)** by connecting to each other in a single location using **switches and access points**. In order for computers on different networks to communicate with each other, they need to use a **router**. A router’s job is to connect different networks together, creating a **Wide Area Network (WAN)**. The internet is the most prominent example of the WAN network type. The **internet** is a network issued by **internet service providers (ISPs)** that allow local networks from all over the world to connect to each other using a **modem**.
+A network is a group of computing devices that communicate with one another to share information. Computers create **Local Area Networks (LANs)** by connecting to each other in a single location using **switches and access points**. In order for computers on different networks to communicate with each other, they need to use a **router**. A router’s job is to connect different networks together, creating a **Wide Area Network (WAN)**. The internet is the most prominent example of the WAN network type. The **internet** is a network issued by **internet service providers (ISPs)** that allow local networks from all over the world to connect to each other using **modems**.
 
-The terminal/command prompt are programs that allow a user to interact with their computer's **shell**, a type of **command line interface**. In most cases, **bash** is the default shell a computer uses. The command line provides a strong alternative to using the graphical user interface. Programmers often use the command line as it can be faster than using the GUI for directory management and installing packages as well as other advantages. Additionally, there are many commands at the helm of the user giving them more flexibility in how tasks are executed. The commands learned in previous sections are the base of what a programmer can potentially need.
+The terminal/command prompt are programs that allow a user to interact with their computer's **shell**, a type of **command line interface**. In most cases, **bash** is the default shell a computer uses. The command line provides a strong alternative to using the graphical user interface, or "GUI". Programmers often use the command line as it can be faster than using the GUI for tasks such as directory management, installing packages, and others. Additionally, there are many commands at the helm of the user giving them more flexibility in how tasks are executed. The commands learned in previous sections are the basics of what a programmer would utilize in the shell.
 
 Python is a(n) **interpreted** programming language meaning it is compiled by a(n) **interpreter**. That compiled code, in the case of Python, is broken down into a type of binary called **bytecode**. The other type of binary is called **machine code**, which consists of 0’s and 1’s.
 
@@ -80,7 +80,7 @@ The above materials all relate in some way to our upcoming workshop. Here is a s
 
 3. Students will have a general understanding of how **networks** and the **internet** work. To finish the project, a student will have to run a server on their network which then makes a request to another server on the internet.
 
-4. Students will have a strong understanding of the **command line** and **bash**. The command line program that is native to the Raspberry Pi computer is called the “terminal”. Students will use the command line to navigate their computer’s directories, utilize **CLI** tools such as “git” to assist in the development process, and create **bash** aliases to make shortcuts for commands.
+4. Students will have a strong understanding of the **command line** and **bash**. The command line program that is native to the Raspberry Pi computer is called the "terminal". Students will use the command line to navigate their computer’s directories, utilize **CLI** tools such as "git" to assist in the development process, and create **bash** aliases to make shortcuts for commands.
 
 5. Students will learn the object-oriented programming language **Python**. Python is considered an interpreted programming language, and the computer a student uses will already have an interpreter installed to ensure that Python runs smoothly on the machine.
 
@@ -180,7 +180,7 @@ Key:
 - Router
 <br>
 
-<div><b>A.</b> ______ (hint: This device allows locally connected computers to share information and “talk” to each other.</div>
+<div><b>A.</b> ______ (hint: This device allows locally connected computers to share information and "talk" to each other.</div>
 <div><b>B.</b> ______ (hint: This is a device that forwards data across networks.</div>
 <div><b>C.</b> ______ (hint: This is a small network device that connects other devices to the Internet</div>
 <div><b>D.</b> ______ (hint: This is an organization that provides services for accessing the Internet.)</div>
@@ -190,10 +190,10 @@ Key:
 **Exercise**: Defining Basic Commands
 
 <div><b>A.</b> This command creates directories/folders in you current working directory</div>
-<div><b>B.</b> Short for “change directory”, this command changes your working directory to what you specify.</div>
+<div><b>B.</b> Short for "change directory", this command changes your working directory to what you specify.</div>
 <div><b>C.</b> This command deletes directories and files.</div>
 <div><b>D.</b> This command displays the contents of your working directory usually consisting of folders and files</div>
-<div><b>E.</b> Short for “path working directory”.</div>
+<div><b>E.</b> Short for "path working directory".</div>
 <div><b>F.</b> This command creates files in you current working directory</div>
 <br>
 
@@ -260,11 +260,11 @@ Key:
     <div><b>d.</b> Operating System (W)</div>
     <br>
 
-9. **The “cat” command allows the user to do all of the following EXCEPT:**
+9. **The "cat" command allows the user to do all of the following EXCEPT:**
     <div><b>a.</b> Create files in the current directory (A)</div>
     <div><b>b.</b> Delete files (M)</div>
     <div><b>c.</b> Read the contents of files (L)</div>
     <div><b>d.</b> Add to the end of files (E)</div>
     <br>
 
-**What comes once in a minute, twice in a moment, but never in a thousand years?  _ _ _    _ _ _ _ _ _   “_”**
+**What comes once in a minute, twice in a moment, but never in a thousand years?  _ _ _    _ _ _ _ _ _   "_"**
