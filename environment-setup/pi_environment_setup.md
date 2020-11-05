@@ -7,7 +7,7 @@ The purpose of this section is to introduce you to the following concepts:
 - GitHub
 - Bash and Aliases
 
-<div align=center><h3>Section 1: Visual Studio Code</h3></div>
+<div align=center><h3>Visual Studio Code</h3></div>
 
 In computing, **source code** is any collection of code that is written using a human-readable programming language, usually as plain text.
 
@@ -27,7 +27,7 @@ Use the following links to install the Visual Studio Code extensions we will be 
 <li>Highlight INSERT LINK</li>
 </ul>
 
-<div align=center><h3>Section 2: Version Control</h3></div>
+<div align=center><h3>Version Control</h3></div>
 
 **Version control** is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 
@@ -131,3 +131,89 @@ Now we can push our code to the remote repository. To reiterate, the three steps
     - “My first commit” is the commit message
 3. `git push`
 
+<div align=center><h3>Bash and Aliases</h3></div>
+
+Early in the semester we discussed that most Linux systems use a **bash** shell to receive its commands as it is the default shell on Linux. Bash is short for **B**ourne **A**gain **SH**ell. Bash is a command language interpreter for GNU operating systems. This is the reason that so many Linux systems use bash. Although other shells do exist and are associated with the GNU Project, bash is often the default interpreter for most of its operating systems including Linux, Mac OS, and Windows. 
+
+In order to load your preferences, bash runs the contents of the **bashrc file** at each launch. This shell script is found in each user’s home directory. It’s used to save and load your terminal preferences and environmental variables.
+
+Terminal preferences can contain a number of different things. Most commonly, the bashrc file contains aliases. **Aliases** allow the user to refer to commands by shorter or alternative names, and can be a huge time-saver for those that work in a terminal regularly. In other words, a bash alias is a means of avoiding typing a long command sequence by using an abbreviated shortcut. 
+
+<div ><h3>Creating An Alias</h3></div>
+
+1. To add aliases, we can append the .bashrc text file using echo. If you remember, echo appends text to the bottom of a text file if you use the format `echo “new text to append” >> someFile.txt`. THe first command we are going to add as an alias will replace `git add .`
+> How does this impact the staging area?
+
+Next, in the command line enter:
+`echo "alias gadd='git add .'" >> /home/pi/.bashrc`
+
+Use the command `cat /home/pi/.bashrc` to confirm the change was made.
+**Insert screenshot of success**
+
+We can repeat this process for the following to commands for pushing up code. The terminal commands would look like the following:
+
+`echo "alias gommit='git commit -m'" >> /home/pi/.bashrc`
+> Note: A commit message is still needed (in quotes) to be input by a student when the alias is used.
+`echo "alias gush='git push'" >> /home/pi/.bashrc`
+
+2. It is also possible to make changes to the .bashrc through the GUI. Click on your file manager in the top left corner of your Pi’s screen. You’ll see something like the following screenshot. Click view and then “Show Hidden” to reveal the hidden files on your Pi.
+**Insert screenshot**
+
+You will then find the text file .bashrc. Open it and scroll to the bottom where you see our current commands.
+
+Another common command used with Git is `git pull`, which updates your local repository from the remote repository.
+- This is especially needed when working with a team on a project.
+Insert screenshot
+
+Add a new line after the gush alias and enter `alias gull =’git pull’`
+
+You can also create aliases for non-Git related commands. One example of this is the `clear` command. This linux command clears out the terminal to make it easier to read for the next commands. An easy alias for this would be `c`. Go ahead and try to add this one on your own and the teacher will help in a couple minutes.
+
+3. To start using your new bash aliases, close your terminal in VS Code and open a new one. Now that we have a fresh terminal, let’s change directories into “python-work” and open hello_world.py using `nano` and add the following code `print(“Goodbye World!”).
+Close and save the changes you made to the file.
+Now that we have changes to push up, let’s use our three new aliases to make changes to our remote repository. 
+
+1. `gadd`
+2. `gommit “Saying goodbye”`
+    - Yes, we still need a commit message
+
+3. `gush`
+
+Now if you go to your github page at github.com/[YOUR USERNAME]/python-work, you can see your changes were made.
+
+<div align=center><h2>Section Review Questions</h2></div>
+
+1. **Version control is:**
+    <div><b>a.</b> A programming language. (A)</div>
+    <div><b>b.</b> A hardware component used to manage memory and storage. (W)</div>
+    <div><b>c.</b> A system that records changes to a file or set of files over time so that you can recall specific versions later. (S)</div>
+    <div><b>d.</b> An operating system. (H)</div>
+    <br>
+
+2. **Visual Studio code is a free _______ made by Microsoft.**
+    <div><b>a.</b> Interpreter (I)</div>
+    <div><b>b.</b> Text editor (K)</div>
+    <div><b>c.</b> Calculator (S)</div>
+    <div><b>d.</b> Source-code editor  (E)</div>
+    <br>
+
+3. **Extensions are add-ons that allow you to customize and enhance your experience in Visual Studio by adding new features or integrating existing tools. True or False?**
+    <div><b>a.</b> True (C)</div>
+    <div><b>b.</b> False (C)</div>
+    <br>
+
+4. **Git Push is used to upload _____ repository content to a ____ repository.**
+    <div><b>a.</b> Remote, local (S)</div>
+    <div><b>b.</b> Local, remote (R)</div>
+    <div><b>c.</b> Local, local (D)/div>
+    <div><b>d.</b> Remote, remote (Z)</div>
+    <br>
+
+5. **Which of the following statements are true about bash Aliases? (Choose 2)**
+    <div><b>a.</b> Aliases allow the user to refer to commands by shorter or alternative names. (E)</div>
+    <div><b>b.</b> Aliases are distributed version-control systems for tracking changes in source code during software development. (J)</div>
+    <div><b>c.</b> Aliases are not stored in the bashrc file. (M)</div>
+    <div><b>d.</b> Aliases can be a huge time-saver for those that work in a terminal regularly. (T)</div>
+    <br>
+
+**If You Have Me, You Will Want To Share Me. If You Share Me, You Will No Longer Have Me. What Am I? A  _ _ _ _ _ _**
