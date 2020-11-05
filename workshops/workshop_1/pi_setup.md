@@ -209,11 +209,11 @@ All set! If you go to the Raspberry Pi icon in the top left portion of your scre
 
 This step requires a Github account. If you have not created one yet, do so <a href="https://github.com/">here</a>. If you already have a Github account feel free to continue.
 
-19. In your terminal, use the following commands to enter your github credentials:
+<!-- 19. In your terminal, use the following commands to enter your github credentials:
 `git config --global user.name "[YOUR GITHUB USERNAME]"`
 > Whenever you see words in all caps inside brackets like the above, it means to replace it with what the command is asking for. That also means that the brackets should be removed.
 
 then:
 `git config --global user.email “[YOUR GITHUB ASSOCIATED EMAIL]”`
 
-Now you're all set to utilize VS Code, Git, and Github for the rest of the semester. Happy Coding!
+Now you're all set to utilize VS Code, Git, and Github for the rest of the semester. Happy Coding! -->
