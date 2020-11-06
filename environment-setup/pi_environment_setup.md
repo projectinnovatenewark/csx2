@@ -26,7 +26,7 @@ In computing, **source code** is any collection of code that is written using a 
 </div>
 
 **Installing Extensions**
-Use the following links to install the Visual Studio Code extensions we will be using in this course:
+<div>Use the following links to install the Visual Studio Code extensions we will be using in this course:</div>
 
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></li>
