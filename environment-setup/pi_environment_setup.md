@@ -241,7 +241,7 @@ Now if you go to your github page at github.com/[YOUR USERNAME]/python-work, you
 4. **Git Push is used to upload _____ repository content to a ____ repository.**
     <div><b>a.</b> Remote, local (S)</div>
     <div><b>b.</b> Local, remote (R)</div>
-    <div><b>c.</b> Local, local (D)/div>
+    <div><b>c.</b> Local, local (D)</div>
     <div><b>d.</b> Remote, remote (Z)</div>
     <br>
 
