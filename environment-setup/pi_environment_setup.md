@@ -16,6 +16,7 @@ In computing, **source code** is any collection of code that is written using a 
 <div class=mdImage align=center>
     <img src="./images/5_vs_code.png" width="500" height="auto" />
 </div>
+<br>
 
 **Extensions** are add-ons that allow you to customize and enhance your experience in Visual Studio by adding new features or integrating existing tools. An extension can range in all levels of complexity, but its main purpose is to increase your productivity and cater to your workflow.
 
