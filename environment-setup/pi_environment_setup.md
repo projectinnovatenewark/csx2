@@ -123,7 +123,7 @@ The “python-work” folder is where the student will be completing all of thei
 
 `cd python-work`
 
-<div>You can use any of the above methods for creating and editing the file, or you can use the following commands:</div>
+<div>You can use any of the listed methods for creating and editing the file, or you can use the following commands:</div>
 
 `cat <<EOF>> hello_world.py`
 <div>then in the prompt:</div>
