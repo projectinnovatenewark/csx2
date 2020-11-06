@@ -13,18 +13,23 @@ In computing, **source code** is any collection of code that is written using a 
 
 **Visual Studio (VS) Code** is a free source-code editor made by Microsoft for Windows, Linux and macOS. A **source-code editor** is a text editor program that is specialized for writing software.  
 
-**insert image**
+<div class=mdImage align=center>
+    <img src="./images/5_vs_code.png" width="500" height="auto" />
+</div>
 
 **Extensions** are add-ons that allow you to customize and enhance your experience in Visual Studio by adding new features or integrating existing tools. An extension can range in all levels of complexity, but its main purpose is to increase your productivity and cater to your workflow.
 
-**INsert Image**
+<div class=mdImage align=center>
+    <img src="./images/7_python.png" width="500" height="auto" />
+    <img src="./images/8_highlight.png" width="500" height="auto" />
+</div>
 
 <h4>Installing Extensions</h4>
 Use the following links to install the Visual Studio Code extensions we will be using in this course:
 
 <ul>
-<li>Python INSERT LINK</li>
-<li>Highlight INSERT LINK</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></li>
+<li><a href="hhttps://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight">Highlight</a></li>
 </ul>
 
 <div align=center><h3>Version Control</h3></div>
@@ -37,7 +42,9 @@ In software development, a **repository** is a central file storage location. A 
 
 **Git** is a distributed version-control system for tracking changes in source code during software development.
 
-**INSERT GIT IMAGE**
+<div class=mdImage align=center>
+    <img src="./images/9_git.png" width="500" height="auto" />
+</div>
 
 **Basic Git Commands**
 <ul>
@@ -73,7 +80,9 @@ It is important to remember that Git and Github are not the same thing.
 
 In other words, Git is a version control tool and GitHub is the service for projects that use that tool.
 
-**INSERT SCREENSHOT**
+<div class=mdImage align=center>
+    <img src="./images/6_github.png" width="500" height="auto" />
+</div>
 
 <div align=center><h3>Using GitHub, VS Code, and Git</h3></div>
 
