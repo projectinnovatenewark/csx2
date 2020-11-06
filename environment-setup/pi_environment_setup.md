@@ -194,7 +194,9 @@ Another common command used with Git is `git pull`, which updates your local rep
 - This is especially needed when working with a team on a project.
 Insert screenshot
 
-Add a new line after the gush alias and enter `alias gull =’git pull’`
+<div>Add a new line after the gush alias and enter:</div>
+
+`alias gull =’git pull’`
 
 You can also create aliases for non-Git related commands. One example of this is the `clear` command. This linux command clears out the terminal to make it easier to read for the next commands. An easy alias for this would be `c`. Go ahead and try to add this one on your own and the teacher will help in a couple minutes.
 
