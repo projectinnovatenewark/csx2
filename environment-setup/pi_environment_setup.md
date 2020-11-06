@@ -126,6 +126,7 @@ The “python-work” folder is where the student will be completing all of thei
 
 `EOF`
 
+Now that we have a file with some contents, we are going to push this up to the remote repository.
 
 <div ><h3>Updating Your Remote Repository</h3></div>
 Updating the remote repository is best practice for a couple reasons:
