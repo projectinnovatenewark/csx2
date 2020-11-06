@@ -191,7 +191,6 @@ You will then find the text file .bashrc. Open it and scroll to the bottom where
 
 Another common command used with Git is `git pull`, which updates your local repository from the remote repository.
 - This is especially needed when working with a team on a project.
-Insert screenshot
 
 <div>Add a new line after the gush alias and enter:</div>
 
