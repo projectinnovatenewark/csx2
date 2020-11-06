@@ -92,7 +92,7 @@ In other words, Git is a version control tool and GitHub is the service for proj
 
 <div align=center><h3>Using GitHub, VS Code, and Git</h3></div>
 
-<div ><h3>Creating the Programming Folder</h3></div>
+<div ><h4>Creating the Programming Folder</h4></div>
 
 Open the Pi's file manager and then create  a folder called “programming” in the root directory.
 > The file path will be "home/pi/"
@@ -101,9 +101,13 @@ Now open up a VS Code Window. If it is not open already from installing the exte
 
 The programming folder will be used as the main location in which you save everything coding related. Before moving on, change your working directory to the programming folder in your VS Code window by first opening a terminal using "CTRL + Shift + ~". Then, inside the terminal, execute `cd programming`. You can check to make sure you successfully changed your working directory using what command?
 
+<div ><h4>Creating a New Repository</h4></div>
+
 <a href="https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository">Click here to review Github’s documentation on creating a new repository.</a> Follow the steps in this walk through of how to create a new repository called “python-work”.
 <br>
 After completing the steps to create a repository, we must set up a local repository on your Pi to be used to update the remote repository.
+
+<div ><h4>Cloning a Repository</h4></div>
 
 Use this <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">link</a> and follow the steps to learn how to clone repositories using the command line. You will use what you learn to clone you python-work repository.
 - Use `git clone https://github.com/[YOUR USERNAME]/python-work` to clone the repository onto your local machine.
