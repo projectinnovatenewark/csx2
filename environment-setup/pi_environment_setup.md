@@ -96,20 +96,19 @@ In other words, Git is a version control tool and GitHub is the service for proj
 Open the Pi's file manager and then create  a folder called “programming” in the root directory.
 > The file path will be "home/pi/"
 
-This will be used as the main location in which you save everything coding related. Inside this folder, we are going to create a file, *hello_world.py*. Use `touch hello_world.py` to do so.
+This will be used as the main location in which you save everything coding related. Before moving on, change your working directory to the programming folder in your VS Code window by first opening a terminal using "CTRL + Shift + ~". Then, inside the terminal, execute `cd programming`. You can check to make sure you successfully changed your working directory using what command?
 
-<a href="https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository">Click here to review GIthub’s documentation on creating a new repository.</a> Follow the steps in this walk through of how to create a new repository called “python-work”.
+<a href="https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository">Click here to review Github’s documentation on creating a new repository.</a> Follow the steps in this walk through of how to create a new repository called “python-work”.
 <br>
 After completing the steps to create a repository, we must set up a local repository on your Pi to be used to update the remote repository.
 
-1. First, change your working directory to your programming folder if it is not currently.
-2. Use this <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">link</a> and follow the steps to learn how to clone repositories using the command line.
-    - Use `git clone https://github.com/[YOUR USERNAME]/python-work` to clone the repository onto your local machine.
-    - Doing so adds the directory to your current working directory.
+Use this <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">link</a> and follow the steps to learn how to clone repositories using the command line. You will use what you learn to clone you python-work repository.
+- Use `git clone https://github.com/[YOUR USERNAME]/python-work` to clone the repository onto your local machine.
+- Doing so adds the directory to your current working directory.
 
 <div ><h3>Adding Files to Local Repository</h3></div>
 
-The “python-work” folder is where the student will be completing all of their coding assignments. Out of the commands listed below, which are used for creating and/or editing files? Which are used for creating folders?:
+The “python-work” folder is where the student will be completing all of their coding assignments. Out of the commands listed below, which are used for creating and/or editing files? Which are used for creating folders?
 
 - touch
 - mkdir
