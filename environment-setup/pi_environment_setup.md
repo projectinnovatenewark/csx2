@@ -116,7 +116,12 @@ The “python-work” folder is where the student will be completing all of thei
 - cat
 - Or the classic right-click (two-finger click on a Mac)
 
-<div>This is all done within your VS Code window either inside the Integrated Terminal or the file manager popout. Let's create the classic *hello_world.py* file one more time so that we can push it up to the repository. You can use any of the above methods for creating and editing the file, or you can use the following commands:</div>
+<div>This is all done within your VS Code window either inside the Integrated Terminal or the file manager popout. Let's create the classic *hello_world.py* file one more time so that we can push it up to the repository. Check your working directory, and if you aren't already, change your working directory to "python-work".</div>
+
+`pwd`
+`cd python-work`
+
+<div>You can use any of the above methods for creating and editing the file, or you can use the following commands:</div>
 
 `cat <<EOF>> hello_world.py`
 <div>then in the prompt:</div>
