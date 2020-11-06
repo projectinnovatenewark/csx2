@@ -109,9 +109,10 @@ After completing the steps to create a repository, we must set up a local reposi
 
 <div ><h3>Adding Files to Local Repository</h3></div>
 
-The “python-work” folder is where the student will be completing all of their coding assignments. Since creating folders and files was covered extensively, we will not be taking another deep dive. Instead, here is a list of options in doing so:
+The “python-work” folder is where the student will be completing all of their coding assignments. Out of the commands listed below, which are used for creating and/or editing files? Which are used for creating folders?:
 
 - touch
+- mkdir
 - echo
 - cat
 - Or the classic right-click (two-finger click on a Mac)
