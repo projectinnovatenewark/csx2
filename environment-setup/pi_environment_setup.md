@@ -148,10 +148,11 @@ To update the remote repository, we use three (3) commands in the following orde
     - A commit message is like a note to the team that gives a short description of the code that’s being pushed up.
 3. `git push`
 
-Now that we know the steps to pushing code to the remote repository, let’s push up *hello_world.py* to the python-work repository. First we are going to enter a command to tell Git to store our username and password credentials. This way, it won’t need to be input each time code is pushed up. In your terminal, enter :
+Now that we know the steps to pushing code to the remote repository, let’s push up *hello_world.py* to the python-work repository. First we are going to enter a command to tell Git to store our username and password credentials. This way, it won’t need to be input each time code is pushed up. In your terminal, enter:
 
 1. `cd python-work`
 2. `git config --global credential.helper store`
+    - Follow any prompts that may occur
 3. and lastly, `git pull`
 
 Now we can push our code to the remote repository. To reiterate, the three steps are:
@@ -177,7 +178,6 @@ Next, in the command line enter:
 `echo "alias gadd='git add .'" >> /home/pi/.bashrc`
 
 Use the command `cat /home/pi/.bashrc` to confirm the change was made.
-**Insert screenshot of success**
 
 We can repeat this process for the following to commands for pushing up code. The terminal commands would look like the following:
 
