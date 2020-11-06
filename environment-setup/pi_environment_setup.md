@@ -186,7 +186,6 @@ We can repeat this process for the following to commands for pushing up code. Th
 `echo "alias gush='git push'" >> /home/pi/.bashrc`
 
 2. It is also possible to make changes to the .bashrc through the GUI. Click on your file manager in the top left corner of your Pi’s screen. You’ll see something like the following screenshot. Click view and then “Show Hidden” to reveal the hidden files on your Pi.
-**Insert screenshot**
 
 You will then find the text file .bashrc. Open it and scroll to the bottom where you see our current commands.
 
