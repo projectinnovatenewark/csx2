@@ -43,7 +43,7 @@ In software development, a **repository** is a central file storage location. A 
 **Git** is a distributed version-control system for tracking changes in source code during software development.
 
 <div class=mdImage align=center>
-    <img src="./images/10_github.png" width="300" height="auto" />
+    <img src="./images/10_github_logo.jpeg" width="300" height="auto" />
 </div>
 <div class=mdImage align=center>
     <img src="./images/9_git.png" width="300" height="auto" />
