@@ -20,8 +20,8 @@ In computing, **source code** is any collection of code that is written using a 
 **Extensions** are add-ons that allow you to customize and enhance your experience in Visual Studio by adding new features or integrating existing tools. An extension can range in all levels of complexity, but its main purpose is to increase your productivity and cater to your workflow.
 
 <div class=mdImage align=center>
-    <img src="./images/7_python.png" width="500" height="auto" />
-    <img src="./images/8_highlight.png" width="500" height="auto" />
+    <img src="./images/7_python.png" width="100" height="auto" />
+    <img src="./images/8_highlight.png" width="100" height="auto" />
 </div>
 
 <h4>Installing Extensions</h4>
