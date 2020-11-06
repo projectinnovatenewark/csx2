@@ -116,7 +116,13 @@ The “python-work” folder is where the student will be completing all of thei
 - cat
 - Or the classic right-click (two-finger click on a Mac)
 
-This is all done within your VS Code window either inside the Integrated Terminal or the file manager pop
+This is all done within your VS Code window either inside the Integrated Terminal or the file manager popout. Let's create the classic *hello_world.py* file one more time so that we can push it up to the repository. You can use any of the above methods for creating and editing the file, or you can use the following commands:
+`cat <<EOF>> hello_world.py`
+then in the prompt:
+`print("Hello World!")`
+and to close the prompt:
+`EOF`
+
 
 <div ><h3>Updating Your Remote Repository</h3></div>
 Updating the remote repository is best practice for a couple reasons:
