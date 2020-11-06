@@ -29,7 +29,7 @@ Use the following links to install the Visual Studio Code extensions we will be 
 
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></li>
-<li><a href="hhttps://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight">Highlight</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight">Highlight</a></li>
 </ul>
 
 <div align=center><h3>Version Control</h3></div>
@@ -43,7 +43,7 @@ In software development, a **repository** is a central file storage location. A 
 **Git** is a distributed version-control system for tracking changes in source code during software development.
 
 <div class=mdImage align=center>
-    <img src="./images/9_git.png" width="500" height="auto" />
+    <img src="./images/9_git.png" width="400" height="auto" />
 </div>
 
 **Basic Git Commands**
