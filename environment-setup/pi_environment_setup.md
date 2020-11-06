@@ -25,7 +25,7 @@ In computing, **source code** is any collection of code that is written using a 
     <img src="./images/8_highlight.png" width="100" height="auto" />
 </div>
 
-<h4>Installing Extensions</h4>
+**Installing Extensions**
 Use the following links to install the Visual Studio Code extensions we will be using in this course:
 
 <ul>
