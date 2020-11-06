@@ -90,9 +90,9 @@ The above materials all relate in some way to our upcoming workshop. Here is a s
 
 **Exercise**: Identify the following hardware components based on their definition.
 Key:
-- Processor
-- Memory
-- Storage 
+- CPU
+- Memory (RAM)
+- Storage (SSD)
 - Motherboard 
 - Peripheral Device 
 
@@ -100,7 +100,7 @@ Questions:
 
 <div><b>A.</b> Main circuit board inside a computer that connects the different parts of a computer together: ______</div>
 <div><b>B.</b> The brain of the computer: ______</div>
-<div><b>C.</b> A peripheral device is a device that provides either an input or output function for a computer: ______</div>
+<div><b>C.</b> A(n) _____ is a device that provides either an input or output function for a computer:</div>
 <div><b>D.</b> Component of your computer that allows you to store and access data on a long-term basis: ______</div>
 <div><b>E.</b> The device that is used to store information for immediate use: ______</div>
 
