@@ -43,9 +43,6 @@ In software development, a **repository** is a central file storage location. A 
 **Git** is a distributed version-control system for tracking changes in source code during software development.
 
 <div class=mdImage align=center>
-    <img src="./images/10_github_logo.jpeg" width="300" height="auto" />
-</div>
-<div class=mdImage align=center>
     <img src="./images/9_git.png" width="300" height="auto" />
 </div>
 
@@ -83,6 +80,9 @@ It is important to remember that Git and Github are not the same thing.
 
 In other words, Git is a version control tool and GitHub is the service for projects that use that tool.
 
+<div class=mdImage align=center>
+    <img src="./images/10_github_logo.jpeg" width="300" height="auto" />
+</div>
 <div class=mdImage align=center>
     <img src="./images/6_github.png" width="500" height="auto" />
 </div>
