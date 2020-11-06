@@ -117,26 +117,26 @@ Questions:
 Key:
 - CLI
 - Kernel Space
+- Operating System
 - Linux
 - Hardware
-- GNU/Linux
+- Linux/GNU
 - User Space
 - GUI
 
 
 <div><b>A.</b>Part of the computer that the user interacts with and where user processes run: ______</div>
-<ul><li>The two primary interfaces that an end-user would use to interact with their computer are _____ and _____</li></ul>
+<ul><li>The two types of interfaces that a user would use to interact with their computer are _____ and _____</li></ul>
 
 <div><b>B.</b>Part of the computer where the kernel is run and provides its services: ______</div>
 <br>
-
 
 <div><b>C.</b>Physical components of a computer: ______</div>
 <br>
 
 <div><b>D.</b>Part of the computer’s software that encompasses both the user-space and kernel-space: ______</div>
 <ul>
-<li>    In the case of our computers, they are formally referred to as ______/______ (to include the open source software tools that compliment the operating system)
+<li>    In the case of our computers, the operating system is formally referred to as ______/______ (to include the open source software tools that compliment the OS)
 </li>
 <li>
     In the case of our computers, they are informally referred to as simply the operating system named _____
@@ -180,20 +180,20 @@ Key:
 - Router
 <br>
 
-<div><b>A.</b> ______ (hint: This device allows locally connected computers to share information and "talk" to each other.</div>
-<div><b>B.</b> ______ (hint: This is a device that forwards data across networks.</div>
-<div><b>C.</b> ______ (hint: This is a small network device that connects other devices to the Internet</div>
-<div><b>D.</b> ______ (hint: This is an organization that provides services for accessing the Internet.)</div>
+<div><b>A.</b>This device allows locally connected computers to share information and "talk" to each other ______</div>
+<div><b>B.</b>This is a device that forwards data across networks ______</div>
+<div><b>C.</b>This is a small network device that connects other devices to the Internet ______</div>
+<div><b>D.</b>This is an organization that provides services for accessing the Internet ______</div>
 
 <h4><ins>Section 5 & 6</ins></h4>
 
 **Exercise**: Defining Basic Commands
 
 <div><b>A.</b> This command creates directories/folders in you current working directory</div>
-<div><b>B.</b> Short for "change directory", this command changes your working directory to what you specify.</div>
-<div><b>C.</b> This command deletes directories and files.</div>
+<div><b>B.</b> This command allows the user to change the working directory</div>
+<div><b>C.</b> This command deletes directories and files</div>
 <div><b>D.</b> This command displays the contents of your working directory usually consisting of folders and files</div>
-<div><b>E.</b> Short for "path working directory".</div>
+<div><b>E.</b> This command outputs your current working directory</div>
 <div><b>F.</b> This command creates files in you current working directory</div>
 <br>
 
