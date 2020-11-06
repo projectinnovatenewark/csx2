@@ -41,7 +41,7 @@ Use the following links to install the Visual Studio Code extensions we will be 
 
 In software development, a **repository** is a central file storage location. A **branch** is a version of a repository that can act as an independent line of development. A repository can contain multiple branches, which means there are multiple versions of the repository. 
 
-<div align=center><h4>Git</h4></div>
+<div align=center><h3>Git</h3></div>
 
 **Git** is a distributed version-control system for tracking changes in source code during software development.
 
