@@ -29,7 +29,9 @@ Use the following links to install the Visual Studio Code extensions we will be 
 
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></li>
+    <ul><li>This allows you to run Python files in VS Code</li></ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight">Highlight</a></li>
+    <ul><li>This extension highlights certain text to make your code more readable</li></ul>
 </ul>
 
 <div align=center><h3>Version Control</h3></div>
@@ -91,8 +93,6 @@ In other words, Git is a version control tool and GitHub is the service for proj
 
 <div ><h3>Creating the Programming Folder</h3></div>
 
-**Insert screenshot of creating folder**
-
 Open the Pi's file manager and then create  a folder called “programming” in the root directory.
 > The file path will be "home/pi/"
 
@@ -124,7 +124,7 @@ Updating the remote repository is best practice for a couple reasons:
 - For starters, it is Git’s main function! If you don’t update the repository with the most recent changes to the code, then your team won’t have access to it to build cool apps.
 - Repositories serve almost as a storage for your code. If you keep the remote repository up to date, you won’t lose your code if any technical difficulties arise like getting a new computer.
 
-To update the remote repository, we use three (3) commands in this order:
+To update the remote repository, we use three (3) commands in the following order:
 
 1. `git add .`
 2. `git commit -m “[COMMIT MESSAGE]”`
