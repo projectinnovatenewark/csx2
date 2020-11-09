@@ -189,12 +189,12 @@ Key:
 
 **Exercise**: Defining Basic Commands
 
-<div><b>A) </b> This command creates directories/folders in you current working directory</div>
+<div><b>A) </b> This command creates directories/folders in your current working directory</div>
 <div><b>B) </b> This command allows the user to change the working directory</div>
 <div><b>C) </b> This command deletes directories and files</div>
-<div><b>D) </b> This command displays the contents of your working directory usually consisting of folders and files</div>
+<div><b>D) </b> This command displays the contents of your working directory, usually consisting of folders and files</div>
 <div><b>E) </b> This command outputs your current working directory</div>
-<div><b>F) </b> This command creates files in you current working directory</div>
+<div><b>F) </b> This command creates files in your current working directory</div>
 <br>
 
 1. `pwd`      _____
@@ -206,11 +206,11 @@ Key:
 
 <div align=center><h2>Section 1-6 Review Questions</h2></div>
 
-1. **Which of the following is not considered a basic function of a computer:**
-    <div><b>a. </b> Provides an output to a user. (A)</div>
-    <div><b>b. </b> It has a Graphical User Interface. (T)</div>
-    <div><b>c. </b> It accepts input from a user. (R)</div>
-    <div><b>d. </b> It performs calculations based on an input. (C)</div>
+1. **Which of the following is not considered a basic function of a computer?**
+    <div><b>a. </b> Provides an output to a user (A)</div>
+    <div><b>b. </b> It has a Graphical User Interface (T)</div>
+    <div><b>c. </b> It accepts input from a user (R)</div>
+    <div><b>d. </b> It performs calculations based on an input (C)</div>
     <br>
 
 2. **Which of the following facts apply to all Linux operating systems?**
@@ -248,12 +248,12 @@ Key:
     <div><b>d. </b> LAN (T)</div>
     <br>
 
-7. **The internet is considered the most prominent example of the LAN network type?**
+7. **The internet is considered the most prominent example of the LAN network type.**
     <div><b>a. </b> True (M)</div>
     <div><b>b. </b> False (E)</div>
     <br>
 
-8. **The CLI is an example of a:**
+8. **The CLI is an example of a**
     <div><b>a. </b> Programming Language (H)</div>
     <div><b>b. </b> User Interface (R)</div>
     <div><b>c. </b> Number System (S)</div>
