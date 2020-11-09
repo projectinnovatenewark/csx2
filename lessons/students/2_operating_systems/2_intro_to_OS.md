@@ -194,7 +194,7 @@ The name of the Windows OS comes from the fact that programs are run in “windo
 - **Desktop Environment**
 - **Applications**
 
-**Linux** is an operating system that was first released in 1991 by Linus Torvalds. Whether you want to learn IT or software development, Linux is a mainstay in the developer community as an operating system. The major difference between it and the Windows/Mac operating systems is that Linux is **open-sourced**. This means that Linux is completely free to download and use across as many computers that you own. What makes Linux open-sourced is the ability for any user to change its source code (which can be thought of as the exact rules for which an OS runs). There are pros and cons to having an open source operating system, which we will list here.
+**Linux** is an operating system that was first released in 1991 by Linus Torvalds. Whether you want to learn IT or software development, Linux is a mainstay in the developer community as an operating system. The major difference between it and the Windows/Mac operating systems is that Linux is **open-sourced**. This means that Linux is completely free to download and use across as many computers as you would like. What makes Linux open-sourced is the ability for any user to change its source code (which can be thought of as the exact rules for which an OS runs). There are pros and cons to having an open source operating system, which we will list here.
 
 **Pros**
 - Great for users that want to make changes to how their operating system works
