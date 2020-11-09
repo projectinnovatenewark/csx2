@@ -45,7 +45,7 @@ print(big_string)
 
 # You don't have to create a variable to print an output. You can put strings directly into print
 # statements!!
-print("Hello my name is robot")
+print("I am Groot")
 
 # When you see, TODO: Section x of TODO y, you should stop where you are and head over to
 # the corresponding assignment for this section of the lesson. The line below instructs
@@ -151,3 +151,29 @@ print(floated_num)
 # Boolean: bool()
 
 # TODO: Section 5 of TODO 2 (5 minutes for students, 3 minute demo)
+
+####################################################################################################
+
+# TITLE: Section 6 - "f shorthand"(3 minutes)
+
+# Here we will introduce the primary method with which we will be inserting variables directly
+# into strings, called "f shorthand". Let's set some variables and insert them in a string that has
+# a lowercase "f" right before the first quotation mark in the string.
+
+student1, student2, student3 = "Maria", "Sam", "Chris"
+
+attendance_output = f"The present students are {student1}, {student2}, and {student3}."
+print(attendance_output)
+
+# "f shorthand" also implements type conversion in its execution. Any variable used inside f shorthand
+# will be converted to a string in the output of a print statement. Let's see how "f shorthand"
+# handles integers and strings together.
+
+num1, num2, num3 = 7, 8, 9
+print(f"Why was 6 afraid of {num1}?")
+print(f"Because {num1} {num2} {num3}!")
+
+# TAKEAWAY:
+# "f shorthand" makes it easy to print outputs without needing to go through type conversion. In
+# the above examples, "f shorthand" handles strings perfectly fine as well as the ability to handle
+# strings and integers together without needing to concatenate.

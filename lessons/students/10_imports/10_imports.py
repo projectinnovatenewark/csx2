@@ -49,7 +49,13 @@ import importable_stuff
 # Then, to access the constant `DAYS_OF_WEEK` from that file,
 # you would do so with "dot notation" just like in section 1. In this import case,
 # we can find the constant by using:
-print(f"Normal dot notation: {importable_stuff.DAYS_OF_WEEK}")
+print(f"Normal dot notation: {importable_stuff.DAYS_OF_WEEK}")  # TIP:
+                                                                # DAYS_OF_WEEK is a list. In
+                                                                # Python, lists are represented by
+                                                                # items separated by commas inside
+                                                                # open and closed brackets. Open
+                                                                # importable_stuff.py to check this
+                                                                # out.
 
 # You could also rename imports such as:
 import importable_stuff as stuff # Now this import can be referred to going forward as "stuff".
