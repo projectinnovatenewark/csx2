@@ -11,18 +11,18 @@ The purpose of this section is to introduce you to the following concepts:
 
 In the last lesson, we learned that computer systems consist of two major elements: hardware and software. In this lesson, you are going to learn about software.
 
-**Software** is a set of instructions, data or programs used to operate computers and execute specific tasks. Opposite of hardware, which describes the physical aspects of a computer, software is a generic term used to refer to applications, scripts and programs that run on a device.
+**Software** is a set of instructions, data or programs used to operate computers and execute specific tasks. Opposite of hardware, which describes the physical aspects of a computer, software is a generic term used to refer to applications, scripts, and programs that run on a device.
 
 Software is often divided into two categories:
 
 - System Software: operating systems and any program that supports application software.
-- Application Software: user-downloaded programs that fulfill a want or need
+- Application Software: user-downloaded programs that fulfill a want or need for the user.
 
 <div align=center><h3>What is an Operating System?</h3></div>
 
 Now that you understand how a computer works at a basic level, we will explore how an operating system makes hardware available to applications on the computer.
 
-An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
+An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and hardware. Without the operating system (OS), the software wouldn’t function.
 
 An operating system has three main functions:
 
@@ -40,7 +40,7 @@ In the next few sections, we will review these three functions in greater detail
 - **Device Management**
 - **Storage Management**
 
-One of the main functions of an operating system is to manage the hardware and software resources of a computer system system. Some of these resources are familiar computing terms that we covered in the last section, such as the:
+One of the main functions of an operating system is to manage the hardware and software resources of a computer system. Some of these resources are familiar computing terms that we covered in the last section, such as the:
 - Processor
 - Memory
 - Storage
@@ -67,13 +67,13 @@ In this lesson we will review two main types of user interfaces:
 - Graphical User Interface (GUI)
 - Command Line Interface (CLI)
 
-The **Graphical User Interface (GUI)** is a system that displays interactive visual components for a computer’s software. (4) With a graphical user interface, the functions are carried out by <ins>clicking or moving buttons, icons and menus by means of a pointing device.</ins>
+The **Graphical User Interface (GUI)** is a system that displays interactive visual components for a computer’s software. (4) With a graphical user interface, the functions are carried out by <ins>clicking or moving buttons, icons and menus by means of a pointing device like a mouse.</ins>
 
 Most GUIs have the following basic components:
 - a start menu with program groups
 - a taskbar showing running programs
 - a desktop
-- various icons and shortcuts.
+- various icons and shortcuts
 
 <div class=mdImage align=center>
     <img src="./images/windows_gui.png" width="400" height="auto" />
@@ -81,13 +81,13 @@ Most GUIs have the following basic components:
 
 The **Command Line Interface (CLI)** is a command line program that accepts text input to execute operating system functions. The command line comes in handy for programmers when they need to complete tasks not available to features found on a GUI.
 
-It is important to note that the CLI <ins>does not natively include the ability to carry out functions by means of a pointing device.</ins> This is because the CLI is a **text-based user interface**, meaning it uses text to process commands to a computer program instead of a graphic interface.
+It is important to note that the CLI <ins>does not natively include the ability to carry out functions by means of a pointing device.</ins> This is because the CLI is a **text-based user interface**, meaning it uses text to process commands to a computer program instead of a graphical interface.
 
 <div class=mdImage align=center>
     <img src="./images/cli.jpg" width="400" height="auto" />
 </div>
 
-The user interface is an important part of an operating system because it allows a user to enter and receive information. Without a user interface, end-users can't control things like a software application or hardware device.
+The user interface, which comes in the form of either a CLI or GUI, is an important part of an operating system because it allows a user to enter and receive information. Without a user interface, end-users can't control things like a software application or hardware device.
 
 <div align=center><h4>3. Supporting Application Software</h4></div>
 
@@ -97,7 +97,7 @@ The user interface is an important part of an operating system because it allows
 
 **Application software** is a type of computer program that performs a specific function.
 
-Applications are designed to assist **end-users** with a particular process, which may be related to productivity, creativity, and/or communication. The term **end-user** describes the person who uses a particular product. 
+Applications are designed to assist **end-users** with a particular process, which may be related to productivity, creativity, and/or communication. The term **end-user** describes the person who uses a particular product.
 Application software programs are created to facilitate a variety of functions, including but not limited to: 
 
 - Managing information
