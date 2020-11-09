@@ -90,19 +90,19 @@ The above materials all relate in some way to our upcoming workshop. Here is a s
 
 **Exercise**: Identify the following hardware components based on their definition.
 Key:
-- Processor
-- Memory
-- Storage 
+- CPU
+- Memory (RAM)
+- Storage (SSD)
 - Motherboard 
 - Peripheral Device 
 
 Questions: 
 
-<div><b>A.</b> Main circuit board inside a computer that connects the different parts of a computer together: ______</div>
-<div><b>B.</b> The brain of the computer: ______</div>
-<div><b>C.</b> A peripheral device is a device that provides either an input or output function for a computer: ______</div>
-<div><b>D.</b> Component of your computer that allows you to store and access data on a long-term basis: ______</div>
-<div><b>E.</b> The device that is used to store information for immediate use: ______</div>
+<div><b>A) </b> Main circuit board inside a computer that connects the different parts of a computer together: ______</div>
+<div><b>B) </b> The brain of the computer: ______</div>
+<div><b>C) </b> A(n) _____ is a device that provides either an input or output function for a computer:</div>
+<div><b>D) </b> Component of your computer that allows you to store and access data on a long-term basis: ______</div>
+<div><b>E) </b> The device that is used to store information for immediate use: ______</div>
 
 <h4><ins>Section 2</ins></h4>
 
@@ -117,26 +117,26 @@ Questions:
 Key:
 - CLI
 - Kernel Space
+- Operating System
 - Linux
 - Hardware
-- GNU/Linux
+- Linux/GNU
 - User Space
 - GUI
 
 
-<div><b>A.</b>Part of the computer that the user interacts with and where user processes run: ______</div>
-<ul><li>The two primary interfaces that an end-user would use to interact with their computer are _____ and _____</li></ul>
+<div><b>A) </b>Part of the computer that the user interacts with and where user processes run: ______</div>
+<ul><li>The two types of interfaces that a user would use to interact with their computer are _____ and _____</li></ul>
 
-<div><b>B.</b>Part of the computer where the kernel is run and provides its services: ______</div>
+<div><b>B) </b>Part of the computer where the kernel is run and provides its services: ______</div>
 <br>
 
-
-<div><b>C.</b>Physical components of a computer: ______</div>
+<div><b>C) </b>Physical components of a computer: ______</div>
 <br>
 
-<div><b>D.</b>Part of the computer’s software that encompasses both the user-space and kernel-space: ______</div>
+<div><b>D) </b>Part of the computer’s software that encompasses both the user-space and kernel-space: ______</div>
 <ul>
-<li>    In the case of our computers, they are formally referred to as ______/______ (to include the open source software tools that compliment the operating system)
+<li>    In the case of our computers, the operating system is formally referred to as ______/______ (to include the open source software tools that compliment the OS)
 </li>
 <li>
     In the case of our computers, they are informally referred to as simply the operating system named _____
@@ -180,21 +180,21 @@ Key:
 - Router
 <br>
 
-<div><b>A.</b> ______ (hint: This device allows locally connected computers to share information and "talk" to each other.</div>
-<div><b>B.</b> ______ (hint: This is a device that forwards data across networks.</div>
-<div><b>C.</b> ______ (hint: This is a small network device that connects other devices to the Internet</div>
-<div><b>D.</b> ______ (hint: This is an organization that provides services for accessing the Internet.)</div>
+<div><b>A) </b>This device allows locally connected computers to share information and "talk" to each other ______</div>
+<div><b>B) </b>This is a device that forwards data across networks ______</div>
+<div><b>C) </b>This is a small network device that connects other devices to the Internet ______</div>
+<div><b>D) </b>This is an organization that provides services for accessing the Internet ______</div>
 
 <h4><ins>Section 5 & 6</ins></h4>
 
 **Exercise**: Defining Basic Commands
 
-<div><b>A.</b> This command creates directories/folders in you current working directory</div>
-<div><b>B.</b> Short for "change directory", this command changes your working directory to what you specify.</div>
-<div><b>C.</b> This command deletes directories and files.</div>
-<div><b>D.</b> This command displays the contents of your working directory usually consisting of folders and files</div>
-<div><b>E.</b> Short for "path working directory".</div>
-<div><b>F.</b> This command creates files in you current working directory</div>
+<div><b>A) </b> This command creates directories/folders in you current working directory</div>
+<div><b>B) </b> This command allows the user to change the working directory</div>
+<div><b>C) </b> This command deletes directories and files</div>
+<div><b>D) </b> This command displays the contents of your working directory usually consisting of folders and files</div>
+<div><b>E) </b> This command outputs your current working directory</div>
+<div><b>F) </b> This command creates files in you current working directory</div>
 <br>
 
 1. `pwd`      _____
@@ -207,64 +207,64 @@ Key:
 <div align=center><h2>Section 1-6 Review Questions</h2></div>
 
 1. **Which of the following is not considered a basic function of a computer:**
-    <div><b>a.</b> Provides an output to a user. (A)</div>
-    <div><b>b.</b> It has a Graphical User Interface. (T)</div>
-    <div><b>c.</b> It accepts input from a user. (R)</div>
-    <div><b>d.</b> It performs calculations based on an input. (C)</div>
+    <div><b>a. </b> Provides an output to a user. (A)</div>
+    <div><b>b. </b> It has a Graphical User Interface. (T)</div>
+    <div><b>c. </b> It accepts input from a user. (R)</div>
+    <div><b>d. </b> It performs calculations based on an input. (C)</div>
     <br>
 
 2. **Which of the following facts apply to all Linux operating systems?**
-    <div><b>a.</b> They have native NGU Tools (L)</div>
-    <div><b>b.</b> The utilize the Linux kernel (H)</div>
-    <div><b>c.</b> They are Debian-based (T)</div>
-    <div><b>d.</b> None of the above (E)</div>
+    <div><b>a. </b> They have native NGU Tools (L)</div>
+    <div><b>b. </b> The utilize the Linux kernel (H)</div>
+    <div><b>c. </b> They are Debian-based (T)</div>
+    <div><b>d. </b> None of the above (E)</div>
     <br>
 
 3. **Which of the following software is needed to run a Python file on your computer?**
-    <div><b>a.</b> A compiler (A)</div>
-    <div><b>b.</b> Bash (I)</div>
-    <div><b>c.</b> The Linux kernel (O)</div>
-    <div><b>d.</b> An interpreter (E)</div>
+    <div><b>a. </b> A compiler (A)</div>
+    <div><b>b. </b> Bash (I)</div>
+    <div><b>c. </b> The Linux kernel (O)</div>
+    <div><b>d. </b> An interpreter (E)</div>
     <br>
 
 4. **All computer data is represented using _____?**
-    <div><b>a.</b> The trinary number system (H)</div>
-    <div><b>b.</b> The decimal number system (M)</div>
-    <div><b>c.</b> The english language (P)</div>
-    <div><b>d.</b> The binary number system (L)</div>
+    <div><b>a. </b> The trinary number system (H)</div>
+    <div><b>b. </b> The decimal number system (M)</div>
+    <div><b>c. </b> The english language (P)</div>
+    <div><b>d. </b> The binary number system (L)</div>
     <br>
 
 5. **Which of the following is a common program that you write when you are first learning a programming language?**
-    <div><b>a.</b> Programize (A)</div>
-    <div><b>b.</b> Hello World (E)</div>
-    <div><b>c.</b> Good Morning (P)</div>
-    <div><b>d.</b> Welcome Program (Q)</div>
+    <div><b>a. </b> Programize (A)</div>
+    <div><b>b. </b> Hello World (E)</div>
+    <div><b>c. </b> Good Morning (P)</div>
+    <div><b>d. </b> Welcome Program (Q)</div>
     <br>
 
 6. **Which of the following are considered the two basic types of Networks? (Choose 2)**
-    <div><b>a.</b> WAN (T)</div>
-    <div><b>b.</b> PAN (M)</div>
-    <div><b>c.</b> NAN (H)</div>
-    <div><b>d.</b> LAN (T)</div>
+    <div><b>a. </b> WAN (T)</div>
+    <div><b>b. </b> PAN (M)</div>
+    <div><b>c. </b> NAN (H)</div>
+    <div><b>d. </b> LAN (T)</div>
     <br>
 
 7. **The internet is considered the most prominent example of the LAN network type?**
-    <div><b>a.</b> True (M)</div>
-    <div><b>b.</b> False (E)</div>
+    <div><b>a. </b> True (M)</div>
+    <div><b>b. </b> False (E)</div>
     <br>
 
 8. **The CLI is an example of a:**
-    <div><b>a.</b> Programming Language (H)</div>
-    <div><b>b.</b> User Interface (R)</div>
-    <div><b>c.</b> Number System (S)</div>
-    <div><b>d.</b> Operating System (W)</div>
+    <div><b>a. </b> Programming Language (H)</div>
+    <div><b>b. </b> User Interface (R)</div>
+    <div><b>c. </b> Number System (S)</div>
+    <div><b>d. </b> Operating System (W)</div>
     <br>
 
 9. **The "cat" command allows the user to do all of the following EXCEPT:**
-    <div><b>a.</b> Create files in the current directory (A)</div>
-    <div><b>b.</b> Delete files (M)</div>
-    <div><b>c.</b> Read the contents of files (L)</div>
-    <div><b>d.</b> Add to the end of files (E)</div>
+    <div><b>a. </b> Create files in the current directory (A)</div>
+    <div><b>b. </b> Delete files (M)</div>
+    <div><b>c. </b> Read the contents of files (L)</div>
+    <div><b>d. </b> Add to the end of files (E)</div>
     <br>
 
-**What comes once in a minute, twice in a moment, but never in a thousand years?  _ _ _    _ _ _ _ _ _   "_"**
+**What comes once in a minute, twice in a moment, but never in a thousand years?  '_ _ _ - _ _ _ _ _ _ - _'**
