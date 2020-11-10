@@ -1,4 +1,4 @@
-<div align=center><h1>Evironment Setup</h1></div>
+<div align=center><h1>Environment Setup</h1></div>
 
 The purpose of this section is to introduce you to the following concepts: 
 - Version Control
