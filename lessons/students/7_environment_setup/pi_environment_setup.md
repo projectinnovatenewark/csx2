@@ -109,7 +109,15 @@ The programming folder will be used as the main location in which you save every
 
 ## FIXME: Add steps to copy/paste the code block from new repo, go through logging into GH from the command line.
 
-<div ><h3>Adding Files to Local Repository</h3></div>
+<div ><h5>Error Handling</h5></div>
+
+## FIXME: Address possible errors for the above. Document the solutions. Below are two issues students encountered.
+
+- Permission Denied
+
+- Error does not match any refspec
+
+<div ><h4>Adding Files to Local Repository</h4></div>
 
 The “python-work” folder is where the student will be completing all of their coding assignments. Out of the commands listed below, which are used for creating and/or editing files? Which are used for creating folders?
 
