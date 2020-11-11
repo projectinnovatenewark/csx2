@@ -94,24 +94,20 @@ In other words, Git is a version control tool and GitHub is the service for proj
 
 <div ><h4>Creating the Programming Folder</h4></div>
 
-Open the Pi's file manager and then create  a folder called “programming” in the root directory.
-> The file path will be "home/pi/"
+Open the Pi's file manager, which is the icon at the top of your screen of two folders overlapping. Then, right click where the other visible folders are. Click "New Folder..." and call your folder "programming" (please note the lowercase "p", as folders are case-sensitive).
+> The file path will be "home/pi/programming"
 
-Now open up a VS Code Window. If it is not open already from installing the extensions, you can open the window by clicking the Raspberry Pi Icon in the top left of the screen -> Programming -> (headmelted) code. Inside the VS Code window, click "Open Folder" and select your programming folder.
+Now open up a VS Code Window. If it is not open already from installing the extensions, you can open the window by clicking the Raspberry Pi Icon in the top left of the screen -> Accessories -> Code - OSS (headmelted). Inside the VS Code window, click "Open Folder". Single click on your "programming folder" and click "ok" in the bottom right corner of the window.
 
 The programming folder will be used as the main location in which you save everything coding related. Before moving on, change your working directory to the programming folder in your VS Code window by first opening a terminal using "CTRL + Shift + ~". Then, inside the terminal, execute `cd programming`. You can check to make sure you successfully changed your working directory using what command?
 
 <div ><h4>Creating a New Repository</h4></div>
 
-<a href="https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository">Click here to review Github’s documentation on creating a new repository.</a> Follow the steps in this walk through of how to create a new repository called “python-work”.
-<br>
-After completing the steps to create a repository, we must set up a local repository on your Pi to be used to update the remote repository.
+## FIXME: Add steps to create a repo in Github (login to Github, click "+" followed by new repository, name the repository, no README initialized, continue to next steps once youre on the page of your empty repo).
 
-<div ><h4>Cloning a Repository</h4></div>
+<div ><h4>Configuring a Repository</h4></div>
 
-Use this <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line">link</a> and follow the steps to learn how to clone repositories using the command line. You will use what you learn to clone you python-work repository.
-- Use `git clone https://github.com/[YOUR USERNAME]/python-work` to clone the repository onto your local machine.
-- Doing so adds the directory to your current working directory.
+## FIXME: Add steps to copy/paste the code block from new repo, go through logging into GH from the command line.
 
 <div ><h3>Adding Files to Local Repository</h3></div>
 
