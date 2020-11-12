@@ -116,21 +116,27 @@ Here we are going to create a new Github repository. Navigate to your Github hom
 Once there, click on "Repositories" as shown in the image below:
 
 <div class=mdImage align=center>
-    <img src="./images/1_github_home.png" width="500" height="auto" />
+    <kbd>
+        <img src="./images/1_github_home.png" width="500" height="auto" />
+    </kbd>
 </div>
 
 
 Next, click the green button labeled "New".
 
 <div class=mdImage align=center>
-    <img src="./images/2_repos.png" width="500" height="auto" />
+    <kbd>
+        <img src="./images/2_repos.png" width="500" height="auto" />
+    </kbd>
 </div>
 
 Here, we will decide on a repository name. Go ahead and name your repository "python-work" (in place of "my-new-repo" in the below picture.)
 We will also be keeping the repositories public. You want to keep repositories public so they can eventually be used for future employers to look at.
 
 <div class=mdImage align=center>
-    <img src="./images/4_new_repo.png" width="500" height="auto" />
+    <kbd>
+        <img src="./images/4_new_repo.png" width="500" height="auto" />
+    </kbd>
 </div>
 
 After doing so, click "Create Repository" at the bottom of the page. GO ahead and move on to configuring your repository on your local machine.
