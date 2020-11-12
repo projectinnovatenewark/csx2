@@ -158,12 +158,10 @@ Click the circled clipboard icon to copy the commands to create the local reposi
 - If you need to change directories, you can use `cd`
 - If you are in the root folder and need to create the "programming" folder, use `mkdir programming`
 
-When you know you are in the right working directory, go ahead and paste those commands into your terminal and hit enter.
+When you know you are in the right working directory, go ahead and paste those commands into your terminal.
 
-You will then be prompted to enter your Github credentials. Enter your username when prompted and then hit enter. Then you can enter your password.
-> Don't be worried if nothing is showeing in your terminal when you enter the password,that is for privacy reasons.
 
-<div ><h4>Error Handling</h4></div>
+<div ><h5>Error Handling</h5></div>
 
 ## FIXME: Address possible errors for the above. Document the solutions. Below are two issues students encountered.
 
@@ -225,6 +223,14 @@ Now we can push our code to the remote repository. To reiterate, the three steps
 2. `git commit -m “My first commit”`
     - “My first commit” is the commit message
 3. `git push`
+
+<div ><h3>Common Errors When Updating Your Remote Repository</h3></div>
+*Please make sure you have the correct access rights and the repository exists.*
+
+You are likely receiving this error because:
+1. You don't have the required access rights.
+2. You are pushing to a wrong repository (check its URL).
+
 
 <div align=center><h3>Bash and Aliases</h3></div>
 
