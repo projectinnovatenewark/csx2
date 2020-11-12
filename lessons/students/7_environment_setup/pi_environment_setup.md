@@ -225,11 +225,11 @@ Now we can push our code to the remote repository. To reiterate, the three steps
 3. `git push`
 
 <div ><h3>Common Errors When Updating Your Remote Repository</h3></div>
-<b><i>Please make sure you have the correct access rights and the repository exists.</i></b>
-
-You are likely receiving this error because:
-1. You don't have the required access rights.
-2. You are pushing to a wrong repository (check its URL).
+<b><i>1. Please make sure you have the correct access rights and the repository exists.</i></b>
+  
+You are likely receiving this error because:  
+a. You don't have the required access rights.  
+b. You are pushing to a wrong repository (check its URL).
 
 
 <div align=center><h3>Bash and Aliases</h3></div>
