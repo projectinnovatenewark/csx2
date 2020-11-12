@@ -161,7 +161,7 @@ Click the circled clipboard icon to copy the commands to create the local reposi
 When you know you are in the right working directory, go ahead and paste those commands into your terminal.
 
 
-<div ><h5>Error Handling</h5></div>
+<div ><h4>Error Handling</h4></div>
 
 ## FIXME: Address possible errors for the above. Document the solutions. Below are two issues students encountered.
 
@@ -225,7 +225,7 @@ Now we can push our code to the remote repository. To reiterate, the three steps
 3. `git push`
 
 <div ><h3>Common Errors When Updating Your Remote Repository</h3></div>
-<b><i>1. Please make sure you have the correct access rights and the repository exists.</i></b>
+<b><i>1. Please make sure you have the correct access rights and the repository exists.</i></b>  
   
 You are likely receiving this error because:  
 a. You don't have the required access rights.  
