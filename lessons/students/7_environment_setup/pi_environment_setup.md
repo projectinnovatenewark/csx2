@@ -163,7 +163,7 @@ When you know you are in the right working directory, go ahead and paste those c
 You will then be prompted to enter your Github credentials. Enter your username when prompted and then hit enter. Then you can enter your password.
 > Don't be worried if nothing is showeing in your terminal when you enter the password,that is for privacy reasons.
 
-<div ><h5>Error Handling</h5></div>
+<div ><h4>Error Handling</h4></div>
 
 ## FIXME: Address possible errors for the above. Document the solutions. Below are two issues students encountered.
 
