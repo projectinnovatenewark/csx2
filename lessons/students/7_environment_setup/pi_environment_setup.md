@@ -165,11 +165,14 @@ You will then be prompted to enter your Github credentials. Enter your username 
 
 <div ><h4>Error Handling</h4></div>
 
-## FIXME: Address possible errors for the above. Document the solutions. Below are two issues students encountered.
+<b><i>1. Please make sure you have the correct access rights and the repository exists.</i></b>  
+You are likely receiving this error because:  
+a. You don't have the required access rights.  
+b. You are pushing to a wrong repository (check its URL).
 
-- Permission Denied
+<b><i>2. Permission Denied.</i></b> 
 
-- Error does not match any refspec
+<b><i>3. Error does not match any refspec.</i></b> 
 
 <div ><h4>Adding Files to Local Repository</h4></div>
 
@@ -225,14 +228,6 @@ Now we can push our code to the remote repository. To reiterate, the three steps
 2. `git commit -m “My first commit”`
     - “My first commit” is the commit message
 3. `git push`
-
-<div ><h3>Common Errors When Updating Your Remote Repository</h3></div>
-<b><i>1. Please make sure you have the correct access rights and the repository exists.</i></b>  
-  
-You are likely receiving this error because:  
-a. You don't have the required access rights.  
-b. You are pushing to a wrong repository (check its URL).
-
 
 <div align=center><h3>Bash and Aliases</h3></div>
 
