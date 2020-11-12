@@ -26,14 +26,11 @@ In computing, **source code** is any collection of code that is written using a 
 </div>
 
 <h4>Installing Extensions</h4>
-Use the following links to install the Visual Studio Code extensions we will be using in this course:
+To install the Visual Studio Code extensions we will be using in this course, open VS Code and go to the extensions tab on the left.
 
-<ul>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></li>
-    <ul><li>This allows you to run Python files in VS Code</li></ul>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight">Highlight</a></li>
-    <ul><li>This extension highlights certain text to make your code more readable</li></ul>
-</ul>
+First search ‘Highlight’, and click Install.
+
+Then search ‘Python’, and click Install.
 
 <div align=center><h3>Version Control</h3></div>
 
