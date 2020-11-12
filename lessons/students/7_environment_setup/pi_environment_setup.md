@@ -112,11 +112,47 @@ The programming folder will be used as the main location in which you save every
 
 <div ><h4>Creating a New Repository</h4></div>
 
-## FIXME: Add steps to create a repo in Github (login to Github, click "+" followed by new repository, name the repository, no README initialized, continue to next steps once youre on the page of your empty repo).
+Here we are going to create a new Github repository. Navigate to your Github homepage. This can be found at github.com/[YOUR-USERNAME].
+Once there, click on "Repositories" as shown in the image below:
+
+<div class=mdImage align=center>
+    <img src="./images/1_github_home.png" width="500" height="auto" />
+</div>
+
+
+Next, click the green button labeled "New".
+
+<div class=mdImage align=center>
+    <img src="./images/2_repos.png" width="500" height="auto" />
+</div>
+
+Here, we will decide on a repository name. Go ahead and name your repository "python-work" (in place of "my-new-repo" in the below picture.)
+We will also be keeping the repositories public. You want to keep repositories public so they can eventually be used for future employers to look at.
+
+<div class=mdImage align=center>
+    <img src="./images/4_new_repo.png" width="500" height="auto" />
+</div>
+
+After doing so, click "Create Repository" at the bottom of the page. GO ahead and move on to configuring your repository on your local machine.
 
 <div ><h4>Configuring a Repository</h4></div>
 
 ## FIXME: Add steps to copy/paste the code block from new repo, go through logging into GH from the command line.
+
+After completing the previous section, you should see a screen similar to below. Click the clipboard icon to copy the code
+
+<div class=mdImage align=center>
+    <img src="./images/14_create_repo_cli.png" width="500" height="auto" />
+</div>
+
+Click the circled clipboard icon to copy the commands to create the local repository on your Pi. Before exectuing the commands:
+
+- Check your working directory with `pwd`. It should be your programming folder
+- If you need to change directories, you can use `cd`
+- If you are in the root folder and need to create the "programming" folder, use `mkdir programming`
+
+When you know you are in the right working directory, go ahead and paste those commands into your terminal.
+
 
 <div ><h5>Error Handling</h5></div>
 
