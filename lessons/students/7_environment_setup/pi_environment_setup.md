@@ -131,8 +131,8 @@ Next, click the green button labeled "New".
 </div>
 <br>
 
-Here, we will decide on a repository name. Go ahead and name your repository "python-work" (in place of "my-new-repo" in the below picture.)
-We will also be keeping the repositories public. You want to keep repositories public so they can eventually be used for future employers to look at.
+Here, we will decide on a repository name. Go ahead and name your repository "python-work" (in place of "my-new-repo" in the below picture).
+We will also be keeping the repositories public. You want to keep repositories public so they can eventually be used for future employers to look at and see all of the cool projects you've completed.
 
 <div class=mdImage align=center>
     <kbd>
@@ -145,12 +145,10 @@ After doing so, click "Create Repository" at the bottom of the page. GO ahead an
 
 <div ><h4>Configuring a Repository</h4></div>
 
-## FIXME: Add steps to copy/paste the code block from new repo, go through logging into GH from the command line.
-
-After completing the previous section, you should see a screen similar to below. Click the clipboard icon to copy the code
+After completing the previous section, you should see a screen similar to below. Click the clipboard icon to copy the code:
 
 <div class=mdImage align=center>
-    <img src="./images/14_create_repo_cli.png" width="500" height="auto" />
+    <img src="./images/14_create_repo_cli.png" width="600" height="auto" />
 </div>
 <br>
 
