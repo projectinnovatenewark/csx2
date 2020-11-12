@@ -160,7 +160,7 @@ Click the circled clipboard icon to copy the commands to create the local reposi
 
 When you know you are in the right working directory, go ahead and paste those commands into your terminal and hit enter.
 
-You will then be prompted to enter your Github credentials. Enter your username when prompted. Then you can enter your password.
+You will then be prompted to enter your Github credentials. Enter your username when prompted and then hit enter. Then you can enter your password.
 > Don't be worried if nothing is showeing in your terminal when you enter the password,that is for privacy reasons.
 
 <div ><h5>Error Handling</h5></div>
