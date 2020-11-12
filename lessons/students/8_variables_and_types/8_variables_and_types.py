@@ -51,13 +51,13 @@ print("I am Groot")
 # the corresponding assignment for this section of the lesson. The line below instructs
 # you to visit section 1 of the 2nd TODO and complete it before moving on to the next section.
 # TODO: Section 1 of TODO 2 (2 minutes for students, 1 minute demo)
-
+# IMPORTANT: Copy & paste the TODO assignment into your own personal file/folder before working.
 ####################################################################################################
 
 # TITLE: Section 2 - Setting Multiple Variables in One Line and Additional Types (2 minutes)
 
 # Setting multiple variables in one line of code? Yep. This is possible only when you use
-# commas to separate each variable. The positions of the varibale names correspond with the values.
+# commas to separate each variable. The positions of the variable names correspond with the values.
 var1, var2, var3 = 1, 2, 3
 print(var1, var2, var3)
 
