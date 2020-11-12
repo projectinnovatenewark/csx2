@@ -29,19 +29,19 @@ In computing, **source code** is any collection of code that is written using a 
 To install the Visual Studio Code extensions we will be using in this course, open VS Code and go to the extensions tab on the left.
 
 <div class=mdImage align=center>
-    <img src="./images/VS Code Extensions.png" width="300" height="auto" />
+    <img src="./images/13_vs_eode_extensions.png" width="300" height="auto" />
 </div>
 
 First search ‘Highlight' and click Install.
 
 <div class=mdImage align=center>
-    <img src="./images/Highlight - Extension.png" width="300" height="auto" />
+    <img src="./images/12_python-extension.png" width="300" height="auto" />
 </div>
 
 Then search ‘Python’ and click Install.
 
 <div class=mdImage align=center>
-    <img src="./images/Python - Extension.png" width="300" height="auto" />
+    <img src="./images/12_python-extension.png" width="300" height="auto" />
 </div>
 
 <div align=center><h3>Version Control</h3></div>
