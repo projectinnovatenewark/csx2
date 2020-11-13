@@ -161,7 +161,7 @@ Click the circled clipboard icon to copy the commands to create the local reposi
 When you know you are in the right working directory, go ahead and paste those commands into your terminal.
 
 You will then be prompted to enter your Github credentials. Enter your username when prompted and then hit enter. Then you can enter your password.
-> Don't be worried if nothing is showeing in your terminal when you enter the password,that is for privacy reasons.
+> Don't be worried if nothing is showing in your terminal when you enter the password, that is for privacy reasons.
 
 <div ><h4>Error Handling</h4></div>
 
@@ -176,7 +176,7 @@ b. You are pushing to a wrong repository (check its URL).
 
 <div ><h4>Adding Files to Local Repository</h4></div>
 
-The “python-work” folder is where the student will be completing all of their coding assignments. Out of the commands listed below, which are used for creating and/or editing files? Which are used for creating folders?
+The "python-work" folder is where the student will be completing all of their coding assignments. Out of the commands listed below, which are used for creating and/or editing files? Which are used for creating folders?
 
 - touch
 - mkdir
@@ -239,7 +239,7 @@ Terminal preferences can contain a number of different things. Most commonly, th
 
 <div ><h3>Creating An Alias</h3></div>
 
-1. To add aliases, we can append the .bashrc text file using echo. If you remember, echo appends text to the bottom of a text file if you use the format `echo “new text to append” >> someFile.txt`. THe first command we are going to add as an alias will replace `git add .`
+1. To add aliases, we can append the .bashrc text file using echo. If you remember, echo appends text to the bottom of a text file if you use the format `echo “new text to append” >> someFile.txt`. The first command we are going to add as an alias will replace `git add .`
 > How does this impact the staging area?
 
 Next, in the command line enter:
