@@ -35,7 +35,7 @@ To install the Visual Studio Code extensions we will be using in this course, op
 First search ‘Highlight' and click Install.
 
 <div class=mdImage align=center>
-    <img src="./images/12_python-extension.png" width="300" height="auto" />
+    <img src="./images/11_highlight-extension.png" width="300" height="auto" />
 </div>
 
 Then search ‘Python’ and click Install.
