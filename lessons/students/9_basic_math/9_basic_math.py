@@ -30,7 +30,7 @@ addition, subtraction, multiplication = 4 + 4, 20 - 6, 2 * 2
 print("Lets see if our variables changed.")
 print("addition: ", addition, "subtraction: ", subtraction, "multiplication: ", multiplication)
 
-####################################################################################################
+###################################################################################################
 
 # TITLE: Section 1.1 - PEMDAS and Order of Operations (5 minutes)
 
@@ -67,7 +67,7 @@ CORPORATE_TAX_RATE = .20
 
 # IMPORTANT:
 # Here we see our first example of combining new concepts. A mathematical equation is set using a
-# vaiable and a constant. This is important to recognize because company_profit can change, as
+# variable and a constant. This is important to recognize because company_profit can change, as
 # it is a variable, which will therefore change the value of taxes_paid.
 taxes_paid = company_profit * CORPORATE_TAX_RATE
 print(f"I paid ${taxes_paid:.2f} dollars in taxes for my business.")
@@ -133,12 +133,12 @@ pos_float = 3.5
 print(f"The absolute value of {neg_float} is {abs(neg_float)}.")
 print(f"The absolute value of {pos_float} is {abs(pos_float)}.")
 
-# IMPORTANT: Certain functions have return values that can be be placed in print statements, and
-# IMPORTANT: their return values will be printed as a string when using f shorthand.
+# IMPORTANT: Certain functions have return values that can be be stored in variables, and
+# IMPORTANT: in turn their values will be printed as a string when using f shorthand.
 
 # TODO: Section 2 of TODO 4 (8 minutes for students, 3 minute demo)
 
-####################################################################################################	
+# ####################################################################################################	
 
 # TITLE: Section 3 - Short Import Intro and the Math Package (8 minutes)
 
@@ -159,7 +159,7 @@ hyp = math.hypot(a, b)
 pythag_theorem = (a**2 + b**2)**(1/2)
 
 print(f"Here is the output of the math module example: {hyp}")	
-print(f"Here we are using the pythagorean theorem equation: {pythag_theorem}")	
+print(f"Here we are using the pythagorean theorem equation: {pythag_theorem}")
 
 # Packages can make your life much easier if you can use them right. Remember though,
 # it's always important to remember the underlying concept.
