@@ -24,7 +24,7 @@ A breadboard is a device used for temporary or prototype electronics. Breadboard
     <img src="./io_workshop_images/1_breadboard.png" width="400" height="auto" />
 </div>
 
-There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides of each seperated by a canal in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
+There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides of each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
 
 <div><h4>2. Jumoer Wires</h4></div>
 
@@ -144,6 +144,97 @@ We will need the folling components for this section:
 - 2 Female-Male Jumper Wires
 - 1 Male-Male Jumper Wire
 
+<!-- FIXME: insert image of needed parts-->
+
 **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
 1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
+
+<!-- FIXME: insert image -->
+
+2. Next we will place the tactile button across the gutter in th emiddle of the bread board. The top legs should line out with the grounded wire.
+
+<!-- FIXME: insert image -->
+
+3. Connect a male-male wire from the negative rail (directly above where the grounded wire is inserted) of the breadboard and connect it to the row that the top left leg of the button is on.
+
+<!-- FIXME: insert image -->
+
+4. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin tot he breadboard where the top-left leg is placed.
+
+<!-- FIXME: insert image -->
+
+<div align=center><h3>Using the Tactile Button</h3></div>
+
+Now that everything is connected, we can execute our Python program. Execute the program by clicking the execute button (the green triangle) at the top right corner of the file.
+
+When you press the tactile button on the breadboard, you should see the following output:
+<div class=mdImage align=center>
+    <img src="./io_workshop_images/11_press_button.png" width="400" height="auto" />
+</div>
+
+Try holding the tactile button now for 3 seconds. You'll see the following output now:
+<div class=mdImage align=center>
+    <img src="./io_workshop_images/12_hold_button.png" width="400" height="auto" />
+</div>
+
+Now in the terminal, press the "control button" and "c" at the same time to end the program. You'll know you're successful in quitting the program when you see the following output:
+<div class=mdImage align=center>
+    <img src="./io_workshop_images/13_quit.png" width="400" height="auto" />
+</div>
+
+Let's move on to learning about the LED light now. Go ahead and disconnect all of the external components to start fresh.
+
+<div align=center><h2>LED Light</h2></div>
+
+An LED light can be used to provide an *output* too. When a block of ocde is executed, the Pi will turn the light on and off. This makes the light an output device. Again, we will code the program in Python first, and then assemble the physical components.
+
+1. In your *workshop_3* folder, create a file named "led.py".
+
+2. We will be using the gpiozero library again to import the LED class to use its .blink() method. The .blink() method has a default timeout of one (1) second and will continue to blink every other second until the program is exited with the pause() function.
+
+3. Paste the following into your "led.py" file:
+
+        from gpiozero import LED
+        from signal import pause
+
+        led = LED(4) # 4 is specifying which GPIO pin we will be using.
+        led.blink()
+
+        pause()
+> Again please look out for indentation errors.
+
+<div align=center><h3>Assembling the LED Light</h3></div>
+
+We will need the folling components for this section:
+- Breadboard
+- 1 LED light (any color is fine)
+- 3 Female-Male Jumper Wires
+- 1 330 Ohm Resistor
+
+<!-- FIXME: insert image of needed parts-->
+
+**During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
+
+1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
+
+<!-- FIXME: insert image -->
+
+2. Place the LED light into two holes on the breadboard that are next to eachother, but not on the same row. Also, neither leg should be on the same row as the **GND** wire.
+    - The longer leg is the **positive leg**. This should be placed on the left side.
+    - The shorter leg is the **negative leg**. This should be placed on the right side.
+
+<!-- FIXME: insert image -->
+
+3. Connect the Ohm resister to the female end of a female-male jumper wire. This is so you have a little more wiggle room, but not necessarily mandatory for funcitonality.connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg).
+
+<!-- FIXME: insert image -->
+
+4. Connect a female-male jumper wire from the Pi's **GPIO4** pin to a hole on the breadboard in the same row as the **positive leg** of the LED light.
+
+<!-- FIXME: insert image -->
+
+<div align=center><h3>Using the LED Light</h3></div>
+
+Now that the components are set up,go ahead and execute the Python file. You should see the light blinking for one second on and one second off. You can use "control + c" again to quit the program. Let's move on to working with the buzzer component.
+
