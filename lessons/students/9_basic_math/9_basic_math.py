@@ -1,8 +1,9 @@
 """
-This is an introduction to basic math and imports in Python
+Introduction to basic math and imports in Python
 """
 
 # TITLE: Section 1 - Basic Mathematical Operations in Python, & Modulo (8 minutes)
+
 # Math in Python works exactly as you'd think it should. It's just like using a calculator,
 # except you can store equations in variables. Below are basic mathematical operations you have 
 # seen in standard algebra classes.
@@ -53,6 +54,7 @@ print(f"we expect eq1 to equal 5. Python gives us {int(eq3)}")
 ####################################################################################################
 
 # TITLE: Section 1.2 - Constants, Incrementing/Decrementing, & Converting Numeric User Inputs (9 minutes)
+
 # Here is a new concept we haven't covered yet- constants! Constants are like variables,
 # but they are typed in all caps and shouldn't change. Variables can be manipulated and change,
 # whereas constants should remain the same.
@@ -64,9 +66,9 @@ company_profit = int(input("How much money did your company make this year?: "))
 CORPORATE_TAX_RATE = .20
 
 # IMPORTANT:
-# Here we see our first example of copmbining new concepts. A mathematical equation is set using a
-# vaiable and a constant. This is important to recognize because company_profit can change which
-# will therefore change the value of taxes_paid.
+# Here we see our first example of combining new concepts. A mathematical equation is set using a
+# vaiable and a constant. This is important to recognize because company_profit can change, as
+# it is a variable, which will therefore change the value of taxes_paid.
 taxes_paid = company_profit * CORPORATE_TAX_RATE
 print(f"I paid ${taxes_paid:.2f} dollars in taxes for my business.")
 
@@ -86,7 +88,7 @@ print(f"2. summation is {summation}")
 summation += 2 # summation will now equal 9.0
 print(f"3. summation is {summation}")
 
-# On a similar note, you can decrement with -=. Let's see how that looks.
+# On a similar note, you can decrement with "-=". Let's see how that looks.
 summation -= 3 # summation will now equal 6.0
 print(f"4. summation is {summation}")
 
@@ -95,6 +97,9 @@ print(f"4. summation is {summation}")
 ####################################################################################################
 
 # TITLE: Section 2 - Math with Lists and Absolute Values (10 minutes)
+
+# TIP: Briefly demo lists prior to starting the first example.
+
 # Python makes it easy to find things like min and max too. Luckily there are built in functions we can
 # use. Below is a list of random numbers we are going to work on to show some examples.
 number_list = [13, 27, 4, 12, 39, 100]
@@ -136,6 +141,7 @@ print(f"The absolute value of {pos_float} is {abs(pos_float)}.")
 ####################################################################################################	
 
 # TITLE: Section 3 - Short Import Intro and the Math Package (8 minutes)
+
 # We also have the math package/module from python. Python has built in tools that we	
 # can import and use to help us in mathematical operations. Normally imports go at the	
 # TOP of a file, but we will put it here to consolidate the lesson.	
