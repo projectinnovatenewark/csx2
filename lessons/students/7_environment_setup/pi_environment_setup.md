@@ -35,7 +35,7 @@ To install the Visual Studio Code extensions we will be using in this course, op
 First search ‘Highlight' and click Install.
 
 <div class=mdImage align=center>
-    <img src="./images/12_python-extension.png" width="300" height="auto" />
+    <img src="./images/11_highlight-extension.png" width="300" height="auto" />
 </div>
 
 Then search ‘Python’ and click Install.
@@ -106,9 +106,9 @@ In other words, Git is a version control tool and GitHub is the service for proj
 Open the Pi's file manager, which is the icon at the top of your screen of two folders overlapping. Then, right click where the other visible folders are. Click "New Folder..." and call your folder "programming" (please note the lowercase "p", as folders are case-sensitive).
 > The file path will be "home/pi/programming"
 
-Now open up a VS Code Window. If it is not open already from installing the extensions, you can open the window by clicking the Raspberry Pi Icon in the top left of the screen -> Accessories -> Code - OSS (headmelted). Inside the VS Code window, click "Open Folder". Single click on your "programming folder" and click "ok" in the bottom right corner of the window.
+Now open up a VS Code Window. If it is not open already from installing the extensions, you can open the window by clicking the Raspberry Pi Icon in the top left of the screen -> Accessories -> Code - OSS (headmelted). Inside the VS Code window, click "Open Folder". Single click on your "programming" folder and click "ok" in the bottom right corner of the window.
 
-The programming folder will be used as the main location in which you save everything coding related. Before moving on, change your working directory to the programming folder in your VS Code window by first opening a terminal using "CTRL + Shift + ~". Then, inside the terminal, execute `cd programming`. You can check to make sure you successfully changed your working directory using what command?
+The programming folder will be used as the main location in which you save everything coding related. Before moving on, change your working directory to the programming folder in your VS Code window by first opening a terminal using `Shift + Control + ~`. Then, inside the terminal, check the location of your current working directory. What is the command to execute this command, class?
 
 <div ><h4>Creating a New Repository</h4></div>
 
@@ -152,16 +152,17 @@ After completing the previous section, you should see a screen similar to below.
 </div>
 <br>
 
-Click the circled clipboard icon to copy the commands to create the local repository on your Pi. Before exectuing the commands:
+Click the circled clipboard icon to copy the commands to create the local repository on your Pi. Head back to your VS Code window and into your integrated terminal. If your terminal window is not opened, click `Shift + Control + ~` and click into the terminal. Then, enter the following commands:
 
 - Check your working directory with `pwd`. It should be your programming folder
-- If you need to change directories, you can use `cd`
-- If you are in the root folder and need to create the "programming" folder, use `mkdir programming`
+- If you aren't in the programming folder, check the contents of your current working directory with `ls`. If you see "programming" in the contents, then you can change into that directory
+- If you need to change directories, you can use the `cd` command followed by the name of the folder you'd like to change directories to
+- Once you are in the "programming" folder, create a new folder called "python-work" with `mkdir python-work`. Change directories into the "python-work" folder with `cd python-work`. Use the `pwd` command one more time to make sure that you are currently in the "python-work" directory.
 
-When you know you are in the right working directory, go ahead and paste those commands into your terminal.
+When you know you are in the right working directory, go ahead and paste the commands you copied earlier from Github into your terminal. If you are not prompted to enter your username after copying the set of commands, click "Enter".
 
-You will then be prompted to enter your Github credentials. Enter your username when prompted and then hit enter. Then you can enter your password.
-> Don't be worried if nothing is showeing in your terminal when you enter the password,that is for privacy reasons.
+You will then be prompted to enter your Github credentials. Type in your username when prompted and then hit "Enter". Then you can enter your password, which will **not** display as you type the character.
+> Don't be worried if nothing is showing in your terminal when you enter the password, as stated above, as that is for privacy reasons.
 
 <div ><h4>Error Handling</h4></div>
 
@@ -170,28 +171,10 @@ You are likely receiving this error because:
 a. You don't have the required access rights.  
 b. You are pushing to a wrong repository (check its URL).
 
-<b><i>2. Permission Denied.</i></b> 
-
-<b><i>3. Error does not match any refspec.</i></b> 
-
 <div ><h4>Adding Files to Local Repository</h4></div>
 
-The “python-work” folder is where the student will be completing all of their coding assignments. Out of the commands listed below, which are used for creating and/or editing files? Which are used for creating folders?
 
-- touch
-- mkdir
-- echo
-- cat
-- Or the classic right-click (two-finger click on a Mac)
-
-<div>This is all done within your VS Code window either inside the Integrated Terminal or the file manager popout. Let's create the classic *hello_world.py* file one more time so that we can push it up to the repository. Check your working directory, and if you aren't already, change your working directory to "python-work".</div>
-
-`pwd`
-<div>Then if you need to change your working directory:</div>
-
-`cd python-work`
-
-<div>You can use any of the listed methods for creating and editing the file, or you can use the following commands:</div>
+<div>Let's create the classic *hello_world.py* file so we can push it up to the repository using the integrated terminal in VS Code. Check your working directory, and if isn't already in "python-work", change your working directory to "python-work". After you confirm that you are in the correct directory, continue to the commands below.</div>
 
 `cat <<EOF>> hello_world.py`
 <div>then in the prompt:</div>
@@ -201,45 +184,39 @@ The “python-work” folder is where the student will be completing all of thei
 
 `EOF`
 
-Now that we have a file with some contents, we are going to push this up to the remote repository.
+followed by clicking "Enter". Now that we have a file with some contents, we are going to push this up to the remote repository.
 
 <div ><h3>Updating Your Remote Repository</h3></div>
 Updating the remote repository is best practice for a couple reasons:
 
-- For starters, it is Git’s main function! If you don’t update the repository with the most recent changes to the code, then your team won’t have access to it to build cool apps.
-- Repositories serve almost as a storage for your code. If you keep the remote repository up to date, you won’t lose your code if any technical difficulties arise like getting a new computer.
+- For starters, it is git’s main function! If you don’t update the repository with the most recent changes to the code, then your team won’t have access to it to collaborate with you.
+- Repositories serve as a form of storage for your code. If you keep the remote repository up to date, you won’t lose your code if any technical difficulties arise on your existing computer.
 
 To update the remote repository, we use three (3) commands in the following order:
 
 1. `git add .`
-2. `git commit -m “[COMMIT MESSAGE]”`
+2. `git commit -m "[COMMIT MESSAGE]"`
     - A commit message is like a note to the team that gives a short description of the code that’s being pushed up.
 3. `git push`
 
-Now that we know the steps to pushing code to the remote repository, let’s push up *hello_world.py* to the python-work repository. First we are going to enter a command to tell Git to store our username and password credentials. This way, it won’t need to be input each time code is pushed up. In your terminal, enter:
+Now that we know the steps to pushing code to the remote repository, let’s push up *hello_world.py* to your python-work repository in Github. In your terminal, enter the following to push your code to the remote repository:
 
-1. `cd python-work`
-2. `git config --global credential.helper store`
-    - Follow any prompts that may occur
-3. and lastly, `git pull`
-
-Now we can push our code to the remote repository. To reiterate, the three steps are:
 1. `git add .`
-2. `git commit -m “My first commit”`
-    - “My first commit” is the commit message
+2. `git commit -m "My first commit"`
+    - "My first commit" is the commit message, which should represent the code changes you are pushing up to Github.
 3. `git push`
 
 <div align=center><h3>Bash and Aliases</h3></div>
 
 Early in the semester we discussed that most Linux systems use a **bash** shell to receive its commands as it is the default shell on Linux. Bash is short for **B**ourne **A**gain **SH**ell. Bash is a command language interpreter for GNU operating systems. This is the reason that so many Linux systems use bash. Although other shells do exist and are associated with the GNU Project, bash is often the default interpreter for most of its operating systems including Linux, Mac OS, and Windows. 
 
-In order to load your preferences, bash runs the contents of the **bashrc file** at each launch. This shell script is found in each user’s home directory. It’s used to save and load your terminal preferences and environmental variables.
+In order to load your preferences, bash runs the contents of the **.bashrc file** at each launch. This shell script is found in each user’s home directory. It’s used to save and load your terminal preferences and environmental variables.
 
-Terminal preferences can contain a number of different things. Most commonly, the bashrc file contains aliases. **Aliases** allow the user to refer to commands by shorter or alternative names, and can be a huge time-saver for those that work in a terminal regularly. In other words, a bash alias is a means of avoiding typing a long command sequence by using an abbreviated shortcut. 
+Terminal preferences can contain a number of different things. Most commonly, the .bashrc file contains aliases. **Aliases** allow the user to refer to commands by shorter or alternative names, and can be a huge time-saver for those that work in a terminal regularly. In other words, a bash alias is a means of avoiding typing a long command sequence by using an abbreviated shortcut. 
 
 <div ><h3>Creating An Alias</h3></div>
 
-1. To add aliases, we can append the .bashrc text file using echo. If you remember, echo appends text to the bottom of a text file if you use the format `echo “new text to append” >> someFile.txt`. THe first command we are going to add as an alias will replace `git add .`
+1. To add aliases, we can append the .bashrc text file using echo. If you remember, echo appends text to the bottom of a text file if you use the format `echo "new text to append" >> someFile.txt`. The first command we are going to add as an alias will replace `git add .`
 > How does this impact the staging area?
 
 Next, in the command line enter:
@@ -253,7 +230,7 @@ We can repeat this process for the following to commands for pushing up code. Th
 > Note: A commit message is still needed (in quotes) to be input by a student when the alias is used.
 `echo "alias gush='git push'" >> /home/pi/.bashrc`
 
-2. It is also possible to make changes to the .bashrc through the GUI. Click on your file manager in the top left corner of your Pi’s screen. You’ll see something like the following screenshot. Click view and then “Show Hidden” to reveal the hidden files on your Pi.
+2. It is also possible to make changes to the .bashrc through the GUI. Click on your file manager in the top left corner of your Pi’s screen. You’ll see something like the following screenshot. Click view and then "Show Hidden" to reveal the hidden files on your Pi.
 
 You will then find the text file .bashrc. Open it and scroll to the bottom where you see our current commands.
 
@@ -271,7 +248,7 @@ Close and save the changes you made to the file.
 Now that we have changes to push up, let’s use our three new aliases to make changes to our remote repository. 
 
 1. `gadd`
-2. `gommit “Saying goodbye”`
+2. `gommit "Saying goodbye"`
     - Yes, we still need a commit message
 
 3. `gush`

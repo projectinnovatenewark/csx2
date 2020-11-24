@@ -3,8 +3,8 @@ Using variables and types
 """
 
 # TODO: Section 1:
-# Set a variable 'phrase1' euqal to "Hi everyone! " and another variable 'phrase2'
-# equal to "My name is [name here]". Then use what you learned so
+# Set a variable "phrase1" equal to "Hi everyone!" and another variable "phrase2"
+# equal to "My name is [name here]". Then, use what you learned so
 # far in the lesson to set these varibles to a new variable called "complete"
 # and print it.
 
