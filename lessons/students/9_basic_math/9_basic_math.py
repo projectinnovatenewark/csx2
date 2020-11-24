@@ -6,7 +6,7 @@ Introduction to basic math and imports in Python
 
 # Math in Python works exactly as you'd think it should. It's just like using a calculator,
 # except you can store equations in variables. Below are basic mathematical operations you have 
-# seen in standard algebra classes.
+# seen in standard math.
 addition = 2 + 2 # This is addition
 subtraction = 10 - 5 # This is sutraction
 multiplication = 3 * 4 # This is multiplication
