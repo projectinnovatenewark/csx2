@@ -95,8 +95,8 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
 
 4. The functions we have now defined will be used in conjunction with the three event **properties** of pressing, holding, and releasing the button. The Button class has: ".when_pressed", ".when_held", and ".when_released".The two properties that are  self explanatory and do not need much explaining are ".when_pressed" and ".when_released". On the other hand, ".when_held" can take in a specified time for the function to run. This is done by specifying “hold_time=[some_float]”, where some_float is a float data type, within the instantiation of our Button class.
 
-`button = Button(4)`
-Will now be:
+`button = Button(4)` <br>
+Will now be:<br>
 `button = Button(4, hold_time = 3.0)` <br>
 This will specify that for the buton_held function will wait 3 seconds before it executes its code.
 
@@ -109,6 +109,7 @@ This will specify that for the buton_held function will wait 3 seconds before it
 now when the tactile button is pressed, the method "buttonPressed" will run and print the statement, “Button was pressed”. If the button is helf for 3 seconds, then the "buttonHeld' method will run. WHat do you think will execute when this method is called? Lastly, when the tactile button is released, the "buttonReleased" method will be called.
 
 6. Our complete file should now look like the following:
+
         from gpiozero import Button 
         from signal import pause
 
@@ -127,5 +128,5 @@ now when the tactile button is pressed, the method "buttonPressed" will run and 
         button.when_released = buttonReleased
 
         pause()
-        
+
 > pause() is used to stop your program from running after the button has been released. We will use "control + c" to quit the program after having finished testing.
