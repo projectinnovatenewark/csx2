@@ -67,7 +67,11 @@ How can we tell the difference between the pins? The GPIO Zero Python Library pr
 
 This provides a layout of each pin on your Raspberry Pi and they type of pin it is. You can also see it provides some information on where some of the physical components of your pi are for reference as well.
 
-Now that we have a better idea about some of the compopnents we will be using to make our i/o devices functional, let's start using them.
+In this workshop we will refer to pins in a couple different ways.
+1. One can be referred to as *GPIO[INSERT NUMBER]*. This would be referencing the pins name that can be seen using the `pinout` function in bold green lettering.
+2. The alternative is calling out pins by their physical location such as *physical pin 6* when referring to the **GND** pin on the Pi's 6th pin which can also be seen using the `pinout` function, but instead is the number in paranthesis.
+
+Now that we have a better idea about some of the components we will be using to make our i/o devices functional, let's start using them.
 
 Open VS Code on your Pi and in your *python-work* folder, create a folder named *workshop_3*. Inside the *workshop_3* folder, create a file named "button.py".
 
@@ -129,4 +133,17 @@ now when the tactile button is pressed, the method "buttonPressed" will run and 
 
         pause()
 
-> pause() is used to stop your program from running after the button has been released. We will use "control + c" to quit the program after having finished testing.
+> pause() is used to stop your program from running. To do so, we will use "control + c" to quit the program after having finished testing.
+>> Check for any indentation errors as copying and pasting into VS Code can be tricky sometimes.
+
+<div align=center><h3>Assembling the Tactile Button</h3></div>
+
+We will need the folling components for this section:
+- Breadboard
+- 1 Tactile Button
+- 2 Female-Male Jumper Wires
+- 1 Male-Male Jumper Wire
+
+**During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
+
+1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
