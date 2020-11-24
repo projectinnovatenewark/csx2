@@ -82,7 +82,7 @@ print("variable for later will equal", variable_for_later)
 string1 = "Hello"
 num3 = 45
 
-print("printing things, woohoo!!")
+print("printing strings!")
 print(2387938457)
 print(num3)
 print(string1)
@@ -90,7 +90,7 @@ print(string1)
 # FIXME: The code right here is broken, let's run it for fun to show that strings cannot be
 # FIXME: concatenated directly with non-strings. Uncomment and run the code.
 # print(string1 + "I am python number " + num3 + ", hear me roar!!") # TIP: Be sure to comment it out
-                                                                    # TIP: before moving on.
+                                                                   # TIP: before moving on.
 
 # You can print any type by separating them with commas, as Python will automatically pass
 # them into the print statement as separate "arguments", then convert them all into strings
