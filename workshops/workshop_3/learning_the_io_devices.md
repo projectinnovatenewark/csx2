@@ -75,15 +75,15 @@ Open VS Code on your Pi and in your *python-work* folder, create a folder named 
 
 A tactile button can be used to give inputs to your Raspberry Pi by clicking the button while a program is running. This clasifies the tactile button as an **input** device. We will first code the button in Python, and then connect physically connect it to the Pi.
 
-1. In button.py, we are first going to import the Button class fomr the "gpiozero" library and the pause function from the "signal" package. To do this, we will enter the following code at the top of button.py:
+1. In button.py, we are first going to import the Button class fomr the "gpiozero" library and the pause function from the "signal" package. To do this, we will enter the following code at the top of button.py:<br>
 `from gpiozero import Button ` <br>
 `from signal import pause`
 
-2. Next, we can create an instance of the button class by using the number of the GPIO pin used when setting up our tactile button. We are using the **GIPIO4** pin, so we will specify that in the code and set it equal to the variable “button” as so:
+2. Next, we can create an instance of the button class by using the number of the GPIO pin used when setting up our tactile button. We are using the **GIPIO4** pin, so we will specify that in the code and set it equal to the variable `button” as so:<br>
 `button = Button(4)`
 > Specifying "4" is how Python knows which pin we will be using. 
 
-3. Next we are going to define 3 methods for our button: “buttonPressed()”, “buttonHeld()”, and “buttonReleased()”. When these methods are used, each will print a statement regarding the action described in their name. Use the following in your file:
+3. Next we are going to define 3 methods for our button: `buttonPressed()”, “buttonHeld()”, and “buttonReleased()”. When these methods are used, each will print a statement regarding the action described in their name. Use the following in your file:
 > Methods are simply functions that are specific to a certain class. The above methods would not be able to be used with any other class or data type.
 
         def buttonPressed():
@@ -92,3 +92,40 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
         	print(“Button was held”)
         def buttonReleased():
         	print(“Button was released”)
+
+4. The functions we have now defined will be used in conjunction with the three event **properties** of pressing, holding, and releasing the button. The Button class has: ".when_pressed", ".when_held", and ".when_released".The two properties that are  self explanatory and do not need much explaining are ".when_pressed" and ".when_released". On the other hand, ".when_held" can take in a specified time for the function to run. This is done by specifying “hold_time=[some_float]”, where some_float is a float data type, within the instantiation of our Button class.
+
+`button = Button(4)`
+Will now be:
+`button = Button(4, hold_time = 3.0)` <br>
+This will specify that for the buton_held function will wait 3 seconds before it executes its code.
+
+5. Lastly, we need to use our “button” variable to call these functions. Use the following to do so:
+
+        button.when_pressed = buttonPressed
+        button.when_held = buttonHeld
+        Button.when_released = buttonReleased`
+
+now when the tactile button is pressed, the method "buttonPressed" will run and print the statement, “Button was pressed”. If the button is helf for 3 seconds, then the "buttonHeld' method will run. WHat do you think will execute when this method is called? Lastly, when the tactile button is released, the "buttonReleased" method will be called.
+
+6. Our complete file should now look like the following:
+        from gpiozero import Button 
+        from signal import pause
+
+        button = Button(4, hold_time=3.0)
+
+        def buttonPressed():
+            print("Button was pressed.")
+        def buttonHeld():
+            print("Button was held.")
+        def buttonReleased():
+            print("Button was released")
+
+
+        button.when_pressed = buttonPressed
+        button.when_held = buttonHeld
+        button.when_released = buttonReleased
+
+        pause()
+        
+> pause() is used to stop your program from running after the button has been released. We will use "control + c" to quit the program after having finished testing.
