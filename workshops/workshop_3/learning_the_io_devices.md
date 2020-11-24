@@ -164,6 +164,8 @@ We will need the folling components for this section:
 
 <!-- FIXME: insert image -->
 
+<div align=center><h3>Using the Tactile Button</h3></div>
+
 Now that everything is connected, we can execute our Python program. Execute the program by clicking the execute button (the green triangle) at the top right corner of the file.
 
 When you press the tactile button on the breadboard, you should see the following output:
@@ -200,3 +202,39 @@ An LED light can be used to provide an *output* too. When a block of ocde is exe
         led.blink()
 
         pause()
+> Again please look out for indentation errors.
+
+<div align=center><h3>Assembling the LED Light</h3></div>
+
+We will need the folling components for this section:
+- Breadboard
+- 1 LED light (any color is fine)
+- 3 Female-Male Jumper Wires
+- 1 330 Ohm Resistor
+
+<!-- FIXME: insert image of needed parts-->
+
+**During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
+
+1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
+
+<!-- FIXME: insert image -->
+
+2. Place the LED light into two holes on the breadboard that are next to eachother, but not on the same row. Also, neither leg should be on the same row as the **GND** wire.
+    - The longer leg is the **positive leg**. This should be placed on the left side.
+    - The shorter leg is the **negative leg**. This should be placed on the right side.
+
+<!-- FIXME: insert image -->
+
+3. Connect the Ohm resister to the female end of a female-male jumper wire. This is so you have a little more wiggle room, but not necessarily mandatory for funcitonality.connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg).
+
+<!-- FIXME: insert image -->
+
+4. Connect a female-male jumper wire from the Pi's **GPIO4** pin to a hole on the breadboard in the same row as the **positive leg** of the LED light.
+
+<!-- FIXME: insert image -->
+
+<div align=center><h3>Using the LED Light</h3></div>
+
+Now that the components are set up,go ahead and execute the Python file. You should see the light blinking for one second on and one second off. You can use "control + c" again to quit the program. Let's move on to working with the buzzer component.
+
