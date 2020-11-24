@@ -24,7 +24,6 @@ print("Math Section One")
 print(f"addition: {addition}, subtraction: {subtraction}, multiplication: {multiplication}, division: {division}, exponents: {exponents}, remainder: {remainder}.")
 
 # Let us not forget, variables can be changed! Lets reassign multiple variables in one line.
-# Use Lesson 2 Section 2 if you need a reminder on setting multiple variables in a line.
 addition, subtraction, multiplication = 4 + 4, 20 - 6, 2 * 2
 
 print("Lets see if our variables changed.")
