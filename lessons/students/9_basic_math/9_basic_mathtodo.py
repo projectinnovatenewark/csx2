@@ -1,5 +1,5 @@
 """
-Lets calculate a company's taxes, profit, and then divide the profit amongst shareholders.
+Lets calculate a company's taxes, profit, and split the profit.
 """
 
 # TODO: Section 1:
@@ -10,10 +10,10 @@ Lets calculate a company's taxes, profit, and then divide the profit amongst sha
 
 # Receive a user input for the question "What was your revenue for this year?". Set
 # the input equal to a variable called "revenue".
-# HINT: What varible type do you want "revenue" to be?
+# HINT: What variable type do you want "revenue" to be?
 
 # Set a variable equal to "taxes_paid". Calculate the taxes by multipling the rate (20%)
-# from your previous variable by the revenue input from the user.
+# (from your previous variable) by the revenue input from the user.
 
 # Set a new variable called "profit". Calculate the revenue minus the taxes paid and set it
 # equal to this variable.
@@ -42,11 +42,11 @@ Lets calculate a company's taxes, profit, and then divide the profit amongst sha
 # TODO: Section 2:
 num_list = [35, 4, 20, 100, 96]
 # Set the minimum, maximum, and sum of num_list to the variables "min_num", "max_num", and
-# "sum_list" respectively. Then print each in their own print statement in the format
-# "The ___ of num_list is ___." using f shorthand.
+# "sum_list" respectively. Then, using f shorthand, print each on their own line in the format
+# "The [min/max/sum] of num_list is ___."
 
 # TODO: Section 2.1:
 num_list2 = [-20, 15, -27, -11]
 # Find the sum of num_list2 and store it in the variable "sum2". Then print the sum in the format,
-# "The sum is ___". Then using f shorthand, return the value of the absolute value of "sum2" and
-# print in the format, "The absolute value of sum2 is ___".
+# "The sum is ___". Then, using f shorthand, return the value of the absolute value of "sum2" and
+# print in the format "The absolute value of sum2 is ___"
