@@ -187,7 +187,7 @@ Let's move on to learning about the LED light now. Go ahead and disconnect all o
 
 <div align=center><h2>LED Light</h2></div>
 
-An LED light can be used to provide an *output* too. When a block of ocde is executed, the Pi will turn the light on and off. This makes the light an output device. Again, we will code the program in Python first, and then assemble the physical components.
+An LED light can be used to provide an *output* too. When a block of code is executed, the Pi will turn the light on and off. This makes the light an output device. Again, we will code the program in Python first, and then assemble the physical components.
 
 1. In your *workshop_3* folder, create a file named "led.py".
 
@@ -206,7 +206,7 @@ An LED light can be used to provide an *output* too. When a block of ocde is exe
 
 <div align=center><h3>Assembling the LED Light</h3></div>
 
-We will need the folling components for this section:
+We will need the following components for this section:
 - Breadboard
 - 1 LED light (any color is fine)
 - 3 Female-Male Jumper Wires
@@ -236,5 +236,43 @@ We will need the folling components for this section:
 
 <div align=center><h3>Using the LED Light</h3></div>
 
-Now that the components are set up,go ahead and execute the Python file. You should see the light blinking for one second on and one second off. You can use "control + c" again to quit the program. Let's move on to working with the buzzer component.
+Now that the components are set up,go ahead and execute the Python file. You should see the light blinking for one second on and one second off. You can use "control + c" again to quit the program. Let's move on to working with the buzzer component. Go ahead and disconnect everything as you did with the tactile button.
 
+<div align=center><h2>Buzzer</h2></div>
+
+A buzzer can be used to provide an *output* too. When a block of code is executed, the Pi will turn the buzzer on and off. This makes the buzzer an output device. Again, we will code the program in Python first, and then assemble the physical components.
+
+1. First, create a file named "buzzer.py" inside the *workshop_3* folder.
+
+2. Just as we did previously, we will be using the gpiozero library to import the Buzzer class and it's method ".beep()". The ".beep()" function takes two parameters, the amount of time the buzzer is on and the amount of time it is off. Similar to the LED light, these should be floats.
+
+3. Paste the following code in "buzzer.py":
+
+        from gpiozero import Buzzer
+        from signal import pause
+
+        buzzer = Buzzer(4)
+        buzzer.beep(0.5, 0.5) # 0.5 seconds on and 0.5 seconds off
+
+        pause()
+        pause()
+> Again please look out for indentation errors.
+
+<div align=center><h3>Assembling the Buzzer</h3></div>
+
+We will need the folling components for this section:
+- Breadboard
+- 1 Buzzer
+- 2 Female-Male Jumper Wires
+
+1. Place the buzzer on the breadboard with both legs in column e as noted on the board. The ***positive leg** is the longer of the two. Place this leg on the right side.
+
+2. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to a component rail in the same row as the **negative leg** of the buzzer. Use *physical pin 6* on the Pi just as before.
+
+<!-- FIXME: insert image -->
+
+3. Connect a female-male jumper wire from the Pi's **GPIO4** pin to a hole in the same row as the **positive leg** of the buzzer.
+
+<!-- FIXME: insert image -->
+
+Now you can execute the Python program just as you had done earlier. The buzzer should go off for half a second at a time. After testing, quit out of the program with "control + c" and move on to the next section after disconnecting the components. 
