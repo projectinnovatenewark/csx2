@@ -75,7 +75,7 @@ Open VS Code on your Pi and in your *python-work* folder, create a folder named 
 
 A tactile button can be used to give inputs to your Raspberry Pi by clicking the button while a program is running. This clasifies the tactile button as an **input** device. We will first code the button in Python, and then connect physically connect it to the Pi.
 
-1. In button.py, we are first going to import the Button class fomr the "gpiozero" library and the pause function from the "signal" package. To do this, we will enter the following code at the top of button.py: <br>
+1. In button.py, we are first going to import the Button class fomr the "gpiozero" library and the pause function from the "signal" package. To do this, we will enter the following code at the top of button.py:
 `from gpiozero import Button ` <br>
 `from signal import pause`
 
@@ -86,9 +86,9 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
 3. Next we are going to define 3 methods for our button: “buttonPressed()”, “buttonHeld()”, and “buttonReleased()”. When these methods are used, each will print a statement regarding the action described in their name. Use the following in your file:
 > Methods are simply functions that are specific to a certain class. The above methods would not be able to be used with any other class or data type.
 
-<p><code>def buttonPressed():</code></p><br>
-<p><code>  print(“Button was pressed”)</code></p><br>
-<p><code>def buttonHeld():</code></p><br>
-<p><code>  print(“Button was held”)</code></p><br>
-<p><code>def buttonReleased():</code></p><br>
-<p><code>  print(“Button was released”)</code></p><br>
+        def buttonPressed():
+        	print(“Button was pressed”)
+        def buttonHeld():
+        	print(“Button was held”)
+        def buttonReleased():
+        	print(“Button was released”)
