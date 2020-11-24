@@ -87,8 +87,8 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
 > Methods are simply functions that are specific to a certain class. The above methods would not be able to be used with any other class or data type.
 
 <p><code>def buttonPressed():</code><br>
-<code>  print(“Button was pressed”)</code><br>
-<code>def buttonHeld():</code><br>
-<code>  print(“Button was held”)</code><br>
-<code>def buttonReleased():</code><br>
-<code>  print(“Button was released”)</code><br></p>
+<p><code>  print(“Button was pressed”)</code></p><br>
+<p><code>def buttonHeld():</code></p><br>
+<p><code>  print(“Button was held”)</code></p><br>
+<p><code>def buttonReleased():</code></p><br>
+<p><code>  print(“Button was released”)</code></p><br>
