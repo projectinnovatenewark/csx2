@@ -55,13 +55,18 @@ print(f"we expect eq1 to equal 5. Python gives us {int(eq3)}")
 
 # TITLE: Section 1.2 - Constants, Incrementing/Decrementing, & Converting Numeric User Inputs (9 minutes)
 
+# TIP: Demo how input statements work prior to beginning the section with the example below:
+user_response = input("Put in a number here to test how user inputs are stored: ")
+print(f"The user's response was {user_response} and the type is {type(user_response)}.")
+
 # Here is a new concept we haven't covered yet- constants! Constants are like variables,
 # but they are typed in all caps and shouldn't change. Variables can be manipulated and change,
 # whereas constants should remain the same.
 
 # For example, the corporate tax rate is fixed at 20%. That would be an example of a constant.
-# You might also notice for company_profit, we use the int() function to convert the user input
-# (a string) to an integer.
+# As we demonstrated above, a user's input is ALWAYS converted to a string. To resolve that,
+# we use the int() function to convert the user input to an integer. After all, we wouldn't
+# be able to perform calculations on a string!
 company_profit = int(input("How much money did your company make this year?: "))
 CORPORATE_TAX_RATE = .20
 
@@ -98,10 +103,16 @@ print(f"4. summation is {summation}")
 
 # TITLE: Section 2 - Math with Lists and Absolute Values (10 minutes)
 
-# TIP: Briefly demo lists prior to starting the first example.
+# TIP: Briefly demo lists prior to starting the first example with the list below:
+# Lists are a collection of items, which can be anything. Items are separated by commas and have an
+# index position. The first item in any list has an index position of zero.
+
+# item #        1       2       3
+groceries = ["bread", "milk", "eggs"]
+# index #       0       1       2
 
 # Python makes it easy to find things like min and max too. Luckily there are built in functions we can
-# use. Below is a list of random numbers we are going to work on to show some examples.
+# use. Below is a list of random numbers we are going to use as an example to find min, max, and sums.
 number_list = [13, 27, 4, 12, 39, 100]
 
 # To find the smallest number, or minimum, in a list, we can use the built in function: min().
