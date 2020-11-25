@@ -24,7 +24,7 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 A breadboard is a device used for temporary or prototype electronics. Breadboards are solderless, meaning that there is no need to melt any wires to allow for an electrical current to pass through.
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/1_breadboard.png" width="auto" height="400" />
+    <img src="./ready_set_go_images/1_breadboard.png" width="300" height="auto" />
 </div>
 
 There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides of each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
