@@ -254,7 +254,7 @@ We will need the following components for this section:
 
 <div align=center><h3>Using the LED Light</h3></div>
 
-Now that the components are set up,go ahead and execute the Python file. You should see the light blinking for one second on and one second off. You can use "control + c" again to quit the program. Let's move on to working with the buzzer component. Go ahead and disconnect everything as you did with the tactile button.
+You should see the red light blinking for one second every other second. Go ahead and use "control + c" to quit the program and disconnect the LED. Now that you have worked with both the tactile button and the LED light, lets get started on the main activity of the workshop and create our "Ready, Set, Go" light sequence.
 
 <div align=center><h2>Ready, Set, Go!</h2></div>
 
@@ -269,33 +269,41 @@ The components you will need are:
 - 3 LED lights (red, yellow, and green)
 - 3 330 Ohm resistors
 
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/19_rsg.jpg" width="650" height="auto" />
+</div><br>
+
 > **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
 18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. 
 
-<!-- FIXME: INSERT IMAGE-->
-
 19. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the left side for each of the lights.
 
-<!-- FIXME: INSERT IMAGE-->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/20_rsg.jpg" width="650" height="auto" />
+</div><br>
 
 20. Connect each Ohm resistor to the female end of a female-male jumper wire. Plug the jumper wire side into the negative rail of the breadboard and the ohm resistor side on the same row as the negative leg of each LED light.
 
-<!-- FIXME: INSERT IMAGE-->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/21_rsg.jpg" width="650" height="auto" />
+</div><br>
 
 21. Next we are going to connect each light to a GPIO pin on the Pi. The red light should be connected to **GPIO14**, the yellow to **GPIO15**, and the green to **GPIO18**. Use a female-male jumper wire to do so.
 
-<!-- FIXME: INSERT IMAGE-->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/22_rsg.jpg" width="650" height="auto" />
+</div><br>
 
 22. Place the tactile button on the breadboard similar to how we did earlier in the workshop with some space from the lights. This will be used to start our light sequence.
 
-<!-- FIXME: INSERT IMAGE-->
-
 23. Use a male-male jumper wire with one end plugged into the negative rail of the breadboard and the other end plugged into the same row as the top right leg of the button as seen in the image.
 
-<!-- FIXME: INSERT IMAGE-->
-
 24. Lastly connect a female-male jumper wire from **GPIO4** on the Pi to the same row as the left leg of the button on the breadboard.
+
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/23_rsg.jpg" width="650" height="auto" />
+</div><br>
 
 25. Create a file named "ready_set_go.py" in your *python-work* folder.
 
