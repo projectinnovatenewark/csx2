@@ -284,9 +284,9 @@ The components you will need are:
         from gpiozero import Button, LED
         from signal import pause
 
-3. We will also be importing a new module that handles dates and times. Add the import of the datetime module to your code:
+3. We will also be importing a new module that is built in to Python known as the time module. We can use the time module to put a delay on the execution of our code to set a pause in between each light toggling on and off. Add the following import to your file.
 
-        from datetime import datetime
+        import time
 
 4. Now let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
 
@@ -298,15 +298,23 @@ The components you will need are:
         yellow_light = LED(15)
         green_light = LED(18)
 
-6. Now we want to create a function that when called, will start the light sequence. we will use the tactile button to start the function, thus starting the light sequence.
+6. Now we want to create a function that when called, will start the light sequence. Since we want to turn on each light and then off in a sequence, we need to use a method other than blink from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
 
         def start_lights():
-            red_light.blink()
-            yellow_light.blink()
-            green_light.blink()
+            red_light.on()
+            time.sleep(1)
+            red_light.off()
+
+            yellow_light.on()
+            time.sleep(1)
+            yellow_light.off()
+
+            green_light.on()
+            time.sleep(1)
+            green_light.off()
 
 7. Lastly we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
 
-    button.when_pressed = start_lights
+        button.when_pressed = start_lights
 
 The complete file now looks like the following.
