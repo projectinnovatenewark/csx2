@@ -160,7 +160,7 @@ We will need the folling components for this section:
 
 <!-- FIXME: insert image -->
 
-4. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin tot he breadboard where the top-left leg is placed.
+4. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
 
 <!-- FIXME: insert image -->
 
@@ -255,7 +255,7 @@ A buzzer can be used to provide an *output* too. When a block of code is execute
         buzzer.beep(0.5, 0.5) # 0.5 seconds on and 0.5 seconds off
 
         pause()
-        pause()
+        
 > Again please look out for indentation errors.
 
 <div align=center><h3>Assembling the Buzzer</h3></div>
@@ -275,4 +275,6 @@ We will need the folling components for this section:
 
 <!-- FIXME: insert image -->
 
-Now you can execute the Python program just as you had done earlier. The buzzer should go off for half a second at a time. After testing, quit out of the program with "control + c" and move on to the next section after disconnecting the components. 
+<div align=center><h3>Using the Buzzer</h3></div>
+
+Now you can execute the Python program just as you had done earlier. The buzzer should go off for half a second at a time. After testing, quit out of the program with "control + c" and move on to the next section after disconnecting the components.
