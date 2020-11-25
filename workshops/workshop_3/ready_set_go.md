@@ -34,7 +34,7 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
 <div align=center>Female to Male:</div>
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/2_female_male.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/2_female_male.png" width="450" height="auto" />
 </div>
 <div align=center><i>In the image you can see one side of the wire is used to plug <ins>into another device</ins>, while the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
 <br>
@@ -42,7 +42,7 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
 <div align=center>Female to Female:</div>
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/3_female_female.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/3_female_female.png" width="450" height="auto" />
 </div>
 <div align=center><i>Both ends of the wire are used to plug <ins>other devices into it</ins>.</i></div>
 <br>
@@ -50,7 +50,7 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
 <div align=center>Male to Male:</div>
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/4_male_male.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/4_male_male.png" width="450" height="auto" />
 </div>
 <div align=center><i>Both ends of the wire are used to plug <ins>into other devices</ins>.</i></div>
 
