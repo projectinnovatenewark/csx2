@@ -36,7 +36,8 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/2_female_male.png" width="450" height="auto" />
 </div>
-<div align=center><i>In the image you can see one side of the wire is used to plug <ins>into another device</ins>, while the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
+<div align=center><i>In the image you can see one side of the wire is used to plug <ins>into another device</ins>, while
+the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
 <br>
 
 <div align=center>Female to Female:</div>
