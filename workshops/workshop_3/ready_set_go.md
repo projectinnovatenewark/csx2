@@ -58,8 +58,8 @@ the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
 <div><h4>3. The GPIO Pins</h4></div>
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/5_gpio.png" width="400" height="auto" />
-</div>
+    <img src="./ready_set_go_images/5_gpio.png" width="auto" height="400" />
+</div><br>
 
 Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is short for "General Purpose Input/Output". An important thing to note right off the bat is that not all pins act the same. Some pins can provide a power *output* such as <ins>3v3 and 5v pins</ins>, others can receive and measure power *inputs* like <ins>"gnd" or ground pins</ins>. Over all though, a majority of the pins are used for reading inputs or providing outputs. 
 
@@ -67,7 +67,7 @@ How can we tell the difference between the pins? The GPIO Zero Python Library pr
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/6_pinout.png" width="400" height="auto" />
-</div>
+</div><br>
 
 This provides a layout of each pin on your Raspberry Pi and they type of pin it is. You can also see it provides some information on where some of the physical components of your pi are for reference as well.
 
@@ -148,25 +148,35 @@ We will need the folling components for this section:
 - 2 Female-Male Jumper Wires
 - 1 Male-Male Jumper Wire
 
-<!-- FIXME: insert image of needed parts-->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/7_tactile.png" width="auto" height="400" />
+</div><br>
 
 **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
 1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
 
-<!-- FIXME: insert image -->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/8_tactile_gnd.png" width="auto" height="400" />
+</div><br>
 
-2. Next we will place the tactile button across the gutter in th emiddle of the bread board. The top legs should line out with the grounded wire.
+2. Next we will place the tactile button across the gutter in the middle of the bread board. The top right leg should line up with the grounded wire.
 
-<!-- FIXME: insert image -->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/9_tactile_button.jpg" width="auto" height="400" />
+</div><br>
 
-3. Connect a male-male wire from the negative rail (directly above where the grounded wire is inserted) of the breadboard and connect it to the row that the top left leg of the button is on.
+3. Connect a male-male wire from the negative rail (directly to the right of where the grounded wire is inserted) of the breadboard and connect it to the row that the top-right leg of the button is on.
 
-<!-- FIXME: insert image -->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/10_tactile.jpg" width="auto" height="400" />
+</div><br>
 
 4. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
 
-<!-- FIXME: insert image -->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/10_complete_tac.jpg" width="auto" height="400" />
+</div><br>
 
 <div align=center><h3>Using the Tactile Button</h3></div>
 
@@ -174,17 +184,17 @@ Now that everything is connected, we can execute our Python program. Execute the
 
 When you press the tactile button on the breadboard, you should see the following output:
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/11_press_button.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/12_press_button.png" width="400" height="auto" />
 </div>
 
 Try holding the tactile button now for 3 seconds. You'll see the following output now:
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/12_hold_button.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/13_hold_button.png" width="400" height="auto" />
 </div>
 
 Now in the terminal, press the "control button" and "c" at the same time to end the program. You'll know you're successful in quitting the program when you see the following output:
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/13_quit.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/14_quit.png" width="400" height="auto" />
 </div>
 
 Let's move on to learning about the LED light now. Go ahead and disconnect all of the external components to start fresh.
