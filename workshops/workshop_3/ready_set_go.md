@@ -1,16 +1,19 @@
 <div align=center><h1>USing the I/O Devices with Your Raspberry Pi</h1></div>
 
-In this workshop, the student will learn how to properly connect each of the five (5) peripheral devices to the Pi and make them functional using Python. All students should have the Pi turned on and ready to use for the remainded of the workshop.
+In this workshop, the student will learn:
+- More about The Raspberry Pi's GPIO pins
+- How to properly connect a tactile button and LED light to the Pi and make them functional using Python
 
-As a reminder, here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
+All students should have the Pi turned on and ready to use for the remainded of the workshop.
+
+Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
 
 <!-- FIXME: Narrow down actual list -->
 
 - One (1) Breadboard
-- Fifteen (15) Male-Male Jumper Wires
-- Fifteen (15) Female-Male Jumper Wires
-- Fifteen (15) Female-Female Jumper Wires
-- Five (5) LED Lights (Assorted colors)
+- One (1) Male-Male Jumper Wire
+- Eight (8) Female-Male Jumper Wires
+- Three (3) LED Lights (Red, Yellow, & Green)
 - One (1) Tactile Buttons
 - Three (3) Ohm Resistors
 
@@ -57,7 +60,7 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
     <img src="./io_workshop_images/5_gpio.png" width="400" height="auto" />
 </div>
 
-Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is short for "General Purpose Input/Output". An important thing to note right off the bat is that not all pins act the same . Some pins can provide a power *output* such as <ins>3v3 and 5v pins</ins>, others can receive and measure power *inputs* like <ins>"gnd" or ground pins</ins>. Over all though, a majority of the pins are used for reading inputs or providing outputs. 
+Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is short for "General Purpose Input/Output". An important thing to note right off the bat is that not all pins act the same. Some pins can provide a power *output* such as <ins>3v3 and 5v pins</ins>, others can receive and measure power *inputs* like <ins>"gnd" or ground pins</ins>. Over all though, a majority of the pins are used for reading inputs or providing outputs. 
 
 How can we tell the difference between the pins? The GPIO Zero Python Library provides a comand line tool that is installed by default on your Raspberry Pi, so users can have a better understanding of their Pi. Open the terminal and enter in the prompt, `pinout`. You will see the following:
 
@@ -255,11 +258,11 @@ The components you will need are:
 
 <!-- FIXME: INSERT IMAGE-->
 
-2. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the right side for each of the lights.
+2. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the left side for each of the lights.
 
 <!-- FIXME: INSERT IMAGE-->
 
-3. Connect each Ohm resistor to the female end of a female-male jumper wire. Plug the jumper wire side into the negative rail of the breadboard and the ohm resistor side on the same row as the positive leg of each LED light.
+3. Connect each Ohm resistor to the female end of a female-male jumper wire. Plug the jumper wire side into the negative rail of the breadboard and the ohm resistor side on the same row as the negative leg of each LED light.
 
 <!-- FIXME: INSERT IMAGE-->
 
@@ -277,28 +280,28 @@ The components you will need are:
 
 7. Lastly connect a female-male jumper wire from **GPIO4** on the Pi to the same row as the left leg of the button on the breadboard.
 
-1. Create a file named "ready_set_go.py" in your *python-work* folder.
+8. Create a file named "ready_set_go.py" in your *python-work* folder.
 
-2. At the top of the file, import the Button and LED class from the gpiozero library as well as the pause function from the signal module. There are a couple different ways to do so if you remember from lesson 10 on imports.
+9. At the top of the file, import the Button and LED class from the gpiozero library as well as the pause function from the signal module. There are a couple different ways to do so if you remember from lesson 10 on imports.
         
         from gpiozero import Button, LED
         from signal import pause
 
-3. We will also be importing a new module that is built in to Python known as the time module. We can use the time module to put a delay on the execution of our code to set a pause in between each light toggling on and off. Add the following import to your file.
+10. We will also be importing a new module that is built in to Python known as the time module. We can use the time module to put a delay on the execution of our code to set a pause in between each light toggling on and off. Add the following import to your file.
 
         import time
 
-4. Now let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
+11. Now let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
 
         button = Button(4)
 
-5. Next we want to instantiate three different LED classes. One for red, yellow, and lastly green. Since we practice good coding skills, we are going to be descriptive in our variables:
+12. Next we want to instantiate three different LED classes. One for red, yellow, and lastly green. Since we practice good coding skills, we are going to be descriptive in our variables:
 
         red_light = LED(14)
         yellow_light = LED(15)
         green_light = LED(18)
 
-6. Now we want to create a function that when called, will start the light sequence. Since we want to turn on each light and then off in a sequence, we need to use a method other than blink from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
+13. Now we want to create a function that when called, will start the light sequence. Since we want to turn on each light and then off in a sequence, we need to use a method other than blink from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
 
         def start_lights():
             red_light.on()
@@ -313,8 +316,44 @@ The components you will need are:
             time.sleep(1)
             green_light.off()
 
-7. Lastly we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
+        pause()
+
+14. Lastly we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
 
         button.when_pressed = start_lights
 
 The complete file now looks like the following.
+
+        from gpiozero import Button, LED
+        from signal import pause
+        import time
+
+        def start_lights():
+            red_light.on()
+            time.sleep(1.5)
+            red_light.off()
+            time.sleep(1)
+
+            yellow_light.on()
+            time.sleep(1.5)
+            yellow_light.off()
+            time.sleep(1)
+
+            green_light.on()
+            time.sleep(1.5)
+            green_light.off()
+            time.sleep(1)
+
+        pause()
+
+        button.when_pressed = start_lights
+
+Now we have a working light sequence! You can play around with the timing of the sequence and even add lights if you want.
+
+Takeaways from this workshop:
+- We can control our peripherals with Python and the gpiozero library 
+- The breadboard should be grounded using the **GND** pin on the Pi and a jumper wire
+- Ohm resistors need to be used to control the power output to the LED lights
+- Each LED light needs its own Ohm resistor
+- A single Python program can be used to control more than one peripheral
+- You can use one peripheral to control others, such as using the tactile button to start our light sequence
