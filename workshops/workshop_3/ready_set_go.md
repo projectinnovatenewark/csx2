@@ -184,12 +184,12 @@ Now that everything is connected, we can execute our Python program. Execute the
 
 When you press the tactile button on the breadboard, you should see the following output:
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/12_press_button.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/13_press_button.png" width="400" height="auto" />
 </div>
 
 Try holding the tactile button now for 3 seconds. You'll see the following output now:
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/13_hold_button.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/12_hold_button.png" width="400" height="auto" />
 </div>
 
 Now in the terminal, press the "control button" and "c" at the same time to end the program. You'll know you're successful in quitting the program when you see the following output:
