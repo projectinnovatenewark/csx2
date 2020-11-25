@@ -175,7 +175,7 @@ We will need the folling components for this section:
 4. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/10_complete_tac.jpg" width="auto" height="400" />
+    <img src="./ready_set_go_images/11_complete_tac.jpg" width="auto" height="400" />
 </div><br>
 
 <div align=center><h3>Using the Tactile Button</h3></div>
