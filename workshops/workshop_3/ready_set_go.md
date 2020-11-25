@@ -24,7 +24,7 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 A breadboard is a device used for temporary or prototype electronics. Breadboards are solderless, meaning that there is no need to melt any wires to allow for an electrical current to pass through.
 
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/1_breadboard.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/1_breadboard.png" width="400" height="auto" />
 </div>
 
 There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides of each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
@@ -34,7 +34,7 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
 <div align=center>Female to Male:</div>
 
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/2_female_male.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/2_female_male.png" width="400" height="auto" />
 </div>
 <div align=center><i>In the image you can see one side of the wire is used to plug <ins>into another device</ins>, while the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
 <br>
@@ -42,7 +42,7 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
 <div align=center>Female to Female:</div>
 
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/3_female_female.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/3_female_female.png" width="400" height="auto" />
 </div>
 <div align=center><i>Both ends of the wire are used to plug <ins>other devices into it</ins>.</i></div>
 <br>
@@ -50,14 +50,14 @@ There are **three (3)** types of rails on the breadboard we are using. The **red
 <div align=center>Male to Male:</div>
 
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/4_male_male.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/4_male_male.png" width="400" height="auto" />
 </div>
 <div align=center><i>Both ends of the wire are used to plug <ins>into other devices</ins>.</i></div>
 
 <div><h4>3. The GPIO Pins</h4></div>
 
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/5_gpio.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/5_gpio.png" width="400" height="auto" />
 </div>
 
 Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is short for "General Purpose Input/Output". An important thing to note right off the bat is that not all pins act the same. Some pins can provide a power *output* such as <ins>3v3 and 5v pins</ins>, others can receive and measure power *inputs* like <ins>"gnd" or ground pins</ins>. Over all though, a majority of the pins are used for reading inputs or providing outputs. 
@@ -65,7 +65,7 @@ Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is
 How can we tell the difference between the pins? The GPIO Zero Python Library provides a comand line tool that is installed by default on your Raspberry Pi, so users can have a better understanding of their Pi. Open the terminal and enter in the prompt, `pinout`. You will see the following:
 
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/6_pinout.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/6_pinout.png" width="400" height="auto" />
 </div>
 
 This provides a layout of each pin on your Raspberry Pi and they type of pin it is. You can also see it provides some information on where some of the physical components of your pi are for reference as well.
@@ -173,17 +173,17 @@ Now that everything is connected, we can execute our Python program. Execute the
 
 When you press the tactile button on the breadboard, you should see the following output:
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/11_press_button.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/11_press_button.png" width="400" height="auto" />
 </div>
 
 Try holding the tactile button now for 3 seconds. You'll see the following output now:
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/12_hold_button.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/12_hold_button.png" width="400" height="auto" />
 </div>
 
 Now in the terminal, press the "control button" and "c" at the same time to end the program. You'll know you're successful in quitting the program when you see the following output:
 <div class=mdImage align=center>
-    <img src="./io_workshop_images/13_quit.png" width="400" height="auto" />
+    <img src="./ready_set_go_images/13_quit.png" width="400" height="auto" />
 </div>
 
 Let's move on to learning about the LED light now. Go ahead and disconnect all of the external components to start fresh.
