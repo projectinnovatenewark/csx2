@@ -225,7 +225,7 @@ We will need the following components for this section:
 - 1 330 Ohm Resistor
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/15_led.png" width="650" height="auto" />
+    <img src="./ready_set_go_images/15_led.jpg" width="650" height="auto" />
 </div><br>
 
 **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
@@ -237,19 +237,19 @@ We will need the following components for this section:
     - The shorter leg is the **negative leg**. This should be placed on the right side.
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/16_led.png" width="650" height="auto" />
+    <img src="./ready_set_go_images/16_led.jpg" width="650" height="auto" />
 </div><br>
 
 16. Connect the Ohm resister to the female end of a female-male jumper wire. This is so you have a little more wiggle room, but not necessarily mandatory for funcitonality.connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg).
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/17_led.png" width="650" height="auto" />
+    <img src="./ready_set_go_images/17_led.jpg" width="650" height="auto" />
 </div><br>
 
 17. Connect a female-male jumper wire from the Pi's **GPIO4** pin to a hole on the breadboard in the same row as the **positive leg** of the LED light.
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/18_led.png" width="650" height="auto" />
+    <img src="./ready_set_go_images/18_led.jpg" width="650" height="auto" />
 </div><br>
 
 <div align=center><h3>Using the LED Light</h3></div>
