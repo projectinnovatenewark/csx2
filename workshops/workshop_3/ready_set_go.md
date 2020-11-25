@@ -58,7 +58,7 @@ the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
 <div><h4>3. The GPIO Pins</h4></div>
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/5_gpio.png" width="auto" height="400" />
+    <img src="./ready_set_go_images/5_gpio.jpg" width="auto" height="400" />
 </div><br>
 
 Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is short for "General Purpose Input/Output". An important thing to note right off the bat is that not all pins act the same. Some pins can provide a power *output* such as <ins>3v3 and 5v pins</ins>, others can receive and measure power *inputs* like <ins>"gnd" or ground pins</ins>. Over all though, a majority of the pins are used for reading inputs or providing outputs. 
@@ -149,7 +149,7 @@ We will need the folling components for this section:
 - 1 Male-Male Jumper Wire
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/7_tactile.png" width="auto" height="400" />
+    <img src="./ready_set_go_images/7_tactile.jpg" width="auto" height="400" />
 </div><br>
 
 **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
@@ -157,7 +157,7 @@ We will need the folling components for this section:
 1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
 
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/8_tactile_gnd.png" width="auto" height="400" />
+    <img src="./ready_set_go_images/8_tactile_gnd.jpg" width="auto" height="400" />
 </div><br>
 
 2. Next we will place the tactile button across the gutter in the middle of the bread board. The top right leg should line up with the grounded wire.
