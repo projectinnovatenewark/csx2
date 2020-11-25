@@ -150,7 +150,7 @@ We will need the folling components for this section:
     <img src="./ready_set_go_images/7_tactile.jpg" width="auto" height="400" />
 </div><br>
 
-**During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
+> **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
 7. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
 
@@ -228,7 +228,7 @@ We will need the following components for this section:
     <img src="./ready_set_go_images/15_led.jpg" width="650" height="auto" />
 </div><br>
 
-**During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
+> **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
 14. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
 
@@ -268,6 +268,8 @@ The components you will need are:
 - 1 tactile button
 - 3 LED lights (red, yellow, and green)
 - 3 330 Ohm resistors
+
+> **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
 18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. 
 
