@@ -8,8 +8,6 @@ All students should have the Pi turned on and ready to use for the remainded of 
 
 Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
 
-<!-- FIXME: Narrow down actual list -->
-
 - One (1) Breadboard
 - One (1) Male-Male Jumper Wire
 - Eight (8) Female-Male Jumper Wires
@@ -154,25 +152,25 @@ We will need the folling components for this section:
 
 **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
-1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
+7. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/8_tactile_gnd.jpg" width="auto" height="400" />
 </div><br>
 
-2. Next we will place the tactile button across the gutter in the middle of the bread board. The top right leg should line up with the grounded wire.
+8. Next we will place the tactile button across the gutter in the middle of the bread board. The top right leg should line up with the grounded wire.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/9_tactile_button.jpg" width="auto" height="400" />
 </div><br>
 
-3. Connect a male-male wire from the negative rail (directly to the right of where the grounded wire is inserted) of the breadboard and connect it to the row that the top-right leg of the button is on.
+9. Connect a male-male wire from the negative rail (directly to the right of where the grounded wire is inserted) of the breadboard and connect it to the row that the top-right leg of the button is on.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/10_tactile.jpg" width="auto" height="400" />
 </div><br>
 
-4. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
+10. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/11_complete_tac.jpg" width="auto" height="400" />
@@ -185,17 +183,17 @@ Now that everything is connected, we can execute our Python program. Execute the
 When you press the tactile button on the breadboard, you should see the following output:
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/13_press_button.png" width="650" height="auto" />
-</div>
+</div><br>
 
 Try holding the tactile button now for 3 seconds. You'll see the following output now:
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/12_hold_button.png" width="650" height="auto" />
-</div>
+</div><br>
 
 Now in the terminal, press the "control button" and "c" at the same time to end the program. You'll know you're successful in quitting the program when you see the following output:
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/14_quit.png" width="650" height="auto" />
-</div>
+</div><br>
 
 Let's move on to learning about the LED light now. Go ahead and disconnect all of the external components to start fresh.
 
@@ -203,11 +201,11 @@ Let's move on to learning about the LED light now. Go ahead and disconnect all o
 
 An LED light can be used to provide an *output* too. When a block of code is executed, the Pi will turn the light on and off. This makes the light an output device. Again, we will code the program in Python first, and then assemble the physical components.
 
-1. In your *workshop_3* folder, create a file named "led.py".
+11. In your *workshop_3* folder, create a file named "led.py".
 
-2. We will be using the gpiozero library again to import the LED class to use its .blink() method. The .blink() method has a default timeout of one (1) second and will continue to blink every other second until the program is exited with the pause() function.
+12. We will be using the gpiozero library again to import the LED class to use its .blink() method. The .blink() method has a default timeout of one (1) second and will continue to blink every other second until the program is exited with the pause() function.
 
-3. Paste the following into your "led.py" file:
+13. Paste the following into your "led.py" file:
 
         from gpiozero import LED
         from signal import pause
@@ -226,27 +224,33 @@ We will need the following components for this section:
 - 3 Female-Male Jumper Wires
 - 1 330 Ohm Resistor
 
-<!-- FIXME: insert image of needed parts-->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/15_led.png" width="650" height="auto" />
+</div><br>
 
 **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
-1. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
+14. Connect a female-male jumper wire from the Raspberry Pi's **GND** pin to the **negative rail** of the bread board. This can be done at any **GND** pin, but we will connect the wire at *physical pin 6*.
 
-<!-- FIXME: insert image -->
-
-2. Place the LED light into two holes on the breadboard that are next to eachother, but not on the same row. Also, neither leg should be on the same row as the **GND** wire.
+15. Place the LED light into two holes on the breadboard that are next to eachother, but not on the same row. Also, neither leg should be on the same row as the **GND** wire.
     - The longer leg is the **positive leg**. This should be placed on the left side.
     - The shorter leg is the **negative leg**. This should be placed on the right side.
 
-<!-- FIXME: insert image -->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/16_led.png" width="650" height="auto" />
+</div><br>
 
-3. Connect the Ohm resister to the female end of a female-male jumper wire. This is so you have a little more wiggle room, but not necessarily mandatory for funcitonality.connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg).
+16. Connect the Ohm resister to the female end of a female-male jumper wire. This is so you have a little more wiggle room, but not necessarily mandatory for funcitonality.connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg).
 
-<!-- FIXME: insert image -->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/17_led.png" width="650" height="auto" />
+</div><br>
 
-4. Connect a female-male jumper wire from the Pi's **GPIO4** pin to a hole on the breadboard in the same row as the **positive leg** of the LED light.
+17. Connect a female-male jumper wire from the Pi's **GPIO4** pin to a hole on the breadboard in the same row as the **positive leg** of the LED light.
 
-<!-- FIXME: insert image -->
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/18_led.png" width="650" height="auto" />
+</div><br>
 
 <div align=center><h3>Using the LED Light</h3></div>
 
@@ -265,54 +269,54 @@ The components you will need are:
 - 3 LED lights (red, yellow, and green)
 - 3 330 Ohm resistors
 
-1. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. 
+18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. 
 
 <!-- FIXME: INSERT IMAGE-->
 
-2. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the left side for each of the lights.
+19. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the left side for each of the lights.
 
 <!-- FIXME: INSERT IMAGE-->
 
-3. Connect each Ohm resistor to the female end of a female-male jumper wire. Plug the jumper wire side into the negative rail of the breadboard and the ohm resistor side on the same row as the negative leg of each LED light.
+20. Connect each Ohm resistor to the female end of a female-male jumper wire. Plug the jumper wire side into the negative rail of the breadboard and the ohm resistor side on the same row as the negative leg of each LED light.
 
 <!-- FIXME: INSERT IMAGE-->
 
-4. Next we are going to connect each light to a GPIO pin on the Pi. The red light should be connected to **GPIO14**, the yellow to **GPIO15**, and the green to **GPIO18**. Use a female-male jumper wire to do so.
+21. Next we are going to connect each light to a GPIO pin on the Pi. The red light should be connected to **GPIO14**, the yellow to **GPIO15**, and the green to **GPIO18**. Use a female-male jumper wire to do so.
 
 <!-- FIXME: INSERT IMAGE-->
 
-5. Place the tactile button on the breadboard similar to how we did earlier in the workshop with some space from the lights. This will be used to start our light sequence.
+22. Place the tactile button on the breadboard similar to how we did earlier in the workshop with some space from the lights. This will be used to start our light sequence.
 
 <!-- FIXME: INSERT IMAGE-->
 
-6. Use a male-male jumper wire with one end plugged into the negative rail of the breadboard and the other end plugged into the same row as the top right leg of the button as seen in the image.
+23. Use a male-male jumper wire with one end plugged into the negative rail of the breadboard and the other end plugged into the same row as the top right leg of the button as seen in the image.
 
 <!-- FIXME: INSERT IMAGE-->
 
-7. Lastly connect a female-male jumper wire from **GPIO4** on the Pi to the same row as the left leg of the button on the breadboard.
+24. Lastly connect a female-male jumper wire from **GPIO4** on the Pi to the same row as the left leg of the button on the breadboard.
 
-8. Create a file named "ready_set_go.py" in your *python-work* folder.
+25. Create a file named "ready_set_go.py" in your *python-work* folder.
 
-9. At the top of the file, import the Button and LED class from the gpiozero library as well as the pause function from the signal module. There are a couple different ways to do so if you remember from lesson 10 on imports.
+26. At the top of the file, import the Button and LED class from the gpiozero library as well as the pause function from the signal module. There are a couple different ways to do so if you remember from lesson 10 on imports.
         
         from gpiozero import Button, LED
         from signal import pause
 
-10. We will also be importing a new module that is built in to Python known as the time module. We can use the time module to put a delay on the execution of our code to set a pause in between each light toggling on and off. Add the following import to your file.
+27. We will also be importing a new module that is built in to Python known as the time module. We can use the time module to put a delay on the execution of our code to set a pause in between each light toggling on and off. Add the following import to your file.
 
         import time
 
-11. Now let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
+28. Now let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
 
         button = Button(4)
 
-12. Next we want to instantiate three different LED classes. One for red, yellow, and lastly green. Since we practice good coding skills, we are going to be descriptive in our variables:
+29. Next we want to instantiate three different LED classes. One for red, yellow, and lastly green. Since we practice good coding skills, we are going to be descriptive in our variables:
 
         red_light = LED(14)
         yellow_light = LED(15)
         green_light = LED(18)
 
-13. Now we want to create a function that when called, will start the light sequence. Since we want to turn on each light and then off in a sequence, we need to use a method other than blink from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
+30. Now we want to create a function that when called, will start the light sequence. Since we want to turn on each light and then off in a sequence, we need to use a method other than blink from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
 
         def start_lights():
             red_light.on()
@@ -329,7 +333,7 @@ The components you will need are:
 
         pause()
 
-14. Lastly we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
+31. Lastly we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
 
         button.when_pressed = start_lights
 
