@@ -29,7 +29,7 @@ A breadboard is a device used for temporary or prototype electronics. Breadboard
 
 There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides of each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
 
-<div><h4>2. Jumoer Wires</h4></div>
+<div><h4>2. Jumper Wires</h4></div>
 
 <div align=center>Female to Male:</div>
 
