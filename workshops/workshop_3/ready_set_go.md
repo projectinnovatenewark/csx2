@@ -1,4 +1,4 @@
-<div align=center><h1>USing the I/O Devices with Your Raspberry Pi</h1></div>
+<div align=center><h1>Using the I/O Devices with Your Raspberry Pi</h1></div>
 
 In this workshop, the student will learn:
 - More about The Raspberry Pi's GPIO pins
