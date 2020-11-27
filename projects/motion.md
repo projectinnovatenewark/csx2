@@ -207,7 +207,41 @@ After doing so, we will store the body of our message in a variable called "body
 
             server.quit()
 
-8. To use our newly created function, 
+8. To use our newly created function, we must import it into "fam_cam.py". We can add the import statement to the top of the file.
+
+        from text_me import texter
+
+9. We also need to call the "texter()" function at the end of "start_motion()" and pass the variable "detection" as an argument. The final "fam_cam.py" will look like the following:
+
+        from datetime import datetime
+        from gpiozero import Buzzer, LED, MotionSensor
+        from signal import pause
+        from text_me import texter # new import statement
+
+        buzzer = Buzzer(4)
+        led = LED(14)
+        motion_sensor = MotionSensor(18)
+
+        detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
+
+        def start_motion():
+            led.blink(0.5, 0.5)
+            buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
+            print(f"Motion detected at {detection}")
+            texter(detection) # calling the texter function and passing through detection
+
+        def end_motion():
+            if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
+                led.off() # Method to turn off the LED light
+                buzzer.off() # Method to turn off the buzzer
+
+        print("Starting up the sensor...")
+        motion_sensor.wait_for_no_motion()
+        print("Sensor ready")
+        motion_sensor.when_motion = start_motion
+        motion_sensor.when_no_motion = end_motion
+
+        pause()
 
 **Note:** A common error is failed authentication, meaning one of two things:
 1. You could have mistyped your email or password in the "text_me()" function. Re-check that first.
