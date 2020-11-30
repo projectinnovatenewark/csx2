@@ -6,12 +6,45 @@ In this workshop, the student will learn:
 - How to use the Python SMTP Library to send text message notifications
 
 Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
-
-<!-- FIXME: Insert List -->
+- 5 Female-Male jumper wires
+- 1 Male-Male jumper wires
+- 1 LED Light
+- 1 330 Ohm Resistor
+- 1 Buzzer
+- 
 
 <!-- FIXME: Create gmail -->
 
-<!-- FIXME: Insert Steps to build Project -->
+<div align=center><h2>Configuring the Fam Cam</h2></div>
+
+In this section, we will be putting together the physical components of the Fam Cam. Use `pinout` on the Pi or use the image below as a reference.
+
+<!-- FIXME: Insert Image -->
+
+1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such wwould work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. COnnect the male end of the **5V** wire to the positive rail of the breadboard and the male end of the **GND** wire to the negative rail of the breadboard. 
+
+<!-- FIXME: Insert Image -->
+
+2. Place an LED on the breadboard, with the positive leg on the right, just as in the picture below. Then Connect a female-male wire from **GPIO14** to the same row as the positive leg (the longer one). Then use a female-male ujmper wire to connect the negative rail of the breadboard and the LED's negative leg as shown below.
+
+<!-- FIXME: Insert Image -->
+
+3. Next, place the buzzer on the breadboard to the left of the LED with the positive leg on the right. Use a female-male jumper wire to connect **GPIO4** to the positive leg of the buzzer and a male-male jumper wire to connect from the negative rail to the negative leg of the buzzer.
+> The positive leg is the leg that has a "+" over. It is a little tough to see so look closely.
+
+<!-- FIXME: Insert Image -->
+
+Lastly, we are going to connect the motion sensor. This does not go directly on the board like the other peripheral devices. As pictured below with the motion sensor pins on the bottom, the left most pin is the **VCC** pin which is used for voltage, the middle pin is an **OUT** pin to communicate with the Pi, and the right-most pin is the **GND** pin.
+
+<!-- FIXME: Insert Image -->
+
+4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from the positive rail of the breadboard with a row directly accross from it (see image below). The connect a female-male wire from **GPIO18** to the left of the row to the previous wire. Lastly, use a male-male wire to connect the negative rail of the breadoard to the left of the most previous wire. 
+
+<!-- FIXME: Insert Image -->
+
+5. Use a female-male wire to connect the **VCC** pin on the motion sensor to the row that is connected to the breadboard's positive rail. Use a female-male wire to connect the **OUT** pin on the motion sensor to the row that is connected to **GPIO18**. Use a female-male wire to connect the **GN** pin on the motion sensor to the row that is connected to the breadboard's negative rail.
+
+<!-- FIXME: Insert Image -->
 
 <div align=center><h2>Coding the Fam Cam</h2></div>
 
@@ -251,4 +284,6 @@ Great! You should have a working motion detection and notification system. Let's
 
 Takeaways:
 - Learned how to configure two new peripherals, the buzzer and motion sensor
-- Imported and implmented
+- Imported and implmented the datetime module
+- Imported a function from a file in the same directory
+- Used an SMTP server to send an SMS notification
