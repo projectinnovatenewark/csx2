@@ -50,7 +50,7 @@ print("I am Groot")
 # When you see, TODO: Section x of TODO y, you should stop where you are and head over to
 # the corresponding assignment for this section of the lesson. The line below instructs
 # you to visit section 1 of the 2nd TODO and complete it before moving on to the next section.
-# TODO: Section 1 of TODO 2 (2 minutes for students, 1 minute demo)
+# TODO: Section 1 of TODO 8 (2 minutes for students, 1 minute demo)
 # IMPORTANT: Copy & paste the TODO assignment into your own personal file/folder before working.
 ####################################################################################################
 
@@ -70,7 +70,7 @@ boolean2 = True
 variable_for_later = None
 print("variable for later will equal", variable_for_later)
 
-# TODO: Section 2 of TODO 2 (2 minutes for students, 1 minute demo)
+# TODO: Section 2 of TODO 8 (2 minutes for students, 1 minute demo)
 
 ####################################################################################################
 
@@ -102,7 +102,7 @@ print(string1, "I am python number", num3, ", hear me roar!!")
 # sign. Concatentation does NOT place a space between your strings, but using a comma automatically
 # places a space between your different values.
 
-# TODO: Section 3 of TODO 2 (4 minutes for students, 2 minute demo)
+# TODO: Section 3 of TODO 8 (4 minutes for students, 2 minute demo)
 
 ####################################################################################################
 
@@ -122,7 +122,7 @@ print("string1:", type(string1))
 print("bool1:", type(bool1))
 print("flt1:", type(flt1))
 
-# TODO: Section 4 of TODO 2 (2 minutes for students, 2 minute demo)
+# TODO: Section 4 of TODO 8 (2 minutes for students, 2 minute demo)
 
 ####################################################################################################
 
@@ -150,7 +150,7 @@ print(floated_num)
 # Integer: integer()
 # Boolean: bool()
 
-# TODO: Section 5 of TODO 2 (5 minutes for students, 3 minute demo)
+# TODO: Section 5 of TODO 8 (5 minutes for students, 3 minute demo)
 
 ####################################################################################################
 

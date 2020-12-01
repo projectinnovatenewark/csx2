@@ -76,4 +76,4 @@ print(f"Importing and renaming the constant: {week}")
 from importable_stuff import DAYS_OF_WEEK, MONTHS
 print(DAYS_OF_WEEK,"\n", MONTHS) # "\n" prints whatever follows on a new line.
 
-# TODO: Complete TODO 7 (6 min for students, 2 min for dem0)
+# TODO: Complete TODO 10

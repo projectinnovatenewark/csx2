@@ -96,7 +96,7 @@ print(f"3. summation is {summation}")
 summation -= 3 # summation will now equal 6.0
 print(f"4. summation is {summation}")
 
-# TODO: Section 1 of TODO 4 (8 minutes for students, 3 minute demo)
+# TODO: Section 1 of TODO 9 (8 minutes for students, 3 minute demo)
 
 ####################################################################################################
 
@@ -146,7 +146,7 @@ print(f"The absolute value of {pos_float} is {abs(pos_float)}.")
 # IMPORTANT: Certain functions have return values that can be be stored in variables, and
 # IMPORTANT: in turn their values will be printed as a string when using f shorthand.
 
-# TODO: Section 2 of TODO 4 (8 minutes for students, 3 minute demo)
+# TODO: Section 2 of TODO 9 (8 minutes for students, 3 minute demo)
 
 # ####################################################################################################	
 
