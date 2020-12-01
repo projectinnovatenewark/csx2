@@ -34,8 +34,6 @@ if (pin != "Project Initiate Newark"): # Testing if the value of "pin" is equal 
                                        # "Project Initiate Newark"
     print("This isn't what PIN staands for!") # TODO: Will this statement be printed?
 
-# FIXME: ADD TODO SECTION TESTING DIFFERENT CONDITIONS
-
 ####################################################################################################
 
 # TITLE: Section 1.1 - Else Statements
@@ -97,20 +95,24 @@ elif (num2 > 5):
 
 ####################################################################################################
 
-# # TITLE: Section 1.3 - Using the three conditionals together
+# TITLE: Section 1.3 - Using the three conditionals together
 
-# # Below we are using each of the three conditionals that we learned in the previous section. 
+# Below we are using each of the three conditionals that we learned in the previous sections. Notice
+# the order of the conditionals. The if statements are checked first, then the elif, and lastly the
+# else is run if all other conditions were false. 
 
-# num = 3 # TODO: Teacher, try changing this number up to satisfy the different conditions.
+num = 3 # TODO: Teacher, try changing this number up to satisfy the different conditions.
 
-# if (num > 0):
-#     print(f"{num} is a positive number.")
-# if (num > 2): # any number of if statements will be evaluated upon running the code
-#     print(f"{num} is greater than 2.")
-# elif (num < 0): # the elif statement will only be triggered if none of the "if" statements are true.
-#     print(f"{num} is a negative number.")
-# else: # the else statement will only run if none of the conditions above it are true.
-#     print(f"{num} is a zero value.")
+if (num > 0):
+    print(f"{num} is a positive number.")
+if (num > 2): # Any number of if statements will be evaluated upon running the code
+    print(f"{num} is greater than 2.")
+elif (num < 0): # The elif statement will only be triggered if none of the "if" statements are true.
+    print(f"{num} is a negative number.")
+else: # The else statement will only run if none of the conditions above it are true.
+    print(f"{num} is a zero value.")
+
+# TODO: Section 1 of TODO 11
 
 ####################################################################################################
 
