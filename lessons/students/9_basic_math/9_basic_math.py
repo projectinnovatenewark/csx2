@@ -96,7 +96,7 @@ print(f"3. summation is {summation}")
 summation -= 3 # summation will now equal 6.0
 print(f"4. summation is {summation}")
 
-# TODO: Section 1 of TODO 9 (8 minutes for students, 3 minute demo)
+# TODO: Section 1 & 1.1 of TODO 9 (8 minutes for students, 3 minute demo)
 
 ####################################################################################################
 

@@ -26,6 +26,7 @@ Lets calculate a company's taxes, profit, and split the profit.
 # Print an output indicating "Company ____ recorded $______  in revenue this year,
 # paid $______ in taxes, recorded a profit of $______, and paid $______ to their five
 # shareholders, evenly". Be sure to format to look like normal dollar amounts - "$xx.xx"
+
 # HINT: 
 # To format decimal points to show only to the nearest hundreth, you must add ":.2f" after a
 # variable is inserted. This would look like "{var_name:.2f}". So if var_name is equal to 4.837478,
