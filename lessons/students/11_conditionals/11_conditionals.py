@@ -25,21 +25,19 @@ if (bool1 == True): # TODO: Teacher, change the if statement from "bool1" to "bo
 # >= : greater than or equal to
 # < : less than
 # <= : less than or equal to
-# is : equal to
-# is not : is not equal to
 
 pin = "Project Innovate Newark"
 
-if (pin != "Project Initiate Newark"): # Testing if the value of "pin" is equal to the string,
+if (pin != "Project Initiate Newark"): # Testing if the value of "pin" is not equal to the string,
                                        # "Project Initiate Newark"
-    print("This isn't what PIN staands for!") # TODO: Will this statement be printed?
+    print("This isn't what PIN stands for!") # TODO: Will this statement be printed?
 
 ####################################################################################################
 
 # TITLE: Section 1.1 - Else Statements
 # An else statement is a conditional statement that will be executed when all other conditions
 # haven't been met. An else statements always comes after an if statement and cannot be used as a 
-# standalone conditional
+# standalone conditional.
 
 num = 2 # TODO: Teacher, try changing this number up to satisfy the different conditions.
 
@@ -47,18 +45,18 @@ if (num > 20):
     print("It's true! It's true!")
 else: # Here we use an else statement to say, "if the above condition is not true, then execute
       # the following code"
-    print("The variable is not true!")
+    print("The variable is not greater than 20!")
 
 # You can see in the above that num is not greater than 20, so the statement "The variable is not
-# true!" is printed. There isn't a condition in an else statement because it only runs if every
-# conditional above is not met. 
+# greater than 20!" is printed. There isn't a condition in an else statement because it only runs if
+# every conditional above is not met. 
 
 # Here is an example from earlier with an else statement used as well. Which statement will
 # be printed?
 pin = "Project Innovate Newark"
 
 if (pin == "Project Initiate Newark"):
-    print("This is what PIN staands for!")
+    print("This is what PIN stands for!")
 else:
     print("This isn't what PIN staands for!")
 
@@ -66,9 +64,9 @@ else:
 
 # TITLE: Section 1.2 - Elif statements
 # An elif statement is like a combination of an if and else statement. An elif statement will only
-# be executed when conditions above it are not met (liek an else statement), BUT also test it's own
+# be executed when conditions above it are not met (like an else statement), BUT also test it's own
 # condition (like an if statement). An elif statement will mostly come after an if statement and
-# before and else statement. It also can't be used as a standalone conditional like else statements.
+# before an else statement. It also can't be used as a standalone conditional like else statements.
 
 num1 = 10
 
@@ -98,7 +96,7 @@ elif (num2 > 5):
 # TITLE: Section 1.3 - Using the three conditionals together
 
 # Below we are using each of the three conditionals that we learned in the previous sections. Notice
-# the order of the conditionals. The if statements are checked first, then the elif, and lastly the
+# the order of the conditionals. The if statements are tested first, then the elif, and lastly the
 # else is run if all other conditions were false. 
 
 num = 3 # TODO: Teacher, try changing this number up to satisfy the different conditions.
@@ -118,14 +116,16 @@ else: # The else statement will only run if none of the conditions above it are 
 
 # TITLE: Section 2 - Using "and" and "or"
 
-# If you want to test for multiple conditions that apply to the same data, it can be wise to use
-# "and" or "or" statements. These are useful to make your code more readable and use less lines
-# of code.
+# If you want to test for multiple conditions that apply to the same data, you can use "and" or "or"
+# statements. These are useful to make your code more readable and use less lines of code.
 
 # Below, we are using booleans to show examples of how "and" and "or" statements return either
 # true or false.
 
-# When using and, that means both conditions must be met for the if statemtent to return True.
+# Using "and" is great for when all conditions need to be returned as True for a single outcome.
+# Basically, "if one item is true and another item is true, then return True". If one of the
+# conditions returns false though, the entire if statement will return false and the block of code
+# will not run.
 
 if (True and True): # A True condition AND a True condition will return true
     print("True and True is true")
@@ -137,7 +137,8 @@ if (False and False): # A False condition AND a False condition will return fals
     print("False and False is true")
 
 # Using "or" is different in that only one condition needs to be me for the if statement to 
-# return True.
+# return True. So, "If one item is true OR another item is true, then return True." The "or" will
+# cause the if statement to return true as long as one condition is satisfied.
 
 if (True or True): # A True condition OR a True condition will return true
     print("True or True is true")
@@ -147,3 +148,5 @@ if (True or False): # A False condition OR a True condition will return true
 
 if (False or False): # A False condition OR a False condition will return false
     print("False or False is true")
+
+# TODO: Section 2 of TODO 11
