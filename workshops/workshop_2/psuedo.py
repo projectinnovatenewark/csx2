@@ -31,10 +31,19 @@ Pseudocode and problem solving with code.
 # TODO: Review the system design steps as a class and design the program below.
 
 # 1) Requirements: 
+# Use Case - Total Revenue - expenses to calulate profit made
+# End-User - product manager
+# Why it's needed - To calculate profit and perform additional functionality
 
 # 2) Constraints:
+# Limitations - Integers without commas for inputs
+#             - Only positive integers
 
 # 3) Design:
+#  Steps for use - 1) Take an for total revenue
+#                  2) User inputs for expenses one-by-one
+#                  3) Prompt user to continue or end the program "Do you want to continue adding expenses? (Y/N)"
+#                  4) Revenue - expenses = profit
 
 ####################################################################################################
 
@@ -56,50 +65,69 @@ Pseudocode and problem solving with code.
 
 # Loops
 
-listy = [1, 2, 3, 4, 5]
+# listy = [1, 2, 3, 4, 5]
+
+# val = dicty["key1"]
+# print(val)
+# print(dicty["key1"])
+
+# for item in listy:
+#     print(item)
+
+# for d in dicty:
+#     print(d)
+#     val = dicty[d]
+#     print(val)
+
+# for l in stringy:
+#     print(l)
+
+
 dicty = {"key1": "value1", "key2": "value2"}
 stringy = "Hello I'm awesome"
 
-val = dicty["key2"]
-print(val)
-print(dicty["key2"])
+# while listy:
+#     remove = listy.pop()
+#     print(remove)
+#     print(listy)
 
-for l in listy:
-    print(l)
+# number = 5
+# while number:
+#     print(number)
+#     number = number - 1
 
-for d in dicty:
-    print(d)
-    print(dicty[d])
+# number = 8
+# while number > 5:
+#     print(number)
+    # number = number - 1
 
-for l in stringy:
-    print(l)
+# # Conditions
 
-while listy:
-    remove = listy.pop()
-    print(remove)
-    print(listy)
+# user_input = "NO" # input("Would you like to continue the program? (Yes/No)")
 
-number = 5
-while number:
-    print(number)
-    number = number - 1
+# if (user_input == "Yes"):
+#     print("We can continue the program")
+# elif (user_input == "Y" or user_input == "y" or user_input == "yes"):
+#     print("We can continue the program- but enter 'Yes' next time!")
+# else:
+#     print("Thanks for using the program!")
 
-number = 8
-while number > 5:
-    print(number)
-    number = number - 1
-
-# Conditions
-
-user_input = input("Would you like to continue the program? (Yes/No)")
-
-if (user_input == "Yes"):
-    print("We can continue the program")
-elif (user_input == "Y" or user_input == "y" or user_input == "yes"):
-    print("We can continue the program- but enter 'Yes' next time!")
-else:
-    print("Thanks for using the program!")
-
-# Functions
+# # Functions
 
 
+csx = {
+    "mp1": "hardware",
+    "mp2": "skinny py",
+    "mp3": "python basics",
+    "mp4": "advanced OOP"
+}
+
+for mp in csx:
+    section = csx[mp]
+    print(f"The key is {mp} and value is {section}")
+
+# while_num = 10
+# while while_num < 20:
+#     print(while_num)
+#     # while_num = while_num - 1
+#     while_num += 1
