@@ -353,6 +353,11 @@ The complete file now looks like the following.
         from signal import pause
         import time
 
+        button = Button(4)
+        red_light = LED(14)
+        yellow_light = LED(15)
+        green_light = LED(18)
+
         def start_lights():
             red_light.on()
             time.sleep(1.5)
@@ -369,9 +374,9 @@ The complete file now looks like the following.
             green_light.off()
             time.sleep(1)
 
-        pause()
-
         button.when_pressed = start_lights
+
+        pause()
 
 Now we have a working light sequence! You can play around with the timing of the sequence and even add lights if you want.
 
