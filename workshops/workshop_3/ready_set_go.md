@@ -275,7 +275,7 @@ The components you will need are:
 
 > **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
-18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. 
+18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. Again we will be using the *physical pin 6*.
 
 19. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the left side for each of the lights.
 
