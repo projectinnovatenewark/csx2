@@ -85,7 +85,8 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
 `from gpiozero import Button ` <br>
 `from signal import pause`
 
-2. Next, we can create an instance of the button class by using the number of the GPIO pin used when setting up our tactile button. We are using the **GIPIO4** pin, so we will specify that in the code and set it equal to the variable `button” as so:<br>
+2. Next, we can create an instance of the button class by using the number of the GPIO pin used when setting up our tactile button. We are using the **GIPIO4** pin, so we will specify that in the code and set it equal to the variable "button” as so:
+<br>
 `button = Button(4)`
 > Specifying "4" is how Python knows which pin we will be using. 
 
