@@ -15,6 +15,10 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 - One (1) Tactile Buttons
 - Three (3) Ohm Resistors
 
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/19_rsg.jpg" width="auto" height="300" />
+</div>
+
 <div align=center><h2>The Physical Components</h2></div>
 
 <div><h4>1. The Breadboard</h4></div>
