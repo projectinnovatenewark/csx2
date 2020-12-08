@@ -25,7 +25,7 @@ Understanding classes and scope within a class
 
 ####################################################################################################
 
-# TITLE: Classes Introduction (12 minutes)
+# TITLE: Section 1- Classes Introduction (12 minutes)
 ​
 class Cat:
 ​
@@ -81,7 +81,7 @@ e.tricks
 
 ####################################################################################################
 
-# TITLE: Class Instantiation Review (5 minutes)
+# TITLE: Section 2- Class Instantiation Review (5 minutes)
 ​
 # Take the below class.
 class Person:
