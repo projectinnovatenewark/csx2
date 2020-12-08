@@ -324,6 +324,10 @@ The components you will need are:
 
 24. Lastly connect a female-male jumper wire from **GPIO4** on the Pi to the same row as the left leg of the button on the breadboard.
 
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/23_rsg.jpg" width="650" height="auto" />
+</div><br>
+
 Again, if there was any confusion, here is a color coordinated diagram to help see where each item should be placed.
 
 <div class=mdImage align=center>
@@ -331,10 +335,6 @@ Again, if there was any confusion, here is a color coordinated diagram to help s
 </div>
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/C1.jpg" width="450" height="auto" />
-</div>
-
-<div class=mdImage align=center>
-    <img src="./ready_set_go_images/23_rsg.jpg" width="650" height="auto" />
 </div><br>
 
 25. Create a file named "ready_set_go.py" in your *python-work* folder.
