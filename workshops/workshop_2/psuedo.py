@@ -2,6 +2,8 @@
 Pseudocode and problem solving with code.
 """
 
+# IMPORTANT: TEACHERS, PLEASE MAKE A COPY OF THIS FILE RATHER THAN EDITING THE ORIGINAL.
+
 # TITLE: Definitions
 
 # Computer code is a set of instructions given to a computer to execute some functionality.
@@ -19,6 +21,8 @@ Pseudocode and problem solving with code.
 
 # 3. Designing for your user: What are the steps an end-user would take to use this program?
 
+####################################################################################################
+
 # TITLE: Profit Report Program
 
 # Project Description: A user should submit their total revenue, subtract each expense individually,
@@ -30,7 +34,7 @@ Pseudocode and problem solving with code.
 
 # TODO: Review the system design steps as a class and design the program below.
 
-# 1) Requirements: 
+# 1) Requirements:
 
 # 2) Constraints:
 
@@ -41,6 +45,7 @@ Pseudocode and problem solving with code.
 # TITLE: Pseudocode
 
 # TODO: Pseudocode the program by outlining the steps needed to code it.
+
 
 ####################################################################################################
 
@@ -54,52 +59,76 @@ Pseudocode and problem solving with code.
 # TITLE: Review for Program
 
 
-# Loops
+# TITLE: Section 1: Loops
 
-listy = [1, 2, 3, 4, 5]
-dicty = {"key1": "value1", "key2": "value2"}
-stringy = "Hello I'm awesome"
+# listy = [1, 2, 3, 4, 5]
+# dicty = {"key1": "value1", "key2": "value2"}
+# stringy = "Hello I'm awesome"
 
-val = dicty["key2"]
-print(val)
-print(dicty["key2"])
+# val = dicty["key2"]
+# print(val)
+# print(dicty["key2"])
 
-for l in listy:
-    print(l)
+# val2 = listy[1]
+# print(val2)
+# print(listy[1])
 
-for d in dicty:
-    print(d)
-    print(dicty[d])
+# for l in listy:
+#     print(l)
 
-for l in stringy:
-    print(l)
+# for d in dicty:
+#     print(d)
+#     print(dicty[d])
 
-while listy:
-    remove = listy.pop()
-    print(remove)
-    print(listy)
+# for l in stringy:
+#     print(l)
 
-number = 5
-while number:
-    print(number)
-    number = number - 1
+# while listy:
+#     remove = listy.pop()
+#     print(remove)
+#     print(listy)
 
-number = 8
-while number > 5:
-    print(number)
-    number = number - 1
+# number = 5
+# while number:
+#     print(number)
+#     number = number - 1
 
-# Conditions
+# number = 8
+# while number > 5:
+#     print(number)
+#     number = number - 1
 
-user_input = input("Would you like to continue the program? (Yes/No)")
+####################################################################################################
 
-if (user_input == "Yes"):
-    print("We can continue the program")
-elif (user_input == "Y" or user_input == "y" or user_input == "yes"):
-    print("We can continue the program- but enter 'Yes' next time!")
-else:
-    print("Thanks for using the program!")
+# TODO: During Workshop Exercise (Students compete with their classmates)
 
-# Functions
+# # write a for loop that iterates through this dictionary and prints the key followed by the value using f shorthand
+# csx = {
+#     "mp1": "hardware",
+#     "mp2": "skinny py",
+#     "mp3": "python basics",
+#     "mp4": "advanced OOP"
+# }
 
+# # write a while loop that prints out while_num, decrements it by 1, and continues this pattern until it reaches zero
+# while_num = 10
 
+####################################################################################################
+
+# TITLE: Section 2: Conditions
+
+# user_input = input("Would you like to continue the program? (Yes/No)")
+
+# if (user_input == "Yes"):
+#     print("We can continue the program")
+# elif (user_input == "Y" or user_input == "y" or user_input == "yes"):
+#     print("We can continue the program- but enter 'Yes' next time!")
+# else:
+#     print("Thanks for using the program!")
+
+# if (False):
+#     print('this works')
+# elif (False):
+#     print('maybe this works')
+# else:
+#     print('this works too maybe?')
