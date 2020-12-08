@@ -29,7 +29,7 @@ A breadboard is a device used for temporary or prototype electronics. Breadboard
     <img src="./ready_set_go_images/1_breadboard.png" width="auto" height="300" />
 </div>
 
-There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides of each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
+There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides, each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
 
 <div><h4>2. Jumper Wires</h4></div>
 
@@ -65,7 +65,7 @@ the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
 
 Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is short for "General Purpose Input/Output". An important thing to note right off the bat is that not all pins act the same. Some pins can provide a power *output* such as <ins>3v3 and 5v pins</ins>, others can receive and measure power *inputs* like <ins>"gnd" or ground pins</ins>. Over all though, a majority of the pins are used for reading inputs or providing outputs. 
 
-How can we tell the difference between the pins? The GPIO Zero Python Library provides a comand line tool that is installed by default on your Raspberry Pi, so users can have a better understanding of their Pi. Open the terminal and enter in the prompt, `pinout`. You will see the following:
+How can we tell the difference between the pins? The GPIO Zero Python Library provides a command line tool that is installed by default on your Raspberry Pi, so users can have a better understanding of their Pi. Open the terminal and enter in the prompt, `pinout`. You will see the following:
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/6_pinout.png" width="400" height="auto" />
@@ -94,7 +94,7 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
 `button = Button(4)`
 > Specifying "4" is how Python knows which pin we will be using. 
 
-3. Next we are going to define 3 methods for our button: `buttonPressed()”, “buttonHeld()”, and “buttonReleased()”. When these methods are used, each will print a statement regarding the action described in their name. Use the following in your file:
+3. Next we are going to define 3 methods for our button: "buttonPressed()”, “buttonHeld()”, and “buttonReleased()”. When these methods are used, each will print a statement regarding the action described in their name. Use the following in your file:
 > Methods are simply functions that are specific to a certain class. The above methods would not be able to be used with any other class or data type.
 
         def buttonPressed():
