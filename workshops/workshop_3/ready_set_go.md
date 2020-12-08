@@ -83,7 +83,7 @@ Open VS Code on your Pi and in your *python-work* folder, create a folder named 
 
 <div align=center><h2>Tactile Button</h2></div>
 
-A tactile button can be used to give inputs to your Raspberry Pi by clicking the button while a program is running. This clasifies the tactile button as an **input** device. We will first code the button in Python, and then connect physically connect it to the Pi.
+A tactile button can be used to give inputs to your Raspberry Pi by clicking the button while a program is running. This clasifies the tactile button as an **input** device. We will first code the button in Python, and then physically connect it to the Pi.
 
 1. In button.py, we are first going to import the Button class fomr the "gpiozero" library and the pause function from the "signal" package. To do this, we will enter the following code at the top of button.py:<br>
 `from gpiozero import Button ` <br>
