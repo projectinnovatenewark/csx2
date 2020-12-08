@@ -2,6 +2,8 @@
 Pseudocode and problem solving with code.
 """
 
+# IMPORTANT: TEACHERS, PLEASE MAKE A COPY OF THIS FILE RATHER THAN EDITING THE ORIGINAL.
+
 # TITLE: Definitions
 
 # Computer code is a set of instructions given to a computer to execute some functionality.
@@ -19,6 +21,8 @@ Pseudocode and problem solving with code.
 
 # 3. Designing for your user: What are the steps an end-user would take to use this program?
 
+####################################################################################################
+
 # TITLE: Profit Report Program
 
 # Project Description: A user should submit their total revenue, subtract each expense individually,
@@ -30,26 +34,21 @@ Pseudocode and problem solving with code.
 
 # TODO: Review the system design steps as a class and design the program below.
 
-# 1) Requirements: 
-# Use Case - Total Revenue - expenses to calulate profit made
-# End-User - product manager
-# Why it's needed - To calculate profit and perform additional functionality
+# 1) Requirements:
+# Describe the user and use-case:
 
 # 2) Constraints:
-# Limitations - Integers without commas for inputs
-#             - Only positive integers
+# Limitations:
 
 # 3) Design:
-#  Steps for use - 1) Take an for total revenue
-#                  2) User inputs for expenses one-by-one
-#                  3) Prompt user to continue or end the program "Do you want to continue adding expenses? (Y/N)"
-#                  4) Revenue - expenses = profit
+# Steps for use:
 
 ####################################################################################################
 
 # TITLE: Pseudocode
 
 # TODO: Pseudocode the program by outlining the steps needed to code it.
+
 
 ####################################################################################################
 
@@ -63,28 +62,29 @@ Pseudocode and problem solving with code.
 # TITLE: Review for Program
 
 
-# Loops
+# TITLE: Section 1: Loops
 
 # listy = [1, 2, 3, 4, 5]
+# dicty = {"key1": "value1", "key2": "value2"}
+# stringy = "Hello I'm awesome"
 
-# val = dicty["key1"]
+# val = dicty["key2"]
 # print(val)
-# print(dicty["key1"])
+# print(dicty["key2"])
 
-# for item in listy:
-#     print(item)
+# val2 = listy[1]
+# print(val2)
+# print(listy[1])
+
+# for l in listy:
+#     print(l)
 
 # for d in dicty:
 #     print(d)
-#     val = dicty[d]
-#     print(val)
+#     print(dicty[d])
 
 # for l in stringy:
 #     print(l)
-
-
-dicty = {"key1": "value1", "key2": "value2"}
-stringy = "Hello I'm awesome"
 
 # while listy:
 #     remove = listy.pop()
@@ -99,11 +99,28 @@ stringy = "Hello I'm awesome"
 # number = 8
 # while number > 5:
 #     print(number)
-    # number = number - 1
+#     number = number - 1
 
-# # Conditions
+####################################################################################################
 
-# user_input = "NO" # input("Would you like to continue the program? (Yes/No)")
+# TODO: During Workshop Exercise (Students compete with their classmates)
+
+# # write a for loop that iterates through this dictionary and prints the key followed by the value using f shorthand
+# csx = {
+#     "mp1": "hardware",
+#     "mp2": "skinny py",
+#     "mp3": "python basics",
+#     "mp4": "advanced OOP"
+# }
+
+# # write a while loop that prints out while_num, decrements it by 1, and continues this pattern until it reaches zero
+# while_num = 10
+
+####################################################################################################
+
+# TITLE: Section 2: Conditions
+
+# user_input = input("Would you like to continue the program? (Yes/No)")
 
 # if (user_input == "Yes"):
 #     print("We can continue the program")
@@ -112,22 +129,9 @@ stringy = "Hello I'm awesome"
 # else:
 #     print("Thanks for using the program!")
 
-# # Functions
-
-
-csx = {
-    "mp1": "hardware",
-    "mp2": "skinny py",
-    "mp3": "python basics",
-    "mp4": "advanced OOP"
-}
-
-for mp in csx:
-    section = csx[mp]
-    print(f"The key is {mp} and value is {section}")
-
-# while_num = 10
-# while while_num < 20:
-#     print(while_num)
-#     # while_num = while_num - 1
-#     while_num += 1
+# if (False):
+#     print('this works')
+# elif (False):
+#     print('maybe this works')
+# else:
+#     print('this works too maybe?')

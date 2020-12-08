@@ -93,7 +93,7 @@
 # # TODO: Section 2 of TODO 10 (4 min for students, 1 min for demo)
 ####################################################################################################
 
-# TITLE: Section 2.1 - Using Return Values with Conditionals
+# TITLE: Section 2.1 - Using Return Values with Conditionals (8 minutes)
 # Calling functions within other functions and using conditions.
 
 # Having return values from functions is important when you want to use that value,
@@ -138,6 +138,7 @@ inquire_day()
 # TODO: Section 2.1 of TODO 10 (4 min for students, 1 min for demo)
 ####################################################################################################
 
+<<<<<<< HEAD
 # # TITLE: Section 3 - Working with Scope
 # # Below are examples of using variables & the timing of a function call to portray scope.
 # # Here we call "s" after the function is called, which will return a NameError
@@ -162,3 +163,29 @@ inquire_day()
 # func3()
 
 # print(s3)
+=======
+# TITLE: Section 3 - Working with Scope (5 minutes)
+# Below are examples of using variables & the timing of a function call to portray scope.
+# Here we call "s" after the function is called, which will return a NameError
+def func():
+    print(s)
+func()
+s = "I love Paris in the summer!"
+
+# Here, since the variable is declared before the function is called, it will print the "s2" value
+def func2():
+    print(s2)
+s2 = "I love San Diego in the summer!"
+func2()
+
+# Here, the variable in the function is referenced within the function's scope, therefore it will
+# print the "I love London" statement
+def func3():
+    s3 = "I love London!"
+    print(s3)
+
+s3 = "I love Malaysia!"
+func3()
+
+print(s3)
+>>>>>>> 1a5c38be47fc92953e899394e98c6766a7e28785
