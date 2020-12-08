@@ -22,10 +22,14 @@ Understanding classes and scope within a class
 ​
 # For more info on classes, refer to the Python docs:
 # https://docs.python.org/3/tutorial/classes.html
+
+####################################################################################################
+
+# TITLE: Classes Introduction (12 minutes)
 ​
 class Cat:
 ​
-    kind = 'feline'         # class attribute shared by all instances
+    kind = 'feline' # class attribute shared by all instances
 ​
     def __init__(self, name):
         self.name = name    # instance attribute unique to each instance
@@ -40,11 +44,9 @@ print("e.kind", e.kind)                  # shared by all Cats
 print("d.name", d.name)                  # unique to d
 print("e.name", e.name)                  # unique to e
 ​
-####################################################################################################
-​
 class Cat:
 ​
-    tricks = []  # mistaken use of a class attribute shared by all Cats due to scope
+    tricks = [] # mistaken use of a class attribute shared by all Cats due to scope
 ​
     def __init__(self, name):
         self.name = name
@@ -58,13 +60,11 @@ d.add_trick('hit yarn')
 e.add_trick('attack bird')
 print(d.tricks)  
 ​
-####################################################################################################
-​
 class Cat:
 ​
     def __init__(self, name):
         self.name = name
-        self.tricks = []  # creates a new empty list for each Cat
+        self.tricks = [] # creates a new empty list for each Cat
 ​
     def add_trick(self, trick):
         self.tricks.append(trick)
@@ -76,7 +76,11 @@ e.add_trick('attack bird')
 d.tricks
 e.tricks
 
+# TODO Section 1 of TODO 13 (7 minutes for students, 5 minute demo)
+
 ####################################################################################################
+
+# TITLE: Class Instantiation Review (5 minutes)
 ​
 # Take the below class.
 class Person:
@@ -85,4 +89,6 @@ class Person:
         self.lname = lname
 
     def identifier(self):
-        print("My name is {} {}".format(self.fname, self.lname))
+        print(f"My name is {self.fname} {self.lname}")
+
+# TODO Section 2 of TODO 13 (5 minutes for students, 3 minute demo)
