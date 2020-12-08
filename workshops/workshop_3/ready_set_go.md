@@ -4,7 +4,7 @@ In this workshop, the student will learn:
 - More about The Raspberry Pi's GPIO pins
 - How to properly connect a tactile button and LED light to the Pi and make them functional using Python
 
-All students should have the Pi turned on and ready to use for the remainded of the workshop.
+All students should have the Pi turned on and ready to use for the remainder of the workshop.
 
 Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
 
