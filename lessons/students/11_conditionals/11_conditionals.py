@@ -110,7 +110,7 @@ elif (num < 0): # The elif statement will only be triggered if none of the "if" 
 else: # The else statement will only run if none of the conditions above it are true.
     print(f"{num} is a zero value.")
 
-# TODO: Section 1 of TODO 11
+# TODO: Section 1 of TODO 11 (5 minutes for students, 2 min for demo)
 
 ####################################################################################################
 
@@ -149,4 +149,4 @@ if (True or False): # A False condition OR a True condition will return true
 if (False or False): # A False condition OR a False condition will return false
     print("False or False is true")
 
-# TODO: Section 2 of TODO 11
+# TODO: Section 2 of TODO 11 (4 minutes for students, 2 min for demo)
