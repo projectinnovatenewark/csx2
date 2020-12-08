@@ -85,7 +85,8 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
 `from gpiozero import Button ` <br>
 `from signal import pause`
 
-2. Next, we can create an instance of the button class by using the number of the GPIO pin used when setting up our tactile button. We are using the **GIPIO4** pin, so we will specify that in the code and set it equal to the variable `button” as so:<br>
+2. Next, we can create an instance of the button class by using the number of the GPIO pin used when setting up our tactile button. We are using the **GIPIO4** pin, so we will specify that in the code and set it equal to the variable "button” as so:
+<br>
 `button = Button(4)`
 > Specifying "4" is how Python knows which pin we will be using. 
 
@@ -275,7 +276,7 @@ The components you will need are:
 
 > **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
-18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. 
+18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. Again we will be using the *physical pin 6*.
 
 19. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the left side for each of the lights.
 
@@ -353,6 +354,11 @@ The complete file now looks like the following.
         from signal import pause
         import time
 
+        button = Button(4)
+        red_light = LED(14)
+        yellow_light = LED(15)
+        green_light = LED(18)
+
         def start_lights():
             red_light.on()
             time.sleep(1.5)
@@ -369,9 +375,9 @@ The complete file now looks like the following.
             green_light.off()
             time.sleep(1)
 
-        pause()
-
         button.when_pressed = start_lights
+
+        pause()
 
 Now we have a working light sequence! You can play around with the timing of the sequence and even add lights if you want.
 

@@ -37,8 +37,14 @@ Pseudocode and problem solving with code.
 # 1) Requirements:
 
 # 2) Constraints:
+# Limitations - Integers without commas for inputs
+#             - Only positive integers
 
 # 3) Design:
+#  Steps for use - 1) Take an for total revenue
+#                  2) User inputs for expenses one-by-one
+#                  3) Prompt user to continue or end the program "Do you want to continue adding expenses? (Y/N)"
+#                  4) Revenue - expenses = profit
 
 ####################################################################################################
 

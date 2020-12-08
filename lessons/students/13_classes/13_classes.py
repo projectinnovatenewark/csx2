@@ -56,9 +56,7 @@ d = Cat('Fido')
 e = Cat('Bella')
 d.add_trick('hit yarn')
 e.add_trick('attack bird')
-print(d.tricks)  # unexpectedly shared by all dogs. that is because tricks was set as a class
-                 # attribute rather than an instance attribute. more on that in the link below:
-                 # https://dzone.com/articles/python-class-attributes-vs-instance-attributes#:~:text=A%20class%20attribute%20is%20a,.)%20%2C%20of%20the%20class.
+print(d.tricks)  
 ​
 ####################################################################################################
 ​
@@ -84,10 +82,6 @@ class Classmate:
         self.last_name = last_name
         self.city = city
         self.age = age
-​
-# TODO: Section 1 of the TODO 3.4
-
-########################################################################################
 
     # this is a function
     def format_class(self):
@@ -104,7 +98,7 @@ class Classmate:
              f"Age : {self.age}"]
         return print("\n".join(s))
 ​
-# TODO: Section 2 of the TODO 3.4
+# TODO: Section 2 of the TODO 13
 
 ####################################################################################################
 
@@ -193,7 +187,4 @@ s1.identifier()
 # And here you see that you can call the function from the derived child class
 s1.welcome()
 
-# TODO: Section 3 & 4 of the TODO 3.4
-
-###################################################################################################
-
+# TODO: Section 3 & 4 of the TODO 13
