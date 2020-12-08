@@ -2,7 +2,7 @@
 if, elif, else and iteratable operations
 """
 
-# TITLE: Section 1 - If Statements
+# TITLE: Section 1 - If Statements (5 minutes)
 # In Python, we can execute a certain block of code based on a condition. This is useful when you
 # only want a program to run IF a condition is satisfied. The most basic form of a condtional
 # statement is an "if" statement.
@@ -34,7 +34,7 @@ if (pin != "Project Initiate Newark"): # Testing if the value of "pin" is not eq
 
 ####################################################################################################
 
-# TITLE: Section 1.1 - Else Statements
+# TITLE: Section 1.1 - Else Statements (6 minutes)
 # An else statement is a conditional statement that will be executed when all other conditions
 # haven't been met. An else statements always comes after an if statement and cannot be used as a 
 # standalone conditional.
@@ -62,7 +62,7 @@ else:
 
 ####################################################################################################
 
-# TITLE: Section 1.2 - Elif statements
+# TITLE: Section 1.2 - Elif statements (7 minutes)
 # An elif statement is like a combination of an if and else statement. An elif statement will only
 # be executed when conditions above it are not met (like an else statement), BUT also test it's own
 # condition (like an if statement). An elif statement will mostly come after an if statement and
@@ -93,7 +93,7 @@ elif (num2 > 5):
 
 ####################################################################################################
 
-# TITLE: Section 1.3 - Using the three conditionals together
+# TITLE: Section 1.3 - Using the three conditionals together (7 minutes)
 
 # Below we are using each of the three conditionals that we learned in the previous sections. Notice
 # the order of the conditionals. The if statements are tested first, then the elif, and lastly the
@@ -114,7 +114,7 @@ else: # The else statement will only run if none of the conditions above it are 
 
 ####################################################################################################
 
-# TITLE: Section 2 - Using "and" and "or"
+# TITLE: Section 2 - Using "and" and "or" (8 minutes)
 
 # If you want to test for multiple conditions that apply to the same data, you can use "and" or "or"
 # statements. These are useful to make your code more readable and use less lines of code.
