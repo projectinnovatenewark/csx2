@@ -115,7 +115,7 @@ This will specify that for the buton_held function will wait 3 seconds before it
 
         button.when_pressed = buttonPressed
         button.when_held = buttonHeld
-        Button.when_released = buttonReleased`
+        Button.when_released = buttonReleased
 
 now when the tactile button is pressed, the method "buttonPressed" will run and print the statement, “Button was pressed”. If the button is held for 3 seconds, then the "buttonHeld' method will run. What do you think will execute when this method is called? Lastly, when the tactile button is released, the "buttonReleased" method will be called.
 
