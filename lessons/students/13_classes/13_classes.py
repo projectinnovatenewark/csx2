@@ -64,7 +64,8 @@ class Cat:
 ​
     def __init__(self, name):
         self.name = name
-        self.tricks = [] # creates a new empty list for each Cat
+        self.tricks = [] # TIP: creates a new empty list for each Cat, and DOESNT
+                         # TIP: set this value upon initializing
 ​
     def add_trick(self, trick):
         self.tricks.append(trick)
