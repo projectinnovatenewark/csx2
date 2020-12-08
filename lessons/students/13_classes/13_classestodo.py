@@ -8,16 +8,16 @@ Creating classes for your classmates
 # in it's init function including name, breed, and age. 
 
 # TODO:
-# Instantiate an instance of the "Dog" named "Fido". Fido is a 3 year old Bulldog. You can store the
-# instantiated class in a variable "fido". Then print the following statement using f shorthand:
-# "Fido is a 3 year old Bulldog."
+# Instantiate an instance of the "Dog" class named "Fido". Fido is a 3 year old Bulldog. You can
+# store the instantiated class in a variable "fido". Then print the following statement using f
+# shorthand: "Fido is a 3 year old Bulldog."
 
 ####################################################################################################
 
 # TODO: Section 2
-# Define a method, "country_info", for the below class of "Country". When called, the method should print the
-# the following statement using f shorthand: "{country} is {age} years old with a population of
-# {population} of people." 
+# Define a method, "country_info", for the below class of "Country". When called, the method should
+# print the the following statement using f shorthand: "{country} is {age} years old with a
+# population of {population} people." 
 
 # HINT: Does the method need any parameters besides "self"?
 
