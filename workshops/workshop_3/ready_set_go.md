@@ -298,6 +298,8 @@ The components you will need are:
 
 > **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
 
+<div align=center><h4>Assembling Ready, Set, Go!</h4></div>
+
 18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. Again we will be using the *physical pin 6*.
 
 19. Now we will connect the three lights. Place the three lights on the same column as its shown below. The **positive leg** should be placed on the left side for each of the lights.
@@ -336,6 +338,8 @@ Again, if there was any confusion, here is a color coordinated diagram to help s
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/C1.jpg" width="450" height="auto" />
 </div><br>
+
+<div align=center><h4>Coding Ready, Set, Go!</h4></div>
 
 25. Create a file named "ready_set_go.py" in your *python-work* folder.
 
