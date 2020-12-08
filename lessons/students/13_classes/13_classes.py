@@ -60,24 +60,24 @@ class Cat:
 
     def __init__(self, name):
         self.name = name
-        self.activities = [] # This creates a new empty list for each Cat, but will not be used
-                            # to instantiate the class. It doesn't need to be added as an argument
-                            # during instantiation because it is not a parameter in the "__init__"
-                            # function.
+        self.activities = []    # This creates a new empty list for each instance of Cat, but will
+                                # not be used to instantiate the class. It doesn't need to be added
+                                # as an argument during instantiation because it is not a parameter
+                                # in the definition of the "__init__" function.
 
-    def add_activity(self, activity):   # This is a method defined within the scope of the
-        self.activities.append(activity) # "Cat" class.
+    def add_activity(self, activity):       # This is a method defined within the scope of the
+        self.activities.append(activity)    # "Cat" class.
 
-felix = Cat('Felix') # The Cat class only takes one argument of name, so we instantiate the class
-                     # with "Felix".
-boots = Cat('Boots') # The Cat class only takes one argument of name, so we instantiate the class
-                     # with "Boots".
+felix = Cat('Felix')    # The Cat class only takes one argument of name, so we instantiate the class
+                        # with "Felix".
+boots = Cat('Boots')    # The Cat class only takes one argument of name, so we instantiate the class
+                        # with "Boots".
 
 # To call the method, we use dot notation in the format of ("var.method(arg1, arg2")
 felix.add_activity('hit yarn')      # Here we are appending the activity "hit yarn" to Felix's list
                                     # of activities.
-boots.add_activity('attack bird')   # Here we are appending the activity "attack bird" to Boots's list
-                                    # of activities.
+boots.add_activity('attack bird')   # Here we are appending the activity "attack bird" to Boots's
+                                    # list of activities.
 
 # We can print the activities just like any other attribute using dot notation.
 
