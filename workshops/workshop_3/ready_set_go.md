@@ -266,7 +266,7 @@ We will need the following components for this section:
     <img src="./ready_set_go_images/18_led.jpg" width="650" height="auto" />
 </div><br>
 
-Here is another color coordinated diagram of the breadoard and Pi!
+Here is another color coordinated diagram of the breadboard and Pi!
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/B2.jpg" width="450" height="auto" />
