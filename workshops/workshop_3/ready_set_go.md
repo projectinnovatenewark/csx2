@@ -184,8 +184,9 @@ We will need the folling components for this section:
 You can use the following color coordinated diagrams of the breadboard and Pi if there was any confusion during assembly.
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/A1.jpg" width="450" height="auto" />
+</div>
+<div class=mdImage align=center>
     <img src="./ready_set_go_images/A2.jpg" width="450" height="auto" />
-    
 </div>
 
 <div align=center><h3>Using the Tactile Button</h3></div>
