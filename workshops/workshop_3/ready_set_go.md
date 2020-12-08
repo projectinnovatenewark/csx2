@@ -181,6 +181,12 @@ We will need the folling components for this section:
     <img src="./ready_set_go_images/11_complete_tac.jpg" width="auto" height="400" />
 </div><br>
 
+You can use the following color coordinated diagrams of the breadboard and Pi if there was any confusion during assembly.
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/A1.jpg" width="450" height="auto" />
+    <img src="./ready_set_go_images/A2.jpg" width="450" height="auto" />
+</div>
+
 <div align=center><h3>Using the Tactile Button</h3></div>
 
 Now that everything is connected, we can execute our Python program. Execute the program by clicking the execute button (the green triangle) at the top right corner of the file.
