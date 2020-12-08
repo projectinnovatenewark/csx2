@@ -265,6 +265,14 @@ We will need the following components for this section:
     <img src="./ready_set_go_images/18_led.jpg" width="650" height="auto" />
 </div><br>
 
+Here is another color coordinated diagram of the breadoard and Pi!
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/B1.jpg" width="450" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/B2.jpg" width="450" height="auto" />
+</div>
+
 <div align=center><h3>Using the LED Light</h3></div>
 
 You should see the red light blinking for one second every other second. Go ahead and use "control + c" to quit the program and disconnect the LED. Now that you have worked with both the tactile button and the LED light, lets get started on the main activity of the workshop and create our "Ready, Set, Go" light sequence.
@@ -313,6 +321,14 @@ The components you will need are:
 23. Use a male-male jumper wire with one end plugged into the negative rail of the breadboard and the other end plugged into the same row as the top right leg of the button as seen in the image.
 
 24. Lastly connect a female-male jumper wire from **GPIO4** on the Pi to the same row as the left leg of the button on the breadboard.
+
+Again, if there was any confusion, here is a color coordinated diagram to help see where each item should be placed.
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/C1.jpg" width="450" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/C2.jpg" width="450" height="auto" />
+</div>
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/23_rsg.jpg" width="650" height="auto" />
