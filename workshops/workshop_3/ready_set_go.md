@@ -104,7 +104,7 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
         def buttonReleased():
         	print(“Button was released”)
 
-4. The functions we have now defined will be used in conjunction with the three event **properties** of pressing, holding, and releasing the button. The Button class has: ".when_pressed", ".when_held", and ".when_released".The two properties that are  self explanatory and do not need much explaining are ".when_pressed" and ".when_released". On the other hand, ".when_held" can take in a specified time for the function to run. This is done by specifying “hold_time=[some_float]”, where some_float is a float data type, within the instantiation of our Button class.
+4. The functions we have now defined will be used in conjunction with the three event **properties** of pressing, holding, and releasing the button. The Button class has: ".when_pressed", ".when_held", and ".when_released". The two properties that are  self explanatory and do not need much explaining are ".when_pressed" and ".when_released". On the other hand, ".when_held" can take in a specified time for the function to run. This is done by specifying “hold_time=[some_float]”, where some_float is a float data type, within the instantiation of our Button class.
 
 `button = Button(4)` <br>
 Will now be:<br>
@@ -117,7 +117,7 @@ This will specify that for the buton_held function will wait 3 seconds before it
         button.when_held = buttonHeld
         Button.when_released = buttonReleased`
 
-now when the tactile button is pressed, the method "buttonPressed" will run and print the statement, “Button was pressed”. If the button is helf for 3 seconds, then the "buttonHeld' method will run. WHat do you think will execute when this method is called? Lastly, when the tactile button is released, the "buttonReleased" method will be called.
+now when the tactile button is pressed, the method "buttonPressed" will run and print the statement, “Button was pressed”. If the button is held for 3 seconds, then the "buttonHeld' method will run. What do you think will execute when this method is called? Lastly, when the tactile button is released, the "buttonReleased" method will be called.
 
 6. Our complete file should now look like the following:
 
@@ -175,7 +175,7 @@ We will need the folling components for this section:
     <img src="./ready_set_go_images/10_tactile.jpg" width="auto" height="400" />
 </div><br>
 
-10. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
+10. Lastly, connect a female-male jumper wire from the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/11_complete_tac.jpg" width="auto" height="400" />
