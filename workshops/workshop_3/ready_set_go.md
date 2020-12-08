@@ -182,11 +182,12 @@ We will need the folling components for this section:
 </div><br>
 
 You can use the following color coordinated diagrams of the breadboard and Pi if there was any confusion during assembly.
+
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/A1.jpg" width="450" height="auto" />
+    <img src="./ready_set_go_images/A2.jpg" width="450" height="auto" />
 </div>
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/A2.jpg" width="auto" height="300" />
+    <img src="./ready_set_go_images/A1.jpg" width="450" height="auto" />
 </div>
 
 <div align=center><h3>Using the Tactile Button</h3></div>
@@ -266,11 +267,12 @@ We will need the following components for this section:
 </div><br>
 
 Here is another color coordinated diagram of the breadoard and Pi!
+
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/B1.jpg" width="450" height="auto" />
+    <img src="./ready_set_go_images/B2.jpg" width="450" height="auto" />
 </div>
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/B2.jpg" width="auto" height="300" />
+    <img src="./ready_set_go_images/B1.jpg" width="450" height="auto" />
 </div>
 
 <div align=center><h3>Using the LED Light</h3></div>
@@ -323,11 +325,12 @@ The components you will need are:
 24. Lastly connect a female-male jumper wire from **GPIO4** on the Pi to the same row as the left leg of the button on the breadboard.
 
 Again, if there was any confusion, here is a color coordinated diagram to help see where each item should be placed.
+
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/C1.jpg" width="450" height="auto" />
+    <img src="./ready_set_go_images/C2.jpg" width="450" height="auto" />
 </div>
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/C2.jpg" width="auto" height="300" />
+    <img src="./ready_set_go_images/C1.jpg" width="450" height="auto" />
 </div>
 
 <div class=mdImage align=center>
