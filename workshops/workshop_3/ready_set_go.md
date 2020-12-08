@@ -186,7 +186,7 @@ You can use the following color coordinated diagrams of the breadboard and Pi if
     <img src="./ready_set_go_images/A1.jpg" width="450" height="auto" />
 </div>
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/A2.jpg" width="450" height="auto" />
+    <img src="./ready_set_go_images/A2.jpg" width="auto" height="300" />
 </div>
 
 <div align=center><h3>Using the Tactile Button</h3></div>
@@ -270,7 +270,7 @@ Here is another color coordinated diagram of the breadoard and Pi!
     <img src="./ready_set_go_images/B1.jpg" width="450" height="auto" />
 </div>
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/B2.jpg" width="450" height="auto" />
+    <img src="./ready_set_go_images/B2.jpg" width="auto" height="300" />
 </div>
 
 <div align=center><h3>Using the LED Light</h3></div>
@@ -327,7 +327,7 @@ Again, if there was any confusion, here is a color coordinated diagram to help s
     <img src="./ready_set_go_images/C1.jpg" width="450" height="auto" />
 </div>
 <div class=mdImage align=center>
-    <img src="./ready_set_go_images/C2.jpg" width="450" height="auto" />
+    <img src="./ready_set_go_images/C2.jpg" width="auto" height="300" />
 </div>
 
 <div class=mdImage align=center>
