@@ -254,7 +254,7 @@ We will need the following components for this section:
     <img src="./ready_set_go_images/16_led.jpg" width="650" height="auto" />
 </div><br>
 
-16. Connect the Ohm resister to the female end of a female-male jumper wire. This is so you have a little more wiggle room, but not necessarily mandatory for funcitonality.connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg).
+16. Connect the Ohm resister to the female end of a female-male jumper wire. Connect the male end of this wire to the female end of the jumper wire that is in row 6 on the negative column. Connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg). If you have trouble with this wording, feel free to refer to the last images in this section for reference.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/17_led.jpg" width="650" height="auto" />
@@ -266,7 +266,7 @@ We will need the following components for this section:
     <img src="./ready_set_go_images/18_led.jpg" width="650" height="auto" />
 </div><br>
 
-Here is another color coordinated diagram of the breadboard and Pi!
+Here is another color coordinated diagram of the breadboard and Pi:
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/B2.jpg" width="450" height="auto" />
@@ -352,17 +352,17 @@ Again, if there was any confusion, here is a color coordinated diagram to help s
 
         import time
 
-28. Now let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
+28. Now, let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
 
         button = Button(4)
 
-29. Next we want to instantiate three different LED classes. One for red, yellow, and lastly green. Since we practice good coding skills, we are going to be descriptive in our variables:
+29. Next we want to instantiate three different LED classes. One for red, yellow, and green. Since we practice good coding skills, we are going to be descriptive in our variables:
 
         red_light = LED(14)
         yellow_light = LED(15)
         green_light = LED(18)
 
-30. Now we want to create a function that when called, will start the light sequence. Since we want to turn on each light and then off in a sequence, we need to use a method other than blink from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
+30. Now we want to create a function that, when called, will start the light sequence. Since we want to turn on each light and then turn it off in a sequence, we need to use a method other than "blink" from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
 
         def start_lights():
             red_light.on()
@@ -379,7 +379,7 @@ Again, if there was any confusion, here is a color coordinated diagram to help s
 
         pause()
 
-31. Lastly we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
+31. Lastly, we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
 
         button.when_pressed = start_lights
 
