@@ -4,7 +4,7 @@ In this workshop, the student will learn:
 - More about The Raspberry Pi's GPIO pins
 - How to properly connect a tactile button and LED light to the Pi and make them functional using Python
 
-All students should have the Pi turned on and ready to use for the remainded of the workshop.
+All students should have the Pi turned on and ready to use for the remainder of the workshop.
 
 Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
 
@@ -14,6 +14,10 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 - Three (3) LED Lights (Red, Yellow, & Green)
 - One (1) Tactile Buttons
 - Three (3) Ohm Resistors
+
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/19_rsg.jpg" width="auto" height="300" />
+</div>
 
 <div align=center><h2>The Physical Components</h2></div>
 
@@ -25,7 +29,7 @@ A breadboard is a device used for temporary or prototype electronics. Breadboard
     <img src="./ready_set_go_images/1_breadboard.png" width="auto" height="300" />
 </div>
 
-There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides of each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
+There are **three (3)** types of rails on the breadboard we are using. The **red line** marks the *positive* rail, the **blue line** marks the *negative* rail, and the **component rails** are each row of *five pin holes*. Your breadboard has two sides, each seperated by a gutter in the middle. Utilizing the different rails will be gone over for each I/O device later in the workshop.
 
 <div><h4>2. Jumper Wires</h4></div>
 
@@ -61,7 +65,7 @@ the opposite side is used to plug <ins>other devices into it</ins>.</i></div>
 
 Now you have heard a little bit about GPIO pins earlier in the semester. GPIO is short for "General Purpose Input/Output". An important thing to note right off the bat is that not all pins act the same. Some pins can provide a power *output* such as <ins>3v3 and 5v pins</ins>, others can receive and measure power *inputs* like <ins>"gnd" or ground pins</ins>. Over all though, a majority of the pins are used for reading inputs or providing outputs. 
 
-How can we tell the difference between the pins? The GPIO Zero Python Library provides a comand line tool that is installed by default on your Raspberry Pi, so users can have a better understanding of their Pi. Open the terminal and enter in the prompt, `pinout`. You will see the following:
+How can we tell the difference between the pins? The GPIO Zero Python Library provides a command line tool that is installed by default on your Raspberry Pi, so users can have a better understanding of their Pi. Open the terminal and enter in the prompt, `pinout`. You will see the following:
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/6_pinout.png" width="400" height="auto" />
@@ -79,7 +83,7 @@ Open VS Code on your Pi and in your *python-work* folder, create a folder named 
 
 <div align=center><h2>Tactile Button</h2></div>
 
-A tactile button can be used to give inputs to your Raspberry Pi by clicking the button while a program is running. This clasifies the tactile button as an **input** device. We will first code the button in Python, and then connect physically connect it to the Pi.
+A tactile button can be used to give inputs to your Raspberry Pi by clicking the button while a program is running. This clasifies the tactile button as an **input** device. We will first code the button in Python, and then physically connect it to the Pi.
 
 1. In button.py, we are first going to import the Button class fomr the "gpiozero" library and the pause function from the "signal" package. To do this, we will enter the following code at the top of button.py:<br>
 `from gpiozero import Button ` <br>
@@ -90,7 +94,7 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
 `button = Button(4)`
 > Specifying "4" is how Python knows which pin we will be using. 
 
-3. Next we are going to define 3 methods for our button: `buttonPressed()”, “buttonHeld()”, and “buttonReleased()”. When these methods are used, each will print a statement regarding the action described in their name. Use the following in your file:
+3. Next we are going to define 3 methods for our button: "buttonPressed()”, “buttonHeld()”, and “buttonReleased()”. When these methods are used, each will print a statement regarding the action described in their name. Use the following in your file:
 > Methods are simply functions that are specific to a certain class. The above methods would not be able to be used with any other class or data type.
 
         def buttonPressed():
@@ -100,7 +104,7 @@ A tactile button can be used to give inputs to your Raspberry Pi by clicking the
         def buttonReleased():
         	print(“Button was released”)
 
-4. The functions we have now defined will be used in conjunction with the three event **properties** of pressing, holding, and releasing the button. The Button class has: ".when_pressed", ".when_held", and ".when_released".The two properties that are  self explanatory and do not need much explaining are ".when_pressed" and ".when_released". On the other hand, ".when_held" can take in a specified time for the function to run. This is done by specifying “hold_time=[some_float]”, where some_float is a float data type, within the instantiation of our Button class.
+4. The functions we have now defined will be used in conjunction with the three event **properties** of pressing, holding, and releasing the button. The Button class has: ".when_pressed", ".when_held", and ".when_released". The two properties that are  self explanatory and do not need much explaining are ".when_pressed" and ".when_released". On the other hand, ".when_held" can take in a specified time for the function to run. This is done by specifying “hold_time=[some_float]”, where some_float is a float data type, within the instantiation of our Button class.
 
 `button = Button(4)` <br>
 Will now be:<br>
@@ -111,9 +115,9 @@ This will specify that for the buton_held function will wait 3 seconds before it
 
         button.when_pressed = buttonPressed
         button.when_held = buttonHeld
-        Button.when_released = buttonReleased`
+        Button.when_released = buttonReleased
 
-now when the tactile button is pressed, the method "buttonPressed" will run and print the statement, “Button was pressed”. If the button is helf for 3 seconds, then the "buttonHeld' method will run. WHat do you think will execute when this method is called? Lastly, when the tactile button is released, the "buttonReleased" method will be called.
+now when the tactile button is pressed, the method "buttonPressed" will run and print the statement, “Button was pressed”. If the button is held for 3 seconds, then the "buttonHeld' method will run. What do you think will execute when this method is called? Lastly, when the tactile button is released, the "buttonReleased" method will be called.
 
 6. Our complete file should now look like the following:
 
@@ -171,11 +175,20 @@ We will need the folling components for this section:
     <img src="./ready_set_go_images/10_tactile.jpg" width="auto" height="400" />
 </div><br>
 
-10. Lastly, connect a female-male jumper wirefrom the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
+10. Lastly, connect a female-male jumper wire from the Pi's **GPIO4** pin to the breadboard where the top-left leg is placed.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/11_complete_tac.jpg" width="auto" height="400" />
 </div><br>
+
+You can use the following color coordinated diagrams of the breadboard and Pi if there was any confusion during assembly.
+
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/A2.jpg" width="450" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/A1.jpg" width="450" height="auto" />
+</div>
 
 <div align=center><h3>Using the Tactile Button</h3></div>
 
@@ -241,7 +254,7 @@ We will need the following components for this section:
     <img src="./ready_set_go_images/16_led.jpg" width="650" height="auto" />
 </div><br>
 
-16. Connect the Ohm resister to the female end of a female-male jumper wire. This is so you have a little more wiggle room, but not necessarily mandatory for funcitonality.connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg).
+16. Connect the Ohm resister to the female end of a female-male jumper wire. Connect the male end of this wire to the female end of the jumper wire that is in row 6 on the negative column. Connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg). If you have trouble with this wording, feel free to refer to the last images in this section for reference.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/17_led.jpg" width="650" height="auto" />
@@ -252,6 +265,15 @@ We will need the following components for this section:
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/18_led.jpg" width="650" height="auto" />
 </div><br>
+
+Here is another color coordinated diagram of the breadboard and Pi:
+
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/B2.jpg" width="450" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/B1.jpg" width="450" height="auto" />
+</div>
 
 <div align=center><h3>Using the LED Light</h3></div>
 
@@ -275,6 +297,8 @@ The components you will need are:
 </div><br>
 
 > **During this section, use the `pinout` command for a visual when GPIO pins are referenced.**
+
+<div align=center><h4>Assembling Ready, Set, Go!</h4></div>
 
 18. Even though we will have 4 devices, we only need to use one (1) **GND** pin, so we will use *physical pin 6*. Connect the female-male wire from the **GND** pin to the *negative rail*. Again we will be using the *physical pin 6*.
 
@@ -306,6 +330,17 @@ The components you will need are:
     <img src="./ready_set_go_images/23_rsg.jpg" width="650" height="auto" />
 </div><br>
 
+Again, if there was any confusion, here is a color coordinated diagram to help see where each item should be placed.
+
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/C2.jpg" width="450" height="auto" />
+</div>
+<div class=mdImage align=center>
+    <img src="./ready_set_go_images/C1.jpg" width="450" height="auto" />
+</div><br>
+
+<div align=center><h4>Coding Ready, Set, Go!</h4></div>
+
 25. Create a file named "ready_set_go.py" in your *python-work* folder.
 
 26. At the top of the file, import the Button and LED class from the gpiozero library as well as the pause function from the signal module. There are a couple different ways to do so if you remember from lesson 10 on imports.
@@ -317,17 +352,17 @@ The components you will need are:
 
         import time
 
-28. Now let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
+28. Now, let's instantiate the Button class and store it in the variable "button", and we will be using the **GPIO4** pin. There's no need to set a hold time as it won't be necessary for this section.
 
         button = Button(4)
 
-29. Next we want to instantiate three different LED classes. One for red, yellow, and lastly green. Since we practice good coding skills, we are going to be descriptive in our variables:
+29. Next we want to instantiate three different LED classes. One for red, yellow, and green. Since we practice good coding skills, we are going to be descriptive in our variables:
 
         red_light = LED(14)
         yellow_light = LED(15)
         green_light = LED(18)
 
-30. Now we want to create a function that when called, will start the light sequence. Since we want to turn on each light and then off in a sequence, we need to use a method other than blink from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
+30. Now we want to create a function that, when called, will start the light sequence. Since we want to turn on each light and then turn it off in a sequence, we need to use a method other than "blink" from the LED class. The methods we will be using are the ".on()" and ".off()" methods. 
 
         def start_lights():
             red_light.on()
@@ -344,7 +379,7 @@ The components you will need are:
 
         pause()
 
-31. Lastly we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
+31. Lastly, we set the "start_lights()" function to be called when the tactile button is pressed using the ".when_pressed()" method we learned earlier.
 
         button.when_pressed = start_lights
 

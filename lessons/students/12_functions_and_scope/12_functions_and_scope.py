@@ -2,7 +2,7 @@
 Using functions and understanding scope
 """
 
-# TITLE: Section 1 - Printing Function Outputs
+# TITLE: Section 1 - Printing Function Outputs (7 minutes)
 # A function is a block of code that executes some task. Functions are defined using the format:
 # "def function_name(parameter_name):" The parameter name can be anything you want (just like
 # variables), so whatever you pass as an argument to the function when you "call" it will be
@@ -56,7 +56,7 @@ give_output()
 # TODO: Section 1 of TODO 10 (4 min for students, 1 min for demo)
 ###################################################################################################
 
-# TITLE: Section 2 - Calling Functions with Other Functions
+# TITLE: Section 2 - Calling Functions with Other Functions (10 minutes)
 # Functions are great because you can have them "return" a value. Generally, this will be whatever
 # you wanted the funciton to accomplish. These return values can then be used elsewhere in your file
 # inluding in other functions. Below we will show you how the "control" of a program will navigate
@@ -138,7 +138,7 @@ inquire_day()
 # TODO: Section 2.1 of TODO 10 (4 min for students, 1 min for demo)
 ####################################################################################################
 
-# TITLE: Section 3 - Working with Scope
+# TITLE: Section 3 - Working with Scope (5 minutes)
 # Below are examples of using variables & the timing of a function call to portray scope.
 # Here we call "s" after the function is called, which will return a NameError
 def func():

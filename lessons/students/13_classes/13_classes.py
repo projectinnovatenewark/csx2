@@ -85,16 +85,16 @@ class Cat:
     def add_activity(self, activity):    # This is a method defined within the scope of the
         self.activities.append(activity) # "Cat" class.
 
-felix = Cat('Felix') # The Cat class only takes one argument of name, so we instantiate the class
-                     # with "Felix".
-boots = Cat('Boots') # The Cat class only takes one argument of name, so we instantiate the class
-                     # with "Boots".
+felix = Cat('Felix')    # The Cat class only takes one argument of name, so we instantiate the class
+                        # with "Felix".
+boots = Cat('Boots')    # The Cat class only takes one argument of name, so we instantiate the class
+                        # with "Boots".
 
 # To call the method, we use dot notation in the format of "var.method(arg1, arg2)"
 felix.add_activity('hit yarn')      # Here we are appending the activity "hit yarn" to Felix's list
                                     # of activities.
-boots.add_activity('attack bird')   # Here we are appending the activity "attack bird" to Boots's list
-                                    # of activities.
+boots.add_activity('attack bird')   # Here we are appending the activity "attack bird" to Boots's
+                                    # list of activities.
 
 # We can print the activities just like any other attribute using dot notation.
 
