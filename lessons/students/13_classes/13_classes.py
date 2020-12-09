@@ -4,11 +4,28 @@ Understanding classes and scope within a class
 
 # TITLE: Section 1 - Classes Introduction (10 minutes)
 
-# Classes are like blueprints for creating objects in programming. Classes will have properties and
-# attributes that are privy only to objects instantiated in the given class. We will go over
-# instatiating an instance of a class in a bit, but first we will define a class named "Cat".
+# EVERYTHING IS AN OBJECT! That's one of the reasons Python is
+# an "object-oriented" programming language.
 
-# TIP:
+# Objects have methods associated with them and properties as well.
+
+# This variable is an object. As you can see in the output of "<class 'str'>",
+# it is an instance of the class "string".
+random_string = "string"
+print(type(random_string))
+
+# String methods that we've previously reviewed are a part of the class "string"
+# For example, .upper and .lower are functions that are unique to the class of string,
+# which means that they are a "method" of the string class.
+print(random_string.upper())
+print(random_string.lower())
+
+# Classes are like blueprints for creating objects in programming. Classes will have "properties",
+# "attributes", and "methods" that are specific to objects that are instances of that given class.
+# We will go over instatiating an instance of a class in a bit, but first we will define a
+# class named "Cat".
+
+# TIP: Naming Classes
 # Classes are defined with the first letter as a capital and the rest of the name using camel case,
 # whereas snake case is generally used to define variables and functions.
 # This is "camelCase"
@@ -22,12 +39,12 @@ class Cat: # Here we are defining the class "Cat"
     # All classes have an "__init__" function.  __init__ is a special Python function that is
     # called automatically on an object creation statement. The computer science term for it is
     # constructor, as its job is to build an object of the type specified by the class.
-    
+
     def __init__(self, name): # The __init__ funciton takes at least 2 parameters; self and 1 or
         self.name = name      # more attributes. The param, "self", refers to itself as an
                               # instantiated object. The param, "name", is an attribute of the "Cat"
-                              # class. You assign attributes using "self.var_name = var_name" iwthin
-                              #   the scope of the "__init__" function.
+                              # class. You assign attributes using "self.var_name = var_name" within
+                              # the scope of the "__init__" function.
 
 # Now we want to instantiate an instance of Cat. To do so, we need to assign each of the attributes
 # (other than "self") defined in the "__init__" function above. The instantiation can then be stored
@@ -45,7 +62,7 @@ print(f"boots.kind: {boots.kind}") # shared by all Cats
 print(f"felix.name: {felix.name}") # unique to felix
 print(f"boots.name: {boots.name}") # unique to boots
 
-# TODO Section 1 of TODO 13 (7 minutes for students, 5 minute demo)
+# # TODO Section 1 of TODO 13 (7 minutes for students, 5 minute demo)
 
 ####################################################################################################
 
@@ -60,20 +77,20 @@ class Cat:
 
     def __init__(self, name):
         self.name = name
-        self.activities = []    # This creates a new empty list for each instance of Cat, but will
-                                # not be used to instantiate the class. It doesn't need to be added
-                                # as an argument during instantiation because it is not a parameter
-                                # in the definition of the "__init__" function.
+        self.activities = [] # This creates a new empty list for each Cat, but will not be used
+                             # to instantiate the class. It doesn't need to be added as an argument
+                             # during instantiation because it is not a parameter in the "__init__"
+                             # function.
 
-    def add_activity(self, activity):       # This is a method defined within the scope of the
-        self.activities.append(activity)    # "Cat" class.
+    def add_activity(self, activity):    # This is a method defined within the scope of the
+        self.activities.append(activity) # "Cat" class.
 
 felix = Cat('Felix')    # The Cat class only takes one argument of name, so we instantiate the class
                         # with "Felix".
 boots = Cat('Boots')    # The Cat class only takes one argument of name, so we instantiate the class
                         # with "Boots".
 
-# To call the method, we use dot notation in the format of ("var.method(arg1, arg2")
+# To call the method, we use dot notation in the format of "var.method(arg1, arg2)"
 felix.add_activity('hit yarn')      # Here we are appending the activity "hit yarn" to Felix's list
                                     # of activities.
 boots.add_activity('attack bird')   # Here we are appending the activity "attack bird" to Boots's

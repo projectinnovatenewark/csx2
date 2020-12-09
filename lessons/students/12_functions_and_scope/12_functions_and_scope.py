@@ -17,11 +17,11 @@ print("This is not a part of the function") # Since this line is not indented wi
                                             # it is outside the scope of the function and the
                                             # function definition has therefore ended
 
-    print("This is not in the scope of 'add_ten()'") # FIXME: This will not be in the scope of
-                                                    # FIXME: add_ten() because the function ended
-                                                    # FIXME: in line 14. Comment out to continue.
+    # print("This is not in the scope of 'add_ten()'") # FIXME: This will not be in the scope of
+                                                       # FIXME: add_ten() because the function ended
+                                                       # FIXME: in line 14. Comment out to continue.
 
-# Now that we are at the leftmost part of the page, we have exited the scope of the function above.
+# Now that we are at the leftmost indentation, we have exited the scope of the function above.
 # This function should now take the argument passed, which is 3, and add ten to it. It will then
 # return that value. What you see below is called "calling a function", which basically runs the
 # function with the given input.
@@ -35,7 +35,7 @@ add_ten(3) # "3" is the argument we pass, which will be assigned to the paramete
 # 2) we can print the function call itself!
 
 # To do it the first way, you would just replace "return new_num" with "print(new_num)" within the
-# function definition. Line 13 would then look like the following: "return print(new_num)".
+# function definition. Line 13 would then look like the following: "print(new_num)".
 # TODO: Teacher - show the class how to do this.
 
 # Or to use option 2, you can print the function call like the following. 
@@ -54,7 +54,7 @@ print("Calling our give_output function: ")
 give_output()
 
 # TODO: Section 1 of TODO 10 (4 min for students, 1 min for demo)
-####################################################################################################
+###################################################################################################
 
 # TITLE: Section 2 - Calling Functions with Other Functions (10 minutes)
 # Functions are great because you can have them "return" a value. Generally, this will be whatever
@@ -72,7 +72,7 @@ print(f"We called 'add_two' and set it's return value equal to a variable. That 
 
 def add_five(k):
     return k + 5 # Control 6: "k", which is equal to the arugment of 11 that was passed, has 5
-                 # added to it and that valur of 16 is returned.
+                 # added to it and that value of 16 is returned.
 
 def adding_Chain(i):
     curr_num = add_two(i) # Control 2: add_two function is called and passed "i", which is equal to 9
