@@ -1,67 +1,70 @@
-# """
-# Understanding classes and scope within a class
-# """
+"""
+Understanding classes and scope within a class
+"""
 
-# # TITLE: Section 1 - Classes Introduction (10 minutes)
+# TITLE: Section 1 - Classes Introduction (10 minutes)
 
-# # EVERYTHING IS AN OBJECT!
+# EVERYTHING IS AN OBJECT! That's one of the reasons Python is
+# an "object-oriented" programming language.
 
-# # Objects have methods associated with them and properties as well.
+# Objects have methods associated with them and properties as well.
 
-# # This is an object
-# variable_name = "string"
-# print(type(variable_name))
+# This variable is an object. As you can see in the output of "<class 'str'>",
+# it is an instance of the class "string".
+random_string = "string"
+print(type(random_string))
 
-# # String methods that we've previously reviewed are a part of the class "string"
-# # For example, .upper and .lower are functions that are unique to the class of string, which
-# # means that they are a "method".
-# print(variable_name.upper())
-# print(variable_name.lower())
+# String methods that we've previously reviewed are a part of the class "string"
+# For example, .upper and .lower are functions that are unique to the class of string,
+# which means that they are a "method" of the string class.
+print(random_string.upper())
+print(random_string.lower())
 
-# # Classes are like blueprints for creating objects in programming. Classes will have properties and
-# # attributes that are privy only to objects instantiated in the given class. We will go over
-# # instatiating an instance of a class in a bit, but first we will define a class named "Cat".
+# Classes are like blueprints for creating objects in programming. Classes will have "properties",
+# "attributes", and "methods" that are specific to objects that are instances of that given class.
+# We will go over instatiating an instance of a class in a bit, but first we will define a
+# class named "Cat".
 
-# # TIP:
-# # Classes are defined with the first letter as a capital and the rest of the name using camel case,
-# # whereas snake case is generally used to define variables and functions.
-# # This is "camelCase"
-# # This is "snake_case"
-# # This is a "CamelCaseClass"
+# TIP: Naming Classes
+# Classes are defined with the first letter as a capital and the rest of the name using camel case,
+# whereas snake case is generally used to define variables and functions.
+# This is "camelCase"
+# This is "snake_case"
+# This is a "CamelCaseClass"
 
-# class Cat: # Here we are defining the class "Cat"
+class Cat: # Here we are defining the class "Cat"
 
-#     kind = 'feline' # This is a "property". Properties are shared by all instances of a class.
+    kind = 'feline' # This is a "property". Properties are shared by all instances of a class.
 
-#     # All classes have an "__init__" function.  __init__ is a special Python function that is
-#     # called automatically on an object creation statement. The computer science term for it is
-#     # constructor, as its job is to build an object of the type specified by the class.
+    # All classes have an "__init__" function.  __init__ is a special Python function that is
+    # called automatically on an object creation statement. The computer science term for it is
+    # constructor, as its job is to build an object of the type specified by the class.
 
-#     def __init__(self, name): # The __init__ funciton takes at least 2 parameters; self and 1 or
-#         self.name = name      # more attributes. The param, "self", refers to itself as an
-#                               # instantiated object. The param, "name", is an attribute of the "Cat"
-#                               # class. You assign attributes using "self.var_name = var_name" within
-#                               # the scope of the "__init__" function.
+    def __init__(self, name): # The __init__ funciton takes at least 2 parameters; self and 1 or
+        self.name = name      # more attributes. The param, "self", refers to itself as an
+                              # instantiated object. The param, "name", is an attribute of the "Cat"
+                              # class. You assign attributes using "self.var_name = var_name" within
+                              # the scope of the "__init__" function.
 
-# # Now we want to instantiate an instance of Cat. To do so, we need to assign each of the attributes
-# # (other than "self") defined in the "__init__" function above. The instantiation can then be stored
-# # in a variable in the format "var = ClassName("arg1, arg2")
-# felix = Cat('Felix') # The Cat class only takes one argument of name, so we instantiate the class
-#                      # with "Felix".
-# boots = Cat('Boots') # The Cat class only takes one argument of name, so we instantiate the class
-#                      # with "Boots".
+# Now we want to instantiate an instance of Cat. To do so, we need to assign each of the attributes
+# (other than "self") defined in the "__init__" function above. The instantiation can then be stored
+# in a variable in the format "var = ClassName("arg1, arg2")
+felix = Cat('Felix') # The Cat class only takes one argument of name, so we instantiate the class
+                     # with "Felix".
+boots = Cat('Boots') # The Cat class only takes one argument of name, so we instantiate the class
+                     # with "Boots".
 
-# # Since kind is a property and therefore declared for all cats, the kind will be shared by both
-# # Felix and Boots. You can use dot notation with the variable names used to store the class
-# # instantiations to read  a classes of attributes.
-# print(f"felix.kind: {felix.kind}") # shared by all Cats
-# print(f"boots.kind: {boots.kind}") # shared by all Cats
-# print(f"felix.name: {felix.name}") # unique to felix
-# print(f"boots.name: {boots.name}") # unique to boots
+# Since kind is a property and therefore declared for all cats, the kind will be shared by both
+# Felix and Boots. You can use dot notation with the variable names used to store the class
+# instantiations to read  a classes of attributes.
+print(f"felix.kind: {felix.kind}") # shared by all Cats
+print(f"boots.kind: {boots.kind}") # shared by all Cats
+print(f"felix.name: {felix.name}") # unique to felix
+print(f"boots.name: {boots.name}") # unique to boots
 
-# # # TODO Section 1 of TODO 13 (7 minutes for students, 5 minute demo)
+# # TODO Section 1 of TODO 13 (7 minutes for students, 5 minute demo)
 
-# ####################################################################################################
+####################################################################################################
 
 # TITLE: Section 2 - Methods for Classes(5 minutes)
 
