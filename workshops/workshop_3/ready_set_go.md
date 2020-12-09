@@ -175,7 +175,7 @@ We will need the folling components for this section:
     <img src="./ready_set_go_images/10_tactile.jpg" width="auto" height="400" />
 </div><br>
 
-10. Lastly, connect a female-male jumper wire from the Pi's **GPIO4** pin to he breadboard where the top-left leg is placed.
+10. Lastly, connect a female-male jumper wire from the Pi's **GPIO4** pin to the breadboard where the top-left leg is placed.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/11_complete_tac.jpg" width="auto" height="400" />
