@@ -77,11 +77,6 @@ Lastly, we are going to connect the motion sensor. This does not go directly on 
 
 <div class=mdImage align=center>
     <img src="./motion_images/10_motion.jpg" width="auto" height="300" />
-</div>
-<div class=mdImage align=center>
-    <img src="./motion_images/11_motion.jpg" width="auto" height="300" />
-</div>
-<div class=mdImage align=center>
     <img src="./motion_images/12_motion.jpg" width="auto" height="300" />
 </div>
 
