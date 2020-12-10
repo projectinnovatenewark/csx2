@@ -47,7 +47,7 @@ In this section, we will be putting together the physical components of the FamC
 </div>
 
 3. Next, place the buzzer on the breadboard to the left of the LED with the positive leg on the right. Use a female-male jumper wire to connect **GPIO4** to the positive leg of the buzzer and a male-male jumper wire to connect from the negative rail to the negative leg of the buzzer.
-> The positive leg is the leg that has a "+" over. It is a little tough to see so look closely.
+> The positive leg is the leg that has a "+" on top of the buzzer. It is a little tough to see so look closely.
 
 <div class=mdImage align=center>
     <img src="./motion_images/7_motion.jpg" width="auto" height="300" />
@@ -55,15 +55,27 @@ In this section, we will be putting together the physical components of the FamC
 
 Lastly, we are going to connect the motion sensor. This does not go directly on the board like the other peripheral devices. As pictured below with the motion sensor pins on the bottom, the left most pin is the **VCC** pin which is used for voltage, the middle pin is an **OUT** pin to communicate with the Pi, and the right-most pin is the **GND** pin.
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/8_motion.jpg" width="auto" height="300" />
+</div>
 
-4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from the positive rail of the breadboard with a row directly accross from it (see image below). The connect a female-male wire from **GPIO18** to the left of the row to the previous wire. Lastly, use a male-male wire to connect the negative rail of the breadoard to the left of the most previous wire. 
+4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from the positive rail of the breadboard with a row directly accross from it (see image below). Then connect a female-male wire from **GPIO18** to the left of the row to the previous wire. Lastly, use a male-male wire to connect the negative rail of the breadoard to the left of the most previous wire. 
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/9_motion.jpg" width="auto" height="300" />
+</div>
 
 5. Use a female-male wire to connect the **VCC** pin on the motion sensor to the row that is connected to the breadboard's positive rail. Use a female-male wire to connect the **OUT** pin on the motion sensor to the row that is connected to **GPIO18**. Use a female-male wire to connect the **GN** pin on the motion sensor to the row that is connected to the breadboard's negative rail.
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/10_motion.jpg" width="auto" height="300" />
+</div>
+<div class=mdImage align=center>
+    <img src="./motion_images/11_motion.jpg" width="auto" height="300" />
+</div>
+<div class=mdImage align=center>
+    <img src="./motion_images/12_motion.jpg" width="auto" height="300" />
+</div>
 
 <div align=center><h2>Coding the FamCam</h2></div>
 
