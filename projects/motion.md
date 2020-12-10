@@ -36,21 +36,21 @@ In this section, we will be putting together the physical components of the FamC
 1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to the positive rail of the breadboard and the male end of the **GND** wire to the negative rail of the breadboard. 
 
 <div class=mdImage align=center>
-    <img src="./motion_images/4_motion.png" width="auto" height="300" />
+    <img src="./motion_images/4_motion.jpg" width="auto" height="300" />
 </div>
 
 2. Place an LED on the breadboard, with the positive leg on the right, just as in the picture below. Then Connect a female-male wire from **GPIO14** to the same row as the positive leg (the longer one). Then use a female-male jumper wire to connect the negative rail of the breadboard and the LED's negative leg as shown below.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/5_motion.png" width="auto" height="300" />
-    <img src="./motion_images/6_motion.png" width="auto" height="300" />
+    <img src="./motion_images/5_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/6_motion.jpg" width="auto" height="300" />
 </div>
 
 3. Next, place the buzzer on the breadboard to the left of the LED with the positive leg on the right. Use a female-male jumper wire to connect **GPIO4** to the positive leg of the buzzer and a male-male jumper wire to connect from the negative rail to the negative leg of the buzzer.
 > The positive leg is the leg that has a "+" over. It is a little tough to see so look closely.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/7_motion.png" width="auto" height="300" />
+    <img src="./motion_images/7_motion.jpg" width="auto" height="300" />
 </div>
 
 Lastly, we are going to connect the motion sensor. This does not go directly on the board like the other peripheral devices. As pictured below with the motion sensor pins on the bottom, the left most pin is the **VCC** pin which is used for voltage, the middle pin is an **OUT** pin to communicate with the Pi, and the right-most pin is the **GND** pin.
