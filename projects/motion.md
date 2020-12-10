@@ -40,6 +40,8 @@ We will be using specific coordinates on the breadboard to aid in placing jumper
     <img src="./motion_images/1_breadboard.png" width="auto" height="300" />
 </div>
 
+Although the general area on the breadboard used is not necessarily important, the grouping in how each component is wired is key to the components funcitoning correctly. Do not confuse this concept with the pins on the Pi though. The difference between **3V3**, **5V**, **GND**, and **GPIO#** pins differ greatly in their purpose and funcionality.
+
 1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to **Positive Rail 3** of the breadboard and the male end of the **GND** wire to **negative Rail 3** of the breadboard. 
 
 <div class=mdImage align=center>
