@@ -70,14 +70,14 @@ Lastly, we are going to connect the motion sensor. This does not go directly on 
 4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from **positive rail 48** of the breadboard to **C48**. Then connect a female-male wire from **GPIO18** to **C49**. Lastly, use a male-male wire to connect **negative rail 47** of the breadoard to **C47**. 
 
 <div class=mdImage align=center>
-    <img src="./motion_images/9_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/9_motion.jpg" width="auto" height="400" />
 </div>
 
 5. Use a female-male wire to connect the **VCC** pin on the motion sensor to **E48**. Use a female-male wire to connect the **OUT** pin on the motion sensor to **E49**. Use a female-male wire to connect the **GND** pin on the motion sensor to **E47**.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/10_motion.jpg" width="auto" height="300" />
-    <img src="./motion_images/12_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/10_motion.jpg" width="auto" height="400" />
+    <img src="./motion_images/12_motion.jpg" width="auto" height="400" />
 </div>
 
 <div align=center><h2>Coding the FamCam</h2></div>
@@ -109,15 +109,15 @@ In this section, we will be creating the program that runs the FamCam. Although 
     - The first function we create will be `start_motion()`. This will be called when the motion sensor goes off. In this function, we will call the LED light to blink every 0.5 seconds, turn on the buzzer to beep every 0.5 seconds, and print the time the motion sensor is triggered as an output to the terminal.
     - Second, we need a function `end_motion()` that will stop the led light and buzzer from going off. Creating this function will eliminate the need to constantly restart your program and instead continue running.
 
-        def start_motion():
-            led.blink(0.5, 0.5)
-            buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
-            print(f"Motion detected at {detection}")
+                        def start_motion():
+                        led.blink(0.5, 0.5)
+                        buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
+                        print(f"Motion detected at {detection}")
 
-        def end_motion():
-            if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
-                led.off() # Method to turn off the LED light
-                buzzer.off() # Method to turn off the buzzer
+                        def end_motion():
+                        if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
+                                led.off() # Method to turn off the LED light
+                                buzzer.off() # Method to turn off the buzzer
 
 6. Lastly for this file, we want to print to the terminal when we are starting up the motion sensor and when the sensor is ready. Of course we will also need to store the custom functions as the respective motion sensor methods.
 
