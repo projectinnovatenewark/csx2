@@ -254,7 +254,7 @@ We will need the following components for this section:
     <img src="./ready_set_go_images/16_led.jpg" width="650" height="auto" />
 </div><br>
 
-16. Connect the Ohm resister to the female end of a female-male jumper wire. Connect the male end of this wire to the female end of the jumper wire that is in row 6 on the negative column. Connect the jumper wire end to the negative rail next to the **GND** wire and the Ohm resistor end in the same row as the **negative leg** (the right leg). If you have trouble with this wording, feel free to refer to the last images in this section for reference.
+16. Connect the Ohm resister to the female end of a female-male jumper wire. Then connect the Ohm resistor end to a pin hole in the same row as the **negative leg** (the right leg) of the LED light and the jumper wire end to the negative rail next to the **GND** wire. If you have trouble with this wording, feel free to refer to the last images in this section for reference.
 
 <div class=mdImage align=center>
     <img src="./ready_set_go_images/17_led.jpg" width="650" height="auto" />

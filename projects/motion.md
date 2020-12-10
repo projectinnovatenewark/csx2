@@ -23,7 +23,7 @@ Before getting started, each student should set up a new gmail account to use fo
 <kbd>
     <img src="./motion_images/3_gmail.png" width="auto" height="300" />
 </kbd>
-</div>
+</div><br>
 
 > In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>.
 
