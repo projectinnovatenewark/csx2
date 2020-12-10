@@ -30,42 +30,50 @@ Before getting started, each student should set up a new gmail account to use fo
 In this section, we will be putting together the physical components of the FamCam. Use `pinout` on the Pi or use the image below as a reference.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/1_pinout.png" width="auto" height="300" />
+    <img src="./motion_images/1_pinout.png" width="auto" height="400" />
 </div>
 
-1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to the positive rail of the breadboard and the male end of the **GND** wire to the negative rail of the breadboard. 
+
+We will be using specific coordinates on the breadboard to aid in placing jumper wires and peripheral devices. In the image below, there is a red dot, a blue dot, a green dot and a black dot on the breadboard. The red dot is at pinhole **A5**, he blue dot is at **C12**, the green dot is at **negative Rail 10**, and lastly the black dot is on **posititve Rail 3**. This is how each type of pin hole will be referred to throughout the project.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/4_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/1_breadboard.png" width="auto" height="400" />
 </div>
 
-2. Place an LED on the breadboard, with the positive leg on the right, just as in the picture below. Then Connect a female-male wire from **GPIO14** to the same row as the positive leg (the longer one). Then use a female-male jumper wire to connect the negative rail of the breadboard and the LED's negative leg as shown below.
+1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to **Positive Rail 3** of the breadboard and the male end of the **GND** wire to **Negative Rail 3** of the breadboard. 
 
 <div class=mdImage align=center>
-    <img src="./motion_images/5_motion.jpg" width="auto" height="300" />
-    <img src="./motion_images/6_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/4_motion.jpg" width="auto" height="350" />
 </div>
 
-3. Next, place the buzzer on the breadboard to the left of the LED with the positive leg on the right. Use a female-male jumper wire to connect **GPIO4** to the positive leg of the buzzer and a male-male jumper wire to connect from the negative rail to the negative leg of the buzzer.
+2. Place an LED on the breadboard, with the positive leg (the longer leg) in **E10**, and the negative leg in **E11**. Then Connect a female-male wire from **GPIO14** to **A10**. Next, connect an Ohm Resistor to the female end of a female-male jumper wire. Connect the Ohm resistor side to **C11** and the male end of the wire to **negative rail 11**.
+
+<div class=mdImage align=center>
+    <img src="./motion_images/5_motion.jpg" width="auto" height="350" />
+    <img src="./motion_images/6_motion.jpg" width="auto" height="350" />
+</div>
+
+3. Next, place the buzzer on the breadboard with the positive leg at **E22** and the negative leg at **E25**. Use a female-male jumper wire to connect **GPIO4** to **B22** and a male-male jumper wire to connect from **negative rail 25** to **B25**.
 > The positive leg is the leg that has a "+" on top of the buzzer. It is a little tough to see so look closely.
 
 <div class=mdImage align=center>
     <img src="./motion_images/7_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/8_motion.jpg" width="auto" height="300" />
 </div>
 
 Lastly, we are going to connect the motion sensor. This does not go directly on the board like the other peripheral devices. As pictured below with the motion sensor pins on the bottom, the left most pin is the **VCC** pin which is used for voltage, the middle pin is an **OUT** pin to communicate with the Pi, and the right-most pin is the **GND** pin.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/8_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/13_motion.jpg" width="auto" height="300" />
 </div>
 
-4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from the positive rail of the breadboard with a row directly accross from it (see image below). Then connect a female-male wire from **GPIO18** to the left of the row to the previous wire. Lastly, use a male-male wire to connect the negative rail of the breadoard to the left of the most previous wire. 
+4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from **positive rail 48** of the breadboard to **C48**. Then connect a female-male wire from **GPIO18** to **C49**. Lastly, use a male-male wire to connect **negative rail 47** of the breadoard to **C47**. 
 
 <div class=mdImage align=center>
     <img src="./motion_images/9_motion.jpg" width="auto" height="300" />
 </div>
 
-5. Use a female-male wire to connect the **VCC** pin on the motion sensor to the row that is connected to the breadboard's positive rail. Use a female-male wire to connect the **OUT** pin on the motion sensor to the row that is connected to **GPIO18**. Use a female-male wire to connect the **GN** pin on the motion sensor to the row that is connected to the breadboard's negative rail.
+5. Use a female-male wire to connect the **VCC** pin on the motion sensor to **E48**. Use a female-male wire to connect the **OUT** pin on the motion sensor to **E49**. Use a female-male wire to connect the **GND** pin on the motion sensor to **E47**.
 
 <div class=mdImage align=center>
     <img src="./motion_images/10_motion.jpg" width="auto" height="300" />
