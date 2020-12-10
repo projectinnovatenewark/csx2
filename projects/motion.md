@@ -37,7 +37,7 @@ In this section, we will be putting together the physical components of the FamC
 We will be using specific coordinates on the breadboard to aid in placing jumper wires and peripheral devices. In the image below, there is a red dot, a blue dot, a green dot and a black dot on the breadboard. The red dot is at pinhole **A5**, he blue dot is at **C12**, the green dot is at **negative Rail 10**, and lastly the black dot is on **posititve Rail 3**. This is how each type of pin hole will be referred to throughout the project.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/1_breadboard.png" width="auto" height="400" />
+    <img src="./motion_images/1_breadboard.png" width="auto" height="300" />
 </div>
 
 1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to **Positive Rail 3** of the breadboard and the male end of the **GND** wire to **Negative Rail 3** of the breadboard. 
