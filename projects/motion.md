@@ -1,4 +1,4 @@
-<div align=center><h1>The Fam Cam Motion Detection Device</h1></div>
+<div align=center><h1>The FamCam Motion Detection Device</h1></div>
 
 In this workshop, the student will learn:
 - How to wire and use more peripheral devices
@@ -14,12 +14,21 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 - 
 
 <!-- FIXME: Create gmail -->
+Before getting started, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
 
-<div align=center><h2>Configuring the Fam Cam</h2></div>
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/2_gmail.png" width="auto" height="300" />
+</kbd>
+</div>
 
-In this section, we will be putting together the physical components of the Fam Cam. Use `pinout` on the Pi or use the image below as a reference.
+<div align=center><h2>Configuring the FamCam</h2></div>
 
-<!-- FIXME: Insert Image -->
+In this section, we will be putting together the physical components of the FamCam. Use `pinout` on the Pi or use the image below as a reference.
+
+<div class=mdImage align=center>
+    <img src="./motion_images/1_pinout.png" width="auto" height="300" />
+</div>
 
 1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such wwould work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. COnnect the male end of the **5V** wire to the positive rail of the breadboard and the male end of the **GND** wire to the negative rail of the breadboard. 
 
@@ -46,9 +55,9 @@ Lastly, we are going to connect the motion sensor. This does not go directly on 
 
 <!-- FIXME: Insert Image -->
 
-<div align=center><h2>Coding the Fam Cam</h2></div>
+<div align=center><h2>Coding the FamCam</h2></div>
 
-In this section, we will be creating the program that runs the Fam Cam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar as it is a similar process as the peripherals in workshop 3.
+In this section, we will be creating the program that runs the FamCam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar as it is a similar process as the peripherals in workshop 3.
 
 1. In your *python-work* folder, create a new folder called *project-1*. In *project-1*, create a file named "fam_cam.py".
 
@@ -131,7 +140,7 @@ We now have a working file. Test it out by executing the file and waving in fron
 
 <div align=center><h2>SMS Alert System</h2></div>
 
-In this section, we will code out the Fam Cam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier specific gateway. If you wanted to send a text to a Verizon number it would like: “1234567890@vtext.com”. We can then utilize the “MIME” module to structure our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
+In this section, we will code out the FamCam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier specific gateway. If you wanted to send a text to a Verizon number it would like: “1234567890@vtext.com”. We can then utilize the “MIME” module to structure our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
 > Don't forget to go allow third party app access or else the message won't send!
 
 **Note:** Text messaging rates might apply, so keep that in mind. If that is an issue, let your teacher know.
@@ -180,7 +189,7 @@ The "texter()" function now looks like the below:
 
             server.login(email,password)
 
-6. It's time to create the message. First we store the "MIMEMultipart()" function in the variable "msg". We then define the 'From' and 'To' which will be the new email created and the sms gateway variable we defined earlier reapectively. We can set the 'Subject' as well to be "Fam Cam Alert".
+6. It's time to create the message. First we store the "MIMEMultipart()" function in the variable "msg". We then define the 'From' and 'To' which will be the new email created and the sms gateway variable we defined earlier reapectively. We can set the 'Subject' as well to be "FamCam Alert".
 
 After doing so, we will store the body of our message in a variable called "body". We will want to pass the timestamp from earlier into the body of the message as well. We can do this by setting a parameter in the "texter()" function and using f shorthand to pass it to the body. The "texter()" function will now look like the below:
 
@@ -204,7 +213,7 @@ After doing so, we will store the body of our message in a variable called "body
             msg['From'] = email
             msg['To'] = sms_gateway
 
-            msg['Subject'] = "Fam Cam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
+            msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timaestamp}!\n"
 
 7. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to assure the message is read as a string. This will be stored in the variable "sms". Then we send the text and quit out of the server. The complete function now looks like the below:
@@ -229,7 +238,7 @@ After doing so, we will store the body of our message in a variable called "body
             msg['From'] = email
             msg['To'] = sms_gateway
 
-            msg['Subject'] = "Fam Cam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
+            msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timaestamp}!\n"
 
             msg.attach(MIMEText(body, 'plain'))
