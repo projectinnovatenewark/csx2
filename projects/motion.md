@@ -11,9 +11,7 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 - 1 LED Light
 - 1 330 Ohm Resistor
 - 1 Buzzer
-- 
 
-<!-- FIXME: Create gmail -->
 Before getting started, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
 
 <div class=mdImage align=center>
@@ -35,18 +33,25 @@ In this section, we will be putting together the physical components of the FamC
     <img src="./motion_images/1_pinout.png" width="auto" height="300" />
 </div>
 
-1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such wwould work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. COnnect the male end of the **5V** wire to the positive rail of the breadboard and the male end of the **GND** wire to the negative rail of the breadboard. 
+1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to the positive rail of the breadboard and the male end of the **GND** wire to the negative rail of the breadboard. 
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/4_motion.png" width="auto" height="300" />
+</div>
 
-2. Place an LED on the breadboard, with the positive leg on the right, just as in the picture below. Then Connect a female-male wire from **GPIO14** to the same row as the positive leg (the longer one). Then use a female-male ujmper wire to connect the negative rail of the breadboard and the LED's negative leg as shown below.
+2. Place an LED on the breadboard, with the positive leg on the right, just as in the picture below. Then Connect a female-male wire from **GPIO14** to the same row as the positive leg (the longer one). Then use a female-male jumper wire to connect the negative rail of the breadboard and the LED's negative leg as shown below.
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/5_motion.png" width="auto" height="300" />
+    <img src="./motion_images/6_motion.png" width="auto" height="300" />
+</div>
 
 3. Next, place the buzzer on the breadboard to the left of the LED with the positive leg on the right. Use a female-male jumper wire to connect **GPIO4** to the positive leg of the buzzer and a male-male jumper wire to connect from the negative rail to the negative leg of the buzzer.
 > The positive leg is the leg that has a "+" over. It is a little tough to see so look closely.
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/7_motion.png" width="auto" height="300" />
+</div>
 
 Lastly, we are going to connect the motion sensor. This does not go directly on the board like the other peripheral devices. As pictured below with the motion sensor pins on the bottom, the left most pin is the **VCC** pin which is used for voltage, the middle pin is an **OUT** pin to communicate with the Pi, and the right-most pin is the **GND** pin.
 
