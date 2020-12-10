@@ -16,10 +16,10 @@ Before getting started, each student should set up a new gmail account to use fo
 
 <div class=mdImage align=center>
 <kbd>
-    <img src="./motion_images/2_gmail.png" width="auto" height="300" />
+    <img src="./motion_images/2_gmail.png" width="auto" height="400" />
 </kbd>
 <kbd>
-    <img src="./motion_images/3_gmail.png" width="auto" height="300" />
+    <img src="./motion_images/3_gmail.png" width="auto" height="400" />
 </kbd>
 </div><br>
 
