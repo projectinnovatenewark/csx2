@@ -92,6 +92,32 @@ Before getting started coding, each student should set up a new gmail account to
 
 > In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>.
 
+To set up third party access, <a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1">click here</a>.
+
+On the main account page click "Security on the left side of the screen.
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/15_security.png" width="auto" height="600" />
+</kbd>
+</div>
+
+Then click "Turn on access (not recommended). This is what allows our email server to communicate with Gmail. Even though Google does not recommend it, we are using TLS (Transport Layer Security). TLS is the standard for encrypting data and is the descendant of SSL (Secure Sockets Layer).
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/16_less_secure.png" width="auto" height="600" />
+</kbd>
+</div>
+
+Then click to allow access.
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/17_secure.png" width="auto" height="600" />
+</kbd>
+</div>
+
 <div align=center><h2>Coding the FamCam</h2></div>
 
 In this section, we will be creating the program that runs the FamCam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar as it is a similar process as the peripherals in workshop 3.
