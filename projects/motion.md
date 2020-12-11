@@ -1,54 +1,135 @@
-<div align=center><h1>The Fam Cam Motion Detection Device</h1></div>
+<div align=center><h1>The FamCam Motion Detection Device</h1></div>
 
 In this workshop, the student will learn:
-- How to wire and use more peripheral devices
-- How to use functions aacross multiple files to build a project
-- How to use the Python SMTP Library to send text message notifications
+- How to wire and use more peripheral devices.
+- How to use functions across multiple files to build a project.
+- How to use the Python SMTP Library to send text message notifications.
 
 Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
-- 5 Female-Male jumper wires
-- 1 Male-Male jumper wires
+- 9 Female-Male jumper wires
+- 3 Male-Male jumper wires
 - 1 LED Light
 - 1 330 Ohm Resistor
 - 1 Buzzer
-- 
 
-<!-- FIXME: Create gmail -->
+<div class=mdImage align=center>
+    <img src="./motion_images/14_motion.jpg" width="auto" height="400" />
+</div>
 
-<div align=center><h2>Configuring the Fam Cam</h2></div>
+<div align=center><h3>Tips for the Project</h3></div>
 
-In this section, we will be putting together the physical components of the Fam Cam. Use `pinout` on the Pi or use the image below as a reference.
+Use `pinout` on the Pi or use the image below as a reference.
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/1_pinout.png" width="auto" height="600" />
+</div>
 
-1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such wwould work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. COnnect the male end of the **5V** wire to the positive rail of the breadboard and the male end of the **GND** wire to the negative rail of the breadboard. 
 
-<!-- FIXME: Insert Image -->
+We will be using specific coordinates on the breadboard to aid in placing jumper wires and peripheral devices. In the image below, there is a red dot, a blue dot, a green dot and a black dot on the breadboard. The red dot is at pinhole **A5**, he blue dot is at **C12**, the green dot is at **negative Rail 10**, and lastly the black dot is on **posititve Rail 3**. This is how each type of pin hole will be referred to throughout the project.
 
-2. Place an LED on the breadboard, with the positive leg on the right, just as in the picture below. Then Connect a female-male wire from **GPIO14** to the same row as the positive leg (the longer one). Then use a female-male ujmper wire to connect the negative rail of the breadboard and the LED's negative leg as shown below.
+<div class=mdImage align=center>
+    <img src="./motion_images/1_breadboard.png" width="auto" height="300" />
+</div>
 
-<!-- FIXME: Insert Image -->
+Although the general area on the breadboard used is not necessarily important, the grouping in how each component is wired is key to the components funcitoning correctly. Do not confuse this concept with the pins on the Pi though. The difference between **3V3**, **5V**, **GND**, and **GPIO#** pins differ greatly in their purpose and funcionality.
 
-3. Next, place the buzzer on the breadboard to the left of the LED with the positive leg on the right. Use a female-male jumper wire to connect **GPIO4** to the positive leg of the buzzer and a male-male jumper wire to connect from the negative rail to the negative leg of the buzzer.
-> The positive leg is the leg that has a "+" over. It is a little tough to see so look closely.
+<div align=center><h2>Configuring the FamCam</h2></div>
 
-<!-- FIXME: Insert Image -->
+In this section, we will be putting together the physical components of the FamCam.
+
+1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to **Positive Rail 3** of the breadboard and the male end of the **GND** wire to **negative Rail 3** of the breadboard. 
+
+<div class=mdImage align=center>
+    <img src="./motion_images/4_motion.jpg" width="auto" height="350" />
+</div>
+
+2. Place an LED on the breadboard, with the positive leg (the longer leg) in **E10**, and the negative leg in **E11**. Then Connect a female-male wire from **GPIO14** to **A10**. Next, connect an Ohm Resistor to the female end of a female-male jumper wire. Connect the Ohm resistor side to **C11** and the male end of the wire to **negative rail 11**.
+
+<div class=mdImage align=center>
+    <img src="./motion_images/5_motion.jpg" width="auto" height="350" />
+    <img src="./motion_images/6_motion.jpg" width="auto" height="350" />
+</div>
+
+3. Next, place the buzzer on the breadboard with the positive leg at **E22** and the negative leg at **E25**. Use a female-male jumper wire to connect **GPIO4** to **B22** and a male-male jumper wire to connect from **negative rail 25** to **B25**.
+> The positive leg is the leg that has a "+" on top of the buzzer. It is a little tough to see so look closely.
+
+<div class=mdImage align=center>
+    <img src="./motion_images/7_motion.jpg" width="auto" height="300" />
+    <img src="./motion_images/8_motion.jpg" width="auto" height="300" />
+</div>
 
 Lastly, we are going to connect the motion sensor. This does not go directly on the board like the other peripheral devices. As pictured below with the motion sensor pins on the bottom, the left most pin is the **VCC** pin which is used for voltage, the middle pin is an **OUT** pin to communicate with the Pi, and the right-most pin is the **GND** pin.
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/13_motion.jpg" width="auto" height="300" />
+</div>
 
-4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from the positive rail of the breadboard with a row directly accross from it (see image below). The connect a female-male wire from **GPIO18** to the left of the row to the previous wire. Lastly, use a male-male wire to connect the negative rail of the breadoard to the left of the most previous wire. 
+4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from **positive rail 48** of the breadboard to **C48**. Then connect a female-male wire from **GPIO18** to **C49**. Lastly, use a male-male wire to connect **negative rail 47** of the breadoard to **C47**. 
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/9_motion.jpg" width="auto" height="400" />
+</div>
 
-5. Use a female-male wire to connect the **VCC** pin on the motion sensor to the row that is connected to the breadboard's positive rail. Use a female-male wire to connect the **OUT** pin on the motion sensor to the row that is connected to **GPIO18**. Use a female-male wire to connect the **GN** pin on the motion sensor to the row that is connected to the breadboard's negative rail.
+5. Use a female-male wire to connect the **VCC** pin on the motion sensor to **E48**. Use a female-male wire to connect the **OUT** pin on the motion sensor to **E49**. Use a female-male wire to connect the **GND** pin on the motion sensor to **E47**.
 
-<!-- FIXME: Insert Image -->
+<div class=mdImage align=center>
+    <img src="./motion_images/10_motion.jpg" width="auto" height="400" />
+    <img src="./motion_images/12_motion.jpg" width="auto" height="400" />
+</div>
 
-<div align=center><h2>Coding the Fam Cam</h2></div>
+Below are diagrams of the final physical configuration of the FamCam:
 
-In this section, we will be creating the program that runs the Fam Cam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar as it is a similar process as the peripherals in workshop 3.
+<div class=mdImage align=center>
+    <img src="./motion_images/P1.jpg" width="auto" height="400" />
+</div>
+<div class=mdImage align=center>
+    <img src="./motion_images/P2.jpg" width="auto" height="400" />
+</div><br>
+
+<div align=center><h3>Creating a New Gmail</h3></div>
+
+Before getting started coding, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/2_gmail.png" width="auto" height="500" />
+</kbd>
+<kbd>
+    <img src="./motion_images/3_gmail.png" width="auto" height="500" />
+</kbd>
+</div><br>
+
+> In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>.
+
+To set up third party access, <a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1">click here</a>.
+
+On the main account page click "Security on the left side of the screen.
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/15_security.png" width="800" height="auto" />
+</kbd>
+</div>
+
+Then click "Turn on access (not recommended). This is what allows our email server to communicate with Gmail. Even though Google does not recommend it, we are using TLS (Transport Layer Security). TLS is the standard for encrypting data and is the descendant of SSL (Secure Sockets Layer).
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/16_less_secure.png" width="600" height="auto" />
+</kbd>
+</div>
+
+Then click to allow access.
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/17_secure.png" width="600" height="auto" />
+</kbd>
+</div>
+
+<div align=center><h2>Coding the FamCam</h2></div>
+
+In this section, we will be creating the program that runs the FamCam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar as it is a similar process as the peripherals in workshop 3.
 
 1. In your *python-work* folder, create a new folder called *project-1*. In *project-1*, create a file named "fam_cam.py".
 
@@ -75,15 +156,15 @@ In this section, we will be creating the program that runs the Fam Cam. Although
     - The first function we create will be `start_motion()`. This will be called when the motion sensor goes off. In this function, we will call the LED light to blink every 0.5 seconds, turn on the buzzer to beep every 0.5 seconds, and print the time the motion sensor is triggered as an output to the terminal.
     - Second, we need a function `end_motion()` that will stop the led light and buzzer from going off. Creating this function will eliminate the need to constantly restart your program and instead continue running.
 
-        def start_motion():
-            led.blink(0.5, 0.5)
-            buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
-            print(f"Motion detected at {detection}")
+                        def start_motion():
+                        led.blink(0.5, 0.5)
+                        buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
+                        print(f"Motion detected at {detection}")
 
-        def end_motion():
-            if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
-                led.off() # Method to turn off the LED light
-                buzzer.off() # Method to turn off the buzzer
+                        def end_motion():
+                        if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
+                                led.off() # Method to turn off the LED light
+                                buzzer.off() # Method to turn off the buzzer
 
 6. Lastly for this file, we want to print to the terminal when we are starting up the motion sensor and when the sensor is ready. Of course we will also need to store the custom functions as the respective motion sensor methods.
 
@@ -131,7 +212,7 @@ We now have a working file. Test it out by executing the file and waving in fron
 
 <div align=center><h2>SMS Alert System</h2></div>
 
-In this section, we will code out the Fam Cam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier specific gateway. If you wanted to send a text to a Verizon number it would like: “1234567890@vtext.com”. We can then utilize the “MIME” module to structure our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
+In this section, we will code out the FamCam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier specific gateway. If you wanted to send a text to a Verizon number it would like: “1234567890@vtext.com”. Most gateway services can be hound <a href='https://dev.to/mraza007/sending-sms-using-python-jkd'>here</a>. We can then utilize the “MIME” module to structure our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
 > Don't forget to go allow third party app access or else the message won't send!
 
 **Note:** Text messaging rates might apply, so keep that in mind. If that is an issue, let your teacher know.
@@ -180,7 +261,7 @@ The "texter()" function now looks like the below:
 
             server.login(email,password)
 
-6. It's time to create the message. First we store the "MIMEMultipart()" function in the variable "msg". We then define the 'From' and 'To' which will be the new email created and the sms gateway variable we defined earlier reapectively. We can set the 'Subject' as well to be "Fam Cam Alert".
+6. It's time to create the message. First we store the "MIMEMultipart()" function in the variable "msg". We then define the 'From' and 'To' which will be the new email created and the sms gateway variable we defined earlier reapectively. We can set the 'Subject' as well to be "FamCam Alert".
 
 After doing so, we will store the body of our message in a variable called "body". We will want to pass the timestamp from earlier into the body of the message as well. We can do this by setting a parameter in the "texter()" function and using f shorthand to pass it to the body. The "texter()" function will now look like the below:
 
@@ -204,7 +285,7 @@ After doing so, we will store the body of our message in a variable called "body
             msg['From'] = email
             msg['To'] = sms_gateway
 
-            msg['Subject'] = "Fam Cam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
+            msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timaestamp}!\n"
 
 7. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to assure the message is read as a string. This will be stored in the variable "sms". Then we send the text and quit out of the server. The complete function now looks like the below:
@@ -229,7 +310,7 @@ After doing so, we will store the body of our message in a variable called "body
             msg['From'] = email
             msg['To'] = sms_gateway
 
-            msg['Subject'] = "Fam Cam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
+            msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timaestamp}!\n"
 
             msg.attach(MIMEText(body, 'plain'))
