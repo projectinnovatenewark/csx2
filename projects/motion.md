@@ -35,7 +35,7 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 Use `pinout` on the Pi or use the image below as a reference.
 
 <div class=mdImage align=center>
-    <img src="./motion_images/1_pinout.png" width="auto" height="400" />
+    <img src="./motion_images/1_pinout.png" width="auto" height="600" />
 </div>
 
 
