@@ -25,9 +25,10 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 
 > In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>. -->
 
-<div align=center><h2>Configuring the FamCam</h2></div>
 
-In this section, we will be putting together the physical components of the FamCam. Use `pinout` on the Pi or use the image below as a reference.
+<div align=center><h3>Tips for throughout the Project</h3></div>
+
+Use `pinout` on the Pi or use the image below as a reference.
 
 <div class=mdImage align=center>
     <img src="./motion_images/1_pinout.png" width="auto" height="400" />
@@ -41,6 +42,10 @@ We will be using specific coordinates on the breadboard to aid in placing jumper
 </div>
 
 Although the general area on the breadboard used is not necessarily important, the grouping in how each component is wired is key to the components funcitoning correctly. Do not confuse this concept with the pins on the Pi though. The difference between **3V3**, **5V**, **GND**, and **GPIO#** pins differ greatly in their purpose and funcionality.
+
+<div align=center><h2>Configuring the FamCam</h2></div>
+
+In this section, we will be putting together the physical components of the FamCam.
 
 1. First, connect two female-male wires to a **5V** and **GND** pin on the Pi. Just as the workshop, any pin labeled as such would work, but for this project we are using *physical pin 2* for the **5V** pin and *physical pin 6* for the **GND** pin. Connect the male end of the **5V** wire to **Positive Rail 3** of the breadboard and the male end of the **GND** wire to **negative Rail 3** of the breadboard. 
 
