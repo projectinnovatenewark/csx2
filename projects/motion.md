@@ -98,7 +98,7 @@ On the main account page click "Security on the left side of the screen.
 
 <div class=mdImage align=center>
 <kbd>
-    <img src="./motion_images/15_security.png" width="600" height="auto" />
+    <img src="./motion_images/15_security.png" width="800" height="auto" />
 </kbd>
 </div>
 
