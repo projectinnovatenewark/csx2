@@ -77,6 +77,15 @@ Lastly, we are going to connect the motion sensor. This does not go directly on 
     <img src="./motion_images/12_motion.jpg" width="auto" height="400" />
 </div>
 
+Below is a diagram of the final physical configuration of the FamCam:
+
+<div class=mdImage align=center>
+    <img src="./motion_images/P1.jpg" width="auto" height="400" />
+</div>
+<div class=mdImage align=center>
+    <img src="./motion_images/P2.jpg" width="auto" height="400" />
+</div><br>
+
 <div align=center><h3>Creating a New Gmail</h3></div>
 
 Before getting started coding, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
