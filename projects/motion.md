@@ -98,7 +98,7 @@ On the main account page click "Security on the left side of the screen.
 
 <div class=mdImage align=center>
 <kbd>
-    <img src="./motion_images/15_security.png" width="auto" height="450" />
+    <img src="./motion_images/15_security.png" width="400" height="auto" />
 </kbd>
 </div>
 
@@ -106,7 +106,7 @@ Then click "Turn on access (not recommended). This is what allows our email serv
 
 <div class=mdImage align=center>
 <kbd>
-    <img src="./motion_images/16_less_secure.png" width="auto" height="450" />
+    <img src="./motion_images/16_less_secure.png" width="400" height="auto" />
 </kbd>
 </div>
 
@@ -114,7 +114,7 @@ Then click to allow access.
 
 <div class=mdImage align=center>
 <kbd>
-    <img src="./motion_images/17_secure.png" width="auto" height="450" />
+    <img src="./motion_images/17_secure.png" width="400" height="auto" />
 </kbd>
 </div>
 
