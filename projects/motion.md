@@ -13,7 +13,7 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 - 1 Buzzer
 
 <div class=mdImage align=center>
-    <img src="./motion_images/14_motion.png" width="auto" height="400" />
+    <img src="./motion_images/14_motion.jpg" width="auto" height="400" />
 </div>
 
 <!-- Before getting started, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
