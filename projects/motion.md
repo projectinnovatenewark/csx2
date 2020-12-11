@@ -6,8 +6,8 @@ In this workshop, the student will learn:
 - How to use the Python SMTP Library to send text message notifications.
 
 Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
-- 5 Female-Male jumper wires
-- 1 Male-Male jumper wires
+- 9 Female-Male jumper wires
+- 3 Male-Male jumper wires
 - 1 LED Light
 - 1 330 Ohm Resistor
 - 1 Buzzer
