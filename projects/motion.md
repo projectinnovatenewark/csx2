@@ -26,7 +26,7 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 > In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>. -->
 
 
-<div align=center><h3>Tips for throughout the Project</h3></div>
+<div align=center><h3>Tips for the Project</h3></div>
 
 Use `pinout` on the Pi or use the image below as a reference.
 
