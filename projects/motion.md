@@ -77,7 +77,7 @@ Lastly, we are going to connect the motion sensor. This does not go directly on 
     <img src="./motion_images/12_motion.jpg" width="auto" height="400" />
 </div>
 
-Below is a diagram of the final physical configuration of the FamCam:
+Below are diagrams of the final physical configuration of the FamCam:
 
 <div class=mdImage align=center>
     <img src="./motion_images/P1.jpg" width="auto" height="400" />
