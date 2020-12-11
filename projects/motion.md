@@ -16,20 +16,6 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
     <img src="./motion_images/14_motion.jpg" width="auto" height="400" />
 </div>
 
-<!-- Before getting started, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
-
-<div class=mdImage align=center>
-<kbd>
-    <img src="./motion_images/2_gmail.png" width="auto" height="500" />
-</kbd>
-<kbd>
-    <img src="./motion_images/3_gmail.png" width="auto" height="500" />
-</kbd>
-</div><br>
-
-> In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>. -->
-
-
 <div align=center><h3>Tips for the Project</h3></div>
 
 Use `pinout` on the Pi or use the image below as a reference.
@@ -90,6 +76,21 @@ Lastly, we are going to connect the motion sensor. This does not go directly on 
     <img src="./motion_images/10_motion.jpg" width="auto" height="400" />
     <img src="./motion_images/12_motion.jpg" width="auto" height="400" />
 </div>
+
+<div align=center><h3>Creating a New Gmail</h3></div>
+
+Before getting started coding, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
+
+<div class=mdImage align=center>
+<kbd>
+    <img src="./motion_images/2_gmail.png" width="auto" height="500" />
+</kbd>
+<kbd>
+    <img src="./motion_images/3_gmail.png" width="auto" height="500" />
+</kbd>
+</div><br>
+
+> In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>.
 
 <div align=center><h2>Coding the FamCam</h2></div>
 
