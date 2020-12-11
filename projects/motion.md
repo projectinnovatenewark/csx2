@@ -1,9 +1,9 @@
 <div align=center><h1>The FamCam Motion Detection Device</h1></div>
 
 In this workshop, the student will learn:
-- How to wire and use more peripheral devices
-- How to use functions aacross multiple files to build a project
-- How to use the Python SMTP Library to send text message notifications
+- How to wire and use more peripheral devices.
+- How to use functions across multiple files to build a project.
+- How to use the Python SMTP Library to send text message notifications.
 
 Here is the list of external parts you need besides your Raspberry Pi Desktop that came with your package:
 - 5 Female-Male jumper wires
