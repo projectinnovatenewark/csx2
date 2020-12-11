@@ -12,7 +12,7 @@ Here is the list of external parts you need besides your Raspberry Pi Desktop th
 - 1 330 Ohm Resistor
 - 1 Buzzer
 
-Before getting started, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
+<!-- Before getting started, each student should set up a new gmail account to use for the notifcation service. <a href='https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'>Follow this link to create a new gmail account.</a> Follow the naming scheme for your email "firstnamelastname.pi@gmail.com". We ask that you create a new email account because you need to allow third party applications (our soon to be created email server) access to your account.
 
 <div class=mdImage align=center>
 <kbd>
@@ -23,7 +23,7 @@ Before getting started, each student should set up a new gmail account to use fo
 </kbd>
 </div><br>
 
-> In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>.
+> In case there are any issues, here is the <a href='https://support.google.com/mail/answer/56256?hl=en'>Gmail support link</a>. -->
 
 <div align=center><h2>Configuring the FamCam</h2></div>
 
