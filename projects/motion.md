@@ -134,28 +134,28 @@ Then click to allow access.
 
 In this section, we will be creating the program that runs the FamCam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar as it is a similar process as the peripherals in workshop 3.
 
-1. In your *python-work* folder, create a new folder called *project-1*. In *project-1*, create a file named "fam_cam.py".
+6. In your *python-work* folder, create a new folder called *project-1*. In *project-1*, create a file named "fam_cam.py".
 
-2. First we need to import the `datetime` module. This is a Python module used for it's ability to create time stamps. Since we will eventually be using a notification system, it's a good idea to know when someone sets off the motion detector.
+7. First we need to import the `datetime` module. This is a Python module used for it's ability to create time stamps. Since we will eventually be using a notification system, it's a good idea to know when someone sets off the motion detector.
 
         from datetime import datetime 
 
-3. Now we can import the three classes we will need from the gpiozero library; Buzzer, LED, and MotionSensor. When the motion sensor is set off, the LED light and buzzer will be triggered as well. We will also import the pause function from the signal module just as we did in workshop 3.
+8. Now we can import the three classes we will need from the gpiozero library; Buzzer, LED, and MotionSensor. When the motion sensor is set off, the LED light and buzzer will be triggered as well. We will also import the pause function from the signal module just as we did in workshop 3.
 
         from gpiozero import Buzzer, LED, MotionSensor
         from signal import pause
 
-4. Let's instantiate each peripheral class with its respective GPIO pin. Remember we used **GPIO4** for the buzzer, **GPIO14** for the LED light, and **GPIO18** for the motion sensor.
+9. Let's instantiate each peripheral class with its respective GPIO pin. Remember we used **GPIO4** for the buzzer, **GPIO14** for the LED light, and **GPIO18** for the motion sensor.
 
         buzzer = Buzzer(4)
         led = LED(14)
         motion_sensor = MotionSensor(18)
 
-5. We shoudld also store the timestamp in a variable so it is easy to use in the rest of our program. We can do so with the following:
+10. We shoudld also store the timestamp in a variable so it is easy to use in the rest of our program. We can do so with the following:
 
         detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
 
-6. Next, we want to create two functions, one that runs when motion is detected, and another that runs afterwards.
+11. Next, we want to create two functions, one that runs when motion is detected, and another that runs afterwards.
     - The first function we create will be `start_motion()`. This will be called when the motion sensor goes off. In this function, we will call the LED light to blink every 0.5 seconds, turn on the buzzer to beep every 0.5 seconds, and print the time the motion sensor is triggered as an output to the terminal.
     - Second, we need a function `end_motion()` that will stop the led light and buzzer from going off. Creating this function will eliminate the need to constantly restart your program and instead continue running.
 
@@ -169,7 +169,7 @@ In this section, we will be creating the program that runs the FamCam. Although 
                                 led.off() # Method to turn off the LED light
                                 buzzer.off() # Method to turn off the buzzer
 
-6. Lastly for this file, we want to print to the terminal when we are starting up the motion sensor and when the sensor is ready. Of course we will also need to store the custom functions as the respective motion sensor methods.
+12. Lastly for this file, we want to print to the terminal when we are starting up the motion sensor and when the sensor is ready. Of course we will also need to store the custom functions as the respective motion sensor methods.
 
 To do so, we will use three methods from the MotionSensor class. The first being "wait_for_no_motion()". This method prevents the motion sensor from going off immediately on startup. The second method is ".when_motion()", which is what is triggered when the motion sensor detects any motion. Lastly, ".when_no_motion()" is used when the motion sensor is no longer detecting motion.
 
@@ -220,21 +220,21 @@ In this section, we will code out the FamCam's text message notification system.
 
 **Note:** Text messaging rates might apply, so keep that in mind. If that is an issue, let your teacher know.
 
-1. In your *project-1* folder, create a new file "text_me.py". This is where we will code the SMTP server.
+13. In your *project-1* folder, create a new file "text_me.py". This is where we will code the SMTP server.
 
-2. At the beginning of this file, we want to import "smtplib", "MIMEText", and "MIMEMultipart".
+14. At the beginning of this file, we want to import "smtplib", "MIMEText", and "MIMEMultipart".
         
         import smtplib
         from email.mime.text import MIMEText
         from email.mime.multipart import MIMEMultipart
 
-3. Next, define a custom function named. "texter()". In it, we will have to provide authentication so the email service can function. For this, we will set two variables; "email" and "password" to store our new email and password to that email as a string. Below is our function so far:
+15. Next, define a custom function named. "texter()". In it, we will have to provide authentication so the email service can function. For this, we will set two variables; "email" and "password" to store our new email and password to that email as a string. Below is our function so far:
 
         def texter():
             email = "your.email.here@gmail.com"
             password = "INSERT PASSWORD FOR ABOVE EMAIL"
 
-4. Next we need to store the SMS Gateway address to send the notification to. This can be different depending on your cell phone provider. A list of some major providers and their gateway service addresses can be found <a href="https://dev.to/mraza007/sending-sms-using-python-jkd">here</a>. We will store this in a variable "sms_gateway" and our function now currently looks like the below: 
+16. Next we need to store the SMS Gateway address to send the notification to. This can be different depending on your cell phone provider. A list of some major providers and their gateway service addresses can be found <a href="https://dev.to/mraza007/sending-sms-using-python-jkd">here</a>. We will store this in a variable "sms_gateway" and our function now currently looks like the below: 
 
         def texter():
             email = "your.email.here@gmail.com"
@@ -242,7 +242,7 @@ In this section, we will code out the FamCam's text message notification system.
 
             sms_gateway = "PHONE_NUMBER@CARRIER_GATEWAY"
 
-5. Lastly for variables, we need to specify the server and port that it will run on. We will be using the default smtp server and default port. Using these will establish a secure TLS connection. Once the connection is established, we use that to login to the created email and password from earlier.
+17. Lastly for variables, we need to specify the server and port that it will run on. We will be using the default smtp server and default port. Using these will establish a secure TLS connection. Once the connection is established, we use that to login to the created email and password from earlier.
 
 > TlS is short for "Transport Layer Security" and is the latest security protocol used for ecrypting data and information while its trasferred through the internet.
 
@@ -264,7 +264,7 @@ The "texter()" function now looks like the below:
 
             server.login(email,password)
 
-6. It's time to create the message. First we store the "MIMEMultipart()" function in the variable "msg". We then define the 'From' and 'To' which will be the new email created and the sms gateway variable we defined earlier reapectively. We can set the 'Subject' as well to be "FamCam Alert".
+18. It's time to create the message. First we store the "MIMEMultipart()" function in the variable "msg". We then define the 'From' and 'To' which will be the new email created and the sms gateway variable we defined earlier reapectively. We can set the 'Subject' as well to be "FamCam Alert".
 
 After doing so, we will store the body of our message in a variable called "body". We will want to pass the timestamp from earlier into the body of the message as well. We can do this by setting a parameter in the "texter()" function and using f shorthand to pass it to the body. The "texter()" function will now look like the below:
 
@@ -291,7 +291,7 @@ After doing so, we will store the body of our message in a variable called "body
             msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timaestamp}!\n"
 
-7. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to assure the message is read as a string. This will be stored in the variable "sms". Then we send the text and quit out of the server. The complete file  now looks like the below:
+19. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to assure the message is read as a string. This will be stored in the variable "sms". Then we send the text and quit out of the server. The complete file  now looks like the below:
 
         import smtplib
         from email.mime.text import MIMEText
@@ -328,11 +328,11 @@ After doing so, we will store the body of our message in a variable called "body
 
             server.quit()
 
-8. To use our newly created function, we must import it into "fam_cam.py". We can add the import statement to the top of the file.
+20. To use our newly created function, we must import it into "fam_cam.py". We can add the import statement to the top of the file.
 
         from text_me import texter
 
-9. We also need to call the "texter()" function at the end of "start_motion()" and pass the variable "detection" as an argument. The final "fam_cam.py" will look like the following:
+21. We also need to call the "texter()" function at the end of "start_motion()" and pass the variable "detection" as an argument. The final "fam_cam.py" will look like the following:
 
         from datetime import datetime
         from gpiozero import Buzzer, LED, MotionSensor
