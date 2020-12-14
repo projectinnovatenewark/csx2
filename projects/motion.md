@@ -343,18 +343,16 @@ After doing so, we will store the body of our message in a variable called "body
         led = LED(14)
         motion_sensor = MotionSensor(18)
 
-        detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
-
         def start_motion():
+            detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
             led.blink(0.5, 0.5)
             buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
             print(f"Motion detected at {detection}")
             texter(detection) # calling the texter function and passing through detection
 
         def end_motion():
-            if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
-                led.off() # Method to turn off the LED light
-                buzzer.off() # Method to turn off the buzzer
+            led.off() # Method to turn off the LED light
+            buzzer.off() # Method to turn off the buzzer
 
         print("Starting up the sensor...")
         motion_sensor.wait_for_no_motion()
