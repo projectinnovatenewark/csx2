@@ -318,7 +318,7 @@ After doing so, we will store the body of our message in a variable called "body
             msg['To'] = sms_gateway
 
             msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
-            body = f"Motion has been detected at {timaestamp}!\n"
+            body = f"Motion has been detected at {timestamp}!\n"
 
             msg.attach(MIMEText(body, 'plain'))
 
