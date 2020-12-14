@@ -291,7 +291,11 @@ After doing so, we will store the body of our message in a variable called "body
             msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timaestamp}!\n"
 
-7. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to assure the message is read as a string. This will be stored in the variable "sms". Then we send the text and quit out of the server. The complete function now looks like the below:
+7. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to assure the message is read as a string. This will be stored in the variable "sms". Then we send the text and quit out of the server. The complete file  now looks like the below:
+
+        import smtplib
+        from email.mime.text import MIMEText
+        from email.mime.multipart import MIMEMultipart
 
         def texter(timestamp):
             email = "your.email.here@gmail.com"
