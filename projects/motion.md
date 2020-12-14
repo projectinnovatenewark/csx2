@@ -372,7 +372,7 @@ Great! You should have a working motion detection and notification system. Let's
 - Imported a function from a file in the same directory
 - Used an SMTP server to send an SMS notification
 
-**What to try on your own:**
+**What to try on your own:** <br>
 Now that you have experience assemblinf and coding different peripherals, try using a tactile button to turn your motion sensor on and off. The steps to using your program would then be:
 1. Execute *fam_cam.py*
 2. Use the tactile button to turn on the motion sensor
