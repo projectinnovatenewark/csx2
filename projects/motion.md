@@ -366,8 +366,16 @@ After doing so, we will store the body of our message in a variable called "body
 
 Great! You should have a working motion detection and notification system. Let's recap on how we did it.
 
-Takeaways:
+**Takeaways:**
 - Learned how to configure two new peripherals, the buzzer and motion sensor
 - Imported and implmented the datetime module
 - Imported a function from a file in the same directory
 - Used an SMTP server to send an SMS notification
+
+**What to try on your own:**
+Now that you have experience assemblinf and coding different peripherals, try using a tactile button to turn your motion sensor on and off. The steps to using your program would then be:
+1. Execute *fam_cam.py*
+2. Use the tactile button to turn on the motion sensor
+3. Motion Sensor goes off and sends a text
+4. Use the tactile button to turn off the motion sensor
+5. Lastly, you should be able to turn on the motion sensor with the tactile button again or quit the program using "ctrl + c"
