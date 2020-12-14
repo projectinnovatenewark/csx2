@@ -64,7 +64,7 @@ Lastly, we are going to connect the motion sensor. This does not go directly on 
     <img src="./motion_images/13_motion.jpg" width="auto" height="300" />
 </div>
 
-4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from **positive rail 48** of the breadboard to **C48**. Then connect a female-male wire from **GPIO18** to **C49**. Lastly, use a male-male wire to connect **negative rail 47** of the breadoard to **C47**. 
+4. We will use the jumper wires to connect the Pi to the breadboard and then the breadboard to the motion sensor. First, connect a male-male wire from **positive rail 48** of the breadboard to **C48**. Then connect a female-male wire from **GPIO18** to **C49**. Lastly, use a male-male wire to connect **negative rail 47** of the breadboard to **C47**. 
 
 <div class=mdImage align=center>
     <img src="./motion_images/9_motion.jpg" width="auto" height="400" />
