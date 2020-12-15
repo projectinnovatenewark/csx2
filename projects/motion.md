@@ -315,7 +315,7 @@ The complete file now looks like the below:
             msg['From'] = email
             msg['To'] = sms_gateway
 
-            msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
+            msg['Subject'] = "FamCam Alert!\n" # "\n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timestamp}!\n"
 
             msg.attach(MIMEText(body, 'plain'))
