@@ -31,7 +31,7 @@ We will be using specific coordinates on the breadboard to aid in placing jumper
     <img src="./motion_images/1_breadboard.png" width="auto" height="300" />
 </div>
 
-Although the specific location usec on the breadboard is not necessarily important, the alignment of components is key to the components functioning correctly. Do not confuse this concept with the pins on the Pi, however. The difference between **3V3**, **5V**, **GND**, and **GPIO#** pins differ greatly in their purpose and funcionality.
+Although the specific locations used on the breadboard are not necessarily important, the alignment of components is key to them functioning correctly. Do not confuse this concept with the pins on the Pi, however. The difference between **3V3**, **5V**, **GND**, and **GPIO#** pins differ greatly in their purpose and funcionality.
 
 <div align=center><h2>Configuring the FamCam</h2></div>
 
