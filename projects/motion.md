@@ -287,7 +287,15 @@ After doing so, we will store the body of our message in a variable called "body
             msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timestamp}!\n"
 
-19. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to ensure the message is read as a string. This will be stored in the variable "sms". Then, we send the text and quit the server. **Note:** For your account security, any personal information should be deleted before being pushed to Github!
+19. Lastly, we want to attach the body to the message as plain text using ".attach()" and use the ".as_string()" function to ensure the message is read as a string. This will be stored in the variable "sms". Then, we send the text and quit the server. **Note:** For your account security, any personal information should be deleted before being pushed to Github!
+
+            msg.attach(MIMEText(body, 'plain'))
+
+            sms = msg.as_string()
+
+            server.sendmail(email,sms_gateway,sms)
+
+            server.quit()
 
 The complete file now looks like the below:
 
