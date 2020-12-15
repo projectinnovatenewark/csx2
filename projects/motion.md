@@ -132,6 +132,8 @@ Then click to allow access.
 
 <div align=center><h2>Coding the FamCam</h2></div>
 
+<!-- FIXME: FIX TABULATION -->
+
 In this section, we will be creating the program that runs the FamCam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar. We implement our code to these peripherals similarly to the methods we used in Workshop 3.
 
 6. In your *python-work* folder, create a new folder called *project-1*. In *project-1*, create a file named "fam_cam.py".
@@ -160,12 +162,12 @@ In this section, we will be creating the program that runs the FamCam. Although 
     - Second, we need a function `end_motion()` that will stop the led light and buzzer from going off. If we do not implement the end_motion function, your buzzer and LED's will continue running until the program is exited. Rather than constantly restarting our program to make it work, we simply want it to stop buzzing/flashing once motion is no longer detected.
 
                         def start_motion():
-                        led.blink(0.5, 0.5)
-                        buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out- its pretty loud!)
-                        print(f"Motion detected at {detection}")
+                            led.blink(0.5, 0.5)
+                            buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out- its pretty loud!)
+                            print(f"Motion detected at {detection}")
 
                         def end_motion():
-                        if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
+                            if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
                                 led.off() # Method to turn off the LED light
                                 buzzer.off() # Method to turn off the buzzer
 
@@ -215,7 +217,7 @@ We now have a working file. Test it out by executing the file and waving in fron
 
 <div align=center><h2>SMS Alert System</h2></div>
 
-In this section, we will code out the FamCam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier-specific gateway. If you wanted to send a text to a Verizon number it would like: “1234567890@vtext.com”. Most gateway services can be found <a href='https://dev.to/mraza007/sending-sms-using-python-jkd'>here</a>. We can then utilize the “MIME” module to format our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
+In this section, we will code out the FamCam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier-specific gateway. If you wanted to send a text to a Verizon number it would look like: “1234567890@vtext.com”. Most gateway services can be found <a href='https://dev.to/mraza007/sending-sms-using-python-jkd'>here</a>. We can then utilize the “MIME” module to format our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
 > Don't forget to go allow third party app access or else the message won't send!
 
 **Note:** Text messaging rates might apply, so keep that in mind. If that is an issue, let your teacher know.
