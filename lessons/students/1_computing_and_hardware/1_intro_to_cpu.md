@@ -26,7 +26,7 @@ A computer system consists of two major elements, hardware and software. In this
 
 Computers are composed of several hardware components. Some might be more familiar than others. In this lesson, you will learn to recognize some of the different components of a computer and begin to understand what they do.
 
-<div align=center><h2>Core Components of a Computer</h2></div>
+<div align=center><h2>Core  of a Computer</h2></div>
 
 <div align=center><h3>1. Processer</h3></div>
 
