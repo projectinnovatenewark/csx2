@@ -370,7 +370,7 @@ The complete file now looks like the below:
 
 **Note:** A common error is failed authentication, meaning one of two things:
 1. You could have mistyped your email or password in the "text_me()" function. Re-check that first.
-2. If the error persists after option 1, third party applications might not be set to permit access. Please re-check that step.
+2. If the error persists after option 1, third party applications might not be set to permit access. Please re-check the "Creating a New Gmail" step.
 
 Great! You should have a working motion detection and notification system. Let's recap on how we did it.
 
