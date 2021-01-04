@@ -9,3 +9,13 @@ In this review problem, you will define a function to perform some functionality
 # print("This is a large rectangle."). If not, then print("This is not a large rectangle.")
 
 # Hint: The area of a rectangle is equal to its length times its width.
+
+def area_rectangle(length, width):
+  area = length * width
+
+  if (area > 10):
+    print("This is a large rectangle.")
+  else:
+    print("This is not a large rectangle.")
+
+area_rectangle(5, 6)
