@@ -18,9 +18,9 @@ class Athlete:
     self.sport = sport
     self.skill_level = skill_level
 
-# Now that we have our class mappedout, we want to instantiate an instance of "Athlete". We will
-# assign each attribute a value from the __init__ function above and store the instantiation in a
-# variable.
+# Now that we have our class mappedout, we want to create an instance of "Athlete", also known as
+# instantiating. We will assign each attribute a value from the __init__ function above and store
+# the instantiation in a variable.
 
 # variable = ClassName(first_name, last_name, sport, skill_level)
 lbj = Athlete("LeBron", "James", "basketball", "professional")
