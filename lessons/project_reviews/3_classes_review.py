@@ -57,5 +57,45 @@ kd = Athlete("Karl", "Durant", "basketball", "amateur") # Another class instanti
 meg_rap.printer() # Calling the "printer()" method
 kd.printer() # Another call to the "printer()" method
 
+####################################################################################################
+
+# Title: Class Properties
+
+  # Properties are used for getting and setting class data. Properties are intended to give the
+  # option of defining a function that takes 0 arguments. This allows the user to interact with the
+  # property as if it was an actual attribute of the class. You can tell when a proprty is defined
+  # when there is a "@property" decorator above it's definition.
+
+  # Here we have our class from earlier in the lesson with a new attribute "year_born". 
+
+class Athlete:
+
+  def __init__(self, first_name, last_name, sport, skill_level, year_born):
+    self.first_name = first_name
+    self.last_name = last_name
+    self.sport = sport
+    self.skill_level = skill_level
+    self.year_born = year_born
+
+  def printer(self):
+    print(f"{self.first_name} {self.last_name} is a {self.skill_level} {self.sport} player.")
+
+  @property # This is the decorator.
+  def age(self): # Properties only take a parameter of "self" to give access to its class
+                     # instantiation
+    year = 2021
+    age = year - self.year_born # Age will be a quick calculation accessible as if it was an
+                                # attribute.
+    return age # Here we return age so that we get an output
+
+trout = Athlete("Mike", "Trout", "baseball", "professional", 1991) # Instantiating with the new
+                                                                   # attribute year_born.
+
+# Since we have a new instance of class, we can use dot notation to find the age of our athlete for
+# the year 2021.
+
+print(trout.age)
+
+
 # TODO: Hey Teacher, head back over to fam_cam.py and recap how we use the different classes from 
 # TODO: the gpiozero library.
