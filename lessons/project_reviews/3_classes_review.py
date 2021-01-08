@@ -44,8 +44,8 @@ class Athlete:
 
   # Below we are now defining a method. Methods are functions defined within the scope of a class.
   # That means only instantiated classes of "Athlete" will be able to be used to call the method.
-  # Our below method will print the print statement from earlier, but will be able to be used more
-  # efficiently for more than one class instantiation.
+  # Our below method will execute the print statement from earlier, but will be more accessible for
+  # every instantiation of "Athlete".
 
   def printer(self): # Here, self is the only parameter we need, which gives the function access to
                      # the instantiated class.
