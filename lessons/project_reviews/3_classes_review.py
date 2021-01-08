@@ -62,9 +62,10 @@ kd.printer() # Another call to the "printer()" method
 # Title: Class Properties
 
   # Properties are used for getting and setting class data. Properties are intended to give the
-  # option of defining a function that takes 0 arguments. This allows the user to interact with the
-  # property as if it was an actual attribute of the class. You can tell when a proprty is defined
-  # when there is a "@property" decorator above it's definition.
+  # option of defining a function or method that takes 0 arguments. This allows the user to interact
+  # with the property as if it was an actual attribute of the class. You can tell when a property is
+  # defined when there is a decorator above it's definition. We will be using the built-in property,
+  # "@property" decorator, but you can also set custom properties as well.
 
   # Here we have our class from earlier in the lesson with a new attribute "year_born". 
 
