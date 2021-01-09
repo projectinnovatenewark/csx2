@@ -155,19 +155,19 @@ Now that everything is connected and the Pi is powered on, you should see someth
 <img src="./Raspberry_Pi_setup_images/23_installing_rasp_os.jpg" width="400" height="auto" />
 </div>
 
-11. Setup up your wifi network by selecting the “Wifi networks (w)” button circled in the picture below and follow the steps to connect to your local network.
+13. Setup up your wifi network by selecting the “Wifi networks (w)” button circled in the picture below and follow the steps to connect to your local network.
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/24_wifi_setup.jpeg" width="400" height="auto" />
 </div>
 
-12. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS Full (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
+14. Select the language at the bottom of the screen to be “English (US)”. Then click on the install button in the top left corner and check the box next to “Raspberry Pi OS Full (32-bit) (RECOMMENDED)”. Then click the install button in the top left corner again. Now the OS should be installing onto your Raspberry Pi. This should take a few minutes until a popup appears to let you know that the OS has installed successfully.
 
-13. There should be a prompt to update and restart the Raspberry Pi. It is recommended to do so.
+15. There should be a prompt to update and restart the Raspberry Pi. It is recommended to do so.
 
 <div align=center><h3>Installing VS Code and Git</h3></div>
 
-14. We will be using an open-source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
+16. We will be using an open-source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/27_rasp_term_icon.png" width="400" height="auto" />
@@ -175,7 +175,7 @@ Now that everything is connected and the Pi is powered on, you should see someth
 
 You will see the Raspberry Pi's terminal open. This should look similar to the emulator used in class.
 
-15. In the terminal, execute the following command:
+17. In the terminal, execute the following command:
 
 `wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -`
 > `wget` is a Linux command used to download content from a web server
@@ -186,7 +186,7 @@ You will see the Raspberry Pi's terminal open. This should look similar to the e
 >
 > `apt-key` is used to help manage and authenticate packages
 
-16. When the previous command is finished; paste the following command and you will see a similar output:
+18. When the previous command is finished; paste the following command and you will see a similar output:
 
 `curl -L https://raw.githubusercontent.com/headmelted/codebuilds/master/docs/installers/apt.sh | sudo bash`
 > `curl` is used to transfer data to or from a server.
@@ -195,13 +195,13 @@ You will see the Raspberry Pi's terminal open. This should look similar to the e
 
 All set! If you go to the Raspberry Pi icon in the top left portion of your screen, click accessories and then you will see our code editor.
 
-17. Now let’s install Git in the VS Code window. Open VS Code using the Raspberry Pi icon in the top left corner:
+19. Now let’s install Git in the VS Code window. Open VS Code using the Raspberry Pi icon in the top left corner:
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/29_installing_git.png" width="450" height="auto" />
 </div>
 
-18. You will see your VS Code window pop up. To open a terminal in your VS Code window, press “ Ctrl + shift + ~”. This will look like the following:
+20. You will see your VS Code window pop up. To open a terminal in your VS Code window, press “ Ctrl + shift + ~”. This will look like the following:
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="500" height="auto" />
