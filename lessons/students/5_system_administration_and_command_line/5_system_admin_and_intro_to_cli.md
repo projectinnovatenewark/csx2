@@ -55,6 +55,8 @@ Before we jump into some commands, head to this link to use a <a href="https://c
 </div>
 <br>
 
+***Note: Students should follow along as they will take over on their own respective computers after a couple steps of this exercise.
+
 If you do not see this window, click into the “Welcome to CoCalc.term” project to get there.
 
 There are a vast number of commands that can be executed in the terminal, but here are some for navigating your computer’s directories:
@@ -89,6 +91,8 @@ Now your working directory will be the “programming” folder. Your terminal s
     </kbd>
 </div>
 <br>
+
+***At this point, students should proceed through the rest of the exercise independently
 
 We can check to make sure we are in our working directory by executing `pwd` in our terminal. This will give us the output “/home/user/programming”
 
