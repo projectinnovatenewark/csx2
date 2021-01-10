@@ -82,5 +82,5 @@ are typically self-explanatory.
         a. repeat step 12.b but instead name the file "currentlessontodo.py"
         b. try to complete the todo and then peer review
 
-##EXTRA INFO:
+###EXTRA INFO:
 We style all of this text with Markdown. It's pretty cool. If you want to learn more about how to style, and potentially contribute to these texts, check out this link: https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax
