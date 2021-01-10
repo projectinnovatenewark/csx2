@@ -1,4 +1,4 @@
-# Day One Doc
+## Day One Doc
 
 #### This semester we will be building an internet enabled device (IoT) called "The Fam Cam". It will be a motion detection device that, when triggered, will send a notification to a user's device. This device will be built on a single-board computer with code written in Python that is built on a Linux-based operating system. Since we prepared this course to accommodate all levels of students, we will start assuming the student has no knowledge of programming or  computers. Seeing as we are starting from scratch, we will teach the basics of hardware and computers, operating systems, networking with computers, and programming in Python. Our final project will use a Raspberry Pi for the computer, Raspbian as the Linux-based operating system, and Python for the software needed for the notification system. We look forward to embarking on this journey with you to learning hardware and computer science!
 
