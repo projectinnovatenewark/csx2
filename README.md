@@ -1,6 +1,6 @@
 # Day One Doc
 
-## This semester we will be building an internet enabled device (IoT) called "The Fam Cam". It will be a motion detection device that, when triggered, will send a notification to a user's device. This device will be built on a single-board computer with code written in Python that is built on a Linux-based operating system. Since we prepared this course to accommodate all levels of students, we will start assuming the student has no knowledge of programming or  computers. Seeing as we are starting from scratch, we will teach the basics of hardware and computers, operating systems, networking with computers, and programming in Python. Our final project will use a Raspberry Pi for the computer, Raspbian as the Linux-based operating system, and Python for the software needed for the notification system. We look forward to embarking on this journey with you to learning hardware and computer science!
+### This semester we will be building an internet enabled device (IoT) called "The Fam Cam". It will be a motion detection device that, when triggered, will send a notification to a user's device. This device will be built on a single-board computer with code written in Python that is built on a Linux-based operating system. Since we prepared this course to accommodate all levels of students, we will start assuming the student has no knowledge of programming or  computers. Seeing as we are starting from scratch, we will teach the basics of hardware and computers, operating systems, networking with computers, and programming in Python. Our final project will use a Raspberry Pi for the computer, Raspbian as the Linux-based operating system, and Python for the software needed for the notification system. We look forward to embarking on this journey with you to learning hardware and computer science!
 
 0. We use certain typings that allow us to convey information to the user.
 
@@ -82,5 +82,5 @@ are typically self-explanatory.
         a. repeat step 12.b but instead name the file "currentlessontodo.py"
         b. try to complete the todo and then peer review
 
-###EXTRA INFO:
+### EXTRA INFO:
 We style all of this text with Markdown. It's pretty cool. If you want to learn more about how to style, and potentially contribute to these texts, check out this link: https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax
