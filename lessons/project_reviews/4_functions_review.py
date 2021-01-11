@@ -6,16 +6,16 @@
 # function call. Below is an example of defining a function:
 
 def printer(): # Functions don't always need parameters.
-   # Everything within the indent of the function is considered in the functions scope.
+   # Everything within the indent of the function is considered in the function's scope.
   print("Function completed") # This is in the scope of the function
 
-# Now that our code is back the left-most part of the window, we are out of the scope of "printer()"
+# Now that our code is back to the left-most part of the window, we are out of the scope of
+# "printer()".
 printer()
 
 # Functions can also be called within other functions. In the below function, a number will be
 # passed as an argument to a function called "add_seven()" and then our printer() function will be
 # called to let us know the function is complete.
-
 
 def add_seven(num1): # num1 is a parameter that will take the value of an argument passed.
   new_number = num1 + 7 

@@ -4,8 +4,8 @@
 # examples of the different types of conditionals statements:
 
 num1 = 40
-num2 = -100
-num3 = 23
+num2 = 0
+num3 = 40
 
 if (num1 == num3): # This is an if statement. It executes exactly as it reads.
                    #"If something is true, then execute some code."
