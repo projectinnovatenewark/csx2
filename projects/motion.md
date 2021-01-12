@@ -151,25 +151,22 @@ In this section, we will be creating the program that runs the FamCam. Although 
         led = LED(14)
         motion_sensor = MotionSensor(18)
 
-10. We should also store the timestamp in a variable so it is easy to use for the rest of our program. We can do so with the following:
-
-        detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
-
-11. Next, we want to create two functions, one that runs when motion is detected, and another that runs afterwards.
-    - The first function we create will be `start_motion()`. This will be called when the motion sensor goes off. In this function, we will call the LED light to blink every 0.5 seconds, turn on the buzzer to beep every 0.5 seconds, and print the time the motion sensor is triggered as an output to the terminal.
+10. Next, we want to create two functions, one that runs when motion is detected, and another that runs afterwards.
+    - The first function we create will be `start_motion()`. This will be called when the motion sensor goes off. In this function, we will call the LED light to blink every 0.5 seconds, turn on the buzzer to beep every 0.5 seconds, and print the time the motion sensor is triggered as an output to the terminal. We should also store the timestamp in a variable so it is easy to use for the rest of our program.
     - Second, we need a function `end_motion()` that will stop the led light and buzzer from going off. If we do not implement the end_motion function, your buzzer and LED's will continue running until the program is exited. Rather than constantly restarting our program to make it work, we simply want it to stop buzzing/flashing once motion is no longer detected.
 
                         def start_motion():
-                        led.blink(0.5, 0.5)
-                        buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out- its pretty loud!)
-                        print(f"Motion detected at {detection}")
+                            detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
+                            led.blink(0.5, 0.5)
+                            buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
+                            print(f"Motion detected at {detection}")
 
                         def end_motion():
-                        if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
+                            if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
                                 led.off() # Method to turn off the LED light
                                 buzzer.off() # Method to turn off the buzzer
 
-12. Lastly for this file, we want to print to the terminal when we are 1) starting the motion sensor and 2) when the sensor is ready. Again, we will need to define  custom functions and set them in the motion sensor class as methods/properties.
+11. Lastly for this file, we want to print to the terminal when we are 1) starting the motion sensor and 2) when the sensor is ready. Again, we will need to define  custom functions and set them in the motion sensor class as methods/properties.
 
 To do so, we will use three methods from the MotionSensor class. The first being "wait_for_no_motion()". This method prevents the motion sensor from triggering immediately upon starting up. The second method is ".when_motion()", which is what is triggered when the motion sensor detects motion. Lastly, ".when_no_motion()" is used when the motion sensor is no longer detecting motion.
 
@@ -191,9 +188,8 @@ Here is a complete version of fam_cam.py just incase there were any hiccups alon
         led = LED(14)
         motion_sensor = MotionSensor(18)
 
-        detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
-
         def start_motion():
+            detection = datetime.now() # .now() is a function of the datetime class that creates the timestamp
             led.blink(0.5, 0.5)
             buzzer.beep(0.5, 0.5) # This is a method of the Buzzer class. (Watch out its pretty loud!)
             print(f"Motion detected at {detection}")
@@ -215,7 +211,7 @@ We now have a working file. Test it out by executing the file and waving in fron
 
 <div align=center><h2>SMS Alert System</h2></div>
 
-In this section, we will code out the FamCam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier-specific gateway. If you wanted to send a text to a Verizon number it would like: “1234567890@vtext.com”. Most gateway services can be found <a href='https://dev.to/mraza007/sending-sms-using-python-jkd'>here</a>. We can then utilize the “MIME” module to format our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
+In this section, we will code out the FamCam's text message notification system. The cool thing about SMTP is that even though it is an email server, it can send text messages by using SMS gateways. An sms gateway service is what allows a computer to send emails as texts by using a given phone number and carrier specific gateway. If you wanted to send a text to a Verizon number it would look like: “1234567890@vtext.com”. Most gateway services can be hound <a href='https://dev.to/mraza007/sending-sms-using-python-jkd'>here</a>. We can then utilize the “MIME” module to structure our message. The new Gmail account you created will be used to send this message. If you still need to create the new account, <a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp">click here.</a>
 > Don't forget to go allow third party app access or else the message won't send!
 
 **Note:** Text messaging rates might apply, so keep that in mind. If that is an issue, let your teacher know.
@@ -289,9 +285,17 @@ After doing so, we will store the body of our message in a variable called "body
             msg['To'] = sms_gateway
 
             msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
-            body = f"Motion has been detected at {timaestamp}!\n"
+            body = f"Motion has been detected at {timestamp}!\n"
 
-19. Lastly, we want to attach the body to the message as plaintext using ".attach()" and use the ".as_string()" function to ensure the message is read as a string. This will be stored in the variable "sms". Then, we send the text and quit the server. **Note:** For your account security, any personal information should be deleted before being pushed to Github!
+19. Lastly, we want to attach the body to the message as plain text using ".attach()" and use the ".as_string()" function to ensure the message is read as a string. This will be stored in the variable "sms". Then, we send the text and quit the server. **Note:** For your account security, any personal information should be deleted before being pushed to Github!
+
+            msg.attach(MIMEText(body, 'plain'))
+
+            sms = msg.as_string()
+
+            server.sendmail(email,sms_gateway,sms)
+
+            server.quit()
 
 The complete file now looks like the below:
 
@@ -319,7 +323,7 @@ The complete file now looks like the below:
             msg['From'] = email
             msg['To'] = sms_gateway
 
-            msg['Subject'] = "FamCam Alert!\n" # "/n" is used to indicate a new line should be used for the next output
+            msg['Subject'] = "FamCam Alert!\n" # "\n" is used to indicate a new line should be used for the next output
             body = f"Motion has been detected at {timestamp}!\n"
 
             msg.attach(MIMEText(body, 'plain'))
@@ -366,7 +370,7 @@ The complete file now looks like the below:
 
 **Note:** A common error is failed authentication, meaning one of two things:
 1. You could have mistyped your email or password in the "text_me()" function. Re-check that first.
-2. If the error persists after option 1, third party applications might not be set to permit access. Please re-check that step.
+2. If the error persists after option 1, third party applications might not be set to permit access. Please re-check the "Creating a New Gmail" step.
 
 Great! You should have a working motion detection and notification system. Let's recap on how we did it.
 
