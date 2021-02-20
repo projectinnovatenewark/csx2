@@ -118,16 +118,16 @@ With this understanding of what “interpreted” means when it comes to Python,
 **Object-Orientated Programming (OOP)** is the computer programming model that focuses on data or “objects” that can be manipulated rather than how to manipulate them. This is a common approach for large and complex programs. There are 4 elements that designate a programming language as object-orientated.
   
 1. **Inheritance**:
-  Inheritance specifies that a child object will acquire all of a parent objects given attributes and methods. You can think of a parent object like “Mammal” that would have child objects of “Human”, “Marsupial”, and “Canine”. Although Mammals can be defined by air breathing creatures, humans, marsupials and canines are all mammals, but will have their own set of attributes and methods associated.
+  Inheritance allows a child object to inherit all of a parent object's attributes and methods. For example: Cars, buses, and bikes (child objects) all fall under the class of Vehicle (parent object). Therefore, cars, buses, and bikes inherit the attributes and methods of the Vehicle class (i.e. they are all used for transportation and they all use wheels to travel). Inheritance allows us to represent this real-world relationship between different objects, but in code.
   
 2. **Polymorphism**:
-  Polymorphism is to have many forms. In programming, this means that a singular function can be used on different types of objects. An example of this would be the len() function in Python. You can use this to find the length of the word “programming” (answer would be 10) or a list of words such as: computer, python, notebook.
+  Polymorphism is the ability of one object to take on different forms. In programming, this means that a singular function can be used on different types of objects. An example of this would be the len() function in Python. You can use this to find the length of the word “programming” (the answer would be 11) or the length of a list of words such as: computer, python, notebook (the answer would be 3).
   
 3. **Encapsulation**:
-  Encapsulation is how Python and other OOP languages restrict access to methods and variables. When methods are performed on an object, you wrap the object and any other necessary code together into a single unit so that the method only performs operations on the code you designate.  
+  Encapsulation describes the idea of wrapping an object and its methods within one unit. By doing so, you restrict access to the methods and variables of that object, which prevents the object from being accidentally modified. For example: if an object holds important data for an app you created, you would store that data in private variables and methods, which protect the data from being accidentally changed.       
 
 4. **Data Abstraction**:
-  Abstraction is often used as a synonym to encapsulation in the programming world because abstraction relies on encapsulation. Abstraction is how an oop language ignores any unnecessary details in a program. This is possible since encapsulation combines the related parts it needs to perform a method.
+  In data abstraction, the user is only able to view the basic functions of a product, whereas the internal data is hidden. In this way, the user knows what he/she is doing, but not how the work is getting done. For example: an app user only interacts with the client side of the application, and the server side holds encapsulated data that can only be accessed, understood and operated by web developers. 
 
 <div class=mdImage align=center>
     <img src="./images/pillars_of_oop.jpeg" width="500" height="auto" />
