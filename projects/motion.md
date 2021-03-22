@@ -132,6 +132,8 @@ Then click to allow access.
 
 <div align=center><h2>Coding the FamCam</h2></div>
 
+<!-- FIXME: FIX TABULATION -->
+
 In this section, we will be creating the program that runs the FamCam. Although we will be using new peripherals such as the buzzer and motion sensor, using Python to code them will feel familiar. We implement our code to these peripherals similarly to the methods we used in Workshop 3.
 
 6. In your *python-work* folder, create a new folder called *project-1*. In *project-1*, create a file named "fam_cam.py".
