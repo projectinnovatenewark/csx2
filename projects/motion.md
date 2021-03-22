@@ -164,8 +164,9 @@ In this section, we will be creating the program that runs the FamCam. Although 
                             print(f"Motion detected at {detection}")
 
                         def end_motion():
-                            led.off() # Method to turn off the LED light
-                            buzzer.off() # Method to turn off the buzzer
+                            if(detection): # "If detection has a value, then we want to turn off the led and buzzer"
+                                led.off() # Method to turn off the LED light
+                                buzzer.off() # Method to turn off the buzzer
 
 11. Lastly for this file, we want to print to the terminal when we are 1) starting the motion sensor and 2) when the sensor is ready. Again, we will need to define  custom functions and set them in the motion sensor class as methods/properties.
 
