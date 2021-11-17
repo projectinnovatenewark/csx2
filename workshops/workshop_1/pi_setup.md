@@ -175,9 +175,11 @@ Now that everything is connected and the Pi is powered on, you should see someth
 
 You will see the Raspberry Pi's terminal open. This should look similar to the emulator used in class.
 
-15. In the terminal, execute the following command:
+15. The following command helps you install VS Code. However, it might throw an error if you already have this installed on your computer. If you get thrown an error, try skipping ahead and checking to see if VS Code is already installed on your Pi.
 
-`wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -`
+In the terminal, execute the following command:
+
+`wget https://packagecloud.io/headmelted/codebuilds/gpgkey sudo apt-key add gpgkey`
 > `wget` is a Linux command used to download content from a web server
 >
 > `sudo` (short for "superuser do") is used when admin privelages are required.
