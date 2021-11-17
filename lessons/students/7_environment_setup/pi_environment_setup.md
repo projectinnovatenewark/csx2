@@ -103,7 +103,7 @@ In other words, Git is a version control tool and GitHub is the service for proj
 
 <div ><h4>Creating the Programming Folder</h4></div>
 
-Open the Pi's file manager, which is the icon at the top of your screen of two folders overlapping. Then, right click where the other visible folders are. Click "New Folder..." and call your folder "programming" (please note the lowercase "p", as folders are case-sensitive).
+Open the Pi's file manager, which is the icon at the top of your screen of two folders overlapping. If there is already a "programming" folder in this window, go ahead and delete it. Then, right click where the other visible folders are. Click "New Folder..." and call your folder "programming" (please note the lowercase "p", as folders are case-sensitive).
 > The file path will be "home/pi/programming"
 
 Now open up a VS Code Window. If it is not open already from installing the extensions, you can open the window by clicking the Raspberry Pi Icon in the top left of the screen -> Accessories -> Code - OSS (headmelted). Inside the VS Code window, click "Open Folder". Single click on your "programming" folder and click "ok" in the bottom right corner of the window.
@@ -159,7 +159,7 @@ Click the circled clipboard icon to copy the commands to create the local reposi
 - If you need to change directories, you can use the `cd` command followed by the name of the folder you'd like to change directories to
 - Once you are in the "programming" folder, create a new folder called "python-work" with `mkdir python-work`. Change directories into the "python-work" folder with `cd python-work`. Use the `pwd` command one more time to make sure that you are currently in the "python-work" directory.
 
-When you know you are in the right working directory, go ahead and paste the commands you copied earlier from Github into your terminal. If you are not prompted to enter your username after copying the set of commands, click "Enter".
+When you know you are in the right working directory, go ahead and paste the commands you copied earlier from Github into your terminal. If you are not prompted to enter your username after copying the set of commands, click "Enter". If you run into an issue authenticating here, it may be due to GitHub's new authentication rules. To fix this, simply follow this guide to use SSH for secure authentication between your Raspberry Pi and your GitHub account: https://linuxkamarada.com/en/2019/07/14/using-git-with-ssh-keys/#.YZVzMcA8LDs .
 
 You will then be prompted to enter your Github credentials. Type in your username when prompted and then hit "Enter". Then you can enter your password, which will **not** display as you type the character.
 > Don't be worried if nothing is showing in your terminal when you enter the password, as stated above, as that is for privacy reasons.
