@@ -159,10 +159,12 @@ Click the circled clipboard icon to copy the commands to create the local reposi
 - If you need to change directories, you can use the `cd` command followed by the name of the folder you'd like to change directories to
 - Once you are in the "programming" folder, create a new folder called "python-work" with `mkdir python-work`. Change directories into the "python-work" folder with `cd python-work`. Use the `pwd` command one more time to make sure that you are currently in the "python-work" directory.
 
-When you know you are in the right working directory, go ahead and paste the commands you copied earlier from Github into your terminal. If you are not prompted to enter your username after copying the set of commands, click "Enter". If you run into an issue authenticating here, it may be due to GitHub's new authentication rules. To fix this, simply follow this guide to use SSH for secure authentication between your Raspberry Pi and your GitHub account: https://linuxkamarada.com/en/2019/07/14/using-git-with-ssh-keys/#.YZVzMcA8LDs .
+When you know you are in the right working directory, go ahead and paste the commands you copied earlier from Github into your terminal. If you are not prompted to enter your username after copying the set of commands, click "Enter".
 
 You will then be prompted to enter your Github credentials. Type in your username when prompted and then hit "Enter". Then you can enter your password, which will **not** display as you type the character.
 > Don't be worried if nothing is showing in your terminal when you enter the password, as stated above, as that is for privacy reasons.
+
+If you run into an issue authenticating here, it may be due to GitHub's new authentication rules. To fix this, simply follow this guide to use SSH for secure authentication between your Raspberry Pi and your GitHub account: https://linuxkamarada.com/en/2019/07/14/using-git-with-ssh-keys/#.YZVzMcA8LDs
 
 <div ><h4>Error Handling</h4></div>
 
