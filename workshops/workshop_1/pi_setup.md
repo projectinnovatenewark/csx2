@@ -167,7 +167,11 @@ Now that everything is connected and the Pi is powered on, you should see someth
 
 <div align=center><h3>Installing VS Code and Git</h3></div>
 
-14. Before doing the step below, we want to check if we can access the internet. Click on the web icon at the top left of your screen and type "google.com" in the browser. If you get an **error** regarding the clock on your computer, you'll have to run these commands in order. This is likely due to a firewall blocking certain access on your network. Run the commands `sudo systemctl stop systemd-timesyncd`, `sudo systemctl disable systemd-timesyncd`, then run this last command but fill in the date details (i.e. `2021-01-01 23:11` where "23:11" would represent 11:11 PM) based on your current time `sudo timedatectl set-time 'YEAR-MONTH-DATE TIME'`. We will be using an open-source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
+14. Before doing the step below, we want to check if we can access the internet. Click on the web icon at the top left of your screen and type "google.com" in the browser.
+
+**If you're unable to connect to the internet**, it's likely due to your computer's clock being out of sync. If this is the case, you will have to run a sequence of commands in your terminal. To make this process smoother, right click your mouse on the desktop. Click the option that reads "New File...", and name that file "start.txt". Now type/add the following command sequence into your text box `sudo systemctl stop systemd-timesyncd`, `sudo systemctl disable systemd-timesyncd`, then add this last command but fill in the date details (i.e. `2021-01-01 23:11` where "23:11" would represent 11:11 PM) based on your current time `sudo timedatectl set-time 'YEAR-MONTH-DATE TIME'`. Once you've added these commands in your text file, you will now copy and paste each command into your computer's terminal one by one. For future use, make sure to edit the time to reflect the current time when you are using the Pi.
+
+We will be using an open-source version of VS Code that is compatible with the Pi. Click the terminal icon in the to left portion of your screen as circled below.
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/27_rasp_term_icon.png" width="400" height="auto" />
