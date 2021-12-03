@@ -175,35 +175,13 @@ Now that everything is connected and the Pi is powered on, you should see someth
 
 You will see the Raspberry Pi's terminal open. This should look similar to the emulator used in class.
 
-15. The following command helps you install VS Code. However, it might throw an error if you already have this installed on your computer. If you get thrown an error, try skipping ahead and checking to see if VS Code is already installed on your Pi.
+15. The following commands will install VS Code using apt, which is a tool for installing programs on your computer via the command line.
 
-In the terminal, execute the following command:
+16. `sudo apt update` followed by `sudo apt install code`.
 
-`wget https://packagecloud.io/headmelted/codebuilds/gpgkey sudo apt-key add gpgkey`
-> `wget` is a Linux command used to download content from a web server
->
-> `sudo` (short for "superuser do") is used when admin privelages are required.
->
-> `apt` is for installing, updating, and removing debian packages
->
-> `apt-key` is used to help manage and authenticate packages
+17. Now let’s install Git in the VS Code window. Open VS Code using the Raspberry Pi icon in the top left corner -> Programming -> Visual Studio Code.
 
-16. When the previous command is finished; paste the following command and you will see a similar output:
-
-`curl -L https://raw.githubusercontent.com/headmelted/codebuilds/master/docs/installers/apt.sh | sudo bash`
-> `curl` is used to transfer data to or from a server.
->
-> `sudo bash` enters the command at the root directory
-
-All set! If you go to the Raspberry Pi icon in the top left portion of your screen, click accessories and then you will see our code editor.
-
-17. Now let’s install Git in the VS Code window. Open VS Code using the Raspberry Pi icon in the top left corner:
-
-<div class=mdImage align=center>
-<img src="./Raspberry_Pi_setup_images/29_installing_git.png" width="450" height="auto" />
-</div>
-
-18. You will see your VS Code window pop up. To open a terminal in your VS Code window, press “ Ctrl + shift + ~”. This will look like the following:
+18. The VS Code window should pop up. To open a terminal in your VS Code window, press “ Ctrl + shift + ~”. This will look like the following:
 
 <div class=mdImage align=center>
 <img src="./Raspberry_Pi_setup_images/30_installing_git.png" width="500" height="auto" />
